@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function useAsyncError<T extends (...args: any[]) => Promise<any>>(fn: T) {
   const [error, setError] = useState<Error | null>(null);
   const [isLoading, setIsLoading] = useState(false);

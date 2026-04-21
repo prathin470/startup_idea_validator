@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function useErrorHandler<T extends (...args: any[]) => any>(fn: T) {
   const [error, setError] = useState<Error | null>(null);
 
