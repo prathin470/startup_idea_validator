@@ -1,92 +1,12 @@
 import { useState, useRef, useEffect } from 'react';
 import ChatInterface from './components/ui/ChatInterface';
 import LoadingScreen from './components/ui/LoadingScreen';
-import ProblemValidation, { type ValidationData } from './components/ui/ProblemValidation';
-import CompetitorAnalysis, { type CompetitorData } from './components/ui/CompetitorAnalysis';
+import CompetitorAnalysis from './components/ui/CompetitorAnalysis';
 import PersonaAnalysis, { type PersonaData } from './components/ui/PersonaAnalysis';
 import { useErrorBoundary } from './hooks';
-import { analyse, validate, type AnalyseResult, type ValidateResult, type ChatMessage } from './services/api';
+import { analyse, type AnalyseResult, type ChatMessage } from './services/api';
 
-type Phase = 'chat' | 'loading' | 'validation' | 'competitors' | 'personas';
-
-/* ── Mock competitor data ───────────────────────────────────────────────
-   Replace with real backend response when scraping endpoint is ready. */
-const mockCompetitorData: CompetitorData = {
-  competitors: [
-    {
-      name: 'Asana',
-      description: 'Project and task management platform for teams',
-      similarityScore: 62,
-      category: 'Indirect',
-      strengths: ['Market leader with 10M+ users', 'Robust integrations ecosystem', 'Strong enterprise sales motion'],
-      limitations: ['High pricing for small teams', 'Feature bloat overwhelms new users', 'Weak real-time collaboration'],
-    },
-    {
-      name: 'Monday.com',
-      description: 'Work OS for managing projects and workflows',
-      similarityScore: 55,
-      category: 'Indirect',
-      strengths: ['Highly visual and customisable', 'Strong marketing and brand presence', 'Wide integration support'],
-      limitations: ['Expensive at scale', 'Slow performance with large datasets', 'Learning curve for non-technical users'],
-    },
-    {
-      name: 'ClickUp',
-      description: 'All-in-one productivity platform with tasks, docs, and goals',
-      similarityScore: 48,
-      category: 'Adjacent',
-      strengths: ['Feature-rich free tier', 'Rapid product iteration', 'Strong SEO and content presence'],
-      limitations: ['UI feels cluttered', 'Frequent bugs on new releases', 'Overwhelming for simple use cases'],
-    },
-    {
-      name: 'Notion',
-      description: 'All-in-one workspace combining docs, wikis, and tasks',
-      similarityScore: 41,
-      category: 'Adjacent',
-      strengths: ['Massive community and template library', 'Flexible structure', 'Affordable pricing'],
-      limitations: ['Not purpose-built for task management', 'No native time tracking', 'Limited reporting tools'],
-    },
-    {
-      name: 'Linear',
-      description: 'Issue tracking tool built for modern software teams',
-      similarityScore: 35,
-      category: 'Adjacent',
-      strengths: ['Loved by developers for speed and design', 'Clean minimal interface', 'Strong keyboard shortcut support'],
-      limitations: ['Niche focus on engineering teams only', 'Limited project management features', 'No built-in docs or wikis'],
-    },
-    {
-      name: 'Basecamp',
-      description: 'Simple project management and team communication tool',
-      similarityScore: 44,
-      category: 'Adjacent',
-      strengths: ['Flat per-team pricing model', 'Combines messaging and tasks in one', 'Strong brand among remote teams'],
-      limitations: ['Outdated UI compared to modern tools', 'No time tracking or reporting', 'Limited customisation options'],
-    },
-  ],
-  marketScore: {
-    score: 8.2,
-    insights: ['Clear whitespace in the market', 'No dominant direct competitor', 'Strong differentiation potential'],
-    differentiators: [
-      'Built specifically for the problem — not a general tool stretched to fit',
-      'Simpler onboarding than every existing solution',
-      'Pricing model designed for the underserved SMB segment',
-    ],
-  },
-};
-
-/* ── Mock validation data ───────────────────────────────────────────────
-   Replace with real backend response when signal analysis is ready. */
-const mockValidationData: ValidationData = {
-  metrics: [
-    { number: 1, label: 'Volume',              score: 8, description: 'Thousands of threads across Reddit and LinkedIn — a widespread systemic pain, not a niche complaint' },
-    { number: 2, label: 'Sentiment Intensity', score: 7, description: '42% of posts express strong frustration or churn threats' },
-    { number: 3, label: 'Consensus',           score: 6, description: 'Mixed: 68% agree the pain exists, 32% say current tools are fine' },
-    { number: 4, label: 'Existing Solutions',  score: 5, description: 'Alternatives named 3× per thread but none rated above 3.5 stars' },
-    { number: 5, label: 'Workarounds',         score: 9, description: 'Top workaround: spreadsheet tracking (~340 comments across threads) — heavy adoption signals no real solution exists' },
-    { number: 6, label: 'Willingness to Pay',  score: 8, description: '18% of posts say "I\'d pay for this" or mention switching cost explicitly' },
-  ],
-  resolution_status: 'partial',
-  resolution_explanation: 'Workarounds are widely used and highly engaged, but users remain frustrated — the problem is real and the market is coping, not solved.',
-};
+type Phase = 'chat' | 'loading' | 'competitors' | 'personas';
 
 /* ── Mock persona data ──────────────────────────────────────────────────
    Replace with real backend response when Reddit scraping is ready. */
@@ -244,50 +164,20 @@ const mockPersonaData: PersonaData = {
   ],
 };
 
-/* Maps the flat API response into the richer CompetitorData shape the component expects.
-   similarityScore is derived from Reddit sentiment since the API doesn't score it directly.
-   category defaults to 'Indirect' — a safe assumption for most startup competitors. */
-function toCompetitorData(result: AnalyseResult): CompetitorData {
-  const sentimentScore: Record<string, number> = { positive: 72, mixed: 50, negative: 30 };
-
-  return {
-    competitors: result.competitors.map(c => ({
-      name: c.name,
-      description: c.description,
-      similarityScore: sentimentScore[c.sentiment] ?? 50,
-      category: 'Indirect' as const,
-      strengths: c.strengths,
-      limitations: c.weaknesses,
-    })),
-    marketScore: {
-      score: 7.5,
-      insights: [
-        `${result.competitors.length} competitors identified from Reddit`,
-        'Analysis based on live Reddit discussions',
-      ],
-      /* Real edge facts from the LLM — derived from competitor weaknesses in the Reddit data */
-      differentiators: result.differentiators,
-    },
-    sources: result.sources,
-  };
-}
 
 export default function App() {
   const [phase, setPhase] = useState<Phase>('chat');
-  const [competitorData, setCompetitorData] = useState<CompetitorData>(mockCompetitorData);
-  const [validationData, setValidationData] = useState(mockValidationData);
+  const [competitorData, setCompetitorData] = useState<AnalyseResult | null>(null);
+  const [analyseError, setAnalyseError] = useState<string | null>(null);
+  const ideaRef = useRef<string>('');
 
-  /* Scroll to the top of the viewport every time the phase changes so the
-     new screen always starts at the top, not at the scroll position left
-     by the Continue button at the bottom of the previous screen. */
+  /* Scroll to top on every phase transition so new screens always start at
+     the top, not at the scroll position left by the previous screen's button. */
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, [phase]);
 
-  /* Both API calls fire in parallel on submit so they run alongside the loading
-     animation — total wait time is max(validate, analyse) not their sum */
-  const validatePromise = useRef<Promise<ValidateResult | null> | null>(null);
-  const analysePromise  = useRef<Promise<AnalyseResult  | null> | null>(null);
+  const analysePromise = useRef<Promise<AnalyseResult | null> | null>(null);
 
   const withBoundary = useErrorBoundary(
     <div className="flex items-center justify-center h-screen bg-stone-50">
@@ -296,33 +186,41 @@ export default function App() {
   );
 
   function handleChatSubmit(idea: string, conversation: ChatMessage[]) {
-    validatePromise.current = validate(idea, conversation).catch(() => null);
-    analysePromise.current  = analyse(idea, conversation).catch(() => null);
+    ideaRef.current = idea;
+    setAnalyseError(null);
+    analysePromise.current = analyse(idea, conversation).catch((err) => {
+      const msg = err?.response?.data?.detail ?? err?.message ?? 'Unknown error';
+      setAnalyseError(msg);
+      return null;
+    });
     setPhase('loading');
   }
 
   async function handleLoadingComplete() {
-    /* Await both in parallel — whichever finishes last gates the transition.
-       Falls back to mock data silently if either call failed. */
-    const [validateResult, analyseResult] = await Promise.all([
-      validatePromise.current,
-      analysePromise.current,
-    ]);
-    if (validateResult) setValidationData({
-      metrics: validateResult.metrics,
-      resolution_status: validateResult.resolution_status,
-      resolution_explanation: validateResult.resolution_explanation,
-    });
-    if (analyseResult)  setCompetitorData(toCompetitorData(analyseResult));
-    setPhase('validation');
+    const analyseResult = await analysePromise.current;
+    if (analyseResult) {
+      setCompetitorData(analyseResult);
+      setPhase('competitors');
+    } else {
+      /* API failed — stay on an error screen instead of showing stale mock data */
+      setPhase('chat');
+    }
   }
 
   return withBoundary(
-    <div className="min-h-screen bg-stone-50">
-      {phase === 'chat'        && <ChatInterface onSubmit={handleChatSubmit} />}
+    <div className="min-h-screen bg-gradient-to-br from-amber-50/60 via-stone-50 to-white">
+      {phase === 'chat' && (
+        <>
+          <ChatInterface onSubmit={handleChatSubmit} />
+          {analyseError && (
+            <div className="fixed bottom-6 left-1/2 -translate-x-1/2 bg-red-50 border border-red-200 text-red-600 text-sm px-5 py-3 rounded-xl shadow-sm max-w-lg text-center">
+              Analysis failed: {analyseError}. Check the backend is running and try again.
+            </div>
+          )}
+        </>
+      )}
       {phase === 'loading'     && <LoadingScreen onComplete={handleLoadingComplete} />}
-      {phase === 'validation'  && <ProblemValidation data={validationData} onNext={() => setPhase('competitors')} />}
-      {phase === 'competitors' && <CompetitorAnalysis data={competitorData} onNext={() => setPhase('personas')} onBack={() => setPhase('validation')} />}
+      {phase === 'competitors' && competitorData && <CompetitorAnalysis data={competitorData} onNext={() => setPhase('personas')} />}
       {phase === 'personas'    && <PersonaAnalysis data={mockPersonaData} onBack={() => setPhase('competitors')} />}
     </div>
   );

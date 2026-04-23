@@ -1,177 +1,164 @@
-import { useState, useRef, useEffect } from 'react';
-import { chat, type ChatMessage } from '../../services/api';
-import { useAsyncError } from '../../hooks';
+/* ChatInterface — three structured questions, one at a time.
+   Replaces the freeform chatbot. Each answer is locked in before proceeding
+   so the analysis pipeline always receives the three inputs it needs:
+   what the product does, what makes it different, and who it's for. */
 
-interface Message {
-  role: 'user' | 'ai';
-  content: string;
-}
+import { useState } from 'react';
+import { type ChatMessage } from '../../services/api';
 
 interface Props {
-  /* Passes the original idea and full conversation so App can fire /analyse */
   onSubmit: (idea: string, conversation: ChatMessage[]) => void;
 }
 
+const QUESTIONS = [
+  {
+    number: 1,
+    prompt: 'What does your product do?',
+    hint: 'Describe the actual mechanism, not just the category. e.g. "It scans your receipts and auto-categorises spending before your accountant ever sees it."',
+    placeholder: 'Describe what it actually does…',
+  },
+  {
+    number: 2,
+    prompt: 'What makes it different from everything else out there?',
+    hint: 'The specific thing existing tools can\'t do. e.g. "You can have a real conversation with it — not just log tasks."',
+    placeholder: 'What can yours do that nothing else can…',
+  },
+  {
+    number: 3,
+    prompt: 'Who is it specifically for?',
+    hint: 'A specific type of person, not a broad category. e.g. "Freelancers who work alone and struggle with self-discipline."',
+    placeholder: 'Describe the exact person…',
+  },
+];
+
 export default function ChatInterface({ onSubmit }: Props) {
-  const [messages, setMessages] = useState<Message[]>([]);
+  const [step, setStep] = useState(0);   // 0-indexed, 0–2
+  const [answers, setAnswers] = useState(['', '', '']);
   const [input, setInput] = useState('');
-  const [aiHasResponded, setAiHasResponded] = useState(false);
-  const bottomRef = useRef<HTMLDivElement>(null);
 
-  /* useAsyncError wraps the API call — gives us isLoading + error without manual try/catch */
-  const { handler: sendChat, error, isLoading } = useAsyncError(chat);
+  const isLast = step === QUESTIONS.length - 1;
 
-  /* Auto-scroll to the latest message whenever messages update */
-  useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, isLoading]);
+  function handleNext() {
+    const trimmed = input.trim();
+    if (!trimmed) return;
 
-  async function sendMessage() {
-    if (!input.trim() || isLoading) return;
-
-    const userText = input.trim();
+    const updated = answers.map((a, i) => (i === step ? trimmed : a));
+    setAnswers(updated);
     setInput('');
 
-    /* Build the updated history including the new user message.
-       UI uses 'ai' as the role label but the API expects 'assistant' — map here. */
-    const updatedMessages: Message[] = [...messages, { role: 'user', content: userText }];
-    setMessages(updatedMessages);
-
-    const apiHistory: ChatMessage[] = updatedMessages.map(m => ({
-      role: m.role === 'ai' ? 'assistant' : 'user',
-      content: m.content,
-    }));
-
-    const response = await sendChat(apiHistory);
-    if (response) {
-      setMessages(prev => [...prev, { role: 'ai', content: response }]);
-      setAiHasResponded(true);
+    if (isLast) {
+      /* Build a synthetic conversation from the 3 Q&A pairs.
+         The backend query builder reads this as a structured conversation — each
+         question/answer pair makes the differentiator and target user explicit
+         so the scraping pipeline generates precise, feature-specific queries. */
+      const conversation: ChatMessage[] = [
+        { role: 'user',      content: updated[0] },
+        { role: 'assistant', content: QUESTIONS[1].prompt },
+        { role: 'user',      content: updated[1] },
+        { role: 'assistant', content: QUESTIONS[2].prompt },
+        { role: 'user',      content: updated[2] },
+      ];
+      onSubmit(updated[0], conversation);
+    } else {
+      setStep(s => s + 1);
     }
   }
 
   function handleKeyDown(e: React.KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
-      sendMessage();
+      handleNext();
     }
   }
 
   return (
-    <div className="flex flex-col h-screen max-w-2xl mx-auto px-6">
+    <div className="flex flex-col min-h-screen max-w-2xl mx-auto px-6 justify-center py-12">
 
-      {/* Header */}
-      <div className="pt-10 pb-8 shrink-0">
-        <p className="text-xs font-bold tracking-[0.25em] text-violet-500 uppercase mb-4">
-          ◆ Insight
-        </p>
+      <div className="pb-5 shrink-0">
+        <p className="text-xs font-bold tracking-[0.25em] text-violet-500 uppercase mb-4">◆ Insight</p>
         <h1 className="text-[2.6rem] font-extrabold text-zinc-900 leading-tight tracking-tight">
-          What's your idea?
+          Tell us about your idea
         </h1>
+        <p className="text-zinc-400 mt-2 text-sm font-light">3 questions. That's it.</p>
       </div>
 
-      {/* Message list */}
-      <div className="flex-1 overflow-y-auto space-y-4 py-2">
+      {/* Purple wrapper box — encloses all three question cards as a single visual unit.
+          The violet border + tinted background signals this is one cohesive form,
+          not three independent components. */}
+      <div className="border-2 border-violet-200 bg-violet-50/30 rounded-2xl p-5 shadow-md shadow-violet-100/50">
+        <div className="space-y-4">
 
-        {/* Empty state */}
-        {messages.length === 0 && (
-          <div className="flex items-center justify-center h-full">
-            <div className="text-center space-y-3">
-              <div className="w-14 h-14 rounded-2xl bg-violet-50 border border-violet-100 flex items-center justify-center mx-auto">
-                <span className="text-violet-400 text-xl">◆</span>
+        {QUESTIONS.map((q, i) => {
+          const isDone    = i < step;
+          const isCurrent = i === step;
+
+          return (
+            <div key={i} className={`rounded-xl border px-5 py-4 transition-all duration-200 ${
+              isCurrent ? 'bg-white border-violet-200 shadow-sm shadow-violet-100/60'
+              : isDone   ? 'bg-zinc-50 border-zinc-100'
+              : 'bg-zinc-50/50 border-zinc-100 opacity-40'   /* pending */
+            }`}>
+
+              {/* Question header row */}
+              <div className="flex items-center gap-3 mb-1">
+                <span className={`w-5 h-5 rounded-md flex items-center justify-center text-[10px] font-bold shrink-0 ${
+                  isDone    ? 'bg-emerald-50 border border-emerald-200 text-emerald-500'
+                  : isCurrent ? 'bg-violet-50 border border-violet-200 text-violet-500'
+                  : 'bg-zinc-100 border border-zinc-200 text-zinc-400'
+                }`}>
+                  {isDone ? '✓' : q.number}
+                </span>
+                <p className={`text-sm font-semibold ${isCurrent ? 'text-zinc-900' : isDone ? 'text-zinc-500' : 'text-zinc-400'}`}>
+                  {q.prompt}
+                </p>
               </div>
-              <p className="text-zinc-300 text-sm font-light">Your conversation will appear here</p>
+
+              {/* Answered summary */}
+              {isDone && (
+                <p className="text-[12px] text-zinc-500 font-light ml-8 leading-snug">
+                  {answers[i]}
+                </p>
+              )}
+
+              {/* Hint text — only on current */}
+              {isCurrent && (
+                <p className="text-[11px] text-zinc-400 font-light ml-8 mt-0.5 mb-3 leading-snug">
+                  {q.hint}
+                </p>
+              )}
+
+              {/* Input — only on current step */}
+              {isCurrent && (
+                <div className="ml-8 mt-2">
+                  <div className="flex gap-3 items-end bg-zinc-50 border border-zinc-200 rounded-xl px-4 py-3 focus-within:border-violet-300 focus-within:bg-white focus-within:shadow-sm transition-all duration-150">
+                    <textarea
+                      autoFocus
+                      value={input}
+                      onChange={e => setInput(e.target.value)}
+                      onKeyDown={handleKeyDown}
+                      placeholder={q.placeholder}
+                      rows={2}
+                      className="flex-1 bg-transparent text-zinc-800 text-sm resize-none outline-none placeholder-zinc-300 leading-relaxed"
+                    />
+                    <button
+                      onClick={handleNext}
+                      disabled={!input.trim()}
+                      className="bg-violet-600 hover:bg-violet-500 disabled:bg-zinc-100 disabled:text-zinc-300 text-white text-sm font-semibold px-4 py-2 rounded-lg shrink-0 transition-colors duration-150"
+                    >
+                      {isLast ? 'Analyse →' : 'Next →'}
+                    </button>
+                  </div>
+                  <p className="text-[10px] text-zinc-300 font-light mt-1.5">
+                    Enter to continue · Shift+Enter for new line
+                  </p>
+                </div>
+              )}
             </div>
-          </div>
-        )}
-
-        {messages.map((msg, i) => (
-          <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-            <div
-              className={`max-w-lg text-sm leading-relaxed whitespace-pre-wrap ${
-                msg.role === 'user'
-                  /* User bubble: solid violet, pill shape */
-                  ? 'bg-violet-600 text-white px-5 py-3 rounded-2xl rounded-br-md shadow-sm'
-                  /* AI card: white, left accent border, light shadow */
-                  : 'bg-white text-zinc-700 px-5 py-4 rounded-2xl rounded-bl-md shadow-sm border border-zinc-100 border-l-[3px] border-l-violet-300'
-              }`}
-            >
-              {msg.content}
-            </div>
-          </div>
-        ))}
-
-        {/* Typing indicator while waiting for AI response */}
-        {isLoading && (
-          <div className="flex justify-start">
-            <div className="bg-white border border-zinc-100 border-l-[3px] border-l-violet-300 px-5 py-4 rounded-2xl rounded-bl-md shadow-sm">
-              <div className="flex gap-1.5 items-center h-4">
-                <span className="w-1.5 h-1.5 bg-violet-400 rounded-full animate-bounce [animation-delay:0ms]" />
-                <span className="w-1.5 h-1.5 bg-violet-400 rounded-full animate-bounce [animation-delay:150ms]" />
-                <span className="w-1.5 h-1.5 bg-violet-400 rounded-full animate-bounce [animation-delay:300ms]" />
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* Inline error — keeps layout stable */}
-        {error && (
-          <div className="flex justify-start">
-            <div className="bg-red-50 border border-red-200 text-red-500 text-sm px-5 py-3 rounded-2xl max-w-lg">
-              {error.message.includes('Network') || error.message.includes('ECONNREFUSED')
-                ? 'Cannot reach the backend. Make sure the FastAPI server is running on port 8000.'
-                : error.message}
-            </div>
-          </div>
-        )}
-
-        <div ref={bottomRef} />
-      </div>
-
-      {/* Input area */}
-      <div className="py-5 space-y-3 shrink-0">
-
-        {/* Shown after AI first responds */}
-        {aiHasResponded && (
-          <button
-            onClick={() => {
-              /* First user message is always the raw idea.
-                 Remap 'ai' → 'assistant' to match the API schema before passing up. */
-              const idea = messages.find(m => m.role === 'user')?.content ?? '';
-              const conversation: ChatMessage[] = messages.map(m => ({
-                role: m.role === 'ai' ? 'assistant' : 'user',
-                content: m.content,
-              }));
-              onSubmit(idea, conversation);
-            }}
-            className="w-full py-3 rounded-xl bg-zinc-900 hover:bg-zinc-700 active:scale-[0.99] text-white font-semibold text-sm transition-all duration-150 tracking-wide"
-          >
-            Begin Deep Analysis →
-          </button>
-        )}
-
-        {/* Text input */}
-        <div className="flex gap-3 items-end bg-white border border-zinc-200 rounded-2xl px-4 py-3 shadow-sm focus-within:border-violet-300 focus-within:shadow-md focus-within:shadow-violet-100/60 transition-all duration-200">
-          <textarea
-            value={input}
-            onChange={e => setInput(e.target.value)}
-            onKeyDown={handleKeyDown}
-            placeholder={messages.length === 0 ? 'Describe your product idea...' : 'Type your answer...'}
-            rows={2}
-            className="flex-1 bg-transparent text-zinc-800 text-sm resize-none outline-none placeholder-zinc-300 leading-relaxed"
-          />
-          <button
-            onClick={sendMessage}
-            disabled={!input.trim() || isLoading}
-            className="bg-violet-600 hover:bg-violet-500 disabled:bg-zinc-100 disabled:text-zinc-300 text-white text-sm font-semibold px-4 py-2 rounded-xl shrink-0 transition-colors duration-150"
-          >
-            Send
-          </button>
+          );
+        })}
         </div>
-
-        <p className="text-center text-zinc-300 text-xs font-light">
-          Enter to send · Shift+Enter for new line
-        </p>
       </div>
+
     </div>
   );
 }

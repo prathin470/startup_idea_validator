@@ -24,6 +24,20 @@ export interface Competitor {
   strengths: string[];
   weaknesses: string[];
   sentiment: string;
+  similarity_score?: number;
+  /* Direct / Adjacent / Substitute / Graveyard / Mechanism analog */
+  category?: string;
+  /* Evidence capture — derived from Reddit + Twitter mention analysis */
+  mention_count?: number;
+  engagement_score?: number;
+  sentiment_split?: { positive: number; neutral: number; negative: number };
+  dominant_complaint?: string;
+  dominant_praise?: string;
+  /* "reddit" | "twitter" | "both" */
+  platform_split?: string;
+  /* "active" | "declining" | "dead" */
+  status_signal?: string;
+  competitor_sources?: string[];
 }
 
 export interface Persona {
@@ -37,6 +51,7 @@ export interface AnalyseResult {
   personas: Persona[];
   differentiators: string[];
   sources: string[];
+  market_score: number;
 }
 
 /* Sends the original idea + full conversation to /analyse.
@@ -47,29 +62,3 @@ export async function analyse(idea: string, conversation: ChatMessage[]): Promis
   return data;
 }
 
-export interface ValidationMetric {
-  number: number;
-  label: string;
-  score: number;
-  description: string;
-}
-
-export interface ValidateResult {
-  gap_statement: string;
-  overall_score: number;
-  metrics: ValidationMetric[];
-  platform_summary: Record<string, string>;
-  sources: string[];
-  /* "open" = no solution exists, "partial" = workarounds exist but unsatisfying,
-     "resolved" = market is well-served — low opportunity */
-  resolution_status: 'open' | 'partial' | 'resolved';
-  resolution_explanation: string;
-}
-
-/* Sends the idea + conversation to /validate.
-   The backend searches Reddit, LinkedIn, and Twitter for evidence of the gap,
-   then scores 6 validation signals from the results. */
-export async function validate(idea: string, conversation: ChatMessage[]): Promise<ValidateResult> {
-  const { data } = await client.post<ValidateResult>('/validate', { idea, conversation });
-  return data;
-}
