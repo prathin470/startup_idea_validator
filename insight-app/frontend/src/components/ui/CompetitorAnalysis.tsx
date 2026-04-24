@@ -58,38 +58,29 @@ const PRICING_CONFIG: Record<string, { label: string; bg: string; text: string; 
 function NicheEvaluationBox({ evaluation, competitors }: { evaluation: NicheEvaluation; competitors: Competitor[] }) {
   const rawScore = evaluation.niche_score;
 
-  /* Reconciliation — the LLM scores niche fit without seeing competitor
-     similarity values, so it can contradict the evidence on screen.
-     These rules enforce consistency between the score label and what the
-     competitor cards already show.
+  /* Reconciliation — the LLM scores niche fit in isolation without seeing the
+     actual competitor similarity values. These rules enforce consistency:
+     the label can never contradict what the competitor cards already show.
 
-     Rule 1 — 2+ direct competitors OR near-clone (≥85%):
-       cap at 2.0 → deep "Well Served". Multiple strong players means the
-       audience is actively targeted, not underserved.
+     Rule 1 — any direct competitor (similarity ≥ 75 or category === 'Direct'):
+       cap at 5.9 → "Partially Served" at most, never "Underserved".
+       Rationale: a single well-built direct tool already partially serves the audience.
 
-     Rule 2 — any single direct competitor (≥75% similarity or Direct category):
-       cap at 3.9 → "Well Served". One direct competitor IS serving the audience
-       by definition — "Underserved" or "Partially Served" directly contradict
-       the competitor evidence on the same screen.
+     Rule 2 — 2+ direct competitors OR top similarity ≥ 85:
+       cap at 3.9 → "Well Served".
+       Rationale: multiple strong competitors or a near-clone means the space is served.
 
-     Rule 3 — high overlap but no strict direct match (avg ≥60%):
-       cap at 5.9 → "Partially Served" at most.
-
-     We show the original LLM score when adjusted so users understand the override. */
+     We show the original LLM score subtly so users understand what happened. */
   const topSimilarity = competitors.length > 0
     ? Math.max(...competitors.map(c => c.similarity_score ?? 0))
     : 0;
   const directCount = competitors.filter(
     c => c.category === 'Direct' || (c.similarity_score ?? 0) >= 75
   ).length;
-  const avgSimilarity = competitors.length > 0
-    ? Math.round(competitors.reduce((sum, c) => sum + (c.similarity_score ?? 0), 0) / competitors.length)
-    : 0;
 
   const score = (() => {
-    if (directCount >= 2 || topSimilarity >= 85) return Math.min(rawScore, 2.0);
-    if (directCount >= 1 || topSimilarity >= 75) return Math.min(rawScore, 3.9);
-    if (avgSimilarity >= 60)                     return Math.min(rawScore, 5.9);
+    if (directCount >= 2 || topSimilarity >= 85) return Math.min(rawScore, 3.9);
+    if (directCount >= 1 || topSimilarity >= 75) return Math.min(rawScore, 5.9);
     return rawScore;
   })();
 
@@ -400,13 +391,11 @@ function EvaluationStatement({ competitors, differentiators }: { competitors: Co
 }
 
 
-/* ── Competitor card — flip tile matching persona page design ────────── */
+/* ── Competitor card — fixed width for horizontal rows ───────────────── */
 
-/* Each tile is locked to w-[252px] h-[340px] so every card in every source row
-   is identical in size regardless of content length. Content that doesn't fit
-   is clamped (line-clamp) rather than expanding the card.
-   The flip mechanism mirrors PersonaCard exactly: perspective wrapper → grid
-   stacking front/back in the same cell → rotateY(180deg) on hover. */
+/* Cards sit inside a horizontal scroll container, so they have a fixed min-width
+   rather than growing to fill a grid column. Surfaces backend fields that were
+   previously discarded: pricing, status_signal, dominant_complaint, mention_count. */
 function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: number }) {
   const score      = competitor.similarity_score ?? 0;
   const style      = similarityStyle(score);
@@ -414,123 +403,85 @@ function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: nu
   const pricingKey = (competitor.pricing ?? 'unknown').toLowerCase();
   const pricingCfg = PRICING_CONFIG[pricingKey] ?? PRICING_CONFIG.unknown;
 
-  /* Avatar color follows similarity — red/amber/emerald — so the front face
-     gives an immediate at-a-glance read before the user even flips the card. */
-  const avatarColor = score >= 75
-    ? 'bg-red-50 text-red-500'
-    : score >= 50
-      ? 'bg-amber-50 text-amber-600'
-      : 'bg-emerald-50 text-emerald-600';
-
   return (
-    /* Perspective wrapper — fixed dimensions lock every tile to the same size */
-    <div className="[perspective:1000px] group cursor-pointer w-[252px] h-[340px]">
+    <div className={`bg-white rounded-xl shadow-sm border border-zinc-100 border-l-[3px] ${style.leftBorder} flex flex-col min-w-[252px] w-[252px]`}>
 
-      {/* Flipper — grid stacks front & back in the same cell; rotateY on hover */}
-      <div className="grid h-full [transform-style:preserve-3d] transition-[transform] duration-700 ease-in-out group-hover:[transform:rotateY(180deg)]">
+      <div className="px-4 pt-4 pb-3">
 
-        {/* ── FRONT — name and comparison score only ── */}
-        <div className="[grid-area:1/1] h-full [backface-visibility:hidden] bg-white rounded-xl shadow-sm border border-zinc-100 group-hover:border-violet-200 flex flex-col items-center justify-center px-6 py-8 text-center gap-3">
-
-          {/* Rank avatar — colour-coded by similarity just like persona initials avatar */}
-          <div className={`w-16 h-16 rounded-2xl flex items-center justify-center text-2xl font-bold ${avatarColor}`}>
+        {/* Rank + name + status signal */}
+        <div className="flex items-center gap-2 mb-1">
+          <span className="w-5 h-5 rounded-md bg-zinc-50 border border-zinc-200 flex items-center justify-center text-[10px] font-bold text-zinc-400 shrink-0">
             {rank}
-          </div>
-
-          <div>
-            <p className="text-lg font-extrabold text-zinc-900 leading-tight">{competitor.name}</p>
-            <p className="text-xs text-zinc-400 font-light mt-1">{competitor.category ?? 'Competitor'}</p>
-          </div>
-
-          {/* Similarity score badge — the one data point that belongs on the front */}
-          <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border ${style.badge}`}>
-            <span className="text-base font-black">{score}%</span>
-            <span className="text-xs text-zinc-400">match</span>
-          </div>
-
-          {/* Subtle hover hint — mirrors persona's feeling tags */}
-          <p className="text-[10px] text-zinc-300 font-light">hover to explore</p>
+          </span>
+          <h3 className="text-sm font-bold text-zinc-900 leading-tight truncate flex-1">{competitor.name}</h3>
+          {statusCfg && (
+            <div className="flex items-center gap-1 shrink-0">
+              <span className={`w-1.5 h-1.5 rounded-full ${statusCfg.dot}`} />
+              <span className={`text-[10px] font-semibold ${statusCfg.text}`}>{statusCfg.label}</span>
+            </div>
+          )}
         </div>
 
-        {/* ── BACK — full detail, rotated 180° to start hidden ── */}
-        <div className={`[grid-area:1/1] h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-white rounded-xl shadow-md border border-zinc-100 border-l-[3px] ${style.leftBorder} flex flex-col overflow-hidden`}>
+        {/* Description — 2 lines max */}
+        <p className="text-xs text-zinc-400 leading-snug line-clamp-2 mb-3">
+          {competitor.description}
+        </p>
 
-          {/* Header — rank + name + status + description + bar + badges */}
-          <div className="px-4 pt-4 pb-3">
-
-            <div className="flex items-center gap-2 mb-1">
-              <span className={`w-5 h-5 rounded-md flex items-center justify-center text-[10px] font-bold shrink-0 ${avatarColor}`}>
-                {rank}
-              </span>
-              <h3 className="text-sm font-bold text-zinc-900 leading-tight truncate flex-1">{competitor.name}</h3>
-              {statusCfg && (
-                <div className="flex items-center gap-1 shrink-0">
-                  <span className={`w-1.5 h-1.5 rounded-full ${statusCfg.dot}`} />
-                  <span className={`text-[10px] font-semibold ${statusCfg.text}`}>{statusCfg.label}</span>
-                </div>
-              )}
-            </div>
-
-            <p className="text-xs text-zinc-400 leading-snug line-clamp-2 mb-2.5">
-              {competitor.description}
-            </p>
-
-            {/* Similarity bar */}
-            <div className="flex items-center gap-2 mb-2">
-              <div className="flex-1 h-1 bg-zinc-100 rounded-full overflow-hidden">
-                <div className={`h-full rounded-full ${style.bar}`} style={{ width: `${score}%` }} />
-              </div>
-              <span className={`text-xs font-bold px-1.5 py-0.5 rounded border ${style.badge}`}>
-                {score}%
-              </span>
-            </div>
-
-            {/* Pricing + category + mention count */}
-            <div className="flex items-center gap-1.5">
-              <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded border ${pricingCfg.bg} ${pricingCfg.text} ${pricingCfg.border}`}>
-                {pricingCfg.label}
-              </span>
-              <p className="text-xs text-zinc-400">{competitor.category ?? 'Competitor'}</p>
-              {competitor.mention_count != null && (
-                <p className="text-[10px] text-zinc-300 ml-auto">{competitor.mention_count} mentions</p>
-              )}
-            </div>
+        {/* Similarity bar */}
+        <div className="flex items-center gap-2 mb-2">
+          <div className="flex-1 h-1 bg-zinc-100 rounded-full overflow-hidden">
+            <div className={`h-full rounded-full ${style.bar}`} style={{ width: `${score}%` }} />
           </div>
-
-          {/* Strengths + weaknesses + complaint — flex-1 fills remaining space */}
-          <div className="border-t border-zinc-100 px-4 py-3 flex-1 overflow-hidden space-y-2.5">
-            <div>
-              <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-1">Strengths</p>
-              <ul className="space-y-0.5">
-                {competitor.strengths.slice(0, 2).map((s, i) => (
-                  <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
-                    <span className="text-emerald-500 font-bold shrink-0">✓</span>
-                    <span className="line-clamp-1">{s}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-1">Weaknesses</p>
-              <ul className="space-y-0.5">
-                {competitor.weaknesses.slice(0, 2).map((w, i) => (
-                  <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
-                    <span className="text-red-400 font-bold shrink-0">✕</span>
-                    <span className="line-clamp-1">{w}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Dominant complaint — only shown when the backend found one */}
-            {competitor.dominant_complaint && (
-              <div className="border-t border-zinc-100 pt-2">
-                <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-0.5">Top Complaint</p>
-                <p className="text-xs text-zinc-500 italic leading-snug line-clamp-2">"{competitor.dominant_complaint}"</p>
-              </div>
-            )}
-          </div>
+          <span className={`text-xs font-bold px-1.5 py-0.5 rounded border ${style.badge}`}>
+            {score}%
+          </span>
         </div>
+
+        {/* Pricing badge + category + mention count */}
+        <div className="flex items-center gap-2">
+          <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded border ${pricingCfg.bg} ${pricingCfg.text} ${pricingCfg.border}`}>
+            {pricingCfg.label}
+          </span>
+          <p className="text-xs text-zinc-400">{competitor.category ?? 'Competitor'}</p>
+          {competitor.mention_count != null && (
+            <p className="text-[10px] text-zinc-300 ml-auto">{competitor.mention_count} mentions</p>
+          )}
+        </div>
+      </div>
+
+      {/* Strengths + weaknesses */}
+      <div className="border-t border-zinc-100 px-4 py-3 flex-1 space-y-3">
+        <div>
+          <p className="text-xs font-bold tracking-widest text-zinc-400 uppercase mb-1.5">Strengths</p>
+          <ul className="space-y-1">
+            {competitor.strengths.slice(0, 2).map((s, i) => (
+              <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
+                <span className="text-emerald-500 font-bold shrink-0 mt-px">✓</span>
+                <span className="line-clamp-2">{s}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <p className="text-xs font-bold tracking-widest text-zinc-400 uppercase mb-1.5">Weaknesses</p>
+          <ul className="space-y-1">
+            {competitor.weaknesses.slice(0, 2).map((w, i) => (
+              <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
+                <span className="text-red-400 font-bold shrink-0 mt-px">✕</span>
+                <span className="line-clamp-2">{w}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Dominant complaint — verbatim user language surfaced from Reddit/Twitter.
+            Only rendered when the backend found a recurring complaint phrase. */}
+        {competitor.dominant_complaint && (
+          <div className="border-t border-zinc-100 pt-3">
+            <p className="text-[10px] font-bold tracking-widest text-zinc-400 uppercase mb-1">Top Complaint</p>
+            <p className="text-xs text-zinc-500 italic leading-snug">"{competitor.dominant_complaint}"</p>
+          </div>
+        )}
       </div>
     </div>
   );
