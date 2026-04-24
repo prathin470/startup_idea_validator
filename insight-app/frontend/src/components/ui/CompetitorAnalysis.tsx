@@ -4,7 +4,7 @@
    pricing, status_signal, mention_count) are now surfaced in the UI.
    "both" platform_split competitors appear in BOTH the Reddit and Twitter rows. */
 
-import { type Competitor, type AnalyseResult } from '../../services/api';
+import { type Competitor, type AnalyseResult, type NicheEvaluation } from '../../services/api';
 
 interface Props {
   data: AnalyseResult;
@@ -40,6 +40,150 @@ const PRICING_CONFIG: Record<string, { label: string; bg: string; text: string; 
   freemium: { label: 'Freemium', bg: 'bg-violet-50',  text: 'text-violet-600', border: 'border-violet-200' },
   unknown:  { label: '?',        bg: 'bg-zinc-50',    text: 'text-zinc-400',   border: 'border-zinc-100'   },
 };
+
+
+/* ── Niche & Audience Fit box ────────────────────────────────────────── */
+
+/*
+ * Answers a different question from the Market Assessment box below.
+ * Market Assessment = are users happy with existing tools in general?
+ * Niche Evaluation  = do ANY of these tools actually serve the specific
+ *                     audience this idea targets, or are they all generic?
+ *
+ * A high niche_score (7–10) means competitors are generic household tools
+ * repurposed for this audience — nobody has built for them specifically.
+ * Suggestions are anchored on the audience's real context (curriculum,
+ * age group, workflow) — not generic product advice.
+ */
+function NicheEvaluationBox({ evaluation, competitors }: { evaluation: NicheEvaluation; competitors: Competitor[] }) {
+  const rawScore = evaluation.niche_score;
+
+  /* Reconciliation — the LLM scores niche fit in isolation without seeing the
+     actual competitor similarity values. These rules enforce consistency:
+     the label can never contradict what the competitor cards already show.
+
+     Rule 1 — any direct competitor (similarity ≥ 75 or category === 'Direct'):
+       cap at 5.9 → "Partially Served" at most, never "Underserved".
+       Rationale: a single well-built direct tool already partially serves the audience.
+
+     Rule 2 — 2+ direct competitors OR top similarity ≥ 85:
+       cap at 3.9 → "Well Served".
+       Rationale: multiple strong competitors or a near-clone means the space is served.
+
+     We show the original LLM score subtly so users understand what happened. */
+  const topSimilarity = competitors.length > 0
+    ? Math.max(...competitors.map(c => c.similarity_score ?? 0))
+    : 0;
+  const directCount = competitors.filter(
+    c => c.category === 'Direct' || (c.similarity_score ?? 0) >= 75
+  ).length;
+
+  const score = (() => {
+    if (directCount >= 2 || topSimilarity >= 85) return Math.min(rawScore, 3.9);
+    if (directCount >= 1 || topSimilarity >= 75) return Math.min(rawScore, 5.9);
+    return rawScore;
+  })();
+
+  const wasAdjusted = score !== rawScore;
+
+  /* Colour tokens shift green (underserved) → amber (partial) → red (saturated).
+     The score label is the plain-language read of the number so users don't have
+     to interpret a raw decimal themselves. */
+  const tokens = (() => {
+    if (score >= 7) return {
+      ring:  'border-emerald-200',
+      bg:    'bg-emerald-50',
+      num:   'text-emerald-600',
+      label: 'text-emerald-600',
+      dot:   'bg-emerald-400',
+      badge: 'Underserved',
+    };
+    if (score >= 4) return {
+      ring:  'border-amber-200',
+      bg:    'bg-amber-50',
+      num:   'text-amber-600',
+      label: 'text-amber-600',
+      dot:   'bg-amber-400',
+      badge: 'Partially Served',
+    };
+    return {
+      ring:  'border-red-200',
+      bg:    'bg-red-50',
+      num:   'text-red-500',
+      label: 'text-red-500',
+      dot:   'bg-red-400',
+      badge: 'Well Served',
+    };
+  })();
+
+  return (
+    <div className="bg-white border border-zinc-100 rounded-2xl shadow-sm mb-6 overflow-hidden">
+
+      {/* Header — title left, score right */}
+      <div className="px-6 pt-5 pb-4 border-b border-zinc-100 flex items-center justify-between">
+        <div>
+          <p className="text-xs font-bold tracking-widest text-violet-500 uppercase">
+            Niche &amp; Audience Fit
+          </p>
+          {/* Only shown when competitor evidence forced the score down — keeps
+              the user informed rather than silently changing the LLM's output. */}
+          {wasAdjusted && (
+            <p className="text-[10px] text-zinc-400 font-light mt-0.5">
+              Adjusted from {rawScore.toFixed(1)} — direct competition detected
+            </p>
+          )}
+        </div>
+        <div className={`flex items-center gap-2 px-3 py-1.5 rounded-lg border ${tokens.ring} ${tokens.bg}`}>
+          <span className={`w-2 h-2 rounded-full shrink-0 ${tokens.dot}`} />
+          <span className={`text-base font-black ${tokens.num}`}>{score.toFixed(1)}</span>
+          <span className={`text-xs text-zinc-400`}>/10</span>
+          <span className={`text-xs font-bold ${tokens.label}`}>{tokens.badge}</span>
+        </div>
+      </div>
+
+      <div className="px-6 py-6 space-y-6">
+
+        {/* ── Target Audience ── */}
+        <div>
+          <p className="text-xs font-semibold tracking-widest text-zinc-400 uppercase mb-2">
+            Target Audience
+          </p>
+          <p className="text-sm font-bold text-zinc-900 leading-snug">{evaluation.audience}</p>
+        </div>
+
+        <div className="h-px bg-zinc-100" />
+
+        {/* ── Why Competitors Miss This Audience ── */}
+        <div>
+          <p className="text-xs font-semibold tracking-widest text-zinc-400 uppercase mb-2">
+            Why Competitors Miss This
+          </p>
+          <p className="text-sm text-zinc-600 leading-relaxed">{evaluation.gap_summary}</p>
+        </div>
+
+        <div className="h-px bg-zinc-100" />
+
+        {/* ── How to Go Deeper on the Niche ── */}
+        <div>
+          <p className="text-xs font-semibold tracking-widest text-zinc-400 uppercase mb-3">
+            How to Go Deeper on the Niche
+          </p>
+          <div className="flex flex-col gap-3">
+            {evaluation.suggestions.map((s, i) => (
+              <div key={i} className="flex items-start gap-2.5">
+                <span className="w-5 h-5 rounded-full bg-violet-50 border border-violet-100 flex items-center justify-center text-[10px] font-bold text-violet-500 shrink-0 mt-0.5">
+                  {i + 1}
+                </span>
+                <p className="text-sm text-zinc-700 leading-snug">{s}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
+}
 
 
 /* ── Market Assessment box ───────────────────────────────────────────── */
@@ -433,6 +577,9 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
             {data.competitors.length} solutions mapped across Reddit and Twitter.
           </p>
         </div>
+
+        {/* Niche fit — audience-specific gap, shown before the general market assessment */}
+        {data.niche_evaluation && <NicheEvaluationBox evaluation={data.niche_evaluation} competitors={data.competitors} />}
 
         {/* Evaluation statement — verdict + score + edge */}
         <EvaluationStatement competitors={data.competitors} differentiators={data.differentiators} />
