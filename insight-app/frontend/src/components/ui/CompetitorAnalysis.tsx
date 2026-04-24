@@ -376,7 +376,7 @@ function CompetitorCard({ competitor, rank, onOpenModal }: {
               )}
             </div>
 
-            <p className="text-xs text-zinc-400 leading-snug line-clamp-2 mb-2.5">
+            <p className="text-xs text-zinc-400 leading-snug mb-2.5">
               {competitor.description}
             </p>
 
