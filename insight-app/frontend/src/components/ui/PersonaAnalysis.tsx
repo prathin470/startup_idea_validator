@@ -491,7 +491,7 @@ export default function PersonaAnalysis({ data, onBack }: Props) {
   const chatIndex      = data.personas.findIndex(p => p.id === chatPersonaId);
 
   return (
-    <div className="min-h-screen bg-stone-50">
+    <div className="min-h-screen">
       <div className="max-w-6xl mx-auto px-8 py-10">
 
         {/* Header */}

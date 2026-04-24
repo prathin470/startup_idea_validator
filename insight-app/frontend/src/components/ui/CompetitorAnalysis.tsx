@@ -519,7 +519,7 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
   const twitterCompetitors = data.competitors.filter(c => c.platform_split === 'twitter' || c.platform_split === 'both');
 
   return (
-    <div className="min-h-screen bg-stone-50">
+    <div className="min-h-screen">
       <div className="max-w-6xl mx-auto px-8 py-10">
 
         {onBack && (
