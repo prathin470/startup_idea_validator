@@ -132,6 +132,19 @@ class AnalyseResponse(BaseModel):
 
 @router.post("/analyse", response_model=AnalyseResponse)
 def analyse(req: AnalyseRequest):
+    try:
+        return _analyse_inner(req)
+    except HTTPException:
+        raise  # already a well-formed error, let FastAPI handle it
+    except Exception as exc:
+        # Re-raise ALL other exceptions as HTTPException so FastAPI's error
+        # handler runs. Without this, bare exceptions (TypeError, JSONDecodeError,
+        # etc.) propagate past the CORS middleware before any headers are written —
+        # the browser sees a CORS error instead of the real 500.
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
+def _analyse_inner(req: AnalyseRequest) -> AnalyseResponse:
     if not _llm.api_key:
         raise HTTPException(status_code=500, detail="OPENROUTER_API_KEY is not set")
 
