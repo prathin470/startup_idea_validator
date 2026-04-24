@@ -607,11 +607,14 @@ Scoring rules:
             "twitter_phase2": twitter_p2_results,
         },
         "appstore_reviews": appstore_reviews,
-        "competitors":      result.get("competitors",      []),
-        "market_score":     market_score,
-        "non_app_signals":  result.get("non_app_signals",  []),
-        "differentiators":  result.get("differentiators",  []),
-        "sources":          result.get("sources",          []),
+        "competitors":       result.get("competitors",       []),
+        "market_score":      market_score,
+        "non_app_signals":   result.get("non_app_signals",   []),
+        "differentiators":   result.get("differentiators",   []),
+        "sources":           result.get("sources",           []),
+        # niche_evaluation was previously omitted — now saved so session files
+        # reflect the full LLM response and can be replayed for UI screenshots.
+        "niche_evaluation":  result.get("niche_evaluation"),
     }
     session_path = _SESSIONS_DIR / f"session_{timestamp}.json"
     session_path.write_text(json.dumps(session, indent=2), encoding="utf-8")
