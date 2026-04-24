@@ -237,13 +237,6 @@ function EvaluationStatement({ competitors, differentiators }: { competitors: Co
   return (
     <div className="bg-white border border-zinc-100 rounded-2xl shadow-sm mb-10 overflow-hidden">
 
-      {/* Header strip */}
-      <div className="px-6 pt-5 pb-4 border-b border-zinc-100">
-        <p className="text-xs font-bold tracking-widest text-violet-500 uppercase">
-          Market Assessment
-        </p>
-      </div>
-
       <div className="px-6 py-6 space-y-6">
 
         {/* ── What Exists ── */}
@@ -538,7 +531,8 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
         {/* Competitor tiles — below niche fit, above market assessment */}
         <CompetitorsRow competitors={data.competitors} />
 
-        {/* Evaluation statement — verdict + score + edge */}
+        {/* Market assessment */}
+        <h2 className="text-lg font-extrabold text-zinc-900 tracking-tight mb-4">Here is your market assessment</h2>
         <EvaluationStatement competitors={data.competitors} differentiators={data.differentiators} />
 
         {onNext && (
