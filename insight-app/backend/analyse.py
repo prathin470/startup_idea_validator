@@ -43,7 +43,10 @@ _TESTCASES = _TESTCASES_PATH.read_text(encoding="utf-8") if _TESTCASES_PATH.exis
 
 
 def _llm_call(messages: list[dict], retries: int = 3, delay: float = 8.0) -> str:
-    """Retry wrapper — backs off on 429 rate-limit errors then re-raises on final attempt."""
+    """Retry wrapper — backs off on 429 rate-limit errors then re-raises on final attempt.
+    Raises HTTPException (not a bare TypeError) when the model returns an empty or None
+    choices list — this ensures FastAPI's error handler runs and CORS headers are sent,
+    preventing the browser from seeing a CORS error instead of the real 500."""
     for attempt in range(retries):
         try:
             response = _llm.chat.completions.create(
@@ -51,7 +54,12 @@ def _llm_call(messages: list[dict], retries: int = 3, delay: float = 8.0) -> str
                 response_format={"type": "json_object"},
                 messages=messages,
             )
-            return response.choices[0].message.content
+            if not response.choices:
+                raise HTTPException(status_code=502, detail="LLM returned an empty response — check the API key and model name")
+            content = response.choices[0].message.content
+            if content is None:
+                raise HTTPException(status_code=502, detail="LLM returned a null content field — the model may have hit a safety filter or quota limit")
+            return content
         except RateLimitError:
             if attempt == retries - 1:
                 raise
