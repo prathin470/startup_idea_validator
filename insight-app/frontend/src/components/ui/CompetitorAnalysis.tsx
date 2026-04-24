@@ -318,9 +318,11 @@ function EvaluationStatement({ competitors, differentiators }: { competitors: Co
 
 /* ── Competitor card — fixed width for horizontal rows ───────────────── */
 
-/* Cards sit inside a horizontal scroll container, so they have a fixed min-width
-   rather than growing to fill a grid column. Surfaces backend fields that were
-   previously discarded: pricing, status_signal, dominant_complaint, mention_count. */
+/* w-[252px] h-[340px] is set on the perspective wrapper and both faces fill it
+   with h-full — this is the single source of truth for tile size. Content that
+   exceeds the fixed height is clamped (line-clamp) rather than stretching the card.
+   The flip mechanism mirrors PersonaCard: perspective → grid-stacked faces →
+   rotateY(180deg) on group-hover. */
 function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: number }) {
   const score      = competitor.similarity_score ?? 0;
   const style      = similarityStyle(score);
@@ -328,85 +330,122 @@ function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: nu
   const pricingKey = (competitor.pricing ?? 'unknown').toLowerCase();
   const pricingCfg = PRICING_CONFIG[pricingKey] ?? PRICING_CONFIG.unknown;
 
+  /* Avatar colour follows similarity — gives an instant at-a-glance read
+     on the front face before the user flips the card. */
+  const avatarColor = score >= 75
+    ? 'bg-red-50 text-red-500'
+    : score >= 50
+      ? 'bg-amber-50 text-amber-600'
+      : 'bg-emerald-50 text-emerald-600';
+
   return (
-    <div className={`bg-white rounded-xl shadow-sm border border-zinc-100 border-l-[3px] ${style.leftBorder} flex flex-col min-w-[252px] w-[252px]`}>
+    /* Perspective wrapper — w and h locked here; both faces fill it with h-full */
+    <div className="[perspective:1000px] group cursor-pointer w-[252px] h-[340px]">
 
-      <div className="px-4 pt-4 pb-3">
+      {/* Flipper — grid stacks front & back in the same cell */}
+      <div className="grid h-full [transform-style:preserve-3d] transition-[transform] duration-700 ease-in-out group-hover:[transform:rotateY(180deg)]">
 
-        {/* Rank + name + status signal */}
-        <div className="flex items-center gap-2 mb-1">
-          <span className="w-5 h-5 rounded-md bg-zinc-50 border border-zinc-200 flex items-center justify-center text-[10px] font-bold text-zinc-400 shrink-0">
+        {/* ── FRONT — name and comparison score only ── */}
+        <div className="[grid-area:1/1] h-full [backface-visibility:hidden] bg-white rounded-xl shadow-sm border border-zinc-100 group-hover:border-violet-200 flex flex-col items-center justify-center px-6 py-8 text-center gap-3">
+
+          {/* Rank avatar — colour-coded by similarity score */}
+          <div className={`w-16 h-16 rounded-2xl flex items-center justify-center text-2xl font-bold ${avatarColor}`}>
             {rank}
-          </span>
-          <h3 className="text-sm font-bold text-zinc-900 leading-tight truncate flex-1">{competitor.name}</h3>
-          {statusCfg && (
-            <div className="flex items-center gap-1 shrink-0">
-              <span className={`w-1.5 h-1.5 rounded-full ${statusCfg.dot}`} />
-              <span className={`text-[10px] font-semibold ${statusCfg.text}`}>{statusCfg.label}</span>
+          </div>
+
+          <div>
+            <p className="text-lg font-extrabold text-zinc-900 leading-tight">{competitor.name}</p>
+            <p className="text-xs text-zinc-400 font-light mt-1">{competitor.category ?? 'Competitor'}</p>
+          </div>
+
+          {/* Similarity score badge — the only data point shown on the front */}
+          <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg border ${style.badge}`}>
+            <span className="text-base font-black">{score}%</span>
+            <span className="text-xs text-zinc-400">match</span>
+          </div>
+
+          <p className="text-[10px] text-zinc-300 font-light">hover to explore</p>
+        </div>
+
+        {/* ── BACK — full detail, rotated 180° to start hidden ── */}
+        <div className={`[grid-area:1/1] h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-white rounded-xl shadow-md border border-zinc-100 border-l-[3px] ${style.leftBorder} flex flex-col overflow-hidden`}>
+
+          {/* Header */}
+          <div className="px-4 pt-4 pb-3">
+            <div className="flex items-center gap-2 mb-1">
+              <span className={`w-5 h-5 rounded-md flex items-center justify-center text-[10px] font-bold shrink-0 ${avatarColor}`}>
+                {rank}
+              </span>
+              <h3 className="text-sm font-bold text-zinc-900 leading-tight truncate flex-1">{competitor.name}</h3>
+              {statusCfg && (
+                <div className="flex items-center gap-1 shrink-0">
+                  <span className={`w-1.5 h-1.5 rounded-full ${statusCfg.dot}`} />
+                  <span className={`text-[10px] font-semibold ${statusCfg.text}`}>{statusCfg.label}</span>
+                </div>
+              )}
             </div>
-          )}
-        </div>
 
-        {/* Description — 2 lines max */}
-        <p className="text-xs text-zinc-400 leading-snug line-clamp-2 mb-3">
-          {competitor.description}
-        </p>
+            <p className="text-xs text-zinc-400 leading-snug line-clamp-2 mb-2.5">
+              {competitor.description}
+            </p>
 
-        {/* Similarity bar */}
-        <div className="flex items-center gap-2 mb-2">
-          <div className="flex-1 h-1 bg-zinc-100 rounded-full overflow-hidden">
-            <div className={`h-full rounded-full ${style.bar}`} style={{ width: `${score}%` }} />
+            {/* Similarity bar */}
+            <div className="flex items-center gap-2 mb-2">
+              <div className="flex-1 h-1 bg-zinc-100 rounded-full overflow-hidden">
+                <div className={`h-full rounded-full ${style.bar}`} style={{ width: `${score}%` }} />
+              </div>
+              <span className={`text-xs font-bold px-1.5 py-0.5 rounded border ${style.badge}`}>
+                {score}%
+              </span>
+            </div>
+
+            {/* Pricing + category + mention count */}
+            <div className="flex items-center gap-1.5">
+              <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded border ${pricingCfg.bg} ${pricingCfg.text} ${pricingCfg.border}`}>
+                {pricingCfg.label}
+              </span>
+              <p className="text-xs text-zinc-400">{competitor.category ?? 'Competitor'}</p>
+              {competitor.mention_count != null && (
+                <p className="text-[10px] text-zinc-300 ml-auto">{competitor.mention_count} mentions</p>
+              )}
+            </div>
           </div>
-          <span className={`text-xs font-bold px-1.5 py-0.5 rounded border ${style.badge}`}>
-            {score}%
-          </span>
-        </div>
 
-        {/* Pricing badge + category + mention count */}
-        <div className="flex items-center gap-2">
-          <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded border ${pricingCfg.bg} ${pricingCfg.text} ${pricingCfg.border}`}>
-            {pricingCfg.label}
-          </span>
-          <p className="text-xs text-zinc-400">{competitor.category ?? 'Competitor'}</p>
-          {competitor.mention_count != null && (
-            <p className="text-[10px] text-zinc-300 ml-auto">{competitor.mention_count} mentions</p>
-          )}
-        </div>
-      </div>
+          {/* Strengths + weaknesses — overflow-hidden prevents content from
+              escaping the fixed card height; line-clamp keeps items compact */}
+          <div className="border-t border-zinc-100 px-4 py-3 flex-1 overflow-hidden space-y-2.5">
+            <div>
+              <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-1">Strengths</p>
+              <ul className="space-y-0.5">
+                {competitor.strengths.slice(0, 2).map((s, i) => (
+                  <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
+                    <span className="text-emerald-500 font-bold shrink-0">✓</span>
+                    <span className="line-clamp-1">{s}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-1">Weaknesses</p>
+              <ul className="space-y-0.5">
+                {competitor.weaknesses.slice(0, 2).map((w, i) => (
+                  <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
+                    <span className="text-red-400 font-bold shrink-0">✕</span>
+                    <span className="line-clamp-1">{w}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-      {/* Strengths + weaknesses */}
-      <div className="border-t border-zinc-100 px-4 py-3 flex-1 space-y-3">
-        <div>
-          <p className="text-xs font-bold tracking-widest text-zinc-400 uppercase mb-1.5">Strengths</p>
-          <ul className="space-y-1">
-            {competitor.strengths.slice(0, 2).map((s, i) => (
-              <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
-                <span className="text-emerald-500 font-bold shrink-0 mt-px">✓</span>
-                <span className="line-clamp-2">{s}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <p className="text-xs font-bold tracking-widest text-zinc-400 uppercase mb-1.5">Weaknesses</p>
-          <ul className="space-y-1">
-            {competitor.weaknesses.slice(0, 2).map((w, i) => (
-              <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
-                <span className="text-red-400 font-bold shrink-0 mt-px">✕</span>
-                <span className="line-clamp-2">{w}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Dominant complaint — verbatim user language surfaced from Reddit/Twitter.
-            Only rendered when the backend found a recurring complaint phrase. */}
-        {competitor.dominant_complaint && (
-          <div className="border-t border-zinc-100 pt-3">
-            <p className="text-[10px] font-bold tracking-widest text-zinc-400 uppercase mb-1">Top Complaint</p>
-            <p className="text-xs text-zinc-500 italic leading-snug">"{competitor.dominant_complaint}"</p>
+            {competitor.dominant_complaint && (
+              <div className="border-t border-zinc-100 pt-2">
+                <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-0.5">Top Complaint</p>
+                <p className="text-xs text-zinc-500 italic leading-snug line-clamp-2">"{competitor.dominant_complaint}"</p>
+              </div>
+            )}
           </div>
-        )}
+        </div>
+
       </div>
     </div>
   );
