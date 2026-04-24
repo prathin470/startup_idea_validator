@@ -452,57 +452,17 @@ function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: nu
 }
 
 
-/* ── Source section — horizontal scrollable row of cards ─────────────── */
+/* ── Competitors row — unified horizontal scroll ─────────────────────── */
 
-/* Per-platform colour tokens.
-   Kept as separate fields so each element (dot, bg, border, text) can be
-   composed independently without fighting Tailwind's purge on combined strings. */
-const SOURCE_CONFIG = {
-  reddit: {
-    label:  'Reddit',
-    dot:    'bg-orange-400',
-    bg:     'bg-orange-50',
-    border: 'border-orange-200',
-    text:   'text-orange-600',
-    count:  'text-orange-400',
-  },
-  twitter: {
-    label:  'X / Twitter',
-    dot:    'bg-sky-400',
-    bg:     'bg-sky-50',
-    border: 'border-sky-200',
-    text:   'text-sky-600',
-    count:  'text-sky-400',
-  },
-} as const;
-
-function SourceSection({ source, competitors }: { source: 'reddit' | 'twitter'; competitors: Competitor[] }) {
+function CompetitorsRow({ competitors }: { competitors: Competitor[] }) {
   if (competitors.length === 0) return null;
-  const cfg = SOURCE_CONFIG[source];
-
   return (
-    <div className="mb-10">
-
-      {/* Section header — large platform badge + count + extending rule */}
-      <div className="flex items-center gap-4 mb-5">
-        <div className={`flex items-center gap-3 px-5 py-3 rounded-xl border-2 ${cfg.bg} ${cfg.border} shrink-0`}>
-          <span className={`w-2.5 h-2.5 rounded-full shrink-0 ${cfg.dot}`} />
-          <span className={`text-sm font-extrabold tracking-wide ${cfg.text}`}>{cfg.label}</span>
-          <span className={`text-xs font-semibold ${cfg.count} opacity-70`}>
-            {competitors.length} competitor{competitors.length !== 1 ? 's' : ''} found
-          </span>
+    <div className="mb-10 flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-zinc-100 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:bg-zinc-300 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-zinc-400">
+      {competitors.map((competitor, i) => (
+        <div key={competitor.name} className="snap-start shrink-0">
+          <CompetitorCard competitor={competitor} rank={i + 1} />
         </div>
-        <div className="flex-1 h-px bg-zinc-100" />
-      </div>
-
-      {/* Horizontal card slider — snap-to-card scrolling with a thin styled scrollbar */}
-      <div className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-zinc-100 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:bg-zinc-300 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-zinc-400">
-        {competitors.map((competitor, i) => (
-          <div key={competitor.name} className="snap-start shrink-0">
-            <CompetitorCard competitor={competitor} rank={i + 1} />
-          </div>
-        ))}
-      </div>
+      ))}
     </div>
   );
 }
@@ -511,12 +471,6 @@ function SourceSection({ source, competitors }: { source: 'reddit' | 'twitter'; 
 /* ── Main component ─────────────────────────────────────────────────── */
 
 export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
-  /* platform_split values: "reddit" | "twitter" | "both" | undefined.
-     "both" means the competitor surfaced on both platforms — show it in BOTH rows.
-     Anything that is not explicitly "twitter" falls through to the Reddit section
-     so no competitor is silently dropped if the LLM returns an unexpected value. */
-  const redditCompetitors  = data.competitors.filter(c => c.platform_split !== 'twitter');
-  const twitterCompetitors = data.competitors.filter(c => c.platform_split === 'twitter' || c.platform_split === 'both');
 
   return (
     <div className="min-h-screen">
@@ -538,7 +492,7 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
             Competitor Landscape
           </h1>
           <p className="text-zinc-400 mt-2 text-sm font-light">
-            {data.competitors.length} solutions mapped across Reddit and Twitter.
+            {data.competitors.length} solutions mapped across Reddit and App Store.
           </p>
         </div>
 
@@ -548,9 +502,7 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
         {/* Evaluation statement — verdict + score + edge */}
         <EvaluationStatement competitors={data.competitors} differentiators={data.differentiators} />
 
-        {/* Competitors by source — each is a horizontal scroll row */}
-        <SourceSection source="reddit"  competitors={redditCompetitors}  />
-        <SourceSection source="twitter" competitors={twitterCompetitors} />
+        <CompetitorsRow competitors={data.competitors} />
 
         {onNext && (
           <button
