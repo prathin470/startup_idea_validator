@@ -3,7 +3,7 @@
    levitating social icons centred above the heading, with a handwritten
    callout annotation absolutely positioned far to the right. */
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { type ChatMessage } from '../../services/api';
 
 interface Props {
@@ -35,6 +35,19 @@ export default function ChatInterface({ onSubmit }: Props) {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState(['', '', '']);
   const [input, setInput] = useState('');
+
+  /* Gate all pen + text animations on full page load. Lazy initializer
+     handles the case where the component mounts after load has already
+     fired (e.g. hot-reload). The effect only registers a listener when
+     the page isn't loaded yet — setState goes in the callback, not
+     the effect body, satisfying react-hooks/set-state-in-effect. */
+  const [pageLoaded, setPageLoaded] = useState(() => document.readyState === 'complete');
+  useEffect(() => {
+    if (pageLoaded) return;
+    const onLoad = () => setPageLoaded(true);
+    window.addEventListener('load', onLoad);
+    return () => window.removeEventListener('load', onLoad);
+  }, [pageLoaded]);
 
   const isLast = step === QUESTIONS.length - 1;
 
@@ -154,7 +167,10 @@ export default function ChatInterface({ onSubmit }: Props) {
               top: '4px',
               left: '0px',
               transformOrigin: 'bottom left',
-              animation: 'pen-write-callout 3.5s linear 0.3s both',
+              /* animation only attaches after window.load so the pen never
+                 starts moving while the page is still parsing */
+              animation: pageLoaded ? 'pen-write-callout 3.5s linear 0.3s both' : 'none',
+              opacity: pageLoaded ? undefined : 0,
             }}
           >
             <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
@@ -181,7 +197,10 @@ export default function ChatInterface({ onSubmit }: Props) {
                   display: 'inline-block',
                   whiteSpace: 'nowrap',
                   lineHeight: '28px',
-                  animation: `reveal-line ${revealDur} linear ${revealDelay} both`,
+                  /* keep text fully clipped until page is loaded, then let
+                     the reveal animation run in sync with the pen */
+                  animation: pageLoaded ? `reveal-line ${revealDur} linear ${revealDelay} both` : 'none',
+                  clipPath: pageLoaded ? undefined : 'inset(0 100% 0 0)',
                 }}
               >
                 {text}
