@@ -49,14 +49,28 @@ export default function LoadingScreen({ onComplete }: Props) {
   const progress = ((stageIndex + 1) / stages.length) * 100;
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-stone-50 gap-10">
+    /* Same ruled notebook paper background used by the main App shell —
+       horizontal lines every 28px, faint red margin line at 72px. */
+    <div
+      className="flex flex-col items-center justify-center h-screen gap-10"
+      style={{
+        backgroundColor: '#fdf8f2',
+        backgroundImage: [
+          'repeating-linear-gradient(transparent, transparent 27px, rgba(190,165,130,0.22) 27px, rgba(190,165,130,0.22) 28px)',
+          'linear-gradient(to right, transparent 72px, rgba(220,130,110,0.18) 72px, rgba(220,130,110,0.18) 73px, transparent 73px)',
+        ].join(', '),
+      }}
+    >
 
-      {/* Breathing orb — soft layered pulse, no spinning rings */}
+      {/* Breathing orb — amber/orange palette to match the app's CTA colour */}
       <div className="relative w-20 h-20 flex items-center justify-center">
-        <div className="absolute inset-0 rounded-full bg-violet-100 animate-ping opacity-20" />
-        <div className="absolute inset-1 rounded-full bg-violet-100 animate-pulse" />
-        <div className="absolute inset-3 rounded-full bg-violet-200" />
-        <div className="absolute inset-5 rounded-full bg-violet-500 flex items-center justify-center">
+        <div className="absolute inset-0 rounded-full bg-amber-100 animate-ping opacity-25" />
+        <div className="absolute inset-1 rounded-full bg-amber-100 animate-pulse" />
+        <div className="absolute inset-3 rounded-full bg-amber-200" />
+        <div
+          className="absolute inset-5 rounded-full flex items-center justify-center"
+          style={{ background: 'linear-gradient(135deg, #fbbf24, #f97316)' }}
+        >
           <span className="text-white text-xs">◆</span>
         </div>
       </div>
@@ -72,16 +86,19 @@ export default function LoadingScreen({ onComplete }: Props) {
         </p>
       </div>
 
-      {/* Thin progress track */}
-      <div className="w-44 h-0.5 bg-zinc-200 rounded-full overflow-hidden">
+      {/* Thin progress track — amber-to-orange gradient fill */}
+      <div className="w-44 h-0.5 bg-stone-200 rounded-full overflow-hidden">
         <div
-          className="h-full bg-violet-500 rounded-full transition-all duration-700 ease-out"
-          style={{ width: `${progress}%` }}
+          className="h-full rounded-full transition-all duration-700 ease-out"
+          style={{
+            width: `${progress}%`,
+            background: 'linear-gradient(to right, #fbbf24, #f97316)',
+          }}
         />
       </div>
 
       {/* Step counter */}
-      <p className="text-zinc-300 text-xs font-light tracking-wide">
+      <p className="text-stone-300 text-xs font-light tracking-wide">
         {stageIndex + 1} / {stages.length}
       </p>
     </div>
