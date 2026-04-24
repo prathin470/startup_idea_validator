@@ -2,8 +2,9 @@
    No mapping layer — uses Competitor and AnalyseResult from api.ts verbatim.
    Fields previously discarded by toCompetitorData() (dominant_complaint,
    pricing, status_signal, mention_count) are now surfaced in the UI.
-   "both" platform_split competitors appear in BOTH the Reddit and Twitter rows. */
+   platform_split field is retained in the type but not used for display. */
 
+import { useState } from 'react';
 import { type Competitor, type AnalyseResult, type NicheEvaluation } from '../../services/api';
 
 interface Props {
@@ -452,17 +453,54 @@ function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: nu
 }
 
 
-/* ── Competitors row — unified horizontal scroll ─────────────────────── */
+/* ── Competitors carousel — left/right arrow navigation ─────────────── */
+
+/* Shows CARDS_PER_PAGE tiles at once. Prev/Next buttons step one card at a time.
+   Buttons are disabled at the boundaries so the user always knows the edges. */
+const CARDS_PER_PAGE = 4;
 
 function CompetitorsRow({ competitors }: { competitors: Competitor[] }) {
+  const [index, setIndex] = useState(0);
   if (competitors.length === 0) return null;
+
+  const canPrev = index > 0;
+  const canNext = index + CARDS_PER_PAGE < competitors.length;
+  const visible = competitors.slice(index, index + CARDS_PER_PAGE);
+
   return (
-    <div className="mb-10 flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-zinc-100 [&::-webkit-scrollbar-track]:rounded-full [&::-webkit-scrollbar-thumb]:bg-zinc-300 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-zinc-400">
-      {competitors.map((competitor, i) => (
-        <div key={competitor.name} className="snap-start shrink-0">
-          <CompetitorCard competitor={competitor} rank={i + 1} />
+    <div className="mb-10">
+
+      {/* Title + arrow buttons on the same row */}
+      <div className="flex items-center justify-between mb-5">
+        <h2 className="text-lg font-extrabold text-zinc-900 tracking-tight">Here is your competition</h2>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={() => setIndex(i => i - 1)}
+            disabled={!canPrev}
+            className="w-9 h-9 rounded-full border border-zinc-200 bg-white flex items-center justify-center text-zinc-500 hover:bg-zinc-50 hover:border-zinc-300 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-150"
+          >
+            ←
+          </button>
+          <span className="text-xs text-zinc-400 font-light tabular-nums">
+            {index + 1}–{Math.min(index + CARDS_PER_PAGE, competitors.length)} of {competitors.length}
+          </span>
+          <button
+            onClick={() => setIndex(i => i + 1)}
+            disabled={!canNext}
+            className="w-9 h-9 rounded-full border border-zinc-200 bg-white flex items-center justify-center text-zinc-500 hover:bg-zinc-50 hover:border-zinc-300 disabled:opacity-30 disabled:cursor-not-allowed transition-all duration-150"
+          >
+            →
+          </button>
         </div>
-      ))}
+      </div>
+
+      {/* Tile row — fixed slots, no overflow scroll */}
+      <div className="flex gap-4">
+        {visible.map((competitor, i) => (
+          <CompetitorCard key={competitor.name} competitor={competitor} rank={index + i + 1} />
+        ))}
+      </div>
+
     </div>
   );
 }
