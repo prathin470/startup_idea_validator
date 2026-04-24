@@ -60,13 +60,6 @@ function NicheEvaluationBox({ evaluation }: { evaluation: NicheEvaluation }) {
   return (
     <div className="bg-white border border-zinc-100 rounded-2xl shadow-sm mb-6 overflow-hidden">
 
-      {/* Header */}
-      <div className="px-6 pt-5 pb-4 border-b border-zinc-100">
-        <p className="text-xs font-bold tracking-widest text-violet-500 uppercase">
-          Niche &amp; Audience Fit
-        </p>
-      </div>
-
       <div className="px-6 py-6 space-y-6">
 
         {/* ── Target Audience ── */}
@@ -535,7 +528,12 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
         </div>
 
         {/* Niche fit — audience-specific gap */}
-        {data.niche_evaluation && <NicheEvaluationBox evaluation={data.niche_evaluation} />}
+        {data.niche_evaluation && (
+          <>
+            <h2 className="text-lg font-extrabold text-zinc-900 tracking-tight mb-4">Here are my thoughts on your idea</h2>
+            <NicheEvaluationBox evaluation={data.niche_evaluation} />
+          </>
+        )}
 
         {/* Competitor tiles — below niche fit, above market assessment */}
         <CompetitorsRow competitors={data.competitors} />
