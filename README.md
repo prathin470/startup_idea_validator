@@ -108,7 +108,7 @@ Frontend runs on `http://localhost:5173`
 
 The backend runs a two-phase competitor research pipeline before synthesising results:
 
-- **Phase 1** — LLM generates targeted queries anchored on your target audience and core mechanism. Reddit, Twitter, and blog searches run in parallel.
+- **Phase 1** — LLM generates targeted queries anchored on your target audience and core mechanism. Reddit and blog searches run in parallel.
 - **Phase 2** — Named competitors found in Phase 1 seed a second round of dissatisfaction queries ("alternative to X", "I switched from X") to uncover churn language and new competitors users switched to.
 - **Synthesis** — All data is fed to a final LLM call that produces the competitor list, personas, niche evaluation, and differentiators. Results are sorted by App Store review count.
 
