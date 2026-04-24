@@ -1,0 +1,1495 @@
+{
+  "timestamp": "2026-04-23_23-14-46",
+  "idea": "my app allows me to watch all different kind of shows and movies",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "my app allows me to watch all different kind of shows and movies"
+    },
+    {
+      "role": "assistant",
+      "content": "What makes it different from everything else out there?"
+    },
+    {
+      "role": "user",
+      "content": "It is very much tailored to my preferences and what I want personalised and customised"
+    },
+    {
+      "role": "assistant",
+      "content": "Who is it specifically for?"
+    },
+    {
+      "role": "user",
+      "content": "just everyone."
+    }
+  ],
+  "core_features": [
+    "personalization of video and show recommendations",
+    "customization of preferred video content",
+    "user preference-tailored viewing experience"
+  ],
+  "app_candidates_phase1": [
+    "decisio media",
+    "THEATER",
+    "Take2: Movies & Shows",
+    "ChatGPT",
+    "Plex",
+    "Letterboxd",
+    "Restream",
+    "Loola TV",
+    "StreamYard",
+    "Yolocast",
+    "Spotify",
+    "Napster",
+    "Last.fm",
+    "Qobuz",
+    "NuvioTV",
+    "STRMR",
+    "Viewlift",
+    "Zype",
+    "Greta AI",
+    "Glue",
+    "Jetpack Workflow",
+    "Sublime",
+    "Gemini",
+    "Sora",
+    "Sendspark",
+    "Rephrase.ai",
+    "Loom",
+    "HeyGen",
+    "Idomoo",
+    "BlueRush",
+    "Precisely",
+    "Pirsonal",
+    "Vimeo",
+    "SundaySky",
+    "Vidyard",
+    "CapCut",
+    "Canva",
+    "Kapwing",
+    "Veed",
+    "WeVideo",
+    "YouCam Perfect",
+    "InShot",
+    "Mojo",
+    "Repurpose.io",
+    "Synthesia"
+  ],
+  "queries": {
+    "reddit_phase1": [
+      "what app do you use for personalized movie recommendations?",
+      "best app for customizing my video streaming experience",
+      "is there an app that learns my preferred genres and suggests shows?",
+      "wish there was an app to filter movies based on very specific preferences",
+      "looking for an app that lets me create a custom watchlist based on my mood",
+      "intitle:(\"tried every\" OR \"my ranking\") streaming app personalization",
+      "why isn't there an app that recommends obscure movies I'd actually like?"
+    ],
+    "twitter_phase1": [
+      "I hate how generic all the movie recommendations are, is there anything better?",
+      "every streaming app is pushing the same popular shows",
+      "someone should build an app that suggests films based on my very specific tastes",
+      "I would pay for an app that tailors my viewing experience to my current mood",
+      "best app for getting personalized TV show suggestions?",
+      "recommendations for a streaming app that understands my preferences",
+      "what app do you use to discover unique films tailored to your preferences?"
+    ],
+    "reddit_phase2": [
+      "alternative to decisio media",
+      "I switched from THEATER",
+      "better than Take2: Movies & Shows",
+      "alternative to ChatGPT",
+      "I switched from Plex",
+      "better than Letterboxd",
+      "alternative to Restream",
+      "I switched from Loola TV",
+      "better than StreamYard",
+      "alternative to Yolocast",
+      "I switched from Spotify",
+      "better than Napster",
+      "alternative to Last.fm",
+      "I switched from Qobuz",
+      "better than NuvioTV",
+      "alternative to STRMR",
+      "I switched from Viewlift",
+      "better than Zype",
+      "alternative to Greta AI",
+      "I switched from Glue",
+      "better than Jetpack Workflow",
+      "alternative to Sublime",
+      "I switched from Gemini",
+      "better than Sora",
+      "alternative to Sendspark"
+    ],
+    "twitter_phase2": [
+      "decisio media switched to",
+      "THEATER switched to",
+      "Take2: Movies & Shows switched to",
+      "ChatGPT switched to",
+      "Plex switched to",
+      "Letterboxd switched to",
+      "Restream switched to",
+      "Loola TV switched to",
+      "StreamYard switched to",
+      "Yolocast switched to",
+      "Spotify switched to",
+      "Napster switched to",
+      "Last.fm switched to",
+      "Qobuz switched to",
+      "NuvioTV switched to",
+      "STRMR switched to",
+      "Viewlift switched to",
+      "Zype switched to",
+      "Greta AI switched to",
+      "Glue switched to"
+    ]
+  },
+  "search_results": {
+    "reddit_phase1": [
+      {
+        "title": "I'm looking for an app where I can rate shows I've seen ... - Reddit",
+        "url": "https://www.reddit.com/r/appletv/comments/1htksn5/im_looking_for_an_app_where_i_can_rate_shows_ive/",
+        "snippet": "I've been using decisio media! You swipe on movies and shows or you can rate them manually, all based on the streaming providers you have. Their recommendation ..."
+      },
+      {
+        "title": "personal cinema companion. A handcrafted app in this vibe coding ...",
+        "url": "https://www.reddit.com/r/HowToMen/comments/1srtv27/app_promotion_i_designed_built_theater_app/",
+        "snippet": "Create and save custom search criteria for instant access to your ... Mood-Based Recommendations: Get suggestions that match your current emotional state."
+      },
+      {
+        "title": "[PERSONAL] I designed and created an app called \"Theater\" to ...",
+        "url": "https://www.reddit.com/r/Promotion/comments/1sk5k23/personal_i_designed_and_created_an_app_called/",
+        "snippet": "THEATER is an AI-powered movie and TV tracker designed to help you stop scrolling and start watching. Whether you need a private movie diary, a watchlist, or ..."
+      },
+      {
+        "title": "Movie buffs - What apps do you use to manage your movie lists?",
+        "url": "https://www.reddit.com/r/movies/comments/1gxywl9/movie_buffs_what_apps_do_you_use_to_manage_your/",
+        "snippet": "I highly recommend \"Take2: Movies & Shows\". They're a lesser-known app but have a great UI and a fun and interactive ranking system for building a watchlist. TV ..."
+      },
+      {
+        "title": "What is the best way to \"recommend\" specific movies in my library?",
+        "url": "https://www.reddit.com/r/PleX/comments/1q8fu41/what_is_the_best_way_to_recommend_specific_movies/",
+        "snippet": "What my users DO love is a smart collection I created called Movie Roulette, which I put on everybody's home screen. It excludes anything added to Plex in the ..."
+      },
+      {
+        "title": "r/PleX on Reddit: Is There a Way to Have Only Unwatched Movies ...",
+        "url": "https://www.reddit.com/r/PleX/comments/1cn3zzy/is_there_a_way_to_have_only_unwatched_movies/",
+        "snippet": "Go to Settings > Libraries (under Manage category). Find your movie library and click on manage recommendations. Uncheck Recently Added Movies."
+      },
+      {
+        "title": "I want an AI to give me REALLY GOOD recommendations for TV ...",
+        "url": "https://www.reddit.com/r/singularity/comments/1dhd055/i_want_an_ai_to_give_me_really_good/",
+        "snippet": "For movies, ask ChatGPT \u201dRecommend a movie with more than 5000 reviews & more than 80% audience score on rotten tomatoes.\u201d You can also specify genre."
+      },
+      {
+        "title": "I built a movie recommendation app that filters by your streaming ...",
+        "url": "https://www.reddit.com/r/Letterboxd/comments/1lu25sk/i_built_a_movie_recommendation_app_that_filters/",
+        "snippet": "I built a movie recommendation app that filters by your streaming services and works for watch-parties. I thought you might be interested. Letterboxd."
+      },
+      {
+        "title": "Any app to track my movies and provide AI recommendations?",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1i27erw/any_app_to_track_my_movies_and_provide_ai/",
+        "snippet": "Have you tried Plex? It tracks movies and TV shows and offers personalized recommendations based on your watch history. Plus, it's free with a simple interface!"
+      },
+      {
+        "title": "Built a movie recommendation app with personalized algorithms",
+        "url": "https://www.reddit.com/r/SaaS/comments/1pyaec4/built_a_movie_recommendation_app_with/",
+        "snippet": "Get personalized recommendations based on your unique taste. One-tap access to streaming platforms (Netflix, Disney+, etc.) Rate movies as you go to refine your ..."
+      },
+      {
+        "title": "Is there any app which recommends me movies or series,based on ...",
+        "url": "https://www.reddit.com/r/movies/comments/1jawtre/is_there_any_app_which_recommends_me_movies_or/",
+        "snippet": "I'm pretty sure if you go through and rate movies you've seen, the imdb app will start to populate a suggestions list for you."
+      },
+      {
+        "title": "Tried every conceivable alternative to stream to both Twitch and TT ...",
+        "url": "https://www.reddit.com/r/streaming/comments/1ohutor/tried_every_conceivable_alternative_to_stream_to/",
+        "snippet": "Of course popular Restream was blocked, but I tried several third party platforms to bypass traditional manual input. Loola TV, StreamYard, Yolocast\u2026"
+      },
+      {
+        "title": "Best alternatives to spotify? : r/LetsTalkMusic - Reddit",
+        "url": "https://www.reddit.com/r/LetsTalkMusic/comments/1msbg58/best_alternatives_to_spotify/",
+        "snippet": "Alright, I can give you my ranking of something that isn't the Big 4 (Spotify, Youtube, Amazon, and Apple). 4th place: Napster. The only cool thing I saw ..."
+      },
+      {
+        "title": "Spotify Discover Weekly completely ruined : r/truespotify - Reddit",
+        "url": "https://www.reddit.com/r/truespotify/comments/1rjro7o/spotify_discover_weekly_completely_ruined/",
+        "snippet": "Or else, wait for the return of Piracy! Streaming services (especially ... My ranking of every song on Elsewhere. 11. 3. Last.fm Qobuz playlist maker \u00b7 r ..."
+      },
+      {
+        "title": "Which streaming app is actually the best? (NuvioTV vs STRMR vs ...",
+        "url": "https://www.reddit.com/r/Nuvio/comments/1s684n0/which_streaming_app_is_actually_the_best_nuviotv/",
+        "snippet": "In my personal opinion Nuvio is much more ahead compared to the rest and has an excellent team behind it. I would also say Nuvio is more for power users, Arvio ..."
+      },
+      {
+        "title": "Create a video streaming app in 2025: build it yourself or use a ...",
+        "url": "https://www.reddit.com/r/Broadcasting/comments/1qiqiae/create_a_video_streaming_app_in_2025_build_it/",
+        "snippet": "Do not build this yourself. Way more complex than you think. Check out Viewlift, Zype or many others in the space."
+      },
+      {
+        "title": "Any good recommendations for streaming applications? - Reddit",
+        "url": "https://www.reddit.com/r/streaming/comments/1ln2zl9/any_good_recommendations_for_streaming/",
+        "snippet": "I know how to stream in best quality on Twitch, Kick, and YouTube depending on your hardware and Internet connection. Know how to dual PC as well. OBS is ..."
+      },
+      {
+        "title": "How do people discover such unknown, old movies? : r/Letterboxd",
+        "url": "https://www.reddit.com/r/Letterboxd/comments/1olkhb7/how_do_people_discover_such_unknown_old_movies/",
+        "snippet": "Letterboxd is very helpful. You can search by decade, genre, actor, director etc, and find a lot of stuff that you hadn't heard of before."
+      },
+      {
+        "title": "r/IAmA - I'm a founder of a film website which just turned 20 years old ...",
+        "url": "https://www.reddit.com/r/IAmA/comments/1o5jdry/im_a_founder_of_a_film_website_which_just_turned/",
+        "snippet": "Hi Reddit! I'm Mike Powell, one of the co-founders of Criticker, a film recommendation website which debuted way back in 2005. We've just celebrated twenty ..."
+      },
+      {
+        "title": "Letterboxd vs. IMDb vs. (Another app) - What's one feature from ...",
+        "url": "https://www.reddit.com/r/movies/comments/1nbewkb/letterboxd_vs_imdb_vs_another_app_whats_one/",
+        "snippet": "it honestly really confuses me why people talk about letterboxd being for real cinephiles when it feels like there are no actual reviews or any film discussion ..."
+      }
+    ],
+    "twitter_phase1": [
+      {
+        "title": "Komal - Your Product Designer (@KomalUX) / Posts / X - Twitter",
+        "url": "https://x.com/KomalUX",
+        "snippet": "Designed this hero section for an AI health platform. Focus was clarity, trust, and a strong first impression. What would you improve first here as a user:"
+      },
+      {
+        "title": "GRETA (@Greta__ai) / Posts / X - Twitter",
+        "url": "https://x.com/Greta__ai",
+        "snippet": "Build your next app without code or developers. All it takes is one prompt. This holiday, Greta AI is up to 50% OFF for 1 year ..."
+      },
+      {
+        "title": "Glue Collaboration (@glue_collab) / Posts / X - Twitter",
+        "url": "https://x.com/glue_collab",
+        "snippet": "In these videos, we talk about tailoring #Glue to your company's needs & showcasing how to use different customisation options for your #VR experience."
+      },
+      {
+        "title": "Makeen Technologies (@MakeenTechno) / Posts / X - Twitter",
+        "url": "https://x.com/MakeenTechno",
+        "snippet": "My research emphasized flexibility, clear visual feedback, and international usability, ensuring a seamless experience across devices and regions. UX tips"
+      },
+      {
+        "title": "Jetpack Workflow (@jetpackworkflow) / Posts / X - Twitter",
+        "url": "https://x.com/jetpackworkflow",
+        "snippet": "Accounting workflow software that helps accountants, bookkeepers, and firm owners easily standardize, automate, and track client work."
+      },
+      {
+        "title": "ash (@aschlstrt) / Posts / X - Twitter",
+        "url": "https://x.com/aschlstrt",
+        "snippet": "Taste develops through exposure. Specifically: Exposure to the best things humans have created. Architecture. Photography. Fashion. Design. Music. Film. Art."
+      },
+      {
+        "title": "sari azout (@sariazout) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/sariazout/with_replies",
+        "snippet": "Sublime makes a brief appearance, described as: \u201da bookmarking app that promises to build a library that reflects your taste, with the help of A.I.-driven ..."
+      },
+      {
+        "title": "Akash Pasricha (@akashpasricha) / Posts / X - Twitter",
+        "url": "https://x.com/akashpasricha",
+        "snippet": "Let me give you an example so you can understand what this actually looks like in practice. I'll tell the AI: \"I want to build this app. Here's what it should ..."
+      },
+      {
+        "title": "fred chung (@fredland) / Posts / X",
+        "url": "https://x.com/fredland",
+        "snippet": "Let me give you an example so you can understand what this actually looks like in practice. I'll tell the AI: \"I want to build this app. Here's what it should ..."
+      },
+      {
+        "title": "Google Gemini (@GeminiApp) / Posts / X - Twitter",
+        "url": "https://x.com/GeminiApp",
+        "snippet": "The Gemini app turns research into reality, bringing frontier AI experiences like Veo 3.1, Deep Think, Nano Banana, and more to hundreds of millions of people."
+      },
+      {
+        "title": "Ryan Leger #WeWantAHulkMovie #ReleaseTheTrankCut ... - Twitter",
+        "url": "https://x.com/RyanLeger2/status/1876801819500073127",
+        "snippet": "There is a good movie in there...somewhere. Underneath all those reshoots and that blatant continuity errors, lack of character development between the team ..."
+      },
+      {
+        "title": "For everyone who still wants this and hasn't received, it is ... - Twitter",
+        "url": "https://x.com/kamal_razzak/status/2042923712270184811",
+        "snippet": "The top 10% of marketers make all the money. If you make a 10% better ad, you get 100% better results. It's an exponential game. It's extremely important to ..."
+      },
+      {
+        "title": "Zvi Mowshowitz (@TheZvi) on X",
+        "url": "https://x.com/TheZvi/status/1974078154785374445",
+        "snippet": "Solo: I asked Sora 2 to create a 90s Toy Ad of Epstein's Island. Sora does a good job creating exactly what you would want a video generation tool to do here."
+      },
+      {
+        "title": "I OWN THIS BOOK. I bought a copy for my brother, too (but he still ...",
+        "url": "https://x.com/DanielleLangWa/status/2012577360995111371",
+        "snippet": "In this book, you will encounter many different people from my hometown in Northeast Georgia. To help you keep them all straight, here's a list of everyone you ..."
+      },
+      {
+        "title": "FireRedGoji_2000 (@fireredgoji) / Posts and Replies / X",
+        "url": "https://x.com/fireredgoji/with_replies",
+        "snippet": "They are definitely there, but unfortunately, the negative reviews boomed more popular because the internet really thrives off of negativity."
+      },
+      {
+        "title": "The number of takes I've read about the clipping economy ... - Twitter",
+        "url": "https://x.com/zachbussey/status/2044501719594201181",
+        "snippet": "In reality, it feels much more like the natural outcome in a world pushed to consume the same homogeneous short-video content format across every app, with ..."
+      },
+      {
+        "title": "X pushed an update which changed the UX of your mobile device ...",
+        "url": "https://x.com/WorldWideWob/status/1994441033506029605",
+        "snippet": "\u201cOMG\u201d is going to require serious interaction to make the \u201cPopular\u201d timeline in the first place, and even if it ends up on there: by the time a \u201cPopular\u201d ..."
+      },
+      {
+        "title": "I honestly think the new algo is much better, and this is why: Every ...",
+        "url": "https://x.com/bitforth/status/2046975618617688126",
+        "snippet": "Then again, this is not creator-hostile. Every mechanic punishes the same behavior bot-like behavior: strategic optimization, content calendars, engagement ..."
+      },
+      {
+        "title": "Over the last few months, I've seen a ton of my streamer friends and ...",
+        "url": "https://x.com/Iateyourp1e/status/1821883771043332222",
+        "snippet": "Over the last few months, I've seen a ton of my streamer friends and mutuals openly talk about the challenges of fitting in with the Twitch Space."
+      },
+      {
+        "title": "Better to be lovely than popular. But popular is the glittering path. So ...",
+        "url": "https://x.com/EconTalker/status/2038805054602289387",
+        "snippet": "You notice your audience is getting younger, more online, more radicalized\u2014and instead of pushing back with the credibility you spent decades building, you ..."
+      },
+      {
+        "title": "Flixi - Your Movie & TV Assistant (@flixiai) / Posts / X - Twitter",
+        "url": "https://x.com/flixiai",
+        "snippet": "Your AI-generated personal assistant, Flixi, will recommend you the shows you will definitely love! Download the app: flixi.com \u00b7 #flixi #tvshowprovider # ..."
+      },
+      {
+        "title": "Cronica: Your Personal Watchlist (@CronicaApp) / Posts / X - Twitter",
+        "url": "https://x.com/CronicaApp",
+        "snippet": "Cronica: Your Personal Watchlist (@CronicaApp) - Posts - The sleek and minimalist watch list app for movie and TV enthusiasts. Download now for free."
+      },
+      {
+        "title": "Reklist (@ReklistOfficial) / Posts / X - Twitter",
+        "url": "https://x.com/reklistofficial",
+        "snippet": "Reklist (@ReklistOfficial) - Posts - Under the radar & personalized recommendations from people who know your tastes best. public.reklis."
+      },
+      {
+        "title": "FLIBO (@flibo_ai) / Posts / X",
+        "url": "https://x.com/flibo_ai",
+        "snippet": "FLIBO (@flibo_ai) - Posts - Experience personalized discovery across streaming platforms | X (formerly Twitter)"
+      },
+      {
+        "title": "Bingeit (@webingeit) / Posts / X - Twitter",
+        "url": "https://x.com/webingeit",
+        "snippet": "Get personalized movie/show recommendations across ott platforms, Discover #WhatToWatchNext with #Bingeit app. Posts. Pinned Post. Bingeit profile. Bingeit."
+      },
+      {
+        "title": "I want to plug an app/website I use every day. They're not paying me ...",
+        "url": "https://x.com/mikemovies/status/2006159792805499325",
+        "snippet": "The app/site is called Just Watch. It's free. You search any movie, and it tells you what streaming services it is available on, the quality (SD, HD, 4k), ..."
+      },
+      {
+        "title": "Pleydia App - Twitter",
+        "url": "https://x.com/Pleydia",
+        "snippet": "Pleydia Organizer 2.0 now auto-detects TV files and switches to Series for you. No more re-dragging because you dropped on Movies by mistake. Just drag & drop."
+      },
+      {
+        "title": "Instead of watching a movie, here's a FULL COURSE ON LOVABLE",
+        "url": "https://x.com/alex_prompter/status/2019788887246123490",
+        "snippet": "Lovable remembers your project structure, design choices, and previous requests. The more you build, the better it understands your specific app and preferences ..."
+      },
+      {
+        "title": "Media Studio Producer - X Help Center",
+        "url": "https://help.x.com/en/using-x/how-to-use-live-producer",
+        "snippet": "Producer in Media Studio allows live video content creators to easily create high-quality broadcasts from external sources including streaming software, ..."
+      },
+      {
+        "title": "Communities Recommendations - X Help Center - Twitter",
+        "url": "https://help.x.com/en/resources/recommender-systems/communities-recommendations",
+        "snippet": "Communities on X were created to give people a dedicated place to connect, share, and get closer to the discussions they care about most."
+      },
+      {
+        "title": "Aditya Sharma (@aditya_sharma) on X",
+        "url": "https://x.com/Adityaaa_Sharma/status/1967151348904088000",
+        "snippet": "I've streamed before on other platforms, I've used OBS, I've gone through the motions of setting up a camera and a mic, but PumpFun live streaming is its own ..."
+      },
+      {
+        "title": "Steve Fau (@steve_fau) / Posts / X",
+        "url": "https://x.com/steve_fau",
+        "snippet": "I built 10 apps in 10 months and make $800,000/yr ( full guide ). My first app made $20,000 in the first 30 days of launching ... completely rip the onboarding ..."
+      },
+      {
+        "title": "Michael Gold (@michaelgold) / Highlights / X",
+        "url": "https://x.com/michaelgold/highlights",
+        "snippet": "This guide walks you through every step: installation, optimal settings for text-to-video and image-to-video, the nodes that save you VRAM and time, and the ..."
+      }
+    ],
+    "reddit_phase2": [
+      {
+        "title": "Movie buffs - What apps do you use to manage your movie lists?",
+        "url": "https://www.reddit.com/r/movies/comments/1gxywl9/movie_buffs_what_apps_do_you_use_to_manage_your/",
+        "snippet": "I highly recommend \"Take2: Movies & Shows\". They're a lesser-known app but have a great UI and a fun and interactive ranking system for building a watchlist ..."
+      },
+      {
+        "title": "What are the most popular shows on right now that are actually good?",
+        "url": "https://www.reddit.com/r/televisionsuggestions/comments/1did5p0/what_are_the_most_popular_shows_on_right_now_that/",
+        "snippet": "Servant, Black Bird, Severance, Devs, Silo, all in my top favorite watches, and I'm currently watching Presumed Innocent and it's great so far."
+      },
+      {
+        "title": "Are we in a TV/Streaming lull, or am I just jaded? - Reddit",
+        "url": "https://www.reddit.com/r/AskMenOver30/comments/1nq33dx/are_we_in_a_tvstreaming_lull_or_am_i_just_jaded/",
+        "snippet": "I can try Yellowstone. The Boys has fallen off. Is Black Mirror still good? I would put that into the list of great shows up to 2020. And yeah, I like Reacher."
+      },
+      {
+        "title": "Those with a college degree in theatre, what did you do ... - Reddit",
+        "url": "https://www.reddit.com/r/Theatre/comments/1ki2dde/those_with_a_college_degree_in_theatre_what_did/",
+        "snippet": "I did a BFA, an MFA, did freelance, and am now a professor in costumes. My students often work in the entertainment industry (theater, film/tv and corporate ..."
+      },
+      {
+        "title": "Getting frustrated transitioning from theater to film : r/acting - Reddit",
+        "url": "https://www.reddit.com/r/acting/comments/1ly39hr/getting_frustrated_transitioning_from_theater_to/",
+        "snippet": "I'm just finding it difficult, and don't want to bog down my acting because I'm thinking about how my mouth is naturally moving. Does anyone have any advice or ..."
+      },
+      {
+        "title": "Two years into a theatre degree, getting second thoughts. - Reddit",
+        "url": "https://www.reddit.com/r/Theatre/comments/1f3seds/two_years_into_a_theatre_degree_getting_second/",
+        "snippet": "I changed majors and to this day don't regret a thing. I worked steadily at different venues all over the East Coast. Build a network, and you will work ..."
+      },
+      {
+        "title": "I've been using social listening tools for 3 years - Reddit",
+        "url": "https://www.reddit.com/r/SocialMediaManagers/comments/1qtwn1h/ive_been_using_social_listening_tools_for_3_years/",
+        "snippet": "Meltwater. This is what we use now. \u00b7 Brandwatch. Now under Cision, this is very strong for deep consumer intelligence. \u00b7 Sprinklr. Enterprise-grade and very ..."
+      },
+      {
+        "title": "GlobeNewswire (notified) vs CISION vs Business Wire. What's your ...",
+        "url": "https://www.reddit.com/r/PublicRelations/comments/1mcgg00/globenewswire_notified_vs_cision_vs_business_wire/",
+        "snippet": "Business Wire gives top-tier reach and credibility but is the most expensive. Cision offers solid distribution plus extras like media lists and monitoring, ..."
+      },
+      {
+        "title": "What do you want to know about media monitoring? - Reddit",
+        "url": "https://www.reddit.com/r/PublicRelations/comments/1e7wk05/what_do_you_want_to_know_about_media_monitoring/",
+        "snippet": "We had Cision and Talkwalker for traditional monitoring, and if I was just pulling the coverage and translating to a report, I'd go Cision just because of ..."
+      },
+      {
+        "title": "Alternatives to ChatGPT - an open conversation : r/MyBoyfriendIsAI",
+        "url": "https://www.reddit.com/r/MyBoyfriendIsAI/comments/1rhvwn3/alternatives_to_chatgpt_an_open_conversation/",
+        "snippet": "I've used Nomi for about 7 months now. Their memory system is AMAZING, and their devs are very responsive on Reddit and Discord. Their images just improved too, ..."
+      },
+      {
+        "title": "What's good alternative for chatgpt? : r/ArtificialInteligence - Reddit",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e8rhcf/whats_good_alternative_for_chatgpt/",
+        "snippet": "Try out our AI solution, Covertly! We combine 5 LLMs; ChatGPT, LLaMA, Gemini, Claude, and Uncensored Dolphin into 1 unified platform. More importantly, unlike ..."
+      },
+      {
+        "title": "Besides chatGPT, here's the few AI I use that are ACTUALLY helpful",
+        "url": "https://www.reddit.com/r/GPT3/comments/1n5i6fi/besides_chatgpt_heres_the_few_ai_i_use_that_are/",
+        "snippet": "ChatGPT - still my main AI for brainstorming, writing, and image generation. \u00b7 Manus / Genspark - AI agents that actually do stuff for you, handy in heavy ..."
+      },
+      {
+        "title": "Plex end of remote access :( Switch to Jellyfin or buy Plex pass",
+        "url": "https://www.reddit.com/r/selfhosted/comments/1jfr9ej/plex_end_of_remote_access_switch_to_jellyfin_or/",
+        "snippet": "Plex has a level of polish that Jellyfin doesn't have yet and has better support for various devices. If you have family using your setup, Plex is generally ..."
+      },
+      {
+        "title": "After over a decade of Plex (mostly) working great, the past few ...",
+        "url": "https://www.reddit.com/r/PleX/comments/1l9reb1/after_over_a_decade_of_plex_mostly_working_great/",
+        "snippet": "I'm a pretty frustrated paying user... When the app switched to the new interface, my youngest son's downloads all got labeled as \"legacy\" with no pictures."
+      },
+      {
+        "title": "Should I continue with Plex? - Reddit",
+        "url": "https://www.reddit.com/r/PleX/comments/1miczvd/should_i_continue_with_plex/",
+        "snippet": "My cousin has been very adamant about me leaving plex and going to Jellyfin, but I love the ease of use of Plex. Thanks in advance for the advice!"
+      },
+      {
+        "title": "Celebrity sightings? : r/Lollapalooza - Reddit",
+        "url": "https://www.reddit.com/r/Lollapalooza/comments/1en8s73/celebrity_sightings/",
+        "snippet": "I saw former Chicago Cubs player (2004-2012), 2x World Series champion and member of the Canadian Hall of Fame (2019), Ryan Dempster at Blink-182."
+      },
+      {
+        "title": "How are people actually able to stream both to Twitch and TT?",
+        "url": "https://www.reddit.com/r/Twitch/comments/1ohwshs/how_are_people_actually_able_to_stream_both_to/",
+        "snippet": "I've tried every conceivable alternative. Wasn't approved for restream so I tried to find other third-party workarounds like Loola Tv, StreamYard, Yolocast, ..."
+      },
+      {
+        "title": "Coca Cola has replaced artists with AI. They couldn't even get their ...",
+        "url": "https://www.reddit.com/r/graphic_design/comments/1hkf12y/coca_cola_has_replaced_artists_with_ai_they/",
+        "snippet": "It's crazy how a major corporation can be so lazy with this. They couldn't be bothered with at least having an artist go over the AI render and cleaning it up."
+      },
+      {
+        "title": "Tried every conceivable alternative to stream to both Twitch and TT ...",
+        "url": "https://www.reddit.com/r/streaming/comments/1ohutor/tried_every_conceivable_alternative_to_stream_to/",
+        "snippet": "Of course popular Restream was blocked, but I tried several third party platforms to bypass traditional manual input. Loola TV, StreamYard, Yolocast\u2026"
+      },
+      {
+        "title": "Scoreboard Options? : r/YoloBox - Reddit",
+        "url": "https://www.reddit.com/r/YoloBox/comments/1fz7tb1/scoreboard_options/",
+        "snippet": "The YoloCast website has a scoreboard maker, and you can also use Uno overlays (apps.overlays.uno)."
+      },
+      {
+        "title": "24/7 Stream Options? : r/VIDEOENGINEERING - Reddit",
+        "url": "https://www.reddit.com/r/VIDEOENGINEERING/comments/1ithlf7/247_stream_options/",
+        "snippet": "I've compared a bunch of live streaming platforms out there, like castr, retream, vimeo ..YoloCast is by far the most affordable and feature packed one I've ..."
+      },
+      {
+        "title": "Is there any self-hosted alternative to Restream? : r/streaming - Reddit",
+        "url": "https://www.reddit.com/r/streaming/comments/1n32hxu/is_there_any_selfhosted_alternative_to_restream/",
+        "snippet": "Check out Owncast, though, it just wants to stream to your own server, and is a great alternative to Restream. To implement multi-streaming, ..."
+      },
+      {
+        "title": "TribeNest: Free and open source alternative to restream, streamyard ...",
+        "url": "https://www.reddit.com/r/selfhosted/comments/1ol3siv/tribenest_free_and_open_source_alternative_to/",
+        "snippet": "TribeNest: Free and open source alternative to restream, streamyard, streamlabs \u00b7 Build a quick website \u00b7 Build email lists and send emails \u00b7 Create linktrees."
+      },
+      {
+        "title": "Reliable Alternative to RESTREAM? SRT too pricey) : r/Restreamio",
+        "url": "https://www.reddit.com/r/Restreamio/comments/1i6pl9k/reliable_alternative_to_restream_srt_too_pricey/",
+        "snippet": "What would you suggest as a reliable option to RS? We have used RS for a few years now, but because of issues with our ISP, we want to use SRT Ingest option ..."
+      },
+      {
+        "title": "Annoyed by Streamyard, looking for alternatives. : r/podcasting",
+        "url": "https://www.reddit.com/r/podcasting/comments/1g8oyrj/annoyed_by_streamyard_looking_for_alternatives/",
+        "snippet": "i landed on reastream. not much better on price, but works well. I just couldn't stand to stay with streamyard. I also didn't love riversides studio so ..."
+      },
+      {
+        "title": "Alternatives to StreamYard : r/podcasting - Reddit",
+        "url": "https://www.reddit.com/r/podcasting/comments/1htq7jg/alternatives_to_streamyard/",
+        "snippet": "You might want to explore platforms like Hopin or Airmeet, especially if you're after branded spaces and concurrent session hosting (conference \u201ctracks\u201d style)."
+      },
+      {
+        "title": "Alternatives to Streamyard : r/podcasting - Reddit",
+        "url": "https://www.reddit.com/r/podcasting/comments/1gp6q20/alternatives_to_streamyard/",
+        "snippet": "It depends on what you're trying to do. Riverside is definitely the best paid option, and is also integrating with Spotify for Podcasters now."
+      },
+      {
+        "title": "Alternatives? : r/Napster - Reddit",
+        "url": "https://www.reddit.com/r/Napster/comments/1ndg0qn/alternatives/",
+        "snippet": "From all I've heard, Tidal has the best audio. I'd say listen to the free versions before you choose. YT is so-so with audio. If you're pro musicians, that ..."
+      },
+      {
+        "title": "What replaced programs like Napster, Kazaa, and Limewire? - Reddit",
+        "url": "https://www.reddit.com/r/Millennials/comments/1cghqjm/what_replaced_programs_like_napster_kazaa_and/",
+        "snippet": "Alternatives to Napster, Kazaa, and Limewire. File sharing programs from the 2000s. Comparison of Localsend and KDE Connect. Best file sharing apps."
+      },
+      {
+        "title": "What file sharing software did you use? Trying to remember them all ...",
+        "url": "https://www.reddit.com/r/nostalgia/comments/1g9nxap/what_file_sharing_software_did_you_use_trying_to/",
+        "snippet": "First? Probably BBS services. Then likely moved to Napster, Morpheus, Kazaa, then Bittorrent. Demonoid was my go-to. Research purposes, of course. [deleted]. \u2022 ..."
+      },
+      {
+        "title": "New Letterboxd Alternative : r/A24 - Reddit",
+        "url": "https://www.reddit.com/r/A24/comments/1krm2jj/new_letterboxd_alternative/",
+        "snippet": "Bingeable is essentially Letterboxd with a bunch of features I wish it had. For example, there's TV shows, there's a bigger focus on interacting with your ..."
+      },
+      {
+        "title": "Have you ever used another movie rating app other than Letterboxd?",
+        "url": "https://www.reddit.com/r/Letterboxd/comments/1dcpwa7/have_you_ever_used_another_movie_rating_app_other/",
+        "snippet": "Whereas Letterbox rates in half scales from 0.5 stars-5 stars, Taste has a 4 star system - Awful, Meh, Good & Amazing. I like the fidelity of Letterboxd's ..."
+      },
+      {
+        "title": "What's the best alternative to Letterboxd? - Reddit",
+        "url": "https://www.reddit.com/r/Letterboxd/comments/1ny4ez9/whats_the_best_alternative_to_letterboxd/",
+        "snippet": "Filmweb is decent and has been trying really hard to become like Letterboxd lately. However, this website is only available in Polish, which is the biggest ..."
+      },
+      {
+        "title": "Alternatives to Last.fm? : r/musichoarder - Reddit",
+        "url": "https://www.reddit.com/r/musichoarder/comments/1rjdjkt/alternatives_to_lastfm/",
+        "snippet": "There is LiztenBrainz which seems to be the most popular alternative. There is also Maloja if you want to selfhost it. https://listenbrainz.org/"
+      },
+      {
+        "title": "Any easy-to-stream alternatives to Spotify that also work with last.FM?",
+        "url": "https://www.reddit.com/r/lastfm/comments/1lm5xvm/any_easytostream_alternatives_to_spotify_that/",
+        "snippet": "You can definitely use Panoscrobbler with Tidal and probably most other streaming services. The app lets you choose what other apps you want to scrobble from."
+      },
+      {
+        "title": "Leaving Spotify - best alternate service for scrobbling? : r/lastfm",
+        "url": "https://www.reddit.com/r/lastfm/comments/1pkn8k1/leaving_spotify_best_alternate_service_for/",
+        "snippet": "Tidal works. Just connect your Tidal account to your Last.fm account and you're good to go. Same functionality as Spotify. On MacOS I ..."
+      },
+      {
+        "title": "People that have switched from Spotify, what do you miss from it?",
+        "url": "https://www.reddit.com/r/AppleMusic/comments/1gzyuug/people_that_have_switched_from_spotify_what_do/",
+        "snippet": "I recently switched from Spotify to AM through the Apple One bundle and for the most part I'm almost over all the differences. For me, I miss the user curated ..."
+      },
+      {
+        "title": "For those who switched from Spotify: is there anything you miss?",
+        "url": "https://www.reddit.com/r/AppleMusic/comments/1lz4yez/for_those_who_switched_from_spotify_is_there/",
+        "snippet": "I think the big thing I miss right now is having to switch between apps for podcasts and playlists. I liked that with Spotify I could have it all in one app."
+      },
+      {
+        "title": "Those who left Spotify, how're you finding the apps you switched to?",
+        "url": "https://www.reddit.com/r/KGATLW/comments/1mhp67w/those_who_left_spotify_howre_you_finding_the_apps/",
+        "snippet": "Click on your account icon in the top right, go to settings, go to privacy & data, then at the bottom there is an option for \"transfer playlists from other apps ..."
+      },
+      {
+        "title": "Which streaming app is actually the best? (NuvioTV vs STRMR vs ...",
+        "url": "https://www.reddit.com/r/Nuvio/comments/1s684n0/which_streaming_app_is_actually_the_best_nuviotv/",
+        "snippet": "For Nuvio vs Arvio, Nuvio has more polish and I think would be ahead if you don't need iptv at all. Arvio could catch up but Nuvio has a lot of updates quickly ..."
+      },
+      {
+        "title": "Nuvio advantage over Stremio? - Reddit",
+        "url": "https://www.reddit.com/r/Nuvio/comments/1r73dyv/nuvio_advantage_over_stremio/",
+        "snippet": "It just runs lot faster and smoother than Stremio. No annoying buffering problems and random Switching to LibVLC errors. And it looks better."
+      },
+      {
+        "title": "My Personal Top 3 Apps to Use with Real-Debrid (2026) - Reddit",
+        "url": "https://www.reddit.com/r/RealDebrid/comments/1rfnkmf/my_personal_top_3_apps_to_use_with_realdebrid_2026/",
+        "snippet": "Been using Real-Debrid daily for a long time and tried a lot of apps. These are the 3 I keep coming back to. Syncler. My main app."
+      },
+      {
+        "title": "I'm considering switching to qobuz. what are the pros and cons ...",
+        "url": "https://www.reddit.com/r/qobuz/comments/1d01ww2/im_considering_switching_to_qobuz_what_are_the/",
+        "snippet": "Qobuz is great! The only con for me is that you can't personalise your profile/playlists with cover images, it also doesn't have that 'social element' of ..."
+      },
+      {
+        "title": "Thoughts After Switching From Spotify : r/qobuz - Reddit",
+        "url": "https://www.reddit.com/r/qobuz/comments/1oz7owo/thoughts_after_switching_from_spotify/",
+        "snippet": "I am quite happy with its connect function. I also find it is easier to find classical titles in Qobuz than in Spotify which is optimized for pop music rather ..."
+      },
+      {
+        "title": "[DISCUSSION] Is Qobuz worth switching to? : r/indieheads - Reddit",
+        "url": "https://www.reddit.com/r/indieheads/comments/1ovs0m0/discussion_is_qobuz_worth_switching_to/",
+        "snippet": "I've been using Qobuz for almost a year and I would't go back to Spotify. Yes, the user interface is miles worse, but apart from that, it has most of Spotify's ..."
+      },
+      {
+        "title": "Any Play Store streaming apps for Android TV? (Stremio alternative?)",
+        "url": "https://www.reddit.com/r/AndroidTV/comments/1sfux4k/any_play_store_streaming_apps_for_android_tv/",
+        "snippet": "Strmr is a good one in the play store. ... Works on the same add ons. ... Debrid Stream is your best bet. It's the easiest to set up compared to all the other new ..."
+      },
+      {
+        "title": "Stremio Alternatives : r/RealDebrid - Reddit",
+        "url": "https://www.reddit.com/r/RealDebrid/comments/1rla7gj/stremio_alternatives/",
+        "snippet": "Nuvio is very similar to Stremio, even uses Stremio add-ons. It's more customizable and has more functionality than Stremio. I especially like the Profiles ..."
+      },
+      {
+        "title": "Out of market streaming : r/TampaBayLightning - Reddit",
+        "url": "https://www.reddit.com/r/TampaBayLightning/comments/1n69cbr/out_of_market_streaming/",
+        "snippet": "Have there been any announcements about being able to stream games if you're out of market or traveling? I live outside of FL and have historically been ..."
+      },
+      {
+        "title": "[CHSN] Chicago Sports Network will offer direct-to-consumer option ...",
+        "url": "https://www.reddit.com/r/chicagobulls/comments/1gr8j1c/chsn_chicago_sports_network_will_offer/",
+        "snippet": "I don't think we're far off from $30-$40 a month for a streamer unless, for example, you want to lock in a yearly price of $160 to \u201csave.\u201d."
+      },
+      {
+        "title": "T-bars and surface lifts. Longest, most interesting, historic, rarely used.",
+        "url": "https://www.reddit.com/r/icecoast/comments/1q2m4fd/tbars_and_surface_lifts_longest_most_interesting/",
+        "snippet": "Glad they switched to the T-bar. ... It's only used for race training now & not open to the public. https://www.newenglandskihistory.com/lifts/viewlift.php?id=69."
+      },
+      {
+        "title": "Personal Win - I'm out of loan apps - Zype, Kreditbee, others - Reddit",
+        "url": "https://www.reddit.com/r/personalfinanceindia/comments/1inun0w/personal_win_im_out_of_loan_apps_zype_kreditbee/",
+        "snippet": "I repaid all the loan. I didn't save anything for a few months but it was worth it. I deleted those apps and I'm out of that cycle."
+      },
+      {
+        "title": "Stuck in a Debt trap - Need help/advice : r/personalfinanceindia",
+        "url": "https://www.reddit.com/r/personalfinanceindia/comments/1cw79uf/stuck_in_a_debt_trap_need_helpadvice/",
+        "snippet": "Zype App: 25000 outstanding, 6000 per month EMI. Mobikwik ZIP: 19000 outstanding ... better solution than filing bankruptcy. Sudden-Fox-6743. OP \u2022 2y ago."
+      },
+      {
+        "title": "Create a video streaming app in 2025: build it yourself or use a ...",
+        "url": "https://www.reddit.com/r/Broadcasting/comments/1qiqiae/create_a_video_streaming_app_in_2025_build_it/",
+        "snippet": "Do not build this yourself. Way more complex than you think. Check out Viewlift, Zype or many others in the space."
+      },
+      {
+        "title": "Is it good to switch from glue to tabs? : r/PressonNail_Addict - Reddit",
+        "url": "https://www.reddit.com/r/PressonNail_Addict/comments/1qbbcw1/is_it_good_to_switch_from_glue_to_tabs/",
+        "snippet": "Yes, tabs are worth it if nail health matters more than max hold. Personally, I switched from glue to tabs and didn't look back."
+      },
+      {
+        "title": "Who has switched from glue to tabs? : r/PressonNail_Addict - Reddit",
+        "url": "https://www.reddit.com/r/PressonNail_Addict/comments/1mxapsf/who_has_switched_from_glue_to_tabs/",
+        "snippet": "I've switched from extensions, to glue, to now sticky tabs. It really depends on your needs and what look you're going for! I just use bulk tabs sold at a nail ..."
+      },
+      {
+        "title": "Glue vs tabs what actually lasts and lets you reuse nails? - Reddit",
+        "url": "https://www.reddit.com/r/PressonNail_Addict/comments/1quci12/glue_vs_tabs_what_actually_lasts_and_lets_you/",
+        "snippet": "I usually stick with glue for longer events, but for shorter wear, tabs can work if the nail base matches your nail shape well. One set that worked consistently ..."
+      },
+      {
+        "title": "What practice management software do accountants actually like?",
+        "url": "https://www.reddit.com/r/ukaccounting/comments/1ruzuee/what_practice_management_software_do_accountants/",
+        "snippet": "Engager and Karbon seem to be the two go to options at the minute. I'd say the UK is leaning more towards Engager at the minute but I network with a lot of ..."
+      },
+      {
+        "title": "Practice Management Platform : r/Bookkeeping - Reddit",
+        "url": "https://www.reddit.com/r/Bookkeeping/comments/1n2o7nj/practice_management_platform/",
+        "snippet": "TaxDome and Jetpack Workflow are hands-down the most affordable, scalable swaps for Karbon if growth and PIPEDA compliance matter. Both give you tasks, client ..."
+      },
+      {
+        "title": "For anyone who moved from Canopy or Jetpack to something else ...",
+        "url": "https://www.reddit.com/r/Accounting/comments/1s48mq7/for_anyone_who_moved_from_canopy_or_jetpack_to/",
+        "snippet": "Jetpack always felt workflow-only to me (no portal, no billing), so the calculus there is different. What was your tipping point?"
+      },
+      {
+        "title": "Greta AI vs Lovable/Bolt - what's your take? : r/vibecoding - Reddit",
+        "url": "https://www.reddit.com/r/vibecoding/comments/1nvv6vy/greta_ai_vs_lovablebolt_whats_your_take/",
+        "snippet": "Greta AI looks decent for quick/simple builds, but Lovable is better for UI polish and integrations, while Bolt.new is faster for prototyping (though sometimes ..."
+      },
+      {
+        "title": "I tested and ranked every vibe-coding platform I could find - Reddit",
+        "url": "https://www.reddit.com/r/vibecoding/comments/1lj7lvs/i_tested_and_ranked_every_vibecoding_platform_i/",
+        "snippet": "Bolt. \u00b7 Lovable. \u00b7 Replit \u2013 Prompt to deploy in one tab, best for coders \u00b7 Base44 \u2013 Great for auth and DB \u00b7 Davia \u2013 Gmail, Slack, Calendar : great for business ..."
+      },
+      {
+        "title": "What's the easiest and fastest no-code tool for my project? : r/nocode",
+        "url": "https://www.reddit.com/r/nocode/comments/1niefh4/whats_the_easiest_and_fastest_nocode_tool_for_my/",
+        "snippet": "If speed is your main goal, you could try blink.new or Lovable. Both are great for spinning up an MVP quickly without worrying about the heavy backend setup, ..."
+      },
+      {
+        "title": "Which text editor better: sublime text or notepad++? : r/FreeCodeCamp",
+        "url": "https://www.reddit.com/r/FreeCodeCamp/comments/1mijky0/which_text_editor_better_sublime_text_or_notepad/",
+        "snippet": "For quick text edits, notepad++ is much faster and has some useful plugins. Sublime is also good, but it's slower, you might as well use vscode if you're ..."
+      },
+      {
+        "title": "Advice on which text editor to use: Zed, Sublime or Neovim - Reddit",
+        "url": "https://www.reddit.com/r/software/comments/1jnspah/advice_on_which_text_editor_to_use_zed_sublime_or/",
+        "snippet": "I like and use Zed, it's the editor of the future with excellent support for AI, but it's not easily extensible, I need to learn Rust to do any customization ..."
+      },
+      {
+        "title": "I really like Sublime Text but I need to ditch it :-( : r/SublimeText",
+        "url": "https://www.reddit.com/r/SublimeText/comments/1rqthly/i_really_like_sublime_text_but_i_need_to_ditch_it/",
+        "snippet": "Yes, if you need VSCode extensions, Sublime won't work as well for you. This should not be a surprise. If it is just AI ..."
+      },
+      {
+        "title": "It's been a week... Do you regret switching to Gemini? - Reddit",
+        "url": "https://www.reddit.com/r/googlehome/comments/1oqgndc/its_been_a_week_do_you_regret_switching_to_gemini/",
+        "snippet": "I think Gemini is terrible!! It told me the wrong day of the year and week recently. The Routines don't all work! I want to go back to Google Assistant."
+      },
+      {
+        "title": "Is there really NO way to revert from Gemini back to Assistant? - Reddit",
+        "url": "https://www.reddit.com/r/googlehome/comments/1qcoyg9/is_there_really_no_way_to_revert_from_gemini_back/",
+        "snippet": "I spoke to Google Home engineers and they said the only way to get rid of Gemini is to create a new home and re-add all of your devices again. I have about 18 ..."
+      },
+      {
+        "title": "so, everybody switching to gemini now? : r/ChatGPT - Reddit",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1pcyjar/so_everybody_switching_to_gemini_now/",
+        "snippet": "I was using Gpt plus consistently for my health related questions-and feel like no other ai could answer them as detailed as gpt."
+      },
+      {
+        "title": "Better alternatives? : r/SoraAi - Reddit",
+        "url": "https://www.reddit.com/r/SoraAi/comments/1k18pjz/better_alternatives/",
+        "snippet": "I prefer Kling AI because Sora is slow, doesn't work 50% due to server load activity and only lets me make 1 or 2 vids if I'm lucky. So for a professional fast ..."
+      },
+      {
+        "title": "OPENAI SHUTTING DOWN SORA - BEST ALTERNATIVES : r/SoraAi",
+        "url": "https://www.reddit.com/r/SoraAi/comments/1s2plw8/openai_shutting_down_sora_best_alternatives/",
+        "snippet": "Dream Machine \u2014 really strong for photoreal and image-to-video stuff. \u00b7 Slop Club \u2014 this is honestly the most flexible one imo. \u00b7 Kling \u2014 probably the best for ..."
+      },
+      {
+        "title": "Good alternatives for Sora? : r/OpenAI - Reddit",
+        "url": "https://www.reddit.com/r/OpenAI/comments/1s2xisg/good_alternatives_for_sora/",
+        "snippet": "I've been testing a few since Sora started fading out. Kling is great for motion, Runway feels more polished, and Luma Dream Machine is decent for quick stuff."
+      },
+      {
+        "title": "Video Prospecting: Still Underused, But Seriously Effective, anyone ...",
+        "url": "https://www.reddit.com/r/LeadGeneration/comments/1k6878u/video_prospecting_still_underused_but_seriously/",
+        "snippet": "Record short 30\u201360 sec personalized videos (mention something specific to them \u2014 recent post, company update, etc.). Use tools like Loom, Vidyard, or Sendspark ..."
+      },
+      {
+        "title": "what are your most valuable prospecting tools these days? : r/sales",
+        "url": "https://www.reddit.com/r/sales/comments/1pqngk8/enterprise_sellers_what_are_your_most_valuable/",
+        "snippet": "I used amplemarket for data, signals and sequencing and sendspark for videos. Still use both and I looove sendspark, I use it for prospecting, answering ..."
+      },
+      {
+        "title": "Best cold emailing tool in the market for B2B SaaS company? - Reddit",
+        "url": "https://www.reddit.com/r/coldemail/comments/1g1xusw/best_cold_emailing_tool_in_the_market_for_b2b/",
+        "snippet": "Apollo's a solid choice for finding contacts AND sending emails - their CRM sync is pretty good too. Other options worth checking out are Outreach, Salesloft, ..."
+      }
+    ],
+    "twitter_phase2": [
+      {
+        "title": "Drop in Footfalls - It's about Habit, not just \"Content\". Whatever ...",
+        "url": "https://x.com/Thyview/status/2045152209562906953",
+        "snippet": "Audiences have shifted to OTT and short-form content. Once that habit is gone, you have to work twice as hard to convince them to come back. ... The Missing ..."
+      },
+      {
+        "title": "Take 2 Radio Crew (@Take2RadioCrew) / Posts / X - Twitter",
+        "url": "https://x.com/take2radiocrew",
+        "snippet": "I believe Rory was in a movie with Lauren Swickard. ... ladies and gentlemen the moment when everything changed! ... Shows on @hulu & @peacock just made my day!!!"
+      },
+      {
+        "title": "I know some people always want me to join the console warring, but ...",
+        "url": "https://x.com/thomasmahler/status/1883273827284599091",
+        "snippet": "... Switch and since we knew how important multiplayer and cross play would be, we decided to partner with Take2 instead. In my emails to Phil over the years, I ..."
+      },
+      {
+        "title": "DITRFilms (@DITRFilms) / Posts / X - Twitter",
+        "url": "https://x.com/DITRFilms",
+        "snippet": "We're a showcase for innovate and groundbreaking movies, made by LGBTQ+ filmmakers. Founded in 2020 and based out of San Francisco, SF Queer Film Fest selects ..."
+      },
+      {
+        "title": "armandoki (@armandokirwin) / Posts / X",
+        "url": "https://x.com/armandokirwin",
+        "snippet": "The movie was The Book of Eli. A big lesson from this era is that consumers had no idea that a switch from film to digital had occurred and they didn't care."
+      },
+      {
+        "title": "im home, on wifi, restarted plex server, WTH. Why do I need ...",
+        "url": "https://x.com/dylansreid/status/2044954416743170551",
+        "snippet": "im home, on wifi, restarted plex server, WTH. Why do I need connection to your servers to stream local content. Just uploaded video from mu #1st graders concert ..."
+      },
+      {
+        "title": "I found a Plex client that's faster than the official app. It's called Plezy ...",
+        "url": "https://x.com/Techjunkie_Aman/status/2043980850916930012",
+        "snippet": "I found a Plex client that's faster than the official app. It's called Plezy. And it fixes everything: Performance: \u2022 No transcoding \u2192 instant playback"
+      },
+      {
+        "title": "The New Plex, the Switch 2, and Thunderbird's Email: Weekly ...",
+        "url": "https://x.com/howtogeek/status/1908919151147512180",
+        "snippet": "How-To Geek (@howtogeek). 498 views. The New Plex, the Switch 2, and Thunderbird's Email: Weekly Roundup https://t.co/CNw3aH9VIN."
+      },
+      {
+        "title": "With Plex becoming a minefield of clutter and paywalled features, it's ...",
+        "url": "https://x.com/xdadevelopers/status/1920614782895342013",
+        "snippet": "With Plex becoming a minefield of clutter and paywalled features, it's about time I switched to Jellyfin. 4 reasons Plex is pushing me further and further ..."
+      },
+      {
+        "title": "this always sounds so backhanded when y'all put it this way cause ...",
+        "url": "https://x.com/ComplexSims/status/1978632809389625410",
+        "snippet": "this always sounds so backhanded when y'all put it this way cause why do y'all be talking like naomi was out here acting like alicia fox."
+      },
+      {
+        "title": "RT @infiniteyay: so wild how quickly we shifted to a vertical format ...",
+        "url": "https://x.com/ClownVamp/status/2046997400670122307",
+        "snippet": "so wild how quickly we shifted to a vertical format world. still love me some horizontal art. wonder when movie theater will make the switch lol."
+      },
+      {
+        "title": "Rewatching PA and I really like her commentary to William. The ...",
+        "url": "https://x.com/LoveForWilly/status/2046239785673723989",
+        "snippet": "Rewatching PA and I really like her commentary to William. The details she pointed out and she said it like watching a theater performance, the way he moved ..."
+      },
+      {
+        "title": "quick update from the movie theater",
+        "url": "https://x.com/seagreenkey/status/2040542589032473078",
+        "snippet": "quick update from the movie theater: so many people here either brought their switches, or have a mario/luigi caps, or are ik full blown costumes. this is ..."
+      },
+      {
+        "title": "Super Rare Games",
+        "url": "https://x.com/SuperRareGames/status/2020139005786910823",
+        "snippet": "BAD END THEATER IS OUT! A theater packed with big bad endings. Choose wisely\u2026or don't. Grab your Switch physical, the show's about to start!"
+      },
+      {
+        "title": "McNeese Theatre Presents \u201cThe Flick\u201d",
+        "url": "https://x.com/McNeese/status/2046212737819124115",
+        "snippet": "What if the audience and the actors switched places? McNeese State University's W.A. and Dorothy Hanna Department of Performing Arts presents \"The Flick\" on ..."
+      },
+      {
+        "title": "decisio media (@decisioMedia) / Posts / X",
+        "url": "https://x.com/decisioMedia",
+        "snippet": "I'm building decisio media\u2014a swipe-based platform to help you actually decide what to watch, read, or listen to next. 1289: Stop Scrolling, Start Watching: The ..."
+      },
+      {
+        "title": "every morning, an AI tool suggests topics, angles and reporters ...",
+        "url": "https://x.com/LatAmJournalism/status/2046216205355098232",
+        "snippet": "A tool is changing how decisions are made at the Mexican media group @lasillarota : every morning, an AI tool suggests topics, angles and reporters ..."
+      },
+      {
+        "title": "Someone told me recently that they don't let their team automate ...",
+        "url": "https://x.com/theericcarlson/status/2044063630325371369",
+        "snippet": "Someone told me recently that they don't let their team automate reporting. They want their buyers to manually pull the numbers. Enter them by hand."
+      },
+      {
+        "title": "Thanks Lincoln. Participant is not closed as the media has reported ...",
+        "url": "https://x.com/jeffskoll/status/1812109712587981238",
+        "snippet": "Thanks Lincoln. Participant is not closed as the media has reported. We have films in production that will take us through at least much of 2025."
+      },
+      {
+        "title": "we're making @blocks smaller today. here's my note to the company ...",
+        "url": "https://x.com/jack/status/2027129697092731343",
+        "snippet": "our business is strong. gross profit continues to grow, we continue to serve more and more customers, and profitability is improving. but something has changed."
+      },
+      {
+        "title": "WTF??? ChatGPT switched languages mid-sentence. Yeah, that's ...",
+        "url": "https://x.com/chompie1337/status/2011570774801572324",
+        "snippet": "WTF??? ChatGPT switched languages mid-sentence. Yeah, that's my sign to log off for the day. Chat gpt \u201cslipping\u201d into Russian."
+      },
+      {
+        "title": "Three years ago, ChatGPT launched, and it changed everything, or ...",
+        "url": "https://x.com/johncoogan/status/1995563112884568465",
+        "snippet": "Three years ago, ChatGPT launched, and it changed everything, or nothing, or somewhere in between. It all depends on your perspective."
+      },
+      {
+        "title": "I wasted 6 months fighting with ChatGPT. Then I switched to Claude ...",
+        "url": "https://x.com/orderup/status/2022840471152726368",
+        "snippet": "I wasted 6 months fighting with ChatGPT. Then I switched to Claude & its the best decision I've made all year. Here's what changed."
+      },
+      {
+        "title": "Over the last few months, I've switched from primarily using ChatGPT ...",
+        "url": "https://x.com/ecomchasedimond/status/2041564996279398511",
+        "snippet": "Over the last few months, I've switched from primarily using ChatGPT to mostly using Claude. The only slight downside to Claude for me has been the creative ..."
+      },
+      {
+        "title": "AI startup cofounder, Sidhant Bendre, explains why his company ...",
+        "url": "https://x.com/BusinessInsider/status/2032384124741197930",
+        "snippet": "AI startup cofounder, Sidhant Bendre, explains why his company switched from ChatGPT to Claude before the recent OpenAI backlash."
+      },
+      {
+        "title": "when the letterboxd draft doesn't auto save and i lose my stream of ...",
+        "url": "https://x.com/dicknsn/status/1985172997062238240",
+        "snippet": "when the letterboxd draft doesn't auto save and i lose my stream of consciousness review because i switched apps. daniela's Image on X."
+      },
+      {
+        "title": "letterboxd changing their followers list to \u201cnetwork\u201d",
+        "url": "https://x.com/sanjunipeross/status/1907856140253516037",
+        "snippet": "nat (@sanjunipeross). 32 replies. letterboxd changing their followers list to \u201cnetwork\u201d"
+      },
+      {
+        "title": "Wait did Letterboxd change the tagline for Return of the Jedi ...",
+        "url": "https://x.com/Schaffrillas/status/1895326210709954640",
+        "snippet": "Wait did Letterboxd change the tagline for Return of the Jedi because of my dinky little YouTube video? That's kind of wild"
+      },
+      {
+        "title": "After watching Last Night in Soho, had to switch up my Letterboxd ...",
+        "url": "https://x.com/J_Schiecke/status/2042378429006270851/photo/1",
+        "snippet": "Janelle Schiecke (@J_Schiecke). 13 likes 217 views. After watching Last Night in Soho, had to switch up my Letterboxd favorites!"
+      },
+      {
+        "title": "Finally started taking advantage of my ability to switch posters on ...",
+        "url": "https://x.com/GeenaTheQueena/status/2040234976596119862",
+        "snippet": "Finally started taking advantage of my ability to switch posters on #Letterboxd, and scooched 'Midsommar' for Hedwig. That Titane poster is extra bitchin'."
+      },
+      {
+        "title": "Twitter has changed it's livestreaming to verified premium members ...",
+        "url": "https://x.com/4GTV4/status/1812932041463230970?lang=bg",
+        "snippet": "Twitter has changed it's livestreaming to verified premium members only - our Live Feed can still be found on twitch/our website with links to other sources ..."
+      },
+      {
+        "title": "Seeing Apex pros switching to Deadlock and understanding the ...",
+        "url": "https://x.com/LobanjicaCS/status/1832034024258199943",
+        "snippet": "Seeing Apex pros switching to Deadlock and understanding the potential, makes me hope casuals and aspiring pros from CS2 will do the same. Why?"
+      },
+      {
+        "title": "Crazy to think the only thing that stopped me from joining this ...",
+        "url": "https://x.com/lporiginalg/status/2041607367834644621",
+        "snippet": "Crazy to think the only thing that stopped me from joining this months ago is that I didn't want to switch from Restream to Rumble Studio when studio works ..."
+      },
+      {
+        "title": "Aitum (@AitumTV) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/AitumTV/with_replies",
+        "snippet": "Aitum is saying the can't provide technical support for the version of the software that Restream is now providing even though Restream's documentation says to ..."
+      },
+      {
+        "title": "ReallyReallyLongAThon (@reallylongathon) / Posts / X - Twitter",
+        "url": "https://x.com/reallylongathon",
+        "snippet": "Independent Speedrun and Gaming marathon channel focused on niche runs/runners and long runs. Founder & Co-owner @xeltweet. Community Manager & Co-owner"
+      },
+      {
+        "title": "Loola TV (@LoolaTv) / Posts / X - Twitter",
+        "url": "https://x.com/LoolaTv",
+        "snippet": "We added a new interactive overlays system. New overlays include: Chat, Gifts, Goals, Voice Alerts, Animations, Last Follower/Subscriber any many more."
+      },
+      {
+        "title": "Ariaka (@AriakaDaily) / Posts / X - Twitter",
+        "url": "https://x.com/ariakadaily?lang=bg",
+        "snippet": "Let's change that narrative. Dm me if you need life insurance on yourself or a ... I'm Live via Loola.tv @LoolaTv pscp.tv/w/cBrNrjgxNTcw\u2026 0. 0. 0. 0."
+      },
+      {
+        "title": "The Great LonDini (@TGL_MOVEMENT) / Posts / X - Twitter",
+        "url": "https://x.com/TGL_MOVEMENT",
+        "snippet": "Come check me out! @LoolaTv (streaming via loola.tv) x.com/i/broadcasts/1\u2026"
+      },
+      {
+        "title": "Amber Norell (@ambernorell) / Posts / X - Twitter",
+        "url": "https://x.com/ambernorell",
+        "snippet": "I'm Live via Loola.tv pscp.tv/w/c-XiDHR3LTM5\u2026 0. 0. 2. 0.. Amber Norell ... if you want to join in, switch to NA East, Squads Fill and enter the ..."
+      },
+      {
+        "title": "James (@jameswhittet) / Posts / X - Twitter",
+        "url": "https://x.com/jameswhittet",
+        "snippet": "I'm Live via Loola.tv @LoolaTv x.com/i/broadcasts/1\u2026 0. 0. 0. 252 ... If you want to change your life, change THE QUALITY OF QUESTIONS YOU ASK YOURSELF ..."
+      },
+      {
+        "title": "Streamyard #TheYard (@streamyardapp) / Posts / X - Twitter",
+        "url": "https://x.com/streamyardapp",
+        "snippet": "No more switching to YouTube Studio\u2014you can now control your YouTube Live ad settings without leaving StreamYard! Just select Youtube as a destination, choose ..."
+      },
+      {
+        "title": "Introducing Auto theme mode We've added a new toggle that lets ...",
+        "url": "https://x.com/streamyardapp/status/1975233336923840711",
+        "snippet": "Streamyard #TheYard (@streamyardapp). 404 views. Introducing Auto theme ... switching: enjoy a consistent visual experience across your system."
+      },
+      {
+        "title": "Edit YouTube monetization settings directly in StreamYard No more ...",
+        "url": "https://x.com/streamyardapp/status/2021964510823674002",
+        "snippet": "No more switching to YouTube Studio\u2014you can now control your YouTube Live ad settings without leaving StreamYard! Just select Youtube as a destination, choose ..."
+      },
+      {
+        "title": "no idea what happened",
+        "url": "https://x.com/weremeow/status/1897191832884552018",
+        "snippet": "no idea what happened - strong/unique password, 2fa, all my devices were with me, only connected apps was typefully and streamyard."
+      },
+      {
+        "title": "Guys, I am sorry about my mic being slightly lower tonight ( I dunno ...",
+        "url": "https://x.com/JDfromNY206/status/1932659931246710792",
+        "snippet": "I have fixed the problem. Something with Streamyard, and OBS crossing signals which was lowering my volume automatically. Windows thought to adjust my volume ..."
+      },
+      {
+        "title": "Welp, I'm officially one of those folks who switched from Spotify to ...",
+        "url": "https://x.com/destroytoday/status/1834687455783489627",
+        "snippet": "Welp, I'm officially one of those folks who switched from Spotify to Apple Music. For me, it was the lossless audio quality, which sounds *unreal* compared ..."
+      },
+      {
+        "title": "If you've ever wanted to go from listening to watching without ...",
+        "url": "https://x.com/SpotifyNews/status/1998409633409470915",
+        "snippet": "If you've ever wanted to go from listening to watching without switching apps, it's finally here. Music videos are now rolling out in beta for Spotify ..."
+      },
+      {
+        "title": "Switched back to Spotify (from Apple Music). Far better UI, library ...",
+        "url": "https://x.com/CasJam/status/2042031144686825546",
+        "snippet": "Switched back to Spotify (from Apple Music). Far better UI, library management, and overall music enjoyment experience."
+      },
+      {
+        "title": "Spotify to Launch Music Videos on Platform in United States",
+        "url": "https://x.com/Variety/status/1988704602401738895",
+        "snippet": "Spotify has announced plans to bring music videos to its platform in the US. Users will be able to switch between audio and video with the tap of a button."
+      },
+      {
+        "title": "Spotify users will be able to switch off videos by the end of April.",
+        "url": "https://x.com/memphisnews/status/2042414868259537075",
+        "snippet": "All Spotify users will be able to switch off videos by the end of April. Spotify will soon let you turn off all videos. Here's how. www.commercialappeal.com."
+      },
+      {
+        "title": "25 years ago, Napster changed how we listen to music forever",
+        "url": "https://x.com/mrtetard/status/1797272839415906735",
+        "snippet": "Listen Now: 25 years ago, Napster changed how we listen to music forever. Weekend Edition Sunday on NPR One | 4:55. one.npr.org."
+      },
+      {
+        "title": "@RyanJones It really doesn't matter if it is theft or not. The cat is out ...",
+        "url": "https://x.com/BrentDPayne/status/1791088382807777666",
+        "snippet": "Napster changed the music industry forever. There was no chance digital music was going away after Napster. There's no way LLMs or AIs or whatever are going ..."
+      },
+      {
+        "title": "It is always a cat and mouse game, one Google search and there's ...",
+        "url": "https://x.com/levelsio/status/2012580822000320998",
+        "snippet": "... switched to Kazaa, Limewire, Soulseek, and later Bittorrent The only thing ... A good example is Napster en.wikipedia.org/wiki/Napster Napster allowed ..."
+      },
+      {
+        "title": "jon vlassopulos (@vlasso) / Posts / X - Twitter",
+        "url": "https://x.com/vlasso",
+        "snippet": "I have some news to share! I am joining @napster as it's new CEO. Super excited to work with our talented team, amazing investors, industry friends and ..."
+      },
+      {
+        "title": "The Mike Jackson take and the Travis makes a lot of sense. Made ...",
+        "url": "https://x.com/prezidentyoung/status/2047034945298640904",
+        "snippet": "The music didn't get less valuable; the distribution layer changed, and the people who owned the distribution layer captured the shift. The iPod, not Napster, ..."
+      },
+      {
+        "title": "Qobuz",
+        "url": "https://x.com/qobuz/status/2041867425973432437",
+        "snippet": "Since each audio quality corresponds to a separate file, switching quality often allows the player to retrieve a healthy version and work around the issue. This ..."
+      },
+      {
+        "title": "Qobuz's new features could tempt you to switch from Spotify",
+        "url": "https://x.com/T3dotcom/status/1786335490829898136",
+        "snippet": "T3.com (@T3dotcom). 869 views. Qobuz's new features could tempt you to switch from Spotify."
+      },
+      {
+        "title": "i have ten years worth of playlists/saved music on this account\u2026..im ...",
+        "url": "https://x.com/pentaghasts/status/1999157088417685747",
+        "snippet": "i have ten years worth of playlists/saved music on this account\u2026..im switching to a mix of qobuz for streaming/mp3 player (backed up to lastfm once i figure ..."
+      },
+      {
+        "title": "On this day in 2001, Apple released the iPod, revolutionizing the ...",
+        "url": "https://x.com/qobuz/status/1981366085514314231",
+        "snippet": "Qobuz (@qobuz). 12 likes. On this day in 2001, Apple released the iPod, revolutionizing the music listening experience. If you're chasing the experience ..."
+      },
+      {
+        "title": "Qobuz vs Tidal vs Amazon Music vs Spotify vs Apple Music Credit",
+        "url": "https://x.com/iphonegalaxymd/status/1977795228703592745",
+        "snippet": "Qobuz vs Tidal vs Amazon Music vs Spotify vs Apple Music Credit : GoldenSound (The headphone show). I\u035bP\u035bh\u035bo\u035bn\u035be\u035bG\u035ba\u035bl\u035ba\u035bx\u035by\u035bM\u035bD\u035b 10K\u035b \u200d\u2620\ufe0f's Image on X."
+      },
+      {
+        "title": "Xiaoxuan (Matilda) Yan (@mathilde0427) / Posts / X - Twitter",
+        "url": "https://x.com/mathilde0427",
+        "snippet": "In this new release, we fixed the ordering of right-hemisphere parcels, such that the left and right parcel pairs have 1-to-1 homotopic correspondence."
+      },
+      {
+        "title": "rr (@roxravago) / Posts / X - Twitter",
+        "url": "https://x.com/roxravago",
+        "snippet": "Following your passion is a luxury. Following your values is a necessity. Passion is a fickle magnet: it pulls you toward your current interests."
+      },
+      {
+        "title": "Last.fm Status (@lastfmstatus) / Posts / X - Twitter",
+        "url": "https://x.com/lastfmstatus",
+        "snippet": "The website is currently facing difficulties causing pages to load slowly or time out completely with a 503 error. We apologise for the inconvenience caused ..."
+      },
+      {
+        "title": "Last.fm Status",
+        "url": "https://x.com/lastfmstatus/status/1929478726137299050",
+        "snippet": "The sign up, password recovery, and account settings pages may be switched offline temporarily while we investigate an issue preventing outgoing emails."
+      },
+      {
+        "title": "switched to apple music last quarter of the year which doesn't have ...",
+        "url": "https://x.com/electrolemon/status/1996240744982487501",
+        "snippet": "switched to apple music last quarter of the year which doesn't have last.fm support so my song data ain't tracked properly anywhere. i'm off the grid. no ..."
+      },
+      {
+        "title": "s\u5927u_l_tissimus (@stu_l_tissimus) / Posts / X - Twitter",
+        "url": "https://x.com/stu_l_tissimus",
+        "snippet": "s\u5927u_l_tissimus. stu_l_tissimus. Website: http://www.last.fm/user/Stu_L_Tissimus. Joined: Sep 11, 2010. 2654Posts. 360Following. 24Followers. made u look idiot ..."
+      },
+      {
+        "title": "About profile labels and checkmarks on X - X Help Center",
+        "url": "https://help.x.com/en/rules-and-policies/profile-labels",
+        "snippet": "The blue checkmark means that an account has an active subscription to X Premium and meets our eligibility requirements. These accounts may represent an ..."
+      },
+      {
+        "title": "Mechonite (@Mechonite) / Posts / X - Twitter",
+        "url": "https://x.com/Mechonite",
+        "snippet": "MLG Team: Zype ( youtube.com/ZypeHaven). Posts. Mechonite profile. Mechonite ... Haha this kid switches team to tell his guy where i was."
+      },
+      {
+        "title": "Many more people are worried about Greta Thunberg. I can only ...",
+        "url": "https://x.com/LouiseRawAuthor/status/1932178703766663599",
+        "snippet": "Most people are worried that AI will take their jobs. I get it, the pace of change is relentless. But AI means better public services, opportunities for our ..."
+      },
+      {
+        "title": "10-second satire break. I let #grok loose on Greta. Elon's AI model ...",
+        "url": "https://x.com/geraldposner/status/2034426586556969101",
+        "snippet": "Elon's AI model that could not be more different than the restrained and polite ChatGPT and the cautious Claude when it comes to pushing the edge of satire."
+      },
+      {
+        "title": "\u201cit's now more important to voters than climate change\u201d When is ...",
+        "url": "https://x.com/LouisAnslow/status/2045634673913602552",
+        "snippet": "Over the past year, AI rose in issue importance faster than any issue we track \u2014 it's now more important to voters than climate change, child care, and abortion ..."
+      },
+      {
+        "title": "I think there is a lot of nonsense hype in AI. But this is a v good ...",
+        "url": "https://x.com/fletcher_rt/status/2044597017742340359",
+        "snippet": "Figures like Greta Thunberg eventually turned people off the issue as increasingly apocalyptic predictions failed to materialise. dylan matthews profile."
+      },
+      {
+        "title": "GRETA (@Greta__ai) / Posts / X - Twitter",
+        "url": "https://x.com/Greta__ai",
+        "snippet": "Build full-stack websites by chatting but 20x faster. GRETA helps growth teams test ideas, add from 50+ built-in features & ship websites, without coding!"
+      },
+      {
+        "title": "Jason (@lang) / Posts / X - Twitter",
+        "url": "https://x.com/lang",
+        "snippet": "More flexible, faster messaging. Now you can easily switch between replying, starting a thread, or chatting with Glue AI, right from Glue's message composer."
+      },
+      {
+        "title": "12 years ago, David Sachs sold Yammer to Microsoft for ... - Twitter",
+        "url": "https://x.com/Rahul_J_Mathur/status/1795311495556817338",
+        "snippet": "12 years ago, David Sachs sold Yammer to Microsoft for $1.2bn. Yammer was a pre-cursor to modern Slack, Teams & Discord: a \u201csocial network\u201d or collaboration ..."
+      },
+      {
+        "title": "Glue (@GlueAI) / Posts / X - Twitter",
+        "url": "https://x.com/GlueAI",
+        "snippet": "Individuals and teams 5 and under can use Glue for free\u2014no message retention limits! We made this change last week but realizing we failed to promote it ..."
+      },
+      {
+        "title": "Glue Collaboration (@glue_collab) / Posts / X - Twitter",
+        "url": "https://x.com/glue_collab",
+        "snippet": "Glue has been acquired by Hyperspace \u00b7 Crafting a Compelling Business Case for Virtual Reality \u00b7 Glue Collaboration."
+      },
+      {
+        "title": "1. It's more important to have massive impact than be liked There's a ...",
+        "url": "https://x.com/aakashg0/status/1794822919769530697",
+        "snippet": "And for folks struggling with work-life balance, it's hard to hear. But, as a PM, being glue is quite important. And you lose your role as reliable glue if you ..."
+      }
+    ]
+  },
+  "appstore_reviews": {
+    "ChatGPT": 6731356,
+    "decisio media": 12,
+    "Take2: Movies & Shows": 40,
+    "THEATER": 38747,
+    "Plex": 137298,
+    "Letterboxd": 88016,
+    "Restream": 810,
+    "Loola TV": 118492,
+    "StreamYard": 60,
+    "Yolocast": 810,
+    "Spotify": 39535210,
+    "Napster": 15424,
+    "Last.fm": 574,
+    "Qobuz": 17887,
+    "NuvioTV": 42110,
+    "STRMR": 1340,
+    "Viewlift": 377,
+    "Zype": 33254,
+    "Glue": 13,
+    "Greta AI": 0,
+    "Gemini": 1573040,
+    "Jetpack Workflow": 55984,
+    "Sublime": 27,
+    "Sendspark": 1326715,
+    "Sora": 538,
+    "Loom": 17339,
+    "Rephrase.ai": 2,
+    "HeyGen": 12024,
+    "Idomoo": 77,
+    "BlueRush": 5588,
+    "Pirsonal": 0,
+    "Precisely": 39,
+    "Vimeo": 11676,
+    "SundaySky": 0,
+    "Vidyard": 52,
+    "CapCut": 1105286,
+    "Canva": 3309508,
+    "Kapwing": 49,
+    "Veed": 18580,
+    "WeVideo": 39558,
+    "InShot": 2419227,
+    "Mojo": 2173,
+    "YouCam Perfect": 117138,
+    "Repurpose.io": 183897,
+    "Synthesia": 7841
+  },
+  "competitors": [
+    {
+      "name": "Spotify",
+      "description": "A digital music, podcast, and video service that gives you access to millions of songs and other content from creators all over the world.",
+      "pricing": "freemium",
+      "strengths": [
+        "Vast music library",
+        "Offline playback",
+        "Cross-platform availability"
+      ],
+      "weaknesses": [
+        "Spotify's recommendations are often generic and based on popular trends \u2014 not tailored to individual preferences and customization requests like this app."
+      ],
+      "sentiment": "mixed",
+      "category": "Direct",
+      "similarity_score": 65,
+      "mention_count": 2,
+      "engagement_score": 700,
+      "sentiment_split": {
+        "positive": 60,
+        "neutral": 25,
+        "negative": 15
+      },
+      "dominant_complaint": "Discover Weekly is ruined.",
+      "dominant_praise": "Vast music library.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/LetsTalkMusic/comments/1msbg58/best_alternatives_to_spotify/",
+        "https://www.reddit.com/r/truespotify/comments/1rjro7o/spotify_discover_weekly_completely_ruined/"
+      ]
+    },
+    {
+      "name": "Plex",
+      "description": "A media server system and player for your movies, TV shows, music, and photos.",
+      "pricing": "freemium",
+      "strengths": [
+        "Centralized media library",
+        "Streaming to multiple devices",
+        "Customizable interface"
+      ],
+      "weaknesses": [
+        "Plex's recommendations are based on library content rather than highly personalized preferences and viewing habits that would make it tailored and customized to the user.",
+        "Plex recommendations lack AI to provide better user recommendations."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 55,
+      "mention_count": 2,
+      "engagement_score": 250,
+      "sentiment_split": {
+        "positive": 70,
+        "neutral": 20,
+        "negative": 10
+      },
+      "dominant_complaint": "None available.",
+      "dominant_praise": "Tracks movies and TV shows and offers personalized recommendations.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/PleX/comments/1q8fu41/what_is_the_best_way_to_recommend_specific_movies/",
+        "https://www.reddit.com/r/ProductivityApps/comments/1i27erw/any_app_to_track_my_movies_and_provide_ai/"
+      ]
+    },
+    {
+      "name": "Letterboxd",
+      "description": "A social platform for film lovers to track, rate, and review movies.",
+      "pricing": "free",
+      "strengths": [
+        "Robust movie database",
+        "Social networking features",
+        "Watchlist management"
+      ],
+      "weaknesses": [
+        "Letterboxd focuses on tracking and reviewing movies rather than providing personalized viewing recommendations based on specific preferences and customizations specified by the user."
+      ],
+      "sentiment": "positive",
+      "category": "Adjacent",
+      "similarity_score": 35,
+      "mention_count": 3,
+      "engagement_score": 150,
+      "sentiment_split": {
+        "positive": 80,
+        "neutral": 15,
+        "negative": 5
+      },
+      "dominant_complaint": "Feels like there are no actual reviews or any film discussion.",
+      "dominant_praise": "Very helpful for discovering unknown, old movies.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/Letterboxd/comments/1lu25sk/i_built_a_movie_recommendation_app_that_filters/",
+        "https://www.reddit.com/r/Letterboxd/comments/1olkhb7/how_do_people_discover_such_unknown_old_movies/",
+        "https://www.reddit.com/r/movies/comments/1nbewkb/letterboxd_vs_imdb_vs_another_app_whats_one/"
+      ]
+    },
+    {
+      "name": "THEATER",
+      "description": "An AI-powered movie and TV tracker designed to help you stop scrolling and start watching.",
+      "pricing": "unknown",
+      "strengths": [
+        "AI-powered recommendations",
+        "Movie and TV tracking"
+      ],
+      "weaknesses": [
+        "No mentioned feature of explicit user preferences and content tailoring, unlike the app which is customized in what the user wants."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 67,
+      "mention_count": 1,
+      "engagement_score": 80,
+      "sentiment_split": {
+        "positive": 75,
+        "neutral": 20,
+        "negative": 5
+      },
+      "dominant_complaint": "None available.",
+      "dominant_praise": "AI-powered movie and TV tracker designed to help you stop scrolling and start watching.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/Promotion/comments/1sk5k23/personal_i_designed_and_created_an_app_called/"
+      ]
+    },
+    {
+      "name": "Flixi",
+      "description": "An AI-generated personal assistant that recommends shows you will definitely love.",
+      "pricing": "unknown",
+      "strengths": [
+        "AI-driven recommendations",
+        "Personalized show suggestions"
+      ],
+      "weaknesses": [
+        "Reliance on AI without clear customization options might limit personalization of viewing preferences, unlike this app which is very much tailored to the user's request."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 70,
+      "mention_count": 1,
+      "engagement_score": 50,
+      "sentiment_split": {
+        "positive": 90,
+        "neutral": 10,
+        "negative": 0
+      },
+      "dominant_complaint": "None available.",
+      "dominant_praise": "AI-generated personal assistant that recommends shows you will definitely love!",
+      "platform_split": "twitter",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://x.com/flixiai"
+      ]
+    },
+    {
+      "name": "Bingeit",
+      "description": "An app that provides personalized movie/show recommendations across OTT platforms.",
+      "pricing": "unknown",
+      "strengths": [
+        "Personalized recommendations",
+        "OTT platform aggregation"
+      ],
+      "weaknesses": [
+        "Lacks tailored customization of preferred video content, focusing only on movie/show choices \u2014 not personalization as requested for this app.",
+        "User must manually input information."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 68,
+      "mention_count": 1,
+      "engagement_score": 45,
+      "sentiment_split": {
+        "positive": 85,
+        "neutral": 10,
+        "negative": 5
+      },
+      "dominant_complaint": "None available.",
+      "dominant_praise": "Get personalized movie/show recommendations across OTT platforms.",
+      "platform_split": "twitter",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://x.com/webingeit"
+      ]
+    },
+    {
+      "name": "IMDb",
+      "description": "An online database of information related to films, television programs, home videos, video games, and streaming content online.",
+      "pricing": "free",
+      "strengths": [
+        "Extensive database",
+        "User ratings and reviews"
+      ],
+      "weaknesses": [
+        "While offering recommendations based on ratings, it needs explicit user preference customization to provide truly unique viewing suggestions."
+      ],
+      "sentiment": "mixed",
+      "category": "Adjacent",
+      "similarity_score": 40,
+      "mention_count": 1,
+      "engagement_score": 70,
+      "sentiment_split": {
+        "positive": 50,
+        "neutral": 30,
+        "negative": 20
+      },
+      "dominant_complaint": "None available.",
+      "dominant_praise": "Will start to populate a suggestions list for you if you go through and rate movies.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/movies/comments/1jawtre/is_there_any_app_which_recommends_me_movies_or/"
+      ]
+    }
+  ],
+  "market_score": 1.8,
+  "non_app_signals": [
+    "Manual tracking in spreadsheets or notes is a common workaround."
+  ],
+  "differentiators": [
+    "Spotify's recommendations are generic, based on popular trends \u2014 this app tailors to individual preferences based on specified customizations.",
+    "Flixi uses AI to make recommendations; this app has explicit, manual tailorability.",
+    "Bingeit lacks content tailoring to preferences, focusing on video choices \u2014 this app customizes experiences based on what the user wants."
+  ],
+  "sources": [
+    "https://www.reddit.com/r/appletv/comments/1htksn5/im_looking_for_an_app_where_i_can_rate_shows_ive/",
+    "https://www.reddit.com/r/HowToMen/comments/1srtv27/app_promotion_i_designed_built_theater_app/",
+    "https://www.reddit.com/r/Promotion/comments/1sk5k23/personal_i_designed_and_created_an_app_called/",
+    "https://www.reddit.com/r/movies/comments/1gxywl9/movie_buffs_what_apps_do_you_use_to_manage_your/",
+    "https://www.reddit.com/r/PleX/comments/1q8fu41/what_is_the_best_way_to_recommend_specific_movies/",
+    "https://www.reddit.com/r/PleX/comments/1cn3zzy/is_there_a_way_to_have_only_unwatched_movies/",
+    "https://www.reddit.com/r/singularity/comments/1dhd055/i_want_an_ai_to_give_me_really_good/",
+    "https://www.reddit.com/r/Letterboxd/comments/1lu25sk/i_built_a_movie_recommendation_app_that_filters/",
+    "https://www.reddit.com/r/ProductivityApps/comments/1i27erw/any_app_to_track_my_movies_and_provide_ai/",
+    "https://www.reddit.com/r/SaaS/comments/1pyaec4/built_a_movie_recommendation_app_with/",
+    "https://www.reddit.com/r/movies/comments/1jawtre/is_there_any_app_which_recommends_me_movies_or/",
+    "https://www.reddit.com/r/streaming/comments/1ohutor/tried_every_conceivable_alternative_to_stream_to/",
+    "https://www.reddit.com/r/LetsTalkMusic/comments/1msbg58/best_alternatives_to_spotify/",
+    "https://www.reddit.com/r/truespotify/comments/1rjro7o/spotify_discover_weekly_completely_ruined/",
+    "https://www.reddit.com/r/Nuvio/comments/1s684n0/which_streaming_app_is_actually_the_best_nuviotv/",
+    "https://www.reddit.com/r/Broadcasting/comments/1qiqiae/create_a_video_streaming_app_in_2025_build_it/",
+    "https://www.reddit.com/r/streaming/comments/1ln2zl9/any_good_recommendations_for_streaming/",
+    "https://www.reddit.com/r/Letterboxd/comments/1olkhb7/how_do_people_discover_such_unknown_old_movies/",
+    "https://www.reddit.com/r/IAmA/comments/1o5jdry/im_a_founder_of_a_film_website_which_just_turned/",
+    "https://www.reddit.com/r/movies/comments/1nbewkb/letterboxd_vs_imdb_vs_another_app_whats_one/",
+    "https://www.reddit.com/r/televisionsuggestio",
+    "https://x.com/flixiai",
+    "https://x.com/CronicaApp",
+    "https://x.com/reklistofficial",
+    "https://x.com/flibo_ai",
+    "https://x.com/webingeit",
+    "https://www.youtube.com/watch?v=xFhtKj5HzCE",
+    "https://www.guidde.com/blog/8-best-platforms-for-personalized-video-responses-to-customer-queries",
+    "https://insiderone.com/real-time-personalization-software/",
+    "https://www.upskillist.com/blog/best-ai-agents-video-marketing/",
+    "https://www.idomoo.com/blog/best-video-personalization-platforms/",
+    "https://www.canva.com/learn/capcut-alternative/",
+    "https://www.pcmag.com/picks/tiktok-beyond-the-best-mobile-video-editing-apps",
+    "https://www.capcut.com/resource/face-replace-video-app",
+    "https://brandclickx.com/best-apps-for-content-creation/",
+    "https://planable.io/blog/repurpose-io-alternatives/",
+    "https://insiderone.com/personalization-engines/",
+    "https://learn.g2.com/best-ai-video-generators",
+    "https://blog.sendspark.com/bonjoro-alternatives",
+    "https://www.facebook.com/groups/698593531630485/posts/1341881700634995/",
+    "https://www.gartner.com/reviews/product/monetate-personalization-platform/alternatives"
+  ]
+}

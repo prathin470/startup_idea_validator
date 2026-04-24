@@ -1,0 +1,1379 @@
+{
+  "timestamp": "2026-04-24_17-43-41",
+  "idea": "It enables users to invest in diversified, low-cost portfolios and automate recurring investments, while providing tools to track progress toward long-term financial goals.",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "It enables users to invest in diversified, low-cost portfolios and automate recurring investments, while providing tools to track progress toward long-term financial goals."
+    },
+    {
+      "role": "assistant",
+      "content": "What makes it different from everything else out there?"
+    },
+    {
+      "role": "user",
+      "content": "It embeds automation and behavioural design into the investing process"
+    },
+    {
+      "role": "assistant",
+      "content": "Who is it specifically for?"
+    },
+    {
+      "role": "user",
+      "content": "long term investment, for people who have no idea how to invest and - essentially for an average person"
+    }
+  ],
+  "core_features": [
+    "Automated portfolio construction based on goals and risk tolerance",
+    "Embedded behavioural design to encourage consistent investing",
+    "Progress tracking focused on long-term goals",
+    "Recurring investments with portfolio rebalancing"
+  ],
+  "app_candidates_phase1": [
+    "Wealthfront",
+    "Robinhood",
+    "Empower",
+    "Fidelity Full View",
+    "Yahoo Finance",
+    "Pearler",
+    "ProjectionLab",
+    "WealthWise",
+    "Nauma.ai",
+    "Sharesight",
+    "Mezzi",
+    "Lightyear",
+    "AlphaSense",
+    "Rogo",
+    "Hebbia",
+    "Origin",
+    "Tickeron",
+    "Fiscal.ai",
+    "WallStreetZen",
+    "Vanguard Digital Advisor",
+    "Vanguard Personal Advisor Services",
+    "Fidelity Go",
+    "Betterment",
+    "Betterment Premium",
+    "Schwab Intelligent Portfolios",
+    "E*TRADE Core Portfolios",
+    "Surmount",
+    "M1 Finance",
+    "Wealthsimple Invest"
+  ],
+  "queries": {
+    "reddit_phase1": [
+      "which investing app automates portfolio allocation site:reddit.com",
+      "looking for investing app with automated recurring investments site:reddit.com",
+      "best investing app for long term goal tracking site:reddit.com",
+      "is there an app that automatically rebalances investment portfolios site:reddit.com",
+      "wish there was an investing app with behavioral nudges site:reddit.com",
+      "intitle:(\"tried every\" OR \"my ranking\") robo advisor site:reddit.com",
+      "recommend an app that encourages consistent investing site:reddit.com"
+    ],
+    "twitter_phase1": [
+      "I hate how hard it is to rebalance my investment portfolio",
+      "every robo advisor charges fees",
+      "someone should build an app that reminds me to invest consistently",
+      "I would pay for an app that automatically adjusts my portfolio based on my goals",
+      "best app for automating recurring investments",
+      "recommendations for investing apps that track progress towards financial goals",
+      "what app do you use for automated portfolio rebalancing"
+    ],
+    "reddit_phase2": [
+      "alternative to Wealthfront",
+      "I switched from Robinhood",
+      "better than Empower",
+      "tired of Fidelity Full View",
+      "gave up on Yahoo Finance",
+      "alternative to Pearler",
+      "I switched from ProjectionLab",
+      "better than WealthWise",
+      "tired of Nauma.ai",
+      "gave up on Sharesight",
+      "alternative to Mezzi",
+      "I switched from Lightyear",
+      "better than AlphaSense",
+      "tired of Rogo",
+      "gave up on Hebbia",
+      "alternative to Origin",
+      "I switched from Tickeron",
+      "better than Fiscal.ai",
+      "tired of WallStreetZen",
+      "gave up on Vanguard Digital Advisor",
+      "alternative to Vanguard Personal Advisor Services",
+      "I switched from Fidelity Go",
+      "better than Betterment",
+      "tired of Betterment Premium",
+      "gave up on Schwab Intelligent Portfolios"
+    ],
+    "twitter_phase2": [
+      "Wealthfront switched to",
+      "Robinhood just canceled",
+      "alternative to Empower",
+      "finally switched from Fidelity Full View",
+      "Yahoo Finance switched to",
+      "Pearler just canceled",
+      "alternative to ProjectionLab",
+      "finally switched from WealthWise",
+      "Nauma.ai switched to",
+      "Sharesight just canceled",
+      "alternative to Mezzi",
+      "finally switched from Lightyear",
+      "AlphaSense switched to",
+      "Rogo just canceled",
+      "alternative to Hebbia",
+      "finally switched from Origin",
+      "Tickeron switched to",
+      "Fiscal.ai just canceled",
+      "alternative to WallStreetZen",
+      "finally switched from Vanguard Digital Advisor"
+    ]
+  },
+  "search_results": {
+    "reddit_phase1": [
+      {
+        "title": "I built a WhatsApp agent that sends me daily news only about the ...",
+        "url": "https://www.reddit.com/r/StockMarketIndia/comments/1na21ai/i_built_a_whatsapp_agent_that_sends_me_daily_news/",
+        "snippet": "So I built a small agent that does the work for me. At the end of each trading day, I get a WhatsApp message with: News about the stocks I actually hold."
+      },
+      {
+        "title": "Fintech made trading 1\u2011tap. We're experimenting with a \u201cTikTok for ...",
+        "url": "https://www.reddit.com/r/fintech/comments/1ptk380/fintech_made_trading_1tap_were_experimenting_with/",
+        "snippet": "Fintech has done an amazing job compressing the transaction: zero\u2011commission trades, instant account opening, one\u2011tap deposits. What feels\u2026"
+      },
+      {
+        "title": "Why do so many guys in their twenties only want to talk about crypto ...",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1rg6gqt/why_do_so_many_guys_in_their_twenties_only_want/",
+        "snippet": "Why do so many guys in their twenties only want to talk about crypto when it comes to investing. I am honestly curious about this."
+      },
+      {
+        "title": "What's the best auto-invest tool? : r/personalfinance - Reddit",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1l3d7wn/whats_the_best_autoinvest_tool/",
+        "snippet": "Yes pretty much every major broker offers automated investing. Fidelity, Schwab, Vanguard."
+      },
+      {
+        "title": "best auto investing app? : r/personalfinance - Reddit",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1qm9ax8/best_auto_investing_app/",
+        "snippet": "ive looked at wealthfront, robinhood, acorn, and some other ones I cant remember the names of but which would you recommend for a first time investor. at first ..."
+      },
+      {
+        "title": "Intimidated New Investor. Best Platform for Automatic Index Investing?",
+        "url": "https://www.reddit.com/r/CanadianInvestor/comments/1n58lhw/intimidated_new_investor_best_platform_for/",
+        "snippet": "You can automate your investments and transfers. You can set up recurring investments and then do nothing else for 20 years. I would go with XEQT (or any ..."
+      },
+      {
+        "title": "Is there an investing app that actually shows your full portfolio clearly ...",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1srcmpl/is_there_an_investing_app_that_actually_shows/",
+        "snippet": "Try empower, which used to be personal capital. It provides a good overview of allocation and total net worth at a high level. But it does not, for example, ..."
+      },
+      {
+        "title": "What is the best app to track all investments in one place? - Reddit",
+        "url": "https://www.reddit.com/r/Fire/comments/1eiddxl/what_is_the_best_app_to_track_all_investments_in/",
+        "snippet": "Empower (aka Personal Capital) & Fidelity Full View are both good options and free."
+      },
+      {
+        "title": "What app do you use to track your portfolio in realtime? : r/stocks",
+        "url": "https://www.reddit.com/r/stocks/comments/1dzldtl/what_app_do_you_use_to_track_your_portfolio_in/",
+        "snippet": "I just use plain old Yahoo Finance . I enter everything manually, but I think linking through your broker is an option too. I like it because it offers a lot of ..."
+      },
+      {
+        "title": "Looking for an automated Portfolio Rebalancing Tool + Reducing CGT",
+        "url": "https://www.reddit.com/r/AusFinance/comments/1mxv68b/looking_for_an_automated_portfolio_rebalancing/",
+        "snippet": "Pearler has an auto invest and auto balance feature. You set your ideal splits and then it'll do it's best to maintain that. You can set what method you want ..."
+      },
+      {
+        "title": "Tools or spreadsheets for balancing portfolio across ... - Reddit",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1j5ztsh/tools_or_spreadsheets_for_balancing_portfolio/",
+        "snippet": "The easiest way is just mirror your portfolio across accounts. If you hold the same stuff in every account, you are golden, no re-balancing across accounts ..."
+      },
+      {
+        "title": "What personal finance tracking apps are you actually using (and not ...",
+        "url": "https://www.reddit.com/r/eupersonalfinance/comments/1m3bh6z/what_personal_finance_tracking_apps_are_you/",
+        "snippet": "ProjectionLab. Great for visualizing FIRE paths and long-term planning. No account linking needed. ; WealthWise. My personal favourite. Clean UI, No account ..."
+      },
+      {
+        "title": "What apps are you using for budgeting, investing, and tracking net ...",
+        "url": "https://www.reddit.com/r/fiaustralia/comments/1mo1jnn/what_apps_are_you_using_for_budgeting_investing/",
+        "snippet": "Pocketsmith \u2013 currently trialling for bank feeds and net worth tracking. Share tracking. Sharesight \u2013 been using this from the start. Love it for tax reporting ..."
+      },
+      {
+        "title": "What personal finance tracking apps are you actually using (and not ...",
+        "url": "https://www.reddit.com/r/Fire/comments/1m3a06r/what_personal_finance_tracking_apps_are_you/",
+        "snippet": "ProjectionLab. Great for visualizing FIRE paths and long-term planning. \u00b7 WealthWise. My personal favourite. \u00b7 Nauma.ai. AI-driven planner focused on long-term ..."
+      },
+      {
+        "title": "r/popheads AOTY 2024 #32: Katy Perry - 143 - Reddit",
+        "url": "https://www.reddit.com/r/popheads/comments/1igzrta/rpopheads_aoty_2024_32_katy_perry_143/",
+        "snippet": "That would be my ranking, actually. Witness first, then Smile, then 143. Witness has its share of boring deep cuts, but it also has some true bops like ..."
+      },
+      {
+        "title": "Asking the sub opinion on the best and worst things of a sentai show ...",
+        "url": "https://www.reddit.com/r/Tokusatsu/comments/1mjz814/asking_the_sub_opinion_on_the_best_and_worst/",
+        "snippet": "... Robo was one of the best second gattai ever made, first series with ... My Ranking of Every Sentai (So Far) \u00b7 r/Tokusatsu - My Ranking of Every Sentai ..."
+      },
+      {
+        "title": "QuestBridge Applicant Profiles - Class of 2026 : r/QuestBridge - Reddit",
+        "url": "https://www.reddit.com/r/QuestBridge/comments/1mgkl1k/questbridge_applicant_profiles_class_of_2026/",
+        "snippet": "UVA (I'LL UPDATE IF I SWITCH MY RANKING). Income bracket (approx. $ range): 33k. Any assets (approx. $ range): 0. Number of household members (#): 4. First ..."
+      },
+      {
+        "title": "I have 2k what's the best investment app today? - Reddit",
+        "url": "https://www.reddit.com/r/investingforbeginners/comments/1ic4nlq/i_have_2k_whats_the_best_investment_app_today/",
+        "snippet": "For simplicity and low fees, check out apps like M1 Finance or Fidelity. Auto-investing into the S&P500 is a smart move, but avoid chasing hype. Stay consistent ..."
+      },
+      {
+        "title": "Should I have one app for investing? : r/investingforbeginners - Reddit",
+        "url": "https://www.reddit.com/r/investingforbeginners/comments/1o6ft59/should_i_have_one_app_for_investing/",
+        "snippet": "I use SoFi. It's very beginner user friendly and they offer many other services. Good luck!"
+      },
+      {
+        "title": "Any apps that gamify or incentivize saving money? Looking to get ...",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1gzal77/any_apps_that_gamify_or_incentivize_saving_money/",
+        "snippet": "I'm looking for app recommendations which gamify or otherwise incentivize saving. Shopping is currently one of the things that brings me joy."
+      }
+    ],
+    "twitter_phase1": [
+      {
+        "title": "Jeremy (@ItsFloe) on X",
+        "url": "https://x.com/ItsFloe/status/1883629032669155421",
+        "snippet": "This forces fund managers to limit portfolio weightings and, if breached, rebalance the portfolio. 20 of the Russells indices will be forced to comply with ..."
+      },
+      {
+        "title": "In my prior posts, I mentioned the risks of launch & deorbits for ...",
+        "url": "https://x.com/DeepValueBagger/status/2046199823062225045",
+        "snippet": "Now I don't hate a good trade, but it is important to understand risks/rewards carefully. This is what I consider 3rd level of understanding about investment."
+      },
+      {
+        "title": "rebalancing your portfolio, bridging assets, optimizing yield ... - Twitter",
+        "url": "https://x.com/0xbinzen/status/2045038169264107950",
+        "snippet": "Tired of juggling 10+ tabs, switching between multiple DEXs, stressing over gas fees, and constantly missing yield opportunities while you're sleeping or ..."
+      },
+      {
+        "title": "When I sold my business in 2020, I had no idea what to do with the ...",
+        "url": "https://x.com/ankurnagpal/status/2009673787239964933",
+        "snippet": "When I sold my business in 2020, I had no idea what to do with the money I made. So I ran an A/B test. I gave half to a famous private bank to manage while ..."
+      },
+      {
+        "title": "Jonathan Wallace, CFA (@JonathanDanger4) / Posts / X - Twitter",
+        "url": "https://x.com/JonathanDanger4",
+        "snippet": "Your stocks soar? Rebalancing forces you to take some risk off the table. It prevents one area from taking over too much, keeping the portfolio in check while ..."
+      },
+      {
+        "title": "The only article you need to make $10k a month",
+        "url": "https://x.com/vineetwts/status/2014243416822215109",
+        "snippet": "I built 10 apps in 10 months and make $800,000/yr ( full guide ). My first app made $20,000 in the first 30 days of launching. what i'm about to break down here ..."
+      },
+      {
+        "title": "Matt Shumer (@mattshumer_) on X",
+        "url": "https://x.com/mattshumer_/status/2021256989876109403",
+        "snippet": "I'll tell the AI: \"I want to build this app. Here's what it should do, here's roughly what it should look like. Figure out the user flow, the design, all of ..."
+      },
+      {
+        "title": "GREG ISENBERG (@gregisenberg) on X",
+        "url": "https://x.com/gregisenberg/status/2025269199157825928",
+        "snippet": "someone is going to build a billion dollar business doing nothing but converting legacy SaaS companies to outcome-based pricing models. the entire software ..."
+      },
+      {
+        "title": "Bruno Werneck de Almeida (@brunoswerneck) / Posts and Replies / X",
+        "url": "https://x.com/brunoswerneck/with_replies",
+        "snippet": "Track spending in detail, build custom budget tools, and visualize your net worth alongside your investment portfolio. 426."
+      },
+      {
+        "title": "Javier Alaves (@javalaves) / Posts / X - Twitter",
+        "url": "https://x.com/javalaves",
+        "snippet": "My homemade apps are janky and break sometimes. But they solve MY problems perfectly. I'll take that over a polished app that gets me 80% of the way. 0."
+      },
+      {
+        "title": "Mezzi: Modern Wealth Management (@MezziApp) / Posts / X - Twitter",
+        "url": "https://x.com/MezziApp",
+        "snippet": "Mezzi offers tools that can help monitor your portfolio on a daily basis. ... -planning based on your accounts + goals -rebalancing scenarios (90/10 \u2192 70 ..."
+      },
+      {
+        "title": "Lightyear (@go_lightyear) / Posts / X - Twitter",
+        "url": "https://x.com/go_lightyear",
+        "snippet": "Our goal is to help you make the most of your portfolio \u2013 and shareholder voting is an exciting step towards that, bringing retail investors closer to the ..."
+      },
+      {
+        "title": "Jason SaaStr.Ai   Lemkin (@jasonlk) on X",
+        "url": "https://x.com/jasonlk/status/2016226692805824538",
+        "snippet": "SaaStr AI 2026 is BACK May 12-14 in SF Bay!! Join us and 10k of the best in B2B + AI on the secrets to scaling in the Age of AI! We didn't want to build it."
+      },
+      {
+        "title": "Ori Eldarov (@leveredvlad) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/leveredvlad/with_replies",
+        "snippet": "From my conversations, the best tools for this type of screening are AlphaSense, Rogo, and Hebbia. These are native AI platforms built for financial analysts."
+      },
+      {
+        "title": "Desmond (@desmondhth) / Posts / X - Twitter",
+        "url": "https://x.com/desmondhth",
+        "snippet": "One meaningful project. One vision for your future. If you can spend 8 hours building someone else's dreams, you can spend 1 hour building your own. And ..."
+      },
+      {
+        "title": "The same people already shilling this very publicly are the same ...",
+        "url": "https://x.com/markcecchini/status/2047085707659800670",
+        "snippet": "Underlying SPVs/VC funds charge another 1\u20132.5% mgmt + 20\u201330% carry on top. You're paying 3+ layers of fees before any return hits your account. 2. The ..."
+      },
+      {
+        "title": "A quick rant on the value of financial advisors and how much they ...",
+        "url": "https://x.com/ankurnagpal/status/1991167869783065070",
+        "snippet": "When people pay 1% or more every single year to a financial advisor, it's not just the dollar value of the fees they are paying... but now, those fees are ..."
+      },
+      {
+        "title": "NorthWestern Mutual at it again. Just absolutely staining the ...",
+        "url": "https://x.com/FranWalsh73/status/1816102448643150251",
+        "snippet": "I'd say our fees are average in the space. I've yet to see another advisor's starting fee be 1.75%. ... So if you're saying $418/month or roughly $5k a year..."
+      },
+      {
+        "title": "We launched USVC yesterday and it was one of the most fun days of ...",
+        "url": "https://x.com/ankurnagpal/status/2047334901033123913",
+        "snippet": "Right now, even though you pay 2.5%, it costs us 3.61% to service this product. There are two big reasons for this - the underlying fund fees (which we're ..."
+      },
+      {
+        "title": "All-In Costs For The Typical Financial Advisor? - X",
+        "url": "https://x.com/MichaelKitces/status/1917309165216633152",
+        "snippet": "What Bob Veres' recent fee study reveals about financial advisor fees, and why the reality of fee compression is more nuanced than commonly believed. www.kitces ..."
+      },
+      {
+        "title": "It's about damn time you get serious about using AI for your work ...",
+        "url": "https://x.com/ArmanHezarkhani/status/2025589667358298219",
+        "snippet": "Open Claude (or ChatGPT). Take the task you just picked and type this: I need to automate a recurring task. Here's how I currently do it, step by step:[ ..."
+      },
+      {
+        "title": "and more people are automating their marketing Larry and I started ...",
+        "url": "https://x.com/oliverhenry/status/2046266027852304846",
+        "snippet": "I run Postiz, it's an agentic social media scheduling tool. It allows you to automate posts to 30+ social media platforms. I share a lot of my Postiz monthly ..."
+      },
+      {
+        "title": "Definitely replacing Notion at least! W the right plugins",
+        "url": "https://x.com/jenzhuscott/status/2042905740671881566",
+        "snippet": "W the right plugins - particularly Dataview for dynamic querying, Tasks for contextual task management, & Templater for automation - the setup offers much ..."
+      },
+      {
+        "title": "Build a 3 to 6 month emergency fund. Start small. Automate a weekly ...",
+        "url": "https://x.com/BearBullTraders/status/2044062872838545739",
+        "snippet": "Frequent takeout. Random online purchases. Individually, they seem harmless. Together, they destroy cash flow. Action: Track every dollar for 30 days. You'll ..."
+      },
+      {
+        "title": "$PATH's outperformance of the market will be profound",
+        "url": "https://x.com/jakebrowatzke/status/2001492108796940653",
+        "snippet": "Lemonade sells home, renters, car, pet, and life insurance directly to you via their app. Their AI scans your info, predicts risks, handles claims automatically ..."
+      },
+      {
+        "title": "Superform - spend with your onchain assets SuperVaults",
+        "url": "https://x.com/superformxyz/status/1990797187119485286",
+        "snippet": "Earning onchain is complicated. Superform makes it easy. Anyone can save, send, and earn on the most advanced platform built to grow your onchain wealth."
+      },
+      {
+        "title": "Flow Credit Markets combined with on-chain scheduling are a game ...",
+        "url": "https://x.com/paddymcpearls/status/1995858074553516448",
+        "snippet": "Flow Credit Markets combined with on-chain scheduling are a game changer asset curation. Automated, transparent portfolio rebalancing and access to ..."
+      },
+      {
+        "title": "THORChain (@THORChain) on X",
+        "url": "https://x.com/THORChain/status/1940885588816941489",
+        "snippet": "As a strategy automation tool, it not only frees you from repetitive tasks like compounding and rebalancing but also offers advanced strategies that run ..."
+      },
+      {
+        "title": "mimic (@mimicfi) / Highlights / X",
+        "url": "https://x.com/mimicfi/highlights",
+        "snippet": "Mimic for asset managers: Encode strategy logic once and execute it securely across vaults, chains, and assets. Portfolio rebalancing, yield harvesting, ..."
+      },
+      {
+        "title": "Trading 212 (@Trading212) / Highlights / X - Twitter",
+        "url": "https://x.com/Trading212/highlights",
+        "snippet": "Descriptive analysis generated by an AI automated tool based on your portfolio and general market indicators. AI analysis is experimental, and Trading 212 does ..."
+      },
+      {
+        "title": "Snowball Analytics - investment portfolio tracker - Twitter",
+        "url": "https://x.com/snowballtracker",
+        "snippet": "Get access to advanced Goal Tracking, Backtesting, and a dedicated Dividend Calendar to keep you reaching your financial milestones. Real Support: We have a ..."
+      },
+      {
+        "title": "Finqalab (@Finqalab_) / Posts / X - Twitter",
+        "url": "https://x.com/Finqalab_",
+        "snippet": "With Finqalab, you get a smarter, simpler way to invest and grow your wealth with confidence. Your financial future will not build itself. But you can. Start ..."
+      },
+      {
+        "title": "True Finance (@TrueMoneyApp) / Posts / X - Twitter",
+        "url": "https://x.com/TrueMoneyApp",
+        "snippet": "Financial milestones made simple: \u2713 Save $1,000. \u2713 Invest your first $100. \u2713 Open a high-yield savings account."
+      },
+      {
+        "title": "App Economy Insights (@EconomyApp) on X",
+        "url": "https://x.com/EconomyApp/status/2014046176673415429",
+        "snippet": "Marks highlights the risk of circular behavior: vendors selling to customers who are simultaneously funding them, or partners transacting to show progress."
+      }
+    ],
+    "reddit_phase2": [
+      {
+        "title": "Alternatives to Wealthfront? - Reddit",
+        "url": "https://www.reddit.com/r/wealthfront/comments/1fvnwls/alternatives_to_wealthfront/",
+        "snippet": "There's a bunch of good ones. Ally, Marcus, CIT Bank, BMO, CapitalOne, PNC, American Express are all great."
+      },
+      {
+        "title": "Best HYSA other than Wealthfront? : r/SavingMoney - Reddit",
+        "url": "https://www.reddit.com/r/SavingMoney/comments/1kwuodm/best_hysa_other_than_wealthfront/",
+        "snippet": "You could go with Capital One or AmEx, which are the more popular ones. They don't have the highest APY, but they are the more stable option and have been ..."
+      },
+      {
+        "title": "Wealthfront vs Betterment - Reddit",
+        "url": "https://www.reddit.com/r/wealthfront/comments/1izogk4/wealthfront_vs_betterment/",
+        "snippet": "Betterment and Wealthfront were both leading contenders for starting a Roth IRA, and I'm now seeing they both offer cash management accounts with 4% APY."
+      },
+      {
+        "title": "Gave up on Full View : r/fidelityinvestments - Reddit",
+        "url": "https://www.reddit.com/r/fidelityinvestments/comments/1r818cy/gave_up_on_full_view/",
+        "snippet": "Full View is a train wreck. The crack developers at Fidelity have ruined it. People have complained left and right, and what you'll be told is a polite ..."
+      },
+      {
+        "title": "Fidelity New Full View Sucks. (Sorry to say that, but it's true) - Reddit",
+        "url": "https://www.reddit.com/r/fidelityinvestments/comments/1q240lv/fidelity_new_full_view_sucks_sorry_to_say_that/",
+        "snippet": "I have seen the changes over the year's with Fullview and it has degraded in lieu of making it better. The new one doesn't present an accurate YTD status of ..."
+      },
+      {
+        "title": "[Megathread] Starting January 15, legacy Full View will no longer be ...",
+        "url": "https://www.reddit.com/r/fidelityinvestments/comments/1qcoq5n/megathread_starting_january_15_legacy_full_view/",
+        "snippet": "Users will no longer be able to switch back to legacy Full View starting tomorrow. This change will allow us to focus 100% of our development on bringing ..."
+      },
+      {
+        "title": "I guess Yahoo Finance just sucks now. What are your other ... - Reddit",
+        "url": "https://www.reddit.com/r/StockMarket/comments/1ox37gk/i_guess_yahoo_finance_just_sucks_now_what_are/",
+        "snippet": "About a month ago I gave up on Yahoo and keyed my stuff into Google Finance. Whooda thunk it. However, massive upside when I just gave in and explored the thing ..."
+      },
+      {
+        "title": "Yahoo! Finance is broken or just garbage? : r/investing - Reddit",
+        "url": "https://www.reddit.com/r/investing/comments/1oq0tvd/yahoo_finance_is_broken_or_just_garbage/",
+        "snippet": "I use Yahoo! Finance to track my portfolio when I don't want to log in to my actual account. It is unbelievably slow on both my laptop and phone and often ..."
+      },
+      {
+        "title": "Alternatives to Yahoo Finance : r/investing - Reddit",
+        "url": "https://www.reddit.com/r/investing/comments/1hbstnf/alternatives_to_yahoo_finance/",
+        "snippet": "I've used Yahoo Finance since 2004. The new layout is unusuable. The irony is I would pay for the old layout, but Yahoo+ isn't compatible with it."
+      },
+      {
+        "title": "Should I switch out of Robinhood\uff1f : r/options - Reddit",
+        "url": "https://www.reddit.com/r/options/comments/1mvyoeu/should_i_switch_out_of_robinhood/",
+        "snippet": "Nothing inherently wrong with Robinhood. If option fees are important, they are actually among the best. If you don't like using them, try some ..."
+      },
+      {
+        "title": "Is it worth switching from Robin Hood to Fidelity? : r/investing - Reddit",
+        "url": "https://www.reddit.com/r/investing/comments/1mohcqg/is_it_worth_switching_from_robin_hood_to_fidelity/",
+        "snippet": "Robinhood is simple and easy to use, but it's limited in research tools, account types, and customer service compared to Fidelity. Fidelity offers a much wider ..."
+      },
+      {
+        "title": "Switching from Robinhood - online brokerage account suggestions?",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1ddhpzy/switching_from_robinhood_online_brokerage_account/",
+        "snippet": "I went from robin hood to Schwab to fidelity. I think I'm set on fidelity. They auto sweep your cash into a money market fund that is earning 4.97%. Zero ..."
+      },
+      {
+        "title": "What are alternatives to Empower (formerly Personal Capital) - Reddit",
+        "url": "https://www.reddit.com/r/PersonalCapital/comments/1olgv4m/what_are_alternatives_to_empower_formerly/",
+        "snippet": "Some things are better than Empower, but on the whole I don't see a reason to pay when Empower is free. What they call \"asset allocation\" is just funny ..."
+      },
+      {
+        "title": "Empower Alternatives : r/PersonalCapital - Reddit",
+        "url": "https://www.reddit.com/r/PersonalCapital/comments/1q17u3z/empower_alternatives/",
+        "snippet": "I'm specifically wondering how people would compare these tools purely on the retirement planning (both savings/investment scenarios and withdrawal strategies)."
+      },
+      {
+        "title": "Best platform to replace Empower if missing transactions do not ...",
+        "url": "https://www.reddit.com/r/PersonalCapital/comments/1idn5kv/best_platform_to_replace_empower_if_missing/",
+        "snippet": "I'm giving Monarch a try. Seems like it's a solid platform after looking over some caparison articles and reviews/recommendations."
+      },
+      {
+        "title": "Selfwealth vs Pearler vs Stake or something else? : r/fiaustralia",
+        "url": "https://www.reddit.com/r/fiaustralia/comments/1is2apd/selfwealth_vs_pearler_vs_stake_or_something_else/",
+        "snippet": "If you're buying smaller lots (under $1000) Selfwealth is crazy expensive. CMC, Stake, Commsec are all far better than Selfwealth for sub $1000 buys."
+      },
+      {
+        "title": "Which trading platforms are you using in 2025, and why? Looking ...",
+        "url": "https://www.reddit.com/r/AusHENRY/comments/1ihvect/which_trading_platforms_are_you_using_in_2025_and/",
+        "snippet": "Tradevision \u2013 I've also been using Tradevision for my analysis. It's been really helpful for pulling in data and insights on stocks, ETFs, and options. It's ..."
+      },
+      {
+        "title": "Best platform for simple long-term investing in AUS? : r/AusFinance",
+        "url": "https://www.reddit.com/r/AusFinance/comments/1namh8t/best_platform_for_simple_longterm_investing_in_aus/",
+        "snippet": "I'd say CMC markets or Stake . CMC last i checked was free under $1000 for purchases. Stake is good UI and $3 trades."
+      },
+      {
+        "title": "Projection Lab Alternatives : r/Bogleheads - Reddit",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1lh4rl6/projection_lab_alternatives/",
+        "snippet": "I use Boldin.com for long term retirement planning and projections. UI is not as nice as projection lab but it works for me. It has a free to try mode but ..."
+      },
+      {
+        "title": "Did you learn anything new by switching from a spreadsheet to real ...",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1p4o9rv/did_you_learn_anything_new_by_switching_from_a/",
+        "snippet": "I got the sense PL was intended for those closer to retirement and the others were more adaptable in terms of utility for those not anywhere close to retirement ..."
+      },
+      {
+        "title": "Newbie comparison of Boldin and ProjectionLab : r/ChubbyFIRE",
+        "url": "https://www.reddit.com/r/ChubbyFIRE/comments/1li511d/newbie_comparison_of_boldin_and_projectionlab/",
+        "snippet": "ProjectionLab seems simple on the surface but is quite complex underneath. its very easy to choose something and have it give you crazy behavior. I used both as ..."
+      },
+      {
+        "title": "What are the best wealth management software tools for individual ...",
+        "url": "https://www.reddit.com/r/Rich/comments/1e5r2eh/what_are_the_best_wealth_management_software/",
+        "snippet": "Empower is great for tracking investments and net worth. It's free, links all your accounts and shows fees and allocation. Just ignore the sales calls."
+      },
+      {
+        "title": "What personal finance tracking apps are you actually using (and not ...",
+        "url": "https://www.reddit.com/r/Fire/comments/1m3a06r/what_personal_finance_tracking_apps_are_you/",
+        "snippet": "I tried Monarch but I've been using Banktivity for years at this point, they're great. All your accounts synced in one place, goals and budget tracking."
+      },
+      {
+        "title": "I tried every net worth tracking app so you don't have to ... - Reddit",
+        "url": "https://www.reddit.com/r/Fire/comments/1i0lfbr/i_tried_every_net_worth_tracking_app_so_you_dont/",
+        "snippet": "Really depends what you're looking for though. Budget apps are great if you need spending control. Wealth management ones work if you want advisory services."
+      },
+      {
+        "title": "Sharesight - I'm over it : r/AusFinance - Reddit",
+        "url": "https://www.reddit.com/r/AusFinance/comments/1rqfl2t/sharesight_im_over_it/",
+        "snippet": "I've been using Sharesight for several years and have paid over $2,200 since 2019. I'm over feeling unheard when it comes to feedback or suggested ..."
+      },
+      {
+        "title": "Sharesight insight please : r/fiaustralia - Reddit",
+        "url": "https://www.reddit.com/r/fiaustralia/comments/1p51d0b/sharesight_insight_please/",
+        "snippet": "I've just imported from CMC and CommSec to Sharechoice and it's a bun fight tbh it was showing an \"invalid trade\" I found the trade and it wouldn't accept ..."
+      },
+      {
+        "title": "Sharesight free plan changes : r/fiaustralia - Reddit",
+        "url": "https://www.reddit.com/r/fiaustralia/comments/1m062d6/sharesight_free_plan_changes/",
+        "snippet": "The problem with web based solutions is that in future years it could be gone. e.g. 20, 40 or 50 year time horizon for investment life cycle. If it could be run ..."
+      },
+      {
+        "title": "Looking for the best wealth tracker / wealth management ... - Reddit",
+        "url": "https://www.reddit.com/r/Rich/comments/1e1045a/looking_for_the_best_wealth_tracker_wealth/",
+        "snippet": "Check out getquin. It's a modern wealth tracking app that consolidates all your investment accounts in one place. It uses AI/ML to provide helpful insights and ..."
+      },
+      {
+        "title": "What kind of pasta is this? : r/ItalianFood - Reddit",
+        "url": "https://www.reddit.com/r/ItalianFood/comments/1i6bvye/what_kind_of_pasta_is_this/",
+        "snippet": "Paccheri are large, slightly elongated tubes, generally smooth on the outside. \u201cMezzi paccheri\u201d just means \u201chalf\u201d paccheri, so they're basically half the length ..."
+      },
+      {
+        "title": "Alternative data platforms for investment research - what do you use?",
+        "url": "https://www.reddit.com/r/quantfinance/comments/1pm530z/alternative_data_platforms_for_investment/",
+        "snippet": "Pricing is reasonable, way cheaper than AlphaSense. Thinknum is decent for the price. $600/year gets you job listings, pricing data, app rankings. The data ..."
+      },
+      {
+        "title": "Looking for alternative data platforms - what are you using? : r/Trading",
+        "url": "https://www.reddit.com/r/Trading/comments/1py1qcn/looking_for_alternative_data_platforms_what_are/",
+        "snippet": "AlphaSense - great for earnings transcripts and financial docs. Pricey though (like $10k+/year minimum). Best if you're doing deep fundamental research."
+      },
+      {
+        "title": "Which of the smaller expert networks are growing fast and hungry ...",
+        "url": "https://www.reddit.com/r/expertnetworks/comments/1o43h52/which_of_the_smaller_expert_networks_are_growing/",
+        "snippet": "I'm getting screens and calls with Third Bridge, Alphasights, Tegus by AlphaSense, and GLG. Also going to sign up with Coleman and Guidepoint."
+      },
+      {
+        "title": "Anthropic researchers predict a 'pretty terrible decade' for humans ...",
+        "url": "https://www.reddit.com/r/jobs/comments/1l47633/anthropic_researchers_predict_a_pretty_terrible/",
+        "snippet": "We're going to see tons of products get worse as humans are replaced with AI, but not worse enough everyone stops using them."
+      },
+      {
+        "title": "People are super rude and arrogant and I just wonder what the point ...",
+        "url": "https://www.reddit.com/r/Life/comments/1snnu5x/people_are_super_rude_and_arrogant_and_i_just/",
+        "snippet": "So many people act like this, just a lot of disrespectful bs from people every day and I get so exhausted from it. Like zero manners zero social skills no ..."
+      },
+      {
+        "title": "A customer support AI went rogue\u2014and it's a warning for every ...",
+        "url": "https://www.reddit.com/r/Futurology/comments/1k8bhes/a_customer_support_ai_went_rogueand_its_a_warning/",
+        "snippet": "Cursor went viral for all the wrong reasons: Its customer support AI went rogue, triggering a wave of cancellations and serving as a cautionary tale for other ..."
+      },
+      {
+        "title": "Is Hebbia any good? : r/private_equity - Reddit",
+        "url": "https://www.reddit.com/r/private_equity/comments/1e16mn4/is_hebbia_any_good/",
+        "snippet": "Hey all, i've recently heard about Hebbia, and been interested in it. If you use it at your firm, what do you find it useful for, and what do you wish it ..."
+      },
+      {
+        "title": "Does anyone have experience with these new AI tools geared ...",
+        "url": "https://www.reddit.com/r/private_equity/comments/1o1arfr/does_anyone_have_experience_with_these_new_ai/",
+        "snippet": "I am interviewing for a role with Hebbia. Would love to get more feedback on the product and dep. is there anything you can dm me? More ..."
+      },
+      {
+        "title": "Looking to talk to people who have used Hebbia : r/private_equity",
+        "url": "https://www.reddit.com/r/private_equity/comments/1fmqxal/looking_to_talk_to_people_who_have_used_hebbia/",
+        "snippet": "As Hebbia claims that a lot of PE firms use their product, wanted to get insights from the people who have actually used it and how was their experience on it."
+      },
+      {
+        "title": "Do you know any reliable alternatives to MS Office and Origin ...",
+        "url": "https://www.reddit.com/r/linuxquestions/comments/1ji9ybq/do_you_know_any_reliable_alternatives_to_ms/",
+        "snippet": "Windows on a VM can help run those types of apps as you find better alternatives. Also, use OnlyOffice instead of LibreOffice for better compatibility and ..."
+      },
+      {
+        "title": "Alternative to Ublock Origin? : r/Adblock - Reddit",
+        "url": "https://www.reddit.com/r/Adblock/comments/1iszajy/alternative_to_ublock_origin/",
+        "snippet": "Your best alternative is Firefox+uBlock Origin. But if that isn't viable because of extensions you need then switch to Brave which is has a good built in ad ..."
+      },
+      {
+        "title": "Any decent alternatives to uBlock Origin? : r/Adblock - Reddit",
+        "url": "https://www.reddit.com/r/Adblock/comments/1j303a5/any_decent_alternatives_to_ublock_origin/",
+        "snippet": "Try using the Brave Browser. It is Chromium based, so should be compatible with your system, has a good ad-blocker built in, and can still support uBlock ..."
+      },
+      {
+        "title": "Trying to move from stocks to futures : r/FuturesTrading - Reddit",
+        "url": "https://www.reddit.com/r/FuturesTrading/comments/1hm62su/trying_to_move_from_stocks_to_futures/",
+        "snippet": "When I go to my phone and look up Tradingview and type in \u201cfutures\u201d, I see thousands of different futures of NQ. I am confused. Some of them have prices, but ..."
+      },
+      {
+        "title": "For Day traders who trade on 1min - 5 min timeframe : r/Daytrading",
+        "url": "https://www.reddit.com/r/Daytrading/comments/1nij3re/for_day_traders_who_trade_on_1min_5_min_timeframe/",
+        "snippet": "I am a day trader and trade futures so none of my trades extend further than 24 hours. I start my day at 5:00 am unless I had a long night, but no later than 7: ..."
+      },
+      {
+        "title": "What's the point for me to keep trading Forex CFD after that I started ...",
+        "url": "https://www.reddit.com/r/FuturesTrading/comments/1dnkhze/whats_the_point_for_me_to_keep_trading_forex_cfd/",
+        "snippet": "Futures tend to be more regulated and can offer more transparency. However, Forex CFDs can provide higher leverage and more granularity."
+      },
+      {
+        "title": "so i have a question fellas why this pixar movie in particular is very ...",
+        "url": "https://www.reddit.com/r/Pixar/comments/1lkfahb/so_i_have_a_question_fellas_why_this_pixar_movie/",
+        "snippet": "Its biggest problem is that it's too disconnected from Toy Story. This is supposed to be the movie that made Andy fall in love with Buzz Lightyear 30 years ago."
+      },
+      {
+        "title": "Would Buzz Lightyear remember what he done while he's ... - Reddit",
+        "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1hnuq2h/would_buzz_lightyear_remember_what_he_done_while/",
+        "snippet": "Talking about electronics, either he'd remember who he was originally when he was switched to spanish and remember who he was when spanish after returning ..."
+      },
+      {
+        "title": "In Toy Story (1995) Buzz's wings are too long to pass through the ...",
+        "url": "https://www.reddit.com/r/shittymoviedetails/comments/1ommj96/in_toy_story_1995_buzzs_wings_are_too_long_to/",
+        "snippet": "It's like that Mario game where you can switch between 2D side scroller and 3D map in order to get around a pole or obstacle. Buzz knew in 3D mode his wings ..."
+      },
+      {
+        "title": "My go-to prompt for analyzing stocks. Share yours! - Reddit",
+        "url": "https://www.reddit.com/r/PromptEngineering/comments/1oqa30m/my_goto_prompt_for_analyzing_stocks_share_yours/",
+        "snippet": "I use WallStreetZen for financial analysis, its pretty straightforward. It really can save time when you need quick insights. Just a thought if you're ..."
+      },
+      {
+        "title": "Would you trust AI to handle your portfolio/investments? : r/fintech",
+        "url": "https://www.reddit.com/r/fintech/comments/1m2ztab/would_you_trust_ai_to_handle_your/",
+        "snippet": "So I'm curious: Have you ever used an AI tool (even GPTs) to help make a financial decision? Have you used AI to research stocks, analyse markets ..."
+      },
+      {
+        "title": "what are some good investing tools for beginners? - Reddit",
+        "url": "https://www.reddit.com/r/investingforbeginners/comments/1sg4pz5/what_are_some_good_investing_tools_for_beginners/",
+        "snippet": "WallStreetZen: This platform is specifically designed for part-time investors. ... I'm tired. I honestly don't know where to start when building a proper ..."
+      },
+      {
+        "title": "How to unenroll / cancel / quit / stop / end Vanguard Digital Advisor",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1n94l2u/how_to_unenroll_cancel_quit_stop_end_vanguard/",
+        "snippet": "Please allow 24-48 business hours for unenrollment to be completed. Any pending transactions can delay unenrollment up to 4 business days. Archived post. New ..."
+      },
+      {
+        "title": "Vanguard Digital Advisor/course correcting : r/Bogleheads - Reddit",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1jxg18b/vanguard_digital_advisorcourse_correcting/",
+        "snippet": "Hi all, newbie here. I'm 38 and due to job hopping in my 20s/early 30s, and stupidly never letting my 401k accumulate and cashing out, I've only got about ..."
+      },
+      {
+        "title": "Am I stupid for using Vanguard's robo-advisor? : r/Bogleheads - Reddit",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1ccq4ht/am_i_stupid_for_using_vanguards_roboadvisor/",
+        "snippet": "While most traditional advisors charge +1%, vanguard's advisory services are sub 0.30%, so they're not charging you an arm and a leg. And they've got you in a ..."
+      },
+      {
+        "title": "Which platforms or tools do you use in addition to the ones ... - Reddit",
+        "url": "https://www.reddit.com/r/ValueInvesting/comments/1m4kjrm/which_platforms_or_tools_do_you_use_in_addition/",
+        "snippet": "Ever since I started taking the fundamental analysis seriously, I've been constantly juggling between Excel, Notion, and multiple other apps."
+      },
+      {
+        "title": "Best free financial data sites, now that Quick fs is closing down?",
+        "url": "https://www.reddit.com/r/ValueInvesting/comments/1rghw5d/best_free_financial_data_sites_now_that_quick_fs/",
+        "snippet": "Best financial data providers. Alternatives to fiscal.ai for financial data. Best APIs for financial data. Free stock market APIs. Alternatives to Yahoo Finance ..."
+      },
+      {
+        "title": "Stock Analysis Platforms : r/ValueInvesting - Reddit",
+        "url": "https://www.reddit.com/r/ValueInvesting/comments/1pykpv6/stock_analysis_platforms/",
+        "snippet": "I've used pretty much all the research/financial data platforms, and my favorite tool is definitely Fiscal.ai. 20+ years of financial data on all companies, ..."
+      },
+      {
+        "title": "Boldin Advisors vs Vanguard Personal Advisor Services - Reddit",
+        "url": "https://www.reddit.com/r/Boldin/comments/1qifpp4/boldin_advisors_vs_vanguard_personal_advisor/",
+        "snippet": "There are way cheaper alternatives. SoFi Plus at $10/month for unlimited meetings. Planvision is $489 for first year the. $8/month. They use Right Capital and ..."
+      },
+      {
+        "title": "Vanguard vs. Schwab vs. Fidelity Robo Advisors - Which is best?",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1ojp08d/vanguard_vs_schwab_vs_fidelity_robo_advisors/",
+        "snippet": "Seems more straightforward to me. So I'm at Vanguard. Also, Vanguard was recommended by Nerdwallet over Schwab. Schwab is a great company though and once I ..."
+      },
+      {
+        "title": "Vanguard Advisor Services replacement option : r/Bogleheads",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1oful2o/vanguard_advisor_services_replacement_option/",
+        "snippet": "If you do decide to move out of Vanguard, I would suggest you go to an \u201cindividual\u201d or small group practice of Registered Investment Advisor(s). You are much ..."
+      },
+      {
+        "title": "Transitioning from Individual Fidelity Go Acct : r/fidelityinvestments",
+        "url": "https://www.reddit.com/r/fidelityinvestments/comments/1ec1w17/transitioning_from_individual_fidelity_go_acct/",
+        "snippet": "To make the switch to a self-directed account, you can open your desired account online and then request a full account transfer from your Fidelity Go account."
+      },
+      {
+        "title": "Unenroll from Fidelity Go - why is it so hard?? : r/fidelityinvestments",
+        "url": "https://www.reddit.com/r/fidelityinvestments/comments/1pkv973/unenroll_from_fidelity_go_why_is_it_so_hard/",
+        "snippet": "Fidelity Go accounts aren't able to accept transfers of shares in kind, so assets would generally need to be sold and transferred as cash before funding."
+      },
+      {
+        "title": "How painful(or possible) is it to convert a managed fidelity GO ...",
+        "url": "https://www.reddit.com/r/fidelityinvestments/comments/1i1cpau/how_painfulor_possible_is_it_to_convert_a_managed/",
+        "snippet": "Open a new account. 2. Call or chat with customer service and they will initiate the liquidation and transfer to the new account. This is how I had to ..."
+      },
+      {
+        "title": "When do wealth managers become worth it? : r/fatFIRE - Reddit",
+        "url": "https://www.reddit.com/r/fatFIRE/comments/1fbrc24/when_do_wealth_managers_become_worth_it/",
+        "snippet": "You can invest in a conservative portfolio that preserves wealth by giving up upside in exchange for lower risk tolerance without requiring a wealth manager."
+      },
+      {
+        "title": "What's the best finance tracker app (not rocketmoney) - Reddit",
+        "url": "https://www.reddit.com/r/personalfinance/comments/1ntng4s/whats_the_best_finance_tracker_app_not_rocketmoney/",
+        "snippet": "I've been using Monarch since they stepped in and made it easy to transfer once Mint no longer wanted my business. I'm happy with it."
+      },
+      {
+        "title": "Best place to park $100K for right now : r/dividends - Reddit",
+        "url": "https://www.reddit.com/r/dividends/comments/1f5wbe1/best_place_to_park_100k_for_right_now/",
+        "snippet": "I have about $100k sitting on the sidelines and I'd like to have it start earning me some passive income. It currently generates about $425/mo in my HYSA."
+      },
+      {
+        "title": "Get rid of Schwab Intelligent Portfolio? : r/investing - Reddit",
+        "url": "https://www.reddit.com/r/investing/comments/1ljsa6d/get_rid_of_schwab_intelligent_portfolio/",
+        "snippet": "I put 30k into a Schwab Intelligent portfolio premium 4 years ago. Currently its sitting just shy of 35k. I plan on leaving it longterm possibly for my Son in ..."
+      },
+      {
+        "title": "So intelligent portfolios premium is going away, no more financial ...",
+        "url": "https://www.reddit.com/r/Schwab/comments/1pkzrmc/so_intelligent_portfolios_premium_is_going_away/",
+        "snippet": "Although your investments and portfolio management will stay the same, you will no longer have access to unlimited Certified Financial Planner\u00ae sessions through ..."
+      },
+      {
+        "title": "I liquidated my Intelligent Portfolio yesterday - after 3 years of terrible ...",
+        "url": "https://www.reddit.com/r/Schwab/comments/1do8no1/i_liquidated_my_intelligent_portfolio_yesterday/",
+        "snippet": "This is a more diversified investment that I let Schwab manage. I have several other funds I invest in where I'm choosing to take more or less risk. Robo- ..."
+      },
+      {
+        "title": "Betterment vs vanguard or fidelity robo - Reddit",
+        "url": "https://www.reddit.com/r/betterment/comments/1cqdce7/betterment_vs_vanguard_or_fidelity_robo/",
+        "snippet": "The big difference is that Betterment doesn't have a conflict of interest the way Vanguard and Fidelity both do. They are fund provider companies that then ..."
+      },
+      {
+        "title": "Comparing robo-advisors to VT : r/Bogleheads - Reddit",
+        "url": "https://www.reddit.com/r/Bogleheads/comments/1hzentm/comparing_roboadvisors_to_vt/",
+        "snippet": "I'm comforted to know that VT outperforms, even if Betterment and Wealthfront have a small cap value tilt. I expected this with their 0.25% fee but really ..."
+      }
+    ],
+    "twitter_phase2": [
+      {
+        "title": "I'll never understand why Yahoo Finance keeps changing things ...",
+        "url": "https://x.com/FinanceLancelot/status/1961141899827245098",
+        "snippet": "I'll never understand why Yahoo Finance keeps changing things. Every time they \"improve\" something they either break it or remove a useful feature."
+      },
+      {
+        "title": "Americans turned to new credit cards and personal loans last year ...",
+        "url": "https://x.com/YahooFinance/status/2025331202802983168",
+        "snippet": "Yahoo Finance (@YahooFinance). 17 likes 8 replies. Americans turned to new credit cards and personal loans last year as higher prices burned."
+      },
+      {
+        "title": "\"Daylight savings time feels a lot like crypto right now,\" GSR ...",
+        "url": "https://x.com/YahooFinance/status/2031381254428356851",
+        "snippet": "Yahoo Finance (@YahooFinance). 45 likes. \"Daylight savings time feels a lot like crypto right now,\" GSR managing director of asset management @baehr says."
+      },
+      {
+        "title": "I recently joined @YahooFinance's Bob Powell to talk about ...",
+        "url": "https://x.com/DrOzCMS/status/1953881640213622913",
+        "snippet": "I recently joined @YahooFinance's Bob Powell to talk about changing healthcare to protect seniors' wallets and invest in the future of America."
+      },
+      {
+        "title": "Wall Street's roaring start turned into another rout",
+        "url": "https://x.com/YahooFinance/status/1991621626321072437",
+        "snippet": "Yahoo Finance (@YahooFinance). 47 likes 3 replies. Wall Street's roaring start turned into another rout."
+      },
+      {
+        "title": "\"....Meanwhile, my portfolio kept growing. Six figures. Then $150k. I ...",
+        "url": "https://x.com/HolySmokas/status/2046218577959641390",
+        "snippet": "Meanwhile, my portfolio kept growing. Six figures. Then $150k. I could see $200k on the horizon. And then I made a mistake. My portfolio was near $200k, ..."
+      },
+      {
+        "title": "Bruno Monte (@brunomodesign) / Posts / X - Twitter",
+        "url": "https://x.com/brunomodesign",
+        "snippet": "Bruno Monte (@brunomodesign) - Posts - Designer helping brands make their mark online. Ex Circle, Mastercard and Shutterstock. | X (formerly Twitter)"
+      },
+      {
+        "title": "What if motlbots had a context graph? Well we don't know but this ...",
+        "url": "https://x.com/anshublog/status/2017417880560931278",
+        "snippet": "Context graphs, one month in. What we've learned since the essay went viral. A month ago, @JayaGup10 and I published our p.o.v. on context graphs."
+      },
+      {
+        "title": "Nimit Sohoni (@nimit_sohoni) / Posts and Replies / X",
+        "url": "https://x.com/nimit_sohoni/with_replies",
+        "snippet": "1\ufe0f\u20e3 The modern developer has changed. They're fearless and writing more code than ever. They're now developers with coding agents. They're also a broader audience ..."
+      },
+      {
+        "title": "Mustafa Suleyman (@mustafasuleyman) / Posts / X - Twitter",
+        "url": "https://x.com/mustafasuleyman",
+        "snippet": "Mustafa Suleyman (@mustafasuleyman) - Posts - CEO, @MicrosoftAI | Author: The Coming Wave | Past: Co-founder, @InflectionAI & @GoogleDeepMind | X (formerly ..."
+      },
+      {
+        "title": "I love @Wealthfront and understand why but apparently they are ...",
+        "url": "https://x.com/AzianMike/status/2045263405498695854",
+        "snippet": "I love @Wealthfront and understand why but apparently they are switching their sponsor bank, which means I need to manually update all the routing/account ..."
+      },
+      {
+        "title": "Wealthfront IPO'd today at $2.6B The 17-year journey: 2008 ...",
+        "url": "https://x.com/jasonlk/status/1999558119953711120",
+        "snippet": "Wealthfront IPO'd today at $2.6B The 17-year journey: 2008: Founded as \"kaChing\" 2014: Peak at $700M valuation 2018: Down round to $500M"
+      },
+      {
+        "title": "Chris Hutchins (@hutchins) / Posts / X - Twitter",
+        "url": "https://x.com/hutchins",
+        "snippet": "Life Hacker, Points Optimizer and Host of All the Hacks (1m+ listeners). Previously founder @ Grove (acq by Wealthfront) & Milk (acq by Google) and VC @ GV."
+      },
+      {
+        "title": "Tai Zhang (@dekaliber) / Posts / X - Twitter",
+        "url": "https://x.com/dekaliber",
+        "snippet": "Curious about #investing with @Wealthfront or other #roboadvisors? I wrote up my past 2 years of experience with the service, taking a closer look at fees and ..."
+      },
+      {
+        "title": "Carlton Galbreath (@Carlton__G) / Posts / X - Twitter",
+        "url": "https://x.com/Carlton__G",
+        "snippet": "This is why I stopped using @Wealthfront Thankfully it was a bad company policy rather than a government one - much lower switching costs. Joe Nakamoto \u26a1\ufe0f ..."
+      },
+      {
+        "title": "I CANCELED my RobinHood account today. It should be illegal ...",
+        "url": "https://x.com/noahkagan/status/2027420790795227603",
+        "snippet": "I CANCELED my RobinHood account today. It should be illegal. Initially downloaded to understand why it was so popular with meme stocks and Gen Z."
+      },
+      {
+        "title": "Hopefully, you canceled and just put it in Robinhood. - X",
+        "url": "https://x.com/RobinhoodApp/status/1811889119305531680",
+        "snippet": "Robinhood (@RobinhoodApp). 202 likes 70 replies. Hopefully, you canceled and just put it in Robinhood."
+      },
+      {
+        "title": "Customers ask, we execute. Dividend Tracking and Portfolio ...",
+        "url": "https://x.com/RobinhoodApp/status/1966587161240559713",
+        "snippet": "The Ai custom indicators from Cortex - might be canceling my trading view if it's decent & Robinhood Social. Nicely done $HOOD. Eddie's Image on X. 0. 2."
+      },
+      {
+        "title": "$HOOD Robinhood Gold Subscriber growth is pretty insane. Why ...",
+        "url": "https://x.com/amitisinvesting/status/1855453647208903165",
+        "snippet": "Robinhood to launch a simple $5/month subscription that now does $110M+ in ARR and growing at the level it is, with around 200K+ new subscribers a quarter, is ..."
+      },
+      {
+        "title": "After the filing of our $GNS lawsuit below, a message for our long ...",
+        "url": "https://x.com/rogerhamilton/status/1989657836461367752",
+        "snippet": "... just the FIRST MOVE. We are now going after the entire food chain, and we ... Robinhood @RobinhoodApp Schwab @CharlesSchwab Fidelity @Fidelity Vanguard ..."
+      },
+      {
+        "title": "Lou-Lou Mason (@LouLouMason) / Posts / X - Twitter",
+        "url": "https://x.com/LouLouMason",
+        "snippet": "I've cancelled it and will not be using twitter going forward. Find me on IG (although not sure how long that will last), Bluesky etc @louloumason (kind of ..."
+      },
+      {
+        "title": "The Mocker (@Oz_Mocker) / Posts / X - Twitter",
+        "url": "https://x.com/Oz_Mocker",
+        "snippet": "Britain's house rules bow to demands of Islamist visitors. A chilling true account of what is taking place in Britain (and building in momentum in Australia) ..."
+      },
+      {
+        "title": "Best Apps Like Empower for Instant Loans in the USA",
+        "url": "https://x.com/9JaPolyTv/status/2045293606039065089",
+        "snippet": "If Empower isn't working for you, don't worry\u2014there are better alternatives. Discover the top apps offering instant loans with fewer restrictions..."
+      },
+      {
+        "title": "The long-running legal saga involving discount ride-sharing service ...",
+        "url": "https://x.com/maustermuhle/status/2026062415264117242",
+        "snippet": "The long-running legal saga involving discount ride-sharing service Empower in D.C. seems to be coming to an end, and Empower may finally have to shut down."
+      },
+      {
+        "title": "I applaud the U.S. Department of Labor's proposed regulation ...",
+        "url": "https://x.com/EFMurphyIII/status/2038653957124268055",
+        "snippet": "Since early 2025, Empower has expressed our support in integrating private markets into retirement plans, allowing plan participants the opportunity to ..."
+      },
+      {
+        "title": "elections that didn't meet Western democratic aesthetics, long ...",
+        "url": "https://x.com/NMenonRao/status/2001946121074245881",
+        "snippet": "There was no credible, unified, liberal alternative waiting in the wings. Removing pressure from Hasina didn't empower democrats. It empowered street power, ..."
+      },
+      {
+        "title": "Blackstone is partnering with retirement plan administrator Empower ...",
+        "url": "https://x.com/business/status/2011453663202390184",
+        "snippet": "Blackstone is partnering with retirement plan administrator Empower, as the alternative asset giant pushes further to get its products into the accounts of ..."
+      },
+      {
+        "title": "Vamsi Pasupuleti (@vamsipasupuleti) / Posts / X",
+        "url": "https://x.com/vamsipasupuleti",
+        "snippet": "I promised that if GOLD hits $5,300 this week, I will give away 1 oz gold bars (~$5,279) to 3 people. So as promised I will be giving away"
+      },
+      {
+        "title": "\u0c2e\u0c41\u0c15\u0c41\u0c02\u0c26 (@MukundaGK461) / Posts / X",
+        "url": "https://x.com/MukundaGK461",
+        "snippet": "If a woman has to grow wealth wise first, she may not necessarily have time to focus on her health and relationships either. So what's the point in freezing ..."
+      },
+      {
+        "title": "Grant Sabatier (@sabatier) / Posts and Replies / X",
+        "url": "https://x.com/sabatier/with_replies",
+        "snippet": "Initially I built projectionlab.com simply because I wanted a better plan for my own financial future. And the fact that so many others wanted that too came ..."
+      },
+      {
+        "title": "ok im finally back to working on this. switching to a different SG ...",
+        "url": "https://x.com/Swellbolo/status/2036672936568840335",
+        "snippet": "ok im finally back to working on this. switching to a different SG model and gonna be using more convenient render settings so it doesn't take a lightyear."
+      },
+      {
+        "title": "To infinity and beyond! Buzz Lightyear's Space Ranger Spin has ...",
+        "url": "https://x.com/thrillgeek/status/2041880015298572462",
+        "snippet": "To infinity and beyond! Buzz Lightyear's Space Ranger Spin has officially reopened at Magic Kingdom. Huge shoutout to everyone involved during the ..."
+      },
+      {
+        "title": "I warned the GCV community about this. You will be ridiculed ... - X",
+        "url": "https://x.com/WoodyLightyearx/status/1881258721247965194",
+        "snippet": "I warned the GCV community about this. You will be ridiculed and mocked beyond your imagination because you have turned GCV into a caricature of itself."
+      },
+      {
+        "title": "I am, at least, looking forward to seeing how they'll further develop ...",
+        "url": "https://x.com/KeyWatkins51299/status/1997163870041817364",
+        "snippet": "I am, at least, looking forward to seeing how they'll further develop Buzz and Jessie's relationship in TS5. Especially since they barely interacted in TS4."
+      },
+      {
+        "title": "Every Claude Code Hack I Know (March 2026)",
+        "url": "https://x.com/every/status/2036180279870583259",
+        "snippet": "If every session asks \"Allow?\" on every action, you can't context-switch. They all need to run autonomously. Check in, react, move on. GitHub is there if you ..."
+      },
+      {
+        "title": "AlphaSense",
+        "url": "https://x.com/AlphaSenseInc/status/2016506295076209098",
+        "snippet": "Fragmented workflows and switching from tool to tool is time consuming and hampers your productivity. You need answers you can trust and actionable intelligence ..."
+      },
+      {
+        "title": "Industry expert explains why agentic development is the next major ...",
+        "url": "https://x.com/AlphaSenseInc/status/2016163485499920733",
+        "snippet": "AlphaSense (@AlphaSenseInc). 27 likes. Industry expert explains why agentic development is the next major shift ( $MSFT, $AMZN, $GOOGL ): - The expert ..."
+      },
+      {
+        "title": "Interview with a former $INTC employee on $AVGO strengths and ...",
+        "url": "https://x.com/AlphaSenseInc/status/1996233371949634006",
+        "snippet": "AlphaSense (@AlphaSenseInc). 89 likes. Interview with a former $INTC employee on $AVGO strengths and weaknesses ( $AMZN, $MRVL, $AMKR, $AAPL ): - The expert ..."
+      },
+      {
+        "title": "$MSFT employee on why $GOOGL has the most integrated stack ...",
+        "url": "https://x.com/AlphaSenseInc/status/2034627199404241114",
+        "snippet": "- The expert believes enterprise AI usage will naturally split across multiple models rather than consolidate around a single one. Simpler tasks are well served ..."
+      },
+      {
+        "title": "The expert views the announcement of collaboration between AWS ...",
+        "url": "https://x.com/AlphaSenseInc/status/2018700000629530922",
+        "snippet": "AlphaSense (@AlphaSenseInc). 51 likes 4 replies. Former $AMZN employee explains why $AMZN and $GOOGL cooperation marks a turning point in multicloud ( $MSFT ) ..."
+      },
+      {
+        "title": "Laura Bonelli (@lau_rabonelli) / Posts / X - Twitter",
+        "url": "https://x.com/lau_rabonelli",
+        "snippet": "Laura Bonelli (@lau_rabonelli) - Posts - #Copywriter & PhD in CogSci. Obsessed with hexaflexagons. And gingerbread! #OMBLE | X (formerly Twitter)"
+      },
+      {
+        "title": "1/ Russian forces in Ukraine are experiencing a devastating loss of ...",
+        "url": "https://x.com/ChrisO_wiki/status/2019381312348647740",
+        "snippet": "1/ Russian forces in Ukraine are experiencing a devastating loss of connectivity as the Starlink terminals they rely upon are systematically shut off."
+      },
+      {
+        "title": "Josh Sookman (@jsookman) / Posts / X",
+        "url": "https://x.com/jsookman",
+        "snippet": "Mint is shutting down. Mint was never built for properly managing your investments, only expenses. Mezzi is the best place to track and build wealth through ..."
+      },
+      {
+        "title": "Sirio a corse alternate o stop ai mezzi pesanti per alleggerire il carico",
+        "url": "https://x.com/qn_lanazione/status/2038159480244887899",
+        "snippet": "La Nazione (@qn_lanazione). 4 likes 331 views. Ponte da Verrazzano, ultime ipotesi: Sirio a corse alternate o stop ai mezzi pesanti per alleggerire il carico."
+      },
+      {
+        "title": "UETR (@UETR_eu) / Posts / X - Twitter",
+        "url": "https://x.com/UETR_eu",
+        "snippet": "UETR represents more than 200.000 road transport companies in Europe (Micro, Small and Medium Enterprises) with a total capacity of 430.000 commercial vehicles."
+      },
+      {
+        "title": "Ori Eldarov (@leveredvlad) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/leveredvlad/with_replies",
+        "snippet": "From my conversations, the best tools for this type of screening are AlphaSense, Rogo, and Hebbia. These are native AI platforms built for financial analysts."
+      },
+      {
+        "title": "Charlie Curnin (@charliecurnin) / Posts and Replies / X",
+        "url": "https://x.com/charliecurnin/with_replies",
+        "snippet": "Rogo sells to investment banks. The professional is the customer, the tool ... The wedge is abandoned work: no budget line to justify, no incumbent to displace, ..."
+      },
+      {
+        "title": "Richard Freling (@richardfreling) / Posts / X",
+        "url": "https://x.com/richardfreling",
+        "snippet": "Error-prone offboarding that exposes the company to insider risk. Revenue stalled by a failed SOC 2 audit because nobody was tracking compliance in real time."
+      },
+      {
+        "title": "Ori Eldarov (@leveredvlad) / Posts / X - Twitter",
+        "url": "https://x.com/leveredvlad",
+        "snippet": "From my conversations, the best tools for this type of screening are AlphaSense, Rogo, and Hebbia. These are native AI platforms built for financial analysts."
+      },
+      {
+        "title": "Albert Morro (@amvall) / Posts / X - Twitter",
+        "url": "https://x.com/amvall",
+        "snippet": "Albert Morro (@amvall) - Posts - Tech entrepreneur turned VC, investing and supporting founders exploring new frontiers. | X (formerly Twitter)"
+      },
+      {
+        "title": "Brave #Origin will be completely FREE for #Linux users. That's a ...",
+        "url": "https://x.com/NuaViso/status/2043427611901129175",
+        "snippet": "With Origin, you can now completely opt out of all this, by paying a one-time fee (if you don't use Linux). That's a very fair deal, for a software you will ..."
+      },
+      {
+        "title": "Congratulations to Deputy Jackson Kato on becoming a United ...",
+        "url": "https://x.com/ArapahoeSO/status/1788999608254746751",
+        "snippet": "Congratulations to Deputy Jackson Kato on becoming a United States Citizen! Deputy Kato is from Kampala, Uganda. He joined the Sheriff's Office in 2022 ..."
+      },
+      {
+        "title": "High skilled immigration has been central to America leading the ...",
+        "url": "https://x.com/levie/status/1871955364213936585",
+        "snippet": "High skilled immigration has been central to America leading the world in tech. The biggest misunderstand about high skill immigration stems from people ..."
+      },
+      {
+        "title": "Matt Shumer (@mattshumer_) on X",
+        "url": "https://x.com/mattshumer_/status/2021256989876109403",
+        "snippet": "Think back to February 2020. If you were paying close attention, you might have noticed a few people talking about a virus spreading overseas."
+      },
+      {
+        "title": "Open source + great DX + responsive support always wins. If you're ...",
+        "url": "https://x.com/steventey/status/1886124389357490670",
+        "snippet": "I finally switched to @polar_sh and the difference is actually insane. 1. First, the transparency is a game-changer. Every single fee is visible - when ..."
+      },
+      {
+        "title": "Reddit at 6%? Bold call with Q1 earnings 10 days out. That's the ...",
+        "url": "https://x.com/grkportfolio/status/2046656016771887349",
+        "snippet": "Bold call with Q1 earnings 10 days out. That's the difference between research and conviction. The AI-data-licensing moat is real and still underpriced. Our ..."
+      },
+      {
+        "title": "Aakash Gupta",
+        "url": "https://x.com/aakashgupta/status/2025440394390241391",
+        "snippet": "The result: digital revenue crossed $2 billion for the first time in 2025. Free cash flow hit $550 million. Adjusted operating margins reached 24% in Q4."
+      },
+      {
+        "title": "Tim Meinhardt (@TMTerp) / Posts / X - Twitter",
+        "url": "https://x.com/TMTerp",
+        "snippet": "Using similar models.. Trained on similar data.. A single fake news headline could trigger a synchronized crash across every financial AI agent at once.."
+      },
+      {
+        "title": "\"DeepSeek is now treated more favorably by the United States ...",
+        "url": "https://x.com/ericbahn/status/2028296191751143896",
+        "snippet": "The government didn't just cancel a ... The US government just increased the likelihood of AI futures where America is at an inherent disadvantage."
+      },
+      {
+        "title": "Nicolas Bustamante (@nicbstme) on X",
+        "url": "https://x.com/nicbstme/status/2016251900249964865",
+        "snippet": "I've been working in AI and search for a decade. First building Doctrine, the largest European legal search engine and now building @fintool an AI-powered ..."
+      },
+      {
+        "title": "Another crypto prediction market accused of fraudulent capital raising.",
+        "url": "https://x.com/MickBransfield/status/2014406910066200988",
+        "snippet": "And The space already have 1st token \"UFO\" is already listed and down ~99%, and instead of fixing or delivering value there, the team is now pushing a new token ..."
+      },
+      {
+        "title": "Fenrir (@FenrirCap) / Posts / X - Twitter",
+        "url": "https://x.com/FenrirCap",
+        "snippet": "The on chain economy switched and was introduced to the idea of ICM [internet capital markets]. There was a lot of excitement. VC on chain, retail investors ..."
+      },
+      {
+        "title": "kennyislittle (@kennyislittle) / Posts / X - Twitter",
+        "url": "https://x.com/kennyislittle",
+        "snippet": "Changed \"decentralized\" to \"autonomous.\" Changed \"metaverse\" to \"AI-native.\" Changed \"commerce\" to \"inference.\" The investors didn't notice. They did the same ..."
+      },
+      {
+        "title": "Vikram Singh (@vikramcantsingh) / Posts / X",
+        "url": "https://x.com/vikramcantsingh",
+        "snippet": "Buying a ticker on Hyperliquid provides you access to Hyperliquid's liquidity. Given ticker auctions happen every 31 hours, there can only be ~282 auctions in a ..."
+      },
+      {
+        "title": "Wealthsimple (@Wealthsimple) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/Wealthsimple/with_replies",
+        "snippet": "Transfer funds between your Wealthsimple accounts. In this article: Overview How to transfer funds between accounts Account-specific transfer restrictions ..."
+      },
+      {
+        "title": "Thrilled that Oak Hill Advisors, L.P., one of the world's leading ...",
+        "url": "https://x.com/gsivulka/status/2013738586735002100",
+        "snippet": "Thrilled that Oak Hill Advisors, L.P., one of the world's leading alternative credit investment firms, has doubled down on Hebbia, rolling it out wall-to-wall ..."
+      },
+      {
+        "title": "If you are a junior investment banker, private equity associate or ...",
+        "url": "https://x.com/BoringBiz_/status/2042363417730662437",
+        "snippet": "From my conversations, the best tools for this type of screening are AlphaSense, Rogo, and Hebbia. These are native AI platforms built for financial ..."
+      },
+      {
+        "title": "Alex Immerman (@aleximm) on X",
+        "url": "https://x.com/aleximm/status/2028490204307173840",
+        "snippet": "And perhaps the strongest moat of all in this new era is process power\u2014or as George Sivulka of Hebbia calls it, \u201cprocess engineering.\u201d Application software ..."
+      },
+      {
+        "title": "Sashank Gondala (@sgondala2) / Posts / X - Twitter",
+        "url": "https://x.com/sgondala2",
+        "snippet": "There are three products I absolutely adore: Arc browser, Claude Code, and Wispr Flow. I switched from Brave to Arc the day a friend showed it to me. Thre..."
+      },
+      {
+        "title": "This is a really useful framework for thinking about how and when ...",
+        "url": "https://x.com/chadfowler/status/2015848492950782138",
+        "snippet": "As a result, owners can freely move digital assets, and builders can openly program arbitrary logic to make them more useful \u2014 creating an environment analogous ..."
+      },
+      {
+        "title": "Jianing Wu (@ninja_five_) / Posts / X - Twitter",
+        "url": "https://x.com/ninja_five_",
+        "snippet": "The same day, Vanguard opened its platform to third-party crypto ETFs and mutual funds, following reports in September that it was weighing such a move. The ..."
+      },
+      {
+        "title": "Rodrigo Ferraro (@_RodrigoFerraro) / Posts / X - Twitter",
+        "url": "https://x.com/_RodrigoFerraro",
+        "snippet": "To the advisors and clients who've been with us through this journey, our recommendation hasn't changed: Crypto presents an incredibly promising investment ..."
+      },
+      {
+        "title": "Charles Schwab Launches Bitcoin and Ethereum Trading for Retail ...",
+        "url": "https://x.com/i/trending/2045105390409715938",
+        "snippet": "Charles Schwab is rolling out its Schwab Crypto platform, letting retail investors buy and sell Bitcoin and Ethereum directly on Schwab.com, the mobile app, ..."
+      },
+      {
+        "title": "Up and Down Cycle; TKO's Nick Khan Offers Positive Vibes To US ...",
+        "url": "https://x.com/mediamanint/status/2047514766420427192/photo/4",
+        "snippet": "Several institutional investors, including Vanguard and Invesco, have also raised their stakes in TKO Group, indicating a strong interest in the company, which ..."
+      }
+    ]
+  },
+  "appstore_reviews": {
+    "Yahoo Finance": 616147,
+    "Fidelity Full View": 3074636,
+    "Wealthfront": 17355,
+    "Robinhood": 4724322,
+    "Empower": 44456,
+    "Sharesight": 3,
+    "WealthWise": 3,
+    "ProjectionLab": 3996,
+    "Nauma.ai": 1115211,
+    "Pearler": 3,
+    "AlphaSense": 78,
+    "Hebbia": 50,
+    "Lightyear": 2,
+    "Mezzi": 98,
+    "Rogo": 6,
+    "WallStreetZen": 616147,
+    "Vanguard Digital Advisor": 176950,
+    "Tickeron": 16,
+    "Fiscal.ai": 236,
+    "Vanguard Personal Advisor Services": 176950,
+    "Origin": 3183,
+    "Betterment Premium": 68,
+    "Betterment": 60090,
+    "Fidelity Go": 3074636,
+    "Surmount": 0,
+    "Schwab Intelligent Portfolios": 1146805,
+    "Wealthsimple Invest": 17355,
+    "E*TRADE Core Portfolios": 380930,
+    "M1 Finance": 72211
+  },
+  "competitors": [
+    {
+      "name": "Fidelity Go",
+      "description": "An automated investing platform that builds and manages investment portfolios based on user goals and risk tolerance.",
+      "pricing": "paid",
+      "strengths": [
+        "Low-cost investment options",
+        "Automated portfolio management",
+        "Integration with other Fidelity accounts"
+      ],
+      "weaknesses": [
+        "Limited customization options for portfolios - Unlike this idea with embedded behavioral design.",
+        "No embedded behavioral design to encourage consistent investing - This idea focuses on encouraging consistency."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 75,
+      "mention_count": 1,
+      "engagement_score": 20,
+      "sentiment_split": {
+        "positive": 70,
+        "neutral": 20,
+        "negative": 10
+      },
+      "dominant_complaint": "Not as customizable as other platforms.",
+      "dominant_praise": "Easy to use and low fees.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.wsj.com/buyside/personal-finance/financial-advisors/how-to-choose-the-best-robo-advisors",
+        "https://www.cnbc.com/select/best-robo-advisors/"
+      ]
+    },
+    {
+      "name": "Schwab Intelligent Portfolios",
+      "description": "A robo-advisor that automatically creates, monitors, and rebalances investment portfolios with no advisory fees.",
+      "pricing": "free",
+      "strengths": [
+        "No advisory fees",
+        "Automated rebalancing",
+        "Tax-loss harvesting"
+      ],
+      "weaknesses": [
+        "Limited investment options compare to human advisors - This idea is designed for a specific average person with limited hands-on involvement.",
+        "No embedded behavioral design to encourage consistent investing - This idea focuses on encouraging consistency."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 72,
+      "mention_count": 1,
+      "engagement_score": 25,
+      "sentiment_split": {
+        "positive": 65,
+        "neutral": 25,
+        "negative": 10
+      },
+      "dominant_complaint": "Cash drag can impact returns.",
+      "dominant_praise": "Great for hands-off investing and no fees.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.wsj.com/buyside/personal-finance/financial-advisors/how-to-choose-the-best-robo-advisors",
+        "https://www.cnbc.com/select/best-robo-advisors/"
+      ]
+    },
+    {
+      "name": "M1 Finance",
+      "description": "A platform that combines automated investing with customizable portfolios and borrowing options.",
+      "pricing": "freemium",
+      "strengths": [
+        "Customizable investment portfolios",
+        "Automated investing",
+        "Low-cost platform"
+      ],
+      "weaknesses": [
+        "Can become complex for complete beginners - This idea is designed around average beginners, and is simplified.",
+        "Lack of financial advisor access \u2014 This idea focuses on behavior."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 70,
+      "mention_count": 2,
+      "engagement_score": 30,
+      "sentiment_split": {
+        "positive": 65,
+        "neutral": 25,
+        "negative": 10
+      },
+      "dominant_complaint": "Interface can be overwhelming.",
+      "dominant_praise": "Good for experienced investors who want control.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://surmount.ai/blogs/top-5-alternatives-to-autopilot-for-retail-investors-in-2024",
+        "https://www.reddit.com/r/investingforbeginners/comments/1ic4nlq/i_have_2k_whats_the_best_investment_app_today/"
+      ]
+    },
+    {
+      "name": "Betterment",
+      "description": "A robo-advisor that offers automated investing, financial planning, and cash management services.",
+      "pricing": "paid",
+      "strengths": [
+        "Goal-based investing",
+        "Automated tax optimization",
+        "Socially responsible investing options"
+      ],
+      "weaknesses": [
+        "Limited customization to user goals - Unlike this idea tailored specifically for average users and behavioral automation.",
+        "Doesn't automate goal-setting based on user's behavioral profile."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 76,
+      "mention_count": 2,
+      "engagement_score": 35,
+      "sentiment_split": {
+        "positive": 70,
+        "neutral": 20,
+        "negative": 10
+      },
+      "dominant_complaint": "Fees slightly higher than some competitors.",
+      "dominant_praise": "Easy to set up and use, good for beginners.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.wsj.com/buyside/personal-finance/financial-advisors/best-robo-advisors",
+        "https://surmount.ai/blogs/top-5-alternatives-to-autopilot-for-retail-investors-in-2024"
+      ]
+    },
+    {
+      "name": "Wealthfront",
+      "description": "An automated investing platform that builds and manages personalized investment portfolios.",
+      "pricing": "paid",
+      "strengths": [
+        "Automated investing",
+        "Tax-loss harvesting",
+        "Financial planning tools"
+      ],
+      "weaknesses": [
+        "Fees can be a barrier for smaller accounts - Unlike this idea which is focused on ease of access for beginners to long-term investing.",
+        "No support for sophisticated tax strategies - Unlike this idea with embedded automation."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 78,
+      "mention_count": 3,
+      "engagement_score": 40,
+      "sentiment_split": {
+        "positive": 75,
+        "neutral": 15,
+        "negative": 10
+      },
+      "dominant_complaint": "Customer service can be slow to respond.",
+      "dominant_praise": "Easy to use, great tax benefits.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.forbes.com/advisor/investing/best-investment-managing-apps/",
+        "https://magnifi.com/learn/top-10-ai-tools-for-portfolio-analysis",
+        "https://surmount.ai/blogs/top-5-alternatives-to-autopilot-for-retail-investors-in-2024"
+      ]
+    },
+    {
+      "name": "Pearler",
+      "description": "An automated investment platform for long-term investors with auto-balancing features.",
+      "pricing": "paid",
+      "strengths": [
+        "Auto invest feature",
+        "Auto balance feature",
+        "User sets the ideal asset splits"
+      ],
+      "weaknesses": [
+        "Limited behaviour design implementation - This idea is designed around encouraging habits through behavioral design.",
+        "No embedded behavioral design"
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 70,
+      "mention_count": 1,
+      "engagement_score": 30,
+      "sentiment_split": {
+        "positive": 65,
+        "neutral": 25,
+        "negative": 10
+      },
+      "dominant_complaint": "Unknown user sentiments",
+      "dominant_praise": "Unknown user sentiments",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/AusFinance/comments/1mxv68b/looking_for_an_automated_portfolio_rebalancing/"
+      ]
+    }
+  ],
+  "market_score": 2.1,
+  "non_app_signals": [
+    "Spreadsheets are commonly used for portfolio tracking and rebalancing, cited in several Reddit threads."
+  ],
+  "differentiators": [
+    "Wealthfront does not embed strong behavioural design to encourage consistent investing \u2014 this idea does.",
+    "Fidelity Go has limited customization options \u2014 this idea has automated portfolio construction, based on your goals and risk tolerance.",
+    "Schwab Intelligent Portfolios don't automate based on user goals \u2014 this idea automates goal investments based on the average person."
+  ],
+  "sources": [
+    "https://www.reddit.com/r/personalfinance/comments/1l3d7wn/whats_the_best_autoinvest_tool/",
+    "https://www.reddit.com/r/personalfinance/comments/1qm9ax8/best_auto_investing_app/",
+    "https://www.reddit.com/r/CanadianInvestor/comments/1n58lhw/intimidated_new_investor_best_platform_for/",
+    "https://www.forbes.com/advisor/investing/best-investment-managing-apps/",
+    "https://useorigin.com/resources/blog/best-ai-investing-apps-in-2026",
+    "https://magnifi.com/learn/top-10-ai-tools-for-portfolio-analysis",
+    "https://www.wallstreetzen.com/blog/best-ai-portfolio-management-tools/",
+    "https://www.investsuite.com/insights/blogs/what-are-the-best-robo-advisor-apps-for-goal-based-personalized-investing-key-features-and-considerations",
+    "https://www.wsj.com/buyside/personal-finance/financial-advisors/how-to-choose-the-best-robo-advisors",
+    "https://www.cnbc.com/select/best-robo-advisors/",
+    "https://surmount.ai/blogs/top-5-alternatives-to-autopilot-for-retail-investors-in-2024"
+  ]
+}

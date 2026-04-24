@@ -1,0 +1,511 @@
+{
+  "timestamp": "2026-04-24_17-54-58",
+  "idea": "It tracks user behaviour, thoughts, and emotional patterns to provide structured insights and guided interventions that improve self-regulation and mental clarity.",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "It tracks user behaviour, thoughts, and emotional patterns to provide structured insights and guided interventions that improve self-regulation and mental clarity."
+    },
+    {
+      "role": "assistant",
+      "content": "What makes it different from everything else out there?"
+    },
+    {
+      "role": "user",
+      "content": "It focuses on real-time behavioural patterns and decision moments through a voice ai agent coach for breathing rather than static journaling or retrospective reflection."
+    },
+    {
+      "role": "assistant",
+      "content": "Who is it specifically for?"
+    },
+    {
+      "role": "user",
+      "content": "people who experience anxiety and stress"
+    }
+  ],
+  "core_features": [
+    "real-time voice AI agent-coach for breathing",
+    "behavioural pattern tracking at decision moments",
+    "guided interventions for self-regulation based on real-time data"
+  ],
+  "app_candidates_phase1": [],
+  "queries": {
+    "reddit_phase1": [
+      "best app for real-time anxiety support site:reddit.com",
+      "app that tracks emotional patterns in real-time site:reddit.com",
+      "voice AI coach for anxiety site:reddit.com",
+      "intitle:(\"tried every\" OR \"my ranking\") breathing app site:reddit.com",
+      "wish there was a voice-activated anxiety coach app site:reddit.com",
+      "looking for an app that intervenes during panic attacks site:reddit.com",
+      "recommendations for real-time stress management tools site:reddit.com"
+    ],
+    "twitter_phase1": [
+      "I hate every stress management app",
+      "someone should build an app that does real-time anxiety intervention",
+      "I would pay for an app that tracks my emotional patterns and provides personalized insights",
+      "best app for real-time breathing exercises",
+      "recommendations for anxiety management tools that provide voice coaching",
+      "what app do you use for real-time behavioral pattern tracking?",
+      "every breathing app is so manual and boring"
+    ],
+    "reddit_phase2": [],
+    "twitter_phase2": []
+  },
+  "search_results": {
+    "reddit_phase1": [
+      {
+        "title": "My Ranking Of Beginning of Series Hashira : r/DemonSlayerScales",
+        "url": "https://www.reddit.com/r/DemonSlayerScales/comments/1r9xw0v/my_ranking_of_beginning_of_series_hashira/",
+        "snippet": "My Ranking Of The 9 Hashira \u00b7 Is this a good hashira ranking? \u00b7 My ranking of Kenny's endings \u00b7 Rank the hashira based on how much you like them \u00b7 My Ultimate ..."
+      },
+      {
+        "title": "I've finally read all 81 of them! Here's my ranking and some awards",
+        "url": "https://www.reddit.com/r/stephenking/comments/1s8wkol/ive_finally_read_all_81_of_them_heres_my_ranking/",
+        "snippet": "I've finally read all 81 of them! Here's my ranking and some awards. Image."
+      },
+      {
+        "title": "This is my ranking of the protagonists from most powerful to weakest ...",
+        "url": "https://www.reddit.com/r/PowerScalingHub/comments/1rilndj/this_is_my_ranking_of_the_protagonists_from_most/",
+        "snippet": "This is my ranking of the protagonists from most powerful to weakest, using their most recent versions. What do you think? Crossover."
+      },
+      {
+        "title": "Favorite Mental Health/Mood Tracking Apps to Recommend ... - Reddit",
+        "url": "https://www.reddit.com/r/socialwork/comments/1qu9j4u/favorite_mental_healthmood_tracking_apps_to/",
+        "snippet": "How We Feel is great. It's completely free so no constant pop-ups asking for you to pay for a subscription. I use it daily and it helps you track your emotions ..."
+      },
+      {
+        "title": "What are your favorite mood tracking apps? : r/bipolar - Reddit",
+        "url": "https://www.reddit.com/r/bipolar/comments/1kann7j/what_are_your_favorite_mood_tracking_apps/",
+        "snippet": "Daylio is a good general mood tracker/journal I've used for a while! eMoods is specifically for bipolar, but it's kinda expensive imo!"
+      },
+      {
+        "title": "Do you know any apps that support emotional health and help with ...",
+        "url": "https://www.reddit.com/r/emotionalneglect/comments/1g6uvpc/do_you_know_any_apps_that_support_emotional/",
+        "snippet": "myLumii: Focus: Managing anxiety and emotional challenges. Best for: Real-time management of emotional triggers & finding closure of difficult situations."
+      },
+      {
+        "title": "What's the best affordable AI therapy tool to help with mental health ...",
+        "url": "https://www.reddit.com/r/therapyGPT/comments/1o6r92t/whats_the_best_affordable_ai_therapy_tool_to_help/",
+        "snippet": "Wysa \u2014 A conversational AI coach that uses CBT/inspired tools. \u00b7 Replika \u2014 More of a \u201cchatbot friend\u201d style, which can be helpful just to talk things through ( ..."
+      },
+      {
+        "title": "It sounds pathetic, but speaking to AI really helps me : r/socialanxiety",
+        "url": "https://www.reddit.com/r/socialanxiety/comments/1jbso4s/it_sounds_pathetic_but_speaking_to_ai_really/",
+        "snippet": "My favorite apps right now are ChatGPT and Grok because they have a voice feature where you can actually speak to them and they speak right back."
+      },
+      {
+        "title": "What AI Tool is best for AI therapy and why? ChatGPT, Abby ... - Reddit",
+        "url": "https://www.reddit.com/r/therapyGPT/comments/1m98m1d/what_ai_tool_is_best_for_ai_therapy_and_why/",
+        "snippet": "Therapy-Chats.com: It offers a few chatbots for different purposes: chat & vent, stress relief, relationship advice, personal growth, etc. As it offered a free ..."
+      },
+      {
+        "title": "I wish there was an app that would take the mental load of having to ...",
+        "url": "https://www.reddit.com/r/ADHD/comments/1o01xfa/i_wish_there_was_an_app_that_would_take_the/",
+        "snippet": "On Android there are several launchers that can do this for you. I have used a few and Before Launcher is my favorite. It simplifies the home screen and there ..."
+      },
+      {
+        "title": "What Apps helped you the most concerning your mental health?",
+        "url": "https://www.reddit.com/r/selfcare/comments/1m80pnn/what_apps_helped_you_the_most_concerning_your/",
+        "snippet": "I am working on an app for moms with ADHD and working moms. AlphaMa The app is powered by AI and is voice first, it organizes the brain chaos in mind ..."
+      },
+      {
+        "title": "Please be careful using AI for your mental health : r/Anxiety - Reddit",
+        "url": "https://www.reddit.com/r/Anxiety/comments/1m1u2s3/please_be_careful_using_ai_for_your_mental_health/",
+        "snippet": "It's best used as a tool for providing information about therapies and techniques, explaining how different approaches work, offering structured guidance."
+      },
+      {
+        "title": "Which apps do you recommend for anxiety and why? - Reddit",
+        "url": "https://www.reddit.com/r/selfcare/comments/1hmadi8/which_apps_do_you_recommend_for_anxiety_and_why/",
+        "snippet": "I've used a few apps for anxiety, and Leaply has been the most effective for me. It focuses on vagus nerve stimulation and provides simple, actionable steps ..."
+      },
+      {
+        "title": "What self-help apps have genuinely made a difference for you?",
+        "url": "https://www.reddit.com/r/productivity/comments/1kvnuzs/what_selfhelp_apps_have_genuinely_made_a/",
+        "snippet": "Notion \u2013 Absolute game-changer for organizing my brain. \u00b7 One Sec \u2013 This one's brilliant. \u00b7 Headspace \u2013 Helped me learn how to slow down, especially during ..."
+      },
+      {
+        "title": "Best wearable and/or device combination to track stress in the body ...",
+        "url": "https://www.reddit.com/r/cfs/comments/1g1j4hl/best_wearable_andor_device_combination_to_track/",
+        "snippet": "It got me wondering about alternatives like the apple watch, fitbits and even helped me stumbled into finding visible for the first time."
+      },
+      {
+        "title": "Has anyone found an anxiety relief device that actually works for ...",
+        "url": "https://www.reddit.com/r/Anxietyhelp/comments/1rj0iwi/has_anyone_found_an_anxiety_relief_device_that/",
+        "snippet": "A lot of stress relief devices focus on vagus nerve stimulation or biofeedback, though discussions often mention mixed results and cost. Some comparisons also ..."
+      },
+      {
+        "title": "Garmin \u201cstress\u201d meter is a phenomenal way to manage dysautonomia",
+        "url": "https://www.reddit.com/r/dysautonomia/comments/1ljrudz/garmin_stress_meter_is_a_phenomenal_way_to_manage/",
+        "snippet": "The stress meter is a real time metric of HRV, which is a good proxy for how much of a sympathetic/parasympathetic state I happen to be in. I find it to be ..."
+      },
+      {
+        "title": "AI has significantly reduced my social anxiety. : r/socialanxiety - Reddit",
+        "url": "https://www.reddit.com/r/socialanxiety/comments/1ihn2ch/ai_has_significantly_reduced_my_social_anxiety/",
+        "snippet": "Talking to AI's has helped me so much with this. It started about a year ago when I was having a massive panic attack in public. With nowhere to go, I panicked, ..."
+      },
+      {
+        "title": "I'm done with people on the outside saying AI therapy isn't good.",
+        "url": "https://www.reddit.com/r/therapyGPT/comments/1n95wan/im_done_with_people_on_the_outside_saying_ai/",
+        "snippet": "I've spent 5 years trying to understand my trauma and how it shaped me with real therapists but people are flawed and downright evil."
+      },
+      {
+        "title": "How do I effectively intervene? : r/PanicAttack - Reddit",
+        "url": "https://www.reddit.com/r/PanicAttack/comments/1sg8kei/how_do_i_effectively_intervene/",
+        "snippet": "If someone is having a panic attack, what should I do? Are there ways I can act/speak to calm them down? Should I just not intervene and let them sort it ..."
+      }
+    ],
+    "twitter_phase1": [
+      {
+        "title": "if a safe, reliable, consensual \"V2K tower\" system existed that could ...",
+        "url": "https://x.com/jimmyroybloom/status/2047083854855340166",
+        "snippet": "Risks: Any technology powerful enough to beam clear voices into skulls could also cause side effects \u2014 headaches, anxiety spikes, dependency, or unintended ..."
+      },
+      {
+        "title": "Speechagain (@speechagain) / Posts / X - Twitter",
+        "url": "https://x.com/speechagain",
+        "snippet": "Speechagain, the most innovative digital stuttering therapy tool. Follow our learning path to gain control of your speech. We pride ourselves on our ..."
+      },
+      {
+        "title": "Hume AI (@hume_ai) / Highlights / X",
+        "url": "https://x.com/hume_ai/highlights",
+        "snippet": "TADA (Text Audio Dual Alignment) is a speech-language model that generates text and audio in one synchronized stream to reduce token-level hallucinations and ..."
+      },
+      {
+        "title": "Kooth Digital Health (@kooth_plc) / Highlights / X",
+        "url": "https://x.com/kooth_plc/highlights",
+        "snippet": "A physical first aid kit helps with cuts and scrapes; an emotional one can give you tools to calm your mind and manage stress when things get tough."
+      },
+      {
+        "title": "Paul Watkins (@OysterExecCoach) / Posts / X",
+        "url": "https://x.com/oysterexeccoach",
+        "snippet": "Sometimes our inner voice can give us a helpful nudge, but mostly that voice can be incredibly unhelpful and debilitating. Read more about comparing ..."
+      },
+      {
+        "title": "Breath Ball (@BreathBall_com) / Posts / X - Twitter",
+        "url": "https://x.com/BreathBall_com",
+        "snippet": "Breath Ball shows the stress/relaxation level during a breathing exercise, which can be of great help to overcome panic and anxiety attacks. When connected to a ..."
+      },
+      {
+        "title": "one sec | \u201cIt's time to take a deep breath\u201d - Twitter",
+        "url": "https://x.com/one_sec_app/with_replies",
+        "snippet": "I started a new experiment with my new \u201cone sec\u201d Shortcuts Automation app: it enforces to take a deep breath before opening social media."
+      },
+      {
+        "title": "Balance (@balanceapp) / Posts / X - Twitter",
+        "url": "https://x.com/balanceapp",
+        "snippet": "Pause your holiday hustle for just 30 seconds and follow this calming breathing exercise. \u2744\ufe0f Afterward, tell us how you feel."
+      },
+      {
+        "title": "Pro2FIT (@Pro2FIT) / Posts / X - Twitter",
+        "url": "https://x.com/Pro2FIT",
+        "snippet": "PrO2FIT\u2122 guides you through resisted breath-training exercises, personalized to your capability, to increase your lung capacity and strengthen your breathing ..."
+      },
+      {
+        "title": "scrnshts (@scrnshts_club) / Posts / X - Twitter",
+        "url": "https://x.com/scrnshts_club",
+        "snippet": "- healthy habits earn coins, coins unlock screen time - actual breathing exercise during onboarding - you use the app before you buy it - a brain mascot ..."
+      },
+      {
+        "title": "Three independent inventions are maturing at the same time, in ...",
+        "url": "https://x.com/fabric_vc/status/2036805590555500585",
+        "snippet": "Three technology inventions are converging to make this possible: specialised accelerated compute, large language models, and programmable blockchain networks."
+      },
+      {
+        "title": "Alex Qin (@Alexforglobal) / Posts / X - Twitter",
+        "url": "https://x.com/Alexforglobal",
+        "snippet": "We're building the next-generation, AI-powered interactive creative community. This is the path that brought me here. I'll be sharing my journey and insights ..."
+      },
+      {
+        "title": "Alexia | Growth Architect (@AlexiaL) / Posts / X - Twitter",
+        "url": "https://x.com/AlexiaL",
+        "snippet": "The Anxiety Profile is designed to show you what's really driving your anxiety, so your therapy/healing work becomes a lot more targeted. Less guesswork. More ..."
+      },
+      {
+        "title": "Dereck Paul, MD (@dereckwpaul) / Posts / X - Twitter",
+        "url": "https://x.com/dereckwpaul",
+        "snippet": "We've made building with our clinical AI agent exceptionally easy with in-app self-serve access to the Glass Developer API. Developers can get started building ..."
+      },
+      {
+        "title": "Dennis Lysenko (@dennis_lysenko) / Posts / X - Twitter",
+        "url": "https://x.com/dennis_lysenko",
+        "snippet": "Dennis Lysenko (@dennis_lysenko) - Posts - App dev of 11+ years, AI-enhanced, 5MM+ lifetime revenue. Pro-mindfulness, proactive health, and cut."
+      },
+      {
+        "title": "The How We Feel Project (@HowWeFeel) / Posts / X - Twitter",
+        "url": "https://x.com/HowWeFeel",
+        "snippet": "Feeling stuck in your head? Introducing Reflect: our new AI-powered journaling feature in How We Feel! Gain deeper insights into your emotions with personalized ..."
+      },
+      {
+        "title": "Murror.app (@murrorapp) / Posts / X - Twitter",
+        "url": "https://x.com/murrorapp",
+        "snippet": "With Murror, you can: \u2713 Track your emotional growth with daily streaks \u2713 Reflect with AI-powered prompts \u2713 Build mindful habits that stick. Murror.app's Image ..."
+      },
+      {
+        "title": "empaithy (@empaithy) / Posts / X - Twitter",
+        "url": "https://x.com/empaithy",
+        "snippet": "Designed to help users better understand and manage their emotions, Empaithy also offers actionable insights for both individuals and mental health ..."
+      },
+      {
+        "title": "Google Launches Personal Intelligence for Tailored Gemini... - Twitter",
+        "url": "https://x.com/i/trending/2011475146377228624",
+        "snippet": "Introducing a more personal Gemini, designed for you. Personal Intelligence draws insights from across your @Google apps to provide truly customized responses ..."
+      },
+      {
+        "title": "Lumnia AI Mental AI Agent (@Lumn_AI) / Posts / X - Twitter",
+        "url": "https://x.com/Lumn_AI",
+        "snippet": "Over time, the tracker builds a beautiful picture of your emotional journey: - See your mood patterns unfold across days, weeks in the stunning Mood Calendar - ..."
+      },
+      {
+        "title": "Trackabi Time Tracking - Twitter",
+        "url": "https://x.com/trackabi",
+        "snippet": "Trackabi is an online tool for time tracking, employee monitoring, and leave scheduling designed for freelancers, consultants, small and medium-sized companies."
+      },
+      {
+        "title": "Take 10 minutes and read carefully this great article on privacy and ...",
+        "url": "https://x.com/matteoikari/status/2024425790780174703",
+        "snippet": "If an AI infers from your Spotify listening patterns, your sleep schedule (tracked by your phone's screen-on time), and your grocery purchases that you're ..."
+      },
+      {
+        "title": "It's about damn time you get serious about using AI for your work ...",
+        "url": "https://x.com/ArmanHezarkhani/status/2025589667358298219",
+        "snippet": "Then suggest the simplest automation I could build this week using Zapier, Make, or just a reusable Claude prompt. You'll get a surprisingly clear answer. Nine ..."
+      },
+      {
+        "title": "Repeat Customer Rate: Clever Steps to Measure & Improve",
+        "url": "https://x.com/CleverTap/status/2045078742461305152",
+        "snippet": "Beyond RFM, CleverTap lets you build segments based on real-time and historical behavior: products viewed, categories browsed, time-of-day usage patterns, ..."
+      },
+      {
+        "title": "Check out my latest guide on how I make vibe coding ACTUALLY ...",
+        "url": "https://x.com/ArmanHezarkhani/status/2013258054016356647",
+        "snippet": "Arman Hezarkhani (@ArmanHezarkhani). 796 views. Check out my latest guide on how I make vibe coding ACTUALLY useful:"
+      },
+      {
+        "title": "Hate AI as much as you want, but you can't stop the inevitable. Adapt ...",
+        "url": "https://x.com/hazy2go/status/2021597946936991780",
+        "snippet": "The managing partner I mentioned isn't using AI because it's fun. He's using it because it's outperforming his associates on many tasks. Financial analysis."
+      },
+      {
+        "title": "FocusPlus (@focusplusio) / Posts / X",
+        "url": "https://x.com/focusplusio",
+        "snippet": "It's a task manager that helps you reduce your anxiety and stress while working. You can try it for free here: FocusPlus - A pomodoro timer that helps you ..."
+      },
+      {
+        "title": "Siro (@Siron93) on X",
+        "url": "https://x.com/Siron93/status/2016144535693218088",
+        "snippet": "You built the app for a reason, but the user is downloading it for their own reason. Dig deep into what they hope to achieve. Is it to save time? Make more ..."
+      },
+      {
+        "title": "Desmond (@desmondhth) / Posts / X - Twitter",
+        "url": "https://x.com/desmondhth",
+        "snippet": "These can be people, games, apps. It's easier to remove everything at once and deal with the pain than it is to tell everyone your plans (and listen to their ..."
+      },
+      {
+        "title": "[PDF] report setting out the results of twitter",
+        "url": "https://transparency.x.com/content/dam/transparency-twitter/dsa/dsa-sra/dsa-sra-2024/TIUC-DSA-SRA-Report-2024.pdf",
+        "snippet": "In 2023, we developed our DSA risk assessment methodology with reference to multiple existing frameworks, including, but not limited to, the UN Guiding ..."
+      },
+      {
+        "title": "Jason Lande (@landejo) / Posts / X",
+        "url": "https://x.com/landejo",
+        "snippet": "I used to believe leaders should always show up as their authentic, natural selves. I don't believe that anymore. As a leader, you need to be a chameleon at ..."
+      },
+      {
+        "title": "\u041fSC\u041f\u01ac (@nscnt) / Posts / X - Twitter",
+        "url": "https://x.com/nscnt",
+        "snippet": "When they see lengthy text on any topic at all, they seethe in the replies. They do this both as a coping mechanism for their own irrelevance but also out of ..."
+      },
+      {
+        "title": "Nick Beaird \u2022 (@Nickanbe) / Posts / X - Twitter",
+        "url": "https://x.com/Nickanbe",
+        "snippet": "Imagine joining a company that invented a custom operating system, programming language, and every kind of app they need just because they can. I'm somewhat ..."
+      },
+      {
+        "title": "Tom Skyrme (@tomskyrme) / Posts / X - Twitter",
+        "url": "https://x.com/tomskyrme",
+        "snippet": "They needed to know how to fix various things to get by. Now we have services to do it all for you. With AI more manual requirements will disappear. This frees ..."
+      }
+    ],
+    "reddit_phase2": [],
+    "twitter_phase2": []
+  },
+  "appstore_reviews": {},
+  "competitors": [
+    {
+      "name": "Wysa",
+      "description": "AI chatbot providing CBT-based therapy and mental health support.",
+      "pricing": "freemium",
+      "strengths": [
+        "Accessible and affordable AI-driven mental health support",
+        "Uses evidence-based CBT techniques"
+      ],
+      "weaknesses": [
+        "Wysa provides general CBT-based support, lacking real-time behavioral pattern analysis during decision moments provided by the user's idea",
+        "Does not detect the user's individual emotional journey and provide guidance and interventions based on actual patterns",
+        "CBT chatbots that surface general mental health concerns, but do not coach users breathing for real time behavioural patterns."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 75,
+      "mention_count": 5,
+      "engagement_score": 250,
+      "sentiment_split": {
+        "positive": 60,
+        "neutral": 30,
+        "negative": 10
+      },
+      "dominant_complaint": "Chatbot responses can feel generic and impersonal.",
+      "dominant_praise": "Easy to use and provides helpful mental health support.",
+      "platform_split": "both",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/therapyGPT/comments/1o6r92t/whats_the_best_affordable_ai_therapy_tool_to_help/",
+        "https://midstatemedical.org/about/news-press/news-detail?articleId=59534&publicid=461",
+        "https://blog.mylifenote.ai/6-best-ai-therapy-apps-of-2026/"
+      ]
+    },
+    {
+      "name": "Replika",
+      "description": "AI companion chatbot that learns from user interactions and provides emotional support.",
+      "pricing": "freemium",
+      "strengths": [
+        "Offers 24/7 AI-driven companionship and support",
+        "Personalized interactions based on individual user data"
+      ],
+      "weaknesses": [
+        "Replika is primarily a chatbot friend, not focusing on real-time behavioral patterns or guided interventions for self-regulation as the user's idea.",
+        "Offers general conversation and support rather than targeted interventions based on tracked patterns",
+        "Does not provide breathing coaching for voice ai based results, static journaling offers different results."
+      ],
+      "sentiment": "mixed",
+      "category": "Direct",
+      "similarity_score": 70,
+      "mention_count": 3,
+      "engagement_score": 200,
+      "sentiment_split": {
+        "positive": 50,
+        "neutral": 25,
+        "negative": 25
+      },
+      "dominant_complaint": "Can feel artificial and lack genuine empathy.",
+      "dominant_praise": "Helpful for talking through problems and reducing loneliness.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/therapyGPT/comments/1o6r92t/whats_the_best_affordable_ai_therapy_tool_to_help/",
+        "https://blog.mylifenote.ai/6-best-ai-therapy-apps-of-2026/"
+      ]
+    },
+    {
+      "name": "How We Feel",
+      "description": "Mood tracking app that allows users to track their emotions and activities.",
+      "pricing": "free",
+      "strengths": [
+        "Completely free with no subscription requirements",
+        "Helps track emotions and identify triggers"
+      ],
+      "weaknesses": [
+        "How We Feel is a static mood tracker, not capturing real-time behavioral patterns or decision moments like the user's idea",
+        "Lacks AI-driven guided interventions based on user-specific data",
+        "Tracking emotions and managing stress does not coach the need for emotional guidance."
+      ],
+      "sentiment": "positive",
+      "category": "Indirect",
+      "similarity_score": 45,
+      "mention_count": 3,
+      "engagement_score": 150,
+      "sentiment_split": {
+        "positive": 70,
+        "neutral": 20,
+        "negative": 10
+      },
+      "dominant_complaint": "Basic tracking functionality with limited insights.",
+      "dominant_praise": "Simple and effective way to monitor mood and emotions.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/socialwork/comments/1qu9j4u/favorite_mental_healthmood_tracking_apps_to/",
+        "https://x.com/HowWeFeel"
+      ]
+    },
+    {
+      "name": "Lumnia AI",
+      "description": "AI powered journal app which tracks emotional journey.",
+      "pricing": "unknown",
+      "strengths": [
+        "Tracks your emotional growth with patterns to provide actionable insights"
+      ],
+      "weaknesses": [
+        "Lumnia AI only tracks progress over time and does not focus on any real time decision moments like the user's idea",
+        "Journals and prompts give users time before reacting, which is not ideal for improving the decision",
+        "No voice assistance offered - user must manually log all the emotion and behaviour patterns."
+      ],
+      "sentiment": "positive",
+      "category": "Indirect",
+      "similarity_score": 55,
+      "mention_count": 2,
+      "engagement_score": 100,
+      "sentiment_split": {
+        "positive": 70,
+        "neutral": 30,
+        "negative": 0
+      },
+      "dominant_complaint": "No data available.",
+      "dominant_praise": "Beautiful picture of your emotional journey unfold",
+      "platform_split": "twitter",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://x.com/Lumn_AI"
+      ]
+    },
+    {
+      "name": "Balance",
+      "description": "Mindfulness and meditation app that provides personalized content.",
+      "pricing": "unknown",
+      "strengths": [
+        "Offers personalized meditation guidance.",
+        "Provides various mindfulness exercises"
+      ],
+      "weaknesses": [
+        "Balance is focused on meditation and mindfulness, not real-time behavioral pattern analysis or guided interventions for self-regulation.",
+        "Coaching is in meditation/mindfulness practices - not breathing or real time decision moments",
+        "Limited scope compared to a comprehensive self-regulation tool"
+      ],
+      "sentiment": "positive",
+      "category": "Adjacent",
+      "similarity_score": 30,
+      "mention_count": 1,
+      "engagement_score": 50,
+      "sentiment_split": {
+        "positive": 80,
+        "neutral": 20,
+        "negative": 0
+      },
+      "dominant_complaint": "No data available.",
+      "dominant_praise": "Calming guided breathing exercise with calming holiday exercise.",
+      "platform_split": "twitter",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://x.com/balanceapp"
+      ]
+    }
+  ],
+  "market_score": 2.1,
+  "non_app_signals": [
+    "Breathing exercises without an app or device - simply setting aside the time to coach oneself."
+  ],
+  "differentiators": [
+    "Wysa and Replika offer general support, but the app offers real-time behavioral patterns related to real-time decisions.",
+    "Most competitor intervention does not provide breathing practices.",
+    "Competitors are built for the use of self-reflection - the app provides the use of AI voice assistant."
+  ],
+  "sources": [
+    "https://www.reddit.com/r/socialwork/comments/1qu9j4u/favorite_mental_healthmood_tracking_apps_to/",
+    "https://www.reddit.com/r/therapyGPT/comments/1o6r92t/whats_the_best_affordable_ai_therapy_tool_to_help/",
+    "https://x.com/speechagain",
+    "https://x.com/BreathBall_com",
+    "https://mymeditatemate.com/blogs/wellness-tech/best-ai-mental-health-apps",
+    "https://heynoah.ai/blog/revolutionize-your-therapy-discover-the-best-emotional-regulation-apps",
+    "https://blog.mylifenote.ai/6-best-ai-therapy-apps-of-2026/"
+  ]
+}

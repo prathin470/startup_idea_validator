@@ -1,0 +1,25 @@
+# Environment — never commit API keys
+.env
+.env.*
+
+# Python
+backend/__pycache__/
+backend/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Frontend build output
+frontend/dist/
+frontend/dist-ssr/
+
+# Node
+frontend/node_modules/
+
+# Dev tooling
+.claude/
+.playwright-mcp/
+*.local
+
+# macOS
+.DS_Store

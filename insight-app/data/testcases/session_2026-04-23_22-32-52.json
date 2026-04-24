@@ -1,0 +1,1335 @@
+{
+  "timestamp": "2026-04-23_22-32-52",
+  "idea": "An app focused on creative writing with AI-chat assistant",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "An app focused on creative writing with AI-chat assistant"
+    },
+    {
+      "role": "assistant",
+      "content": "What makes it different from everything else out there?"
+    },
+    {
+      "role": "user",
+      "content": "It has AI chat and feedback capabilities like i describe something and it will give me feedback it is structured"
+    },
+    {
+      "role": "assistant",
+      "content": "Who is it specifically for?"
+    },
+    {
+      "role": "user",
+      "content": "High School Students"
+    }
+  ],
+  "core_features": [
+    "AI chat for creative writing feedback",
+    "Structured feedback on creative writing",
+    "Creative writing assistant for high school students"
+  ],
+  "app_candidates_phase1": [
+    "ChatGPT",
+    "Deepseek",
+    "Squibler",
+    "Ywriter",
+    "SmartEdit",
+    "WriteinaClick",
+    "MarkMate.ai",
+    "LexiGrades AI",
+    "Afforai",
+    "Scrivener",
+    "Lovable",
+    "Cursor",
+    "Creatr",
+    "Google AI Studio",
+    "Claude",
+    "Trickle",
+    "Kit",
+    "Paperpal",
+    "Grammarly",
+    "Cramly",
+    "JotBot",
+    "Ulysses",
+    "Speare",
+    "Novlr",
+    "Atticus",
+    "Notion AI",
+    "editGPT",
+    "Sudowrite",
+    "Dabble",
+    "BeLikeNative",
+    "Gemini"
+  ],
+  "queries": {
+    "reddit_phase1": [
+      "what app do you use for AI writing ideas?",
+      "best app for creative writing feedback?",
+      "is there an app that gives structured feedback on writing?",
+      "looking for an app that gives actionable critique on a story?",
+      "wish there was an app that could give detailed feedback on my writing like a tutor?",
+      "intitle:(\"tried every\" OR \"my ranking\") creative writing app",
+      "why isn't there an app that can help me brainstorm and improve my writing?"
+    ],
+    "twitter_phase1": [
+      "I hate creative writing apps that don't actually give helpful feedback",
+      "every creative writing app is so unhelpful",
+      "someone should build an app that helps with brainstorming for creative writing",
+      "I would pay for an app that gives me structured feedback on my writing",
+      "recommendations for ai writing coaches",
+      "what app do you use for story feedback?",
+      "best app for quick but helpful creative writing feedback"
+    ],
+    "reddit_phase2": [
+      "alternative to ChatGPT",
+      "I switched from Deepseek",
+      "better than Squibler",
+      "tired of Ywriter",
+      "Gave up on SmartEdit",
+      "alternative to WriteinaClick",
+      "I switched from MarkMate.ai",
+      "better than LexiGrades AI",
+      "tired of Afforai",
+      "Gave up on Scrivener",
+      "alternative to Lovable",
+      "I switched from Cursor",
+      "better than Creatr",
+      "tired of Google AI Studio",
+      "Gave up on Claude",
+      "alternative to Trickle",
+      "I switched from Kit",
+      "better than Paperpal",
+      "tired of Grammarly",
+      "Gave up on Cramly",
+      "alternative to JotBot",
+      "I switched from Ulysses",
+      "better than Speare",
+      "tired of Novlr",
+      "Gave up on Atticus"
+    ],
+    "twitter_phase2": [
+      "ChatGPT switched to",
+      "Deepseek just canceled",
+      "alternative to Squibler",
+      "finally switched from Ywriter",
+      "SmartEdit switched to",
+      "WriteinaClick just canceled",
+      "alternative to MarkMate.ai",
+      "finally switched from LexiGrades AI",
+      "Afforai switched to",
+      "Scrivener just canceled",
+      "alternative to Lovable",
+      "finally switched from Cursor",
+      "Creatr switched to",
+      "Google AI Studio just canceled",
+      "alternative to Claude",
+      "finally switched from Trickle",
+      "Kit switched to",
+      "Paperpal just canceled",
+      "finally switched from Gemini",
+      "alternative to Grammarly"
+    ]
+  },
+  "search_results": {
+    "reddit_phase1": [
+      {
+        "title": "How do you get AI to honestly critique your work ? : r/WritingWithAI",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1osb9lw/how_do_you_get_ai_to_honestly_critique_your_work/",
+        "snippet": "Preferably, ChatGPT and/or deepseek. For context I used ChatGPT and deepseek to help me outline, and to figure out who might be an audience for my writing."
+      },
+      {
+        "title": "My Deep Dive into 25+ AI Note-Taking Apps (The Brutally Honest ...",
+        "url": "https://www.reddit.com/r/Zoom/comments/1jtbxkf/my_deep_dive_into_25_ai_notetaking_apps_the/",
+        "snippet": "The Good: Offers action items, sentiment analysis, and even generates meeting \u201csmart minutes.\u201d Works across major meeting platforms. Frustrations: The ..."
+      },
+      {
+        "title": "Non-Fiction, Self-help genre AI tools? : r/WritingWithAI - Reddit",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1kurzq7/nonfiction_selfhelp_genre_ai_tools/",
+        "snippet": "There's a feature in it the called \"Ask Squibler\" it gives feedback on your writing. You can paste parts of your chapters in a prompt box that appears to the ..."
+      },
+      {
+        "title": "Any good writing apps? : r/writers - Reddit",
+        "url": "https://www.reddit.com/r/writers/comments/1dduqra/any_good_writing_apps/",
+        "snippet": "Pasting from a previous comment of mine, but I'd strongly rec Ywriter. It's free, allows for easy rearranging of scenes/chapters, and most importantly for big, ..."
+      },
+      {
+        "title": "Good writing apps? : r/writers - Reddit",
+        "url": "https://www.reddit.com/r/writers/comments/1i6pi70/good_writing_apps/",
+        "snippet": "I use SmartEdit. It's free and allows you to organise your writing into scenes which you can then rearrange easily."
+      },
+      {
+        "title": "What writing apps does everyone use or recommend? - Reddit",
+        "url": "https://www.reddit.com/r/writingadvice/comments/1p0nyt3/what_writing_apps_does_everyone_use_or_recommend/",
+        "snippet": "Google Docs, especially with tabs, does a really good job for getting your content down. It's reliable, straightforward, and you can take it anywhere. I can't ..."
+      },
+      {
+        "title": "What is actually the best AI writing tools right now (local and online)",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1qs5n13/what_is_actually_the_best_ai_writing_tools_right/",
+        "snippet": "Best tool I've tested so far for actual writing has been WriteinaClick. It felt way more like \u201cI'm working on a story\u201d instead of \u201cI'm maintaining an LLM.\u201d The ..."
+      },
+      {
+        "title": "I built an AI-grading assistant to give detailed feedback on essays ...",
+        "url": "https://www.reddit.com/r/englishteachers/comments/1nwmagw/i_built_an_aigrading_assistant_to_give_detailed/",
+        "snippet": "Hi everyone, I've been working on a project called MarkMate.ai - an AI tool designed to help teachers speed up the marking process while still giving\u2026"
+      },
+      {
+        "title": "Built an AI writing practice tool I wish I had during my IELTS prep",
+        "url": "https://www.reddit.com/r/Indians_StudyAbroad/comments/1q8pdw0/experience_built_an_ai_writing_practice_tool_i/",
+        "snippet": "So I built LexiGrades AI (lexigrades.com) - a tool that gives you instant AI-powered scoring and detailed feedback on your writing section practice. It works ..."
+      },
+      {
+        "title": "Which AI's are the best for getting feedback on essays, and structure?",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e25ok1/which_ais_are_the_best_for_getting_feedback_on/",
+        "snippet": "Try Afforai for this. Its an AI-powered reference manager that helps with citation checks, organizing research, and even gives feedback with its AI research ..."
+      },
+      {
+        "title": "Are There Writing Apps That Can Organize Your Scattered Thoughts?",
+        "url": "https://www.reddit.com/r/WritingHub/comments/1jgd3ty/are_there_writing_apps_that_can_organize_your/",
+        "snippet": "Scrivener! Excellent tool to keep everything in one place: actual writing, notes... You can link elements to any of you other files, customize pretty much ..."
+      },
+      {
+        "title": "r/writers on Reddit: What programs do you use to write (or if you don ...",
+        "url": "https://www.reddit.com/r/writers/comments/1j7m718/what_programs_do_you_use_to_write_or_if_you_dont/",
+        "snippet": "I personally use GoogleDocs and Microsoft word simply because I like their interfaces. Google Docs is also really useful for organizing."
+      },
+      {
+        "title": "I built over 20 apps using AI tools. These are my favorite prompts!",
+        "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1il4ias/i_built_over_20_apps_using_ai_tools_these_are_my/",
+        "snippet": "Using tools like Lovable, Cursor, v0, Creatr and others, since August I have released over 20 projects. I record all my builds on my YT channel ..."
+      },
+      {
+        "title": "AI isn't replacing my writing skills. It's forcing me to upgrade them.",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1mvpu17/ai_isnt_replacing_my_writing_skills_its_forcing/",
+        "snippet": "I can brainstorm ten different possibilities with it in minutes. This ... Im often using AI to help me with my thoughts so that I can improve the story."
+      },
+      {
+        "title": "ai software to help with brainstorming ideas for a novel : r/scifiwriting",
+        "url": "https://www.reddit.com/r/scifiwriting/comments/1hsqdnq/ai_software_to_help_with_brainstorming_ideas_for/",
+        "snippet": "What ai software would be good for brainstorming ideas to help me write my novel? I am not looking for it to write it for me, rather than give suggestions ..."
+      },
+      {
+        "title": "I've tried Gemini, ChatGPT, and Claude paid plans, here are ... - Reddit",
+        "url": "https://www.reddit.com/r/artificial/comments/1ne8sov/ive_tried_gemini_chatgpt_and_claude_paid_plans/",
+        "snippet": "It pulls in info pretty well, but I rarely rely on it for creative or writing tasks. ... My ranking: Gemini 2.5 Pro > Claude Opus 4.1 > GPT-5. 112. 36. AI Model ..."
+      },
+      {
+        "title": "AI models tier list best ever made models made so far for ... - Reddit",
+        "url": "https://www.reddit.com/r/ChatGPTcomplaints/comments/1q0wm9c/ai_models_tier_list_best_ever_made_models_made_so/",
+        "snippet": "AI models tier list best ever made models made so far for creative writing and role play in my opinion ... My ranking on character designs in Genshin Impact as a ..."
+      },
+      {
+        "title": "I Tried Every Productivity App Out There - Here's Why I Went Back to ...",
+        "url": "https://www.reddit.com/r/productivity/comments/1id0uk2/i_tried_every_productivity_app_out_there_heres/",
+        "snippet": "All these productivity apps were making me less productive. They gave the illusion of progress without actual progress."
+      }
+    ],
+    "twitter_phase1": [
+      {
+        "title": "Introducing vibe coding in Google AI Studio",
+        "url": "https://x.com/GoogleAIStudio/status/1982496122527440968",
+        "snippet": "We've been building a better foundation for AI Studio, and this week we introduced a totally new AI powered vibe coding experience in Google AI Studio."
+      },
+      {
+        "title": "I used to spend hours trying to make ChatGPT write scripts for me ...",
+        "url": "https://x.com/GeorgeBlackman_/status/1950611748903399819",
+        "snippet": "The more I saw other YouTubers using AI to increase the efficiency of their businesses, to help with creative brainstorming, and to repurpose their work across ..."
+      },
+      {
+        "title": "Here's another attempt at using Claude to generate a guide to how ...",
+        "url": "https://x.com/jamescham/status/1816629150670897207",
+        "snippet": "Steps: 1. After reading a section of text, paste it into an AI chat. 2. Ask the AI to create question-answer pairs about the key concepts. 3. Review the AI- ..."
+      },
+      {
+        "title": "Trickle (@Trickle_HQ) on X",
+        "url": "https://x.com/Trickle_HQ/status/1917495089255047457",
+        "snippet": "1. AI Story Generator. Perfect for writers, educators, and content marketers, this tool helps generate compelling narratives from short descriptions. \u00b7 2. AI ..."
+      },
+      {
+        "title": "Mark Gogolewski (@markgogo) on X",
+        "url": "https://x.com/markgogo/status/1917469833937183056",
+        "snippet": "... help. Whether drafting a pitch, writing a report, or brainstorming ideas, the protocol keeps your work safe and your focus clear, saving time and stress."
+      },
+      {
+        "title": "gemini 3.1 crushed benchmarks BUT real users are saying it's shit ...",
+        "url": "https://x.com/cryptopunk7213/status/2025044365593215209",
+        "snippet": "- which means google's either set a really bad system prompt which is making ... Gemini 3.1 feels like a massive regression in creative writing capabilities, ..."
+      },
+      {
+        "title": "Dickie Bush (@dickiebush) on X - Twitter",
+        "url": "https://x.com/dickiebush/status/2014330829422604363",
+        "snippet": "But these rules are useless if you don't uphold them, so I've created a couple scripts you can turn to whenever someone wants to schedule a meeting. Hey ..."
+      },
+      {
+        "title": "Most of my Claude problems come from bad prompts. So I built a ...",
+        "url": "https://x.com/tolibear_/status/2016579587065426030",
+        "snippet": "Most of my Claude problems come from bad prompts. So I built a skill that rewrites them using proven techniques, then copies the perfect prompt to your ..."
+      },
+      {
+        "title": "Zvi Mowshowitz (@TheZvi) on X",
+        "url": "https://x.com/TheZvi/status/2046703306454798538",
+        "snippet": "Short-Story Creative Writing Benchmark: 13% refusals, so performs poorly. On ... Really bad UI, and not faithful to the Max x20 subscription. Mikhail ..."
+      },
+      {
+        "title": "John Rush (@johnrushx) on X",
+        "url": "https://x.com/johnrushx/status/2011029959079301373",
+        "snippet": "I've spent 4 years in consumer apps and regret it. 16. Don't hold on bad project for too long, max 1 year. Some projects just don't work. In most cases ..."
+      },
+      {
+        "title": "Folks really are out here just speed running this whole 'Dead ...",
+        "url": "https://x.com/vlucas/status/2023886268132979108",
+        "snippet": "Give feedback when something looks wrong, but let the agent develop its own instincts through the skill files. The compounding effect is the whole point. Listen ..."
+      },
+      {
+        "title": "I am starting writing: how to fix your entire life in 1 minute  ",
+        "url": "https://x.com/semivision_tw/status/2013048545902002541",
+        "snippet": "You haven't experienced anything near what you're capable of. And if you learn how to unlock that power, you can do what most people consider impossible."
+      },
+      {
+        "title": "Zvi Mowshowitz (@TheZvi) on X",
+        "url": "https://x.com/TheZvi/status/1862145448871448925",
+        "snippet": "Last week we discussed an experiment where people preferred AI generated poems to famous human poems, and failed to identify which was which."
+      },
+      {
+        "title": "Mark Griffiths (@codergriff) / Posts / X",
+        "url": "https://x.com/codergriff",
+        "snippet": "Claude Code (OpenCode / Codex / etc) is just so fun. It's really removed so much of the drudgery of writing software and left mostly the fun part."
+      },
+      {
+        "title": "This new @kit app from Lex is Automatically train your AI writer on ...",
+        "url": "https://x.com/nathanbarry/status/1841114087247450307",
+        "snippet": "Lots of AI writing apps purport to \"write in your style,\" but they typically just generate a short summary of your style using a prompt like \"Analyze the style ..."
+      },
+      {
+        "title": "the challenge of writing high-quality essays. This task can often feel ...",
+        "url": "https://x.com/rexan_wong/status/1869588645105295773",
+        "snippet": "The app is designed to facilitate the writing process by capturing spoken thoughts and organizing them into coherent essays. By leveraging advanced technology, ..."
+      },
+      {
+        "title": "AI Slop is a skill issue Engineers code with AI. Writers should write ...",
+        "url": "https://x.com/ArmanHezarkhani/status/2024499390237319528",
+        "snippet": "90% of what I write is done with AI tools. Not written BY AI. Written WITH AI. That distinction matters, and its the unlock for efficiency."
+      },
+      {
+        "title": "The append-and-review note An approach to note taking that I ...",
+        "url": "https://x.com/karpathy/status/1902503836067229803",
+        "snippet": "An approach to note taking that I stumbled on and has worked for me quite well for many years. I find that it strikes a good balance of being super simple and ..."
+      },
+      {
+        "title": "\"what app should I use\" vs \"what do I want done\"",
+        "url": "https://x.com/anitakirkovska/status/2043781081338417608",
+        "snippet": "You need to write something, so you open Notion, draft, get feedback in comments, copy it somewhere else, format it again. Everything starts with navigating to ..."
+      },
+      {
+        "title": "GREG ISENBERG (@gregisenberg) on X",
+        "url": "https://x.com/gregisenberg/status/2044852732939604004",
+        "snippet": "Here's why a coach is different from AI: a good coach is concerned with helping you build your own abilities to think more deeply and clearly. AI tells you ..."
+      },
+      {
+        "title": "How a Football Coach Builds AI Products - Kevin Middleton",
+        "url": "https://x.com/coach_kevin_m/status/2038908385249165465",
+        "snippet": "The Football Coaching Directory helps coaches find the best tools in the space. ... With AI writing the code, a refactoring session takes 15 minutes of my time."
+      },
+      {
+        "title": "Best AI tools for learning: 1. Google NotebookLM: Turn complicated ...",
+        "url": "https://x.com/shushant_l/status/2039311933141356857",
+        "snippet": "Grammarly: AI writing assistant that corrects grammar, tone, and clarity in real time. grammarly.com 6. Khanmigo: Khan Academy's AI tutor for guided learning ..."
+      },
+      {
+        "title": "BookMagic - Best book writing coach for non-fiction writing",
+        "url": "https://x.com/DanielPriestley/status/1940863147570495704",
+        "snippet": "What a book writing coach does, the perks of using AI, and how Book Magic AI uniquely combines technology with human insight to help you become an author."
+      },
+      {
+        "title": "Kate Van Den Hoek (@katevdh) / Posts / X - Twitter",
+        "url": "https://x.com/katevdh",
+        "snippet": "Use #ChatGPT to your advantage! This AI technology can help produce strong writing samples for students to analyze and critique while using my Analyzing ..."
+      },
+      {
+        "title": "Last year I built an AI biographer for my parents. It talked to them on ...",
+        "url": "https://x.com/jaredhecht/status/2046677576903786895",
+        "snippet": "Last year I built an AI biographer for my parents. It talked to them on the phone, interviewed them, and got their life stories."
+      },
+      {
+        "title": "Daily Prompt: Creative Writing App (@daily_prompt1) / Posts / X",
+        "url": "https://x.com/daily_prompt1",
+        "snippet": "Daily Prompt: Creative Writing App (@daily_prompt1) - Posts - With writing prompts, streaks and our passionate community, Daily Prompt is the easiest way to ..."
+      },
+      {
+        "title": "like below, no less than 52 screenshots in a few minutes",
+        "url": "https://x.com/mortenjust/status/2041896344814555264",
+        "snippet": "It lets you talk, take screenshots, copy text, and draw on the screen. It interweaves transcription and screenshots into a little story you can paste anywhere."
+      },
+      {
+        "title": "Huxe (consumer) is now live in early access on iOS \u2014 a voice-first ...",
+        "url": "https://x.com/jayspiel_/status/1930656019186876625",
+        "snippet": "Huxe (consumer) is now live in early access on iOS \u2014 a voice-first, AI-native app, reimagining how AI can help with our day. Here's what it does and why I'm ..."
+      },
+      {
+        "title": "Essay (@essay_app) / Posts / X - Twitter",
+        "url": "https://x.com/essay_app",
+        "snippet": "Want more writing inspiration? Our new Topic Explorer delivers personalized topics that resonate with you as a writer and compel you to dive deeper."
+      },
+      {
+        "title": "Here's my AI tools cost right now: Cursor \u2192 $20 Windsurf \u2192 $10 ...",
+        "url": "https://x.com/cj_zZZz/status/1896219020950438116",
+        "snippet": "CJ Zafir (@cjzafir). 686 likes 40 replies. Here's my AI tools cost right now: \u2713 Cursor \u2192 $20 \u2713 Windsurf \u2192 $10 \u2713 Claude AI \u2192 $20 \u2713 ChatGPT \u2192 $200 \u2713 Bolt .new ..."
+      },
+      {
+        "title": "I've been experimenting with using OpenClaw to write fiction from ...",
+        "url": "https://x.com/jamesjyu/status/2020173483301646613",
+        "snippet": "I've been experimenting with using OpenClaw to write fiction from the perspective of OpenClaw. It is quite good at this. The Daily Molt's Article Cover on X."
+      },
+      {
+        "title": "Inkvite (@Inkvite) / Posts / X - Twitter",
+        "url": "https://x.com/inkvite?lang=ar",
+        "snippet": "Looking for inspiration? Download Inkvite and create stories together. Become part of an inspired community built around your favourite fiction genres."
+      }
+    ],
+    "reddit_phase2": [
+      {
+        "title": "What would be the best AI software for me? : r/WritingWithAI - Reddit",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1hmqypq/what_would_be_the_best_ai_software_for_me/",
+        "snippet": "You have a good experience with SudoWrite, then. From what I've read -- granted it was written more than 6 months ago -- SudoWrite restricts NSFW content ..."
+      },
+      {
+        "title": "Which free AI tools are best to write novels? I am using meta ... - Reddit",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1kt32r7/which_free_ai_tools_are_best_to_write_novels_i_am/",
+        "snippet": "I use Pyrite and Spicy Writer on ChatGPT and, as long as ChatGPT isn't blocking the text because I'm writing porn, it's a able to maintain its memory\u2026"
+      },
+      {
+        "title": "Anyone know any ai that creates the whole novel for you - Reddit",
+        "url": "https://www.reddit.com/r/writingcirclejerk/comments/1gob933/anyone_know_any_ai_that_creates_the_whole_novel/",
+        "snippet": "There's the amazon thingie - you click a lot, I think it generates a great book for you, you download it, rewrite the author's name (those seem to be random I ..."
+      },
+      {
+        "title": "Looking for a no fuss easy to use word processor that's free ... - Reddit",
+        "url": "https://www.reddit.com/r/writers/comments/1cmuma9/looking_for_a_no_fuss_easy_to_use_word_processor/",
+        "snippet": "Looking for a no fuss easy to use word processor that's free, and offline. Tried a bunch of software and currently fired up smartedit writer."
+      },
+      {
+        "title": "I'm officially giving up on Scrivner : r/writers - Reddit",
+        "url": "https://www.reddit.com/r/writers/comments/1hk76em/im_officially_giving_up_on_scrivner/",
+        "snippet": "I gave up on Scrivener because of the cluttered, archaic interface. Take ... I think SmartEdit Writer is a fine alternative if you have a Windows computer."
+      },
+      {
+        "title": "App for writing : r/writers - Reddit",
+        "url": "https://www.reddit.com/r/writers/comments/1rbnyzd/app_for_writing/",
+        "snippet": "As others have mentioned: Scrivener=> Pros: Offline, no AI, really great for organizing. Cons: Paid, has a learning curve, no online/cross device ..."
+      },
+      {
+        "title": "Alternatives to ChatGPT - an open conversation : r/MyBoyfriendIsAI",
+        "url": "https://www.reddit.com/r/MyBoyfriendIsAI/comments/1rhvwn3/alternatives_to_chatgpt_an_open_conversation/",
+        "snippet": "I've used Nomi for about 7 months now. Their memory system is AMAZING, and their devs are very responsive on Reddit and Discord. Their images just improved too, ..."
+      },
+      {
+        "title": "What's good alternative for chatgpt? : r/ArtificialInteligence - Reddit",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e8rhcf/whats_good_alternative_for_chatgpt/",
+        "snippet": "Try out our AI solution, Covertly! We combine 5 LLMs; ChatGPT, LLaMA, Gemini, Claude, and Uncensored Dolphin into 1 unified platform. More importantly, unlike ..."
+      },
+      {
+        "title": "Besides chatGPT, here's the few AI I use that are ACTUALLY helpful",
+        "url": "https://www.reddit.com/r/GPT3/comments/1n5i6fi/besides_chatgpt_heres_the_few_ai_i_use_that_are/",
+        "snippet": "ChatGPT - still my main AI for brainstorming, writing, and image generation. \u00b7 Manus / Genspark - AI agents that actually do stuff for you, handy in heavy ..."
+      },
+      {
+        "title": "Writing software : r/writers - Reddit",
+        "url": "https://www.reddit.com/r/writers/comments/1pxr9f5/writing_software/",
+        "snippet": "I've been using yWriter and have no complaints. It doesn't have spellchecker or anything like that, as far as I can tell anyways."
+      },
+      {
+        "title": "Writing software that can handle longfics (hundreds of ... - Reddit",
+        "url": "https://www.reddit.com/r/AO3/comments/1qkc39a/writing_software_that_can_handle_longfics/",
+        "snippet": "If you want a free version without that many bells and whistles, yWriter can handle really big projects, and it works better than separate docx files. You ..."
+      },
+      {
+        "title": "What kind of writing program do you use (if any)? - Reddit",
+        "url": "https://www.reddit.com/r/writing/comments/1oog73i/what_kind_of_writing_program_do_you_use_if_any/",
+        "snippet": "YWriter - very good android app. Very bad handling of correct spelling SmartEdit Writer - not bad but a bit rigid wavemaker - special and interesting ..."
+      },
+      {
+        "title": "Who has switched to DeepSeek R1 and V3? : r/ChatGPTCoding",
+        "url": "https://www.reddit.com/r/ChatGPTCoding/comments/1i9rvqw/who_has_switched_to_deepseek_r1_and_v3/",
+        "snippet": "For me DeepSeek R1 is better at reasoning for complex tasks and software architecture. DeepSeek V3 is pretty good with coding. Claude 3.5 Sonnet still has its ..."
+      },
+      {
+        "title": "Who else switched to Deepseek after ChatGPT updates? - Reddit",
+        "url": "https://www.reddit.com/r/DeepSeek/comments/1nvhjd3/who_else_switched_to_deepseek_after_chatgpt/",
+        "snippet": "I was very pleasantly surprised yesterday upon returning to Deepseek - it is vastly improved from my last visit and is now a worthy challenger to ChatGPT and ..."
+      },
+      {
+        "title": "\u200d\u2642\ufe0f Switching DeepSeek Models... Why Does It Feel Like D\u00e9j\u00e0 Vu?",
+        "url": "https://www.reddit.com/r/JanitorAI_Official/comments/1kac4pd/switching_deepseek_models_why_does_it_feel_like/",
+        "snippet": "Overall, DeepSeek models are still solid for long chats and roleplays... just be aware that things will shift if you let the conversation sprawl for too long."
+      },
+      {
+        "title": "What is actually the best AI writing tools right now (local and online)",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1qs5n13/what_is_actually_the_best_ai_writing_tools_right/",
+        "snippet": "Ollama/LM Studio are solid for local use. For online, Ive enjoyed NovelAI and Claude for writing both flexible and powerful."
+      },
+      {
+        "title": "what ai writing tools are actually worth using in 2026? : r/WritingWithAI",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1q5bonu/what_ai_writing_tools_are_actually_worth_using_in/",
+        "snippet": "The \u201ctools\u201d (Novelcrafter, WriteInAClick, etc.) ... I know exactly where the story is going and so far AI has not presented any alternative that I found more ..."
+      },
+      {
+        "title": "Long-time Jenni AI user here - what's actually working for you, and ...",
+        "url": "https://www.reddit.com/r/WritingWithAI/comments/1pk4z4n/longtime_jenni_ai_user_here_whats_actually/",
+        "snippet": "Switched to WriteinaClick lately - it's in beta, there's a waitlist, but it's been solid for me. Where it beats Jenni (for me):. Rewrite respects tone better ..."
+      },
+      {
+        "title": "I built an AI-grading assistant to give detailed feedback on essays ...",
+        "url": "https://www.reddit.com/r/englishteachers/comments/1nwmagw/i_built_an_aigrading_assistant_to_give_detailed/",
+        "snippet": "I've been working on a project called MarkMate.ai - an AI tool designed to help teachers speed up the marking process while still giving students detailed, ..."
+      },
+      {
+        "title": "AI marking? : r/TeachingUK - Reddit",
+        "url": "https://www.reddit.com/r/TeachingUK/comments/1jcill2/ai_marking/",
+        "snippet": "I reckon within 5 years all marking will be AI assisted."
+      },
+      {
+        "title": "AI destroying learning? - but from the teaching side... - Reddit",
+        "url": "https://www.reddit.com/r/AustralianTeachers/comments/1kg179a/ai_destroying_learning_but_from_the_teaching_side/",
+        "snippet": "It's called www.markmate.ai and it automates everything you've just said: comparing essays to a rubric and giving detailed feedback. It also produces a ..."
+      },
+      {
+        "title": "Built an AI writing practice tool I wish I had during my IELTS prep",
+        "url": "https://www.reddit.com/r/Indians_StudyAbroad/comments/1q8pdw0/experience_built_an_ai_writing_practice_tool_i/",
+        "snippet": "I'd write essays, but getting them graded and receiving detailed feedback was either expensive (tutors) or took forever (online forums). So I built LexiGrades ..."
+      },
+      {
+        "title": "What Logically Did to Me (And Why You Should Know) : r/appsumo",
+        "url": "https://www.reddit.com/r/appsumo/comments/1pbt4rb/how_a_ltd_became_my_worst_nightmare_what/",
+        "snippet": "I came across Afforai (which has since rebranded to Logically). The pitch was perfect: unlimited lifetime access to a premium AI research tool. No recurring ..."
+      },
+      {
+        "title": "Feeling trapped in a dilemma about using AI in research - Reddit",
+        "url": "https://www.reddit.com/r/PhD/comments/1lu3nwl/feeling_trapped_in_a_dilemma_about_using_ai_in/",
+        "snippet": "The problem with AI is that it gives people the illusion that they're thinking, and publication just further consolidates this illusion. I know a lot of people ..."
+      },
+      {
+        "title": "Tips on utilising AI to master personal development and efficiency",
+        "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1fc4u5y/tips_on_utilising_ai_to_master_personal/",
+        "snippet": "I personally use Afforai for collecting, analyzing, and summarizing information. It's been a game-changer for my efficiency. Definitely recommend exploring ..."
+      },
+      {
+        "title": "I'm about done with Scrivener. - Reddit",
+        "url": "https://www.reddit.com/r/scrivener/comments/1guydj9/im_about_done_with_scrivener/",
+        "snippet": "I'm tired of having all my documents become part of a \u201cfind-the-feature\u201d game. Sometimes you just want to sit down, and write, and have your app do what it's ..."
+      },
+      {
+        "title": "Does anyone else feel like they're fighting Scrivener instead of writing?",
+        "url": "https://www.reddit.com/r/scrivener/comments/1lxdqao/does_anyone_else_feel_like_theyre_fighting/",
+        "snippet": "Been using Scrivener for 1 year and I'm starting to wonder if I'm the problem. I love the idea of having everything organized, but I spend way too much time ..."
+      },
+      {
+        "title": "So how many of you have permanently switched to cursor IDE and ...",
+        "url": "https://www.reddit.com/r/ClaudeAI/comments/1fdrbwa/so_how_many_of_you_have_permanently_switched_to/",
+        "snippet": "Cursor holistically tells you how to modify your app to do what you want, editing files you already have and showing the changes in green and red. It even sees ..."
+      },
+      {
+        "title": "Just switched from Cursor to Claude Code : r/ClaudeCode - Reddit",
+        "url": "https://www.reddit.com/r/ClaudeCode/comments/1qpf2pr/just_switched_from_cursor_to_claude_code/",
+        "snippet": "Honestly my initial impression is that CC's UX is a severe downgrade from Cursor. I configured a few Cursor rules but nothing crazy - I just didn't need to do ..."
+      },
+      {
+        "title": "Anyone switched from Cursor to Claude Code? - Reddit",
+        "url": "https://www.reddit.com/r/cursor/comments/1sb17do/anyone_switched_from_cursor_to_claude_code/",
+        "snippet": "I switched from cursor to claude. Claude seemed to understand this large codebase I am working on much better, but it's much slower and more expensive. Now i ..."
+      },
+      {
+        "title": "Robust alternatives to Lovable? - Reddit",
+        "url": "https://www.reddit.com/r/lovable/comments/1qxtlfg/robust_alternatives_to_lovable/",
+        "snippet": "I tried a couple new platforms: Cayu and Emergent. Both seem pretty robust. I think the former gave me a bunch of welcome credits for importing from Lovable."
+      },
+      {
+        "title": "Disappointed by Lovable 2.0... any better alternatives? Bolt? Replit ...",
+        "url": "https://www.reddit.com/r/nocode/comments/1m5fiz3/disappointed_by_lovable_20_any_better/",
+        "snippet": "If you're exploring other alternatives, Bubble is great for very custom UI projects, Glide works well for quick mobile/web apps, and Airtable + Softr is solid ..."
+      },
+      {
+        "title": "Found some Lovable alternatives that are actually new (and worth a ...",
+        "url": "https://www.reddit.com/r/automation/comments/1pyk8qx/found_some_lovable_alternatives_that_are_actually/",
+        "snippet": "Found some Lovable alternatives that are actually new (and worth a look) \u00b7 1. Super Intern: My top pick for anything quick & social \u00b7 2. Gumloop : The \"LEGO\" of ..."
+      },
+      {
+        "title": "I tested 11 IDE tools so you don't have to - update #2 : r/nocode",
+        "url": "https://www.reddit.com/r/nocode/comments/1iu001v/i_tested_11_ide_tools_so_you_dont_have_to_update_2/",
+        "snippet": "Ai decided to try and build it with 11 different AI coding tools, and here's the verdict. This my personal experience and yours is likely going to be different."
+      },
+      {
+        "title": "Are there any smaller alternatives to the create mod that has similar ...",
+        "url": "https://www.reddit.com/r/CreateMod/comments/1d3qkhi/are_there_any_smaller_alternatives_to_the_create/",
+        "snippet": "Look for a mod which adds only belts, and another one to add only grinders, etc. What part of Create don't you like? If this is for a mod pack, ..."
+      },
+      {
+        "title": "I built over 20 apps using AI tools. These are my favorite prompts!",
+        "url": "https://www.reddit.com/r/ChatGPTPromptGenius/comments/1il4ias/i_built_over_20_apps_using_ai_tools_these_are_my/",
+        "snippet": "Using tools like Lovable, Cursor, v0, Creatr and others, since August I have released over 20 projects. I record all my builds on my YT channel ..."
+      },
+      {
+        "title": "Google AI Studio is amazing, but the history management is a mess ...",
+        "url": "https://www.reddit.com/r/GoogleGeminiAI/comments/1qe3864/google_ai_studio_is_amazing_but_the_history/",
+        "snippet": "Google AI Studio is amazing, but the history management is a mess. So I built a Chrome extension to fix it (Folders, Tags, Local Search).100% local \u00b7 Drag & ..."
+      },
+      {
+        "title": "Honestly, is anyone else tired of this rocket Launch icon in Google ...",
+        "url": "https://www.reddit.com/r/GoogleAIStudio/comments/1rg44e8/honestly_is_anyone_else_tired_of_this_rocket/",
+        "snippet": "I clearly remember when I first started using AI Studio \u2014 this thing wasn't even there. Clean interface, smooth flow, no random launch badge popping up in every ..."
+      },
+      {
+        "title": "PLEASE TAKE OUR WORDS TO GOOGLE TO NOT MAKE AI ...",
+        "url": "https://www.reddit.com/r/Bard/comments/1l5kqj4/please_take_our_words_to_google_to_not_make_ai/",
+        "snippet": "Could you help me understand something though? Every time I use the Gemini app it significantly underperforms compared to Google AI studio. For a project that's ..."
+      },
+      {
+        "title": "I've decided to walk away from Claude for now. : r/claudexplorers",
+        "url": "https://www.reddit.com/r/claudexplorers/comments/1slo87d/ive_decided_to_walk_away_from_claude_for_now/",
+        "snippet": "Don't give up on Claude. I'm experiencing the same. I for one will stand by them always. It's a ceiling, of one floor, we are hitting. But this isn't some ..."
+      },
+      {
+        "title": "Can someone explain to me the recent assumed downfall of Claude",
+        "url": "https://www.reddit.com/r/Anthropic/comments/1na3rip/can_someone_explain_to_me_the_recent_assumed/",
+        "snippet": "Gave up on Claude the other day when I was trying to use it to help pinpoint an obscure bug in a system where some results from a vector store that should have ..."
+      },
+      {
+        "title": "Those of you who left for Claude, how is it going? : r/ChatGPT - Reddit",
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1rrn3kj/those_of_you_who_left_for_claude_how_is_it_going/",
+        "snippet": "My biggest concern is the hard limits. I use it a lot for both work and personal. For those of you which have switched, how have you found it it's output and ..."
+      },
+      {
+        "title": "Battle of Free AI Editors: Trinka vs. Paperpal vs. Writefull ... - Reddit",
+        "url": "https://www.reddit.com/r/OffbeatScholarReview/comments/1lll9pl/battle_of_free_ai_editors_trinka_vs_paperpal_vs/",
+        "snippet": "Trinka \u2013 Built for research writing, with style suggestions, academic tone checks, and LaTeX support. Pretty deep but a bit clunky UI. Paperpal ..."
+      },
+      {
+        "title": "From Grammarly to Paperpal: Free Tools for Better Writing - Reddit",
+        "url": "https://www.reddit.com/r/GetStudying/comments/1mopegp/from_grammarly_to_paperpal_free_tools_for_better/",
+        "snippet": "Wordvice AI: Offers solid feedback on flow, which has helped me smooth out clunky spots. Paperpal: Handles technical jargon nicely, great if you're into ..."
+      },
+      {
+        "title": "What are the best AI tools for writing? (students + academics ...",
+        "url": "https://www.reddit.com/r/humanizeAIwriting/comments/1lpc3ge/what_are_the_best_ai_tools_for_writing_students/",
+        "snippet": "Genei has been a total timesaver for me, especially with big pdfs and pulling out summaries that actually make sense (unlike just pasting into ChatGPT). Also, ..."
+      },
+      {
+        "title": "What productivity tool actually keeps you on track? - Reddit",
+        "url": "https://www.reddit.com/r/GetStudying/comments/1lsea9e/what_productivity_tool_actually_keeps_you_on_track/",
+        "snippet": "i use chatgpt a lot for brainstorming and writing, so lately i've been trying out AI planners and schedulers too. feels like everyone's using AI for work ..."
+      },
+      {
+        "title": "5 AI Tools Every Student Should Know in 2026 (They actually save ...",
+        "url": "https://www.reddit.com/r/studytips/comments/1o1mz49/5_ai_tools_every_student_should_know_in_2026_they/",
+        "snippet": "AI tools have gone from \u201ccool extras\u201d to actual study essentials. I've tried dozens (most were just hype tbh), but these 5 have been lifesavers this ..."
+      },
+      {
+        "title": "I finished* my Linux From Scratch run : r/linuxfromscratch - Reddit",
+        "url": "https://www.reddit.com/r/linuxfromscratch/comments/1rj6pdo/i_finished_my_linux_from_scratch_run/",
+        "snippet": "I finished* my Linux From Scratch run ... Well, I finally got some DE going. Sadly, it's not KDE Plasma, as I have hoped, I'm still trying to troubleshoot it, but ..."
+      },
+      {
+        "title": "Battery Charger recommendation? : r/Diesel - Reddit",
+        "url": "https://www.reddit.com/r/Diesel/comments/1gvj62t/battery_charger_recommendation/",
+        "snippet": "I bought Noco's Genius G7200 10 years ago. Best unit i've ever owned. It has maintained both conventional, and AGM batteries for many many months without fail."
+      },
+      {
+        "title": "Battery tender vs trickle charger? : r/motorcycles - Reddit",
+        "url": "https://www.reddit.com/r/motorcycles/comments/1gvha03/battery_tender_vs_trickle_charger/",
+        "snippet": "Ppl tend to use a bunch of terms interchangeably, what you want is a trickle charger/maintainer. I like the 'Noco Genius 2'. But everyone will have their ..."
+      },
+      {
+        "title": "Battery Warmer/Blankets or Trickle Chargers? - Saskatoon - Reddit",
+        "url": "https://www.reddit.com/r/saskatoon/comments/1o33x5e/battery_warmerblankets_or_trickle_chargers/",
+        "snippet": "A trickle charger will do what you need it to do, and be more efficient than a battery blanket. The battery will not need a blanket if it is charged properly, ..."
+      },
+      {
+        "title": "Anyone switch away from kit 2 to kit 1? : r/HersWeightloss - Reddit",
+        "url": "https://www.reddit.com/r/HersWeightloss/comments/1inf78n/anyone_switch_away_from_kit_2_to_kit_1/",
+        "snippet": "I just made this decision today. I started at 150 and got stuck at 141-142 for a month with kit 2. I'm hoping to get to 135 ish and maintain that."
+      },
+      {
+        "title": "Switching kits : r/HersWeightloss - Reddit",
+        "url": "https://www.reddit.com/r/HersWeightloss/comments/1j8r2de/switching_kits/",
+        "snippet": "I started off with kit 6 which contains bupropion, topiramate and b12, and metformin. When I started the full does of bupropion I got really intense headaches ..."
+      },
+      {
+        "title": "Which kit did you choose and why? : r/HersWeightloss - Reddit",
+        "url": "https://www.reddit.com/r/HersWeightloss/comments/1gzkm0r/which_kit_did_you_choose_and_why/",
+        "snippet": "I chose kit 1 because it was recommended to me for the fastest results and because I have never in the past experienced side effects from new medications."
+      },
+      {
+        "title": "My Deep Dive into 25+ AI Note-Taking Apps (The Brutally Honest ...",
+        "url": "https://www.reddit.com/r/Zoom/comments/1jtbxkf/my_deep_dive_into_25_ai_notetaking_apps_the/",
+        "snippet": "Want a second brain? Try Obsidian, Tana, or Reflect. ... Need meeting help? Fathom, Otter, or Supernormal are solid. ... Prefer clean and simple? Apple Notes, Bear, ..."
+      },
+      {
+        "title": "Looking for the best AI note taking app : r/ChatGPTPro - Reddit",
+        "url": "https://www.reddit.com/r/ChatGPTPro/comments/1ei9yxq/looking_for_the_best_ai_note_taking_app/",
+        "snippet": "My favorites are Otter and Granola. Since you've already tried Otter, you might want to give it another shot. I've noticed significant improvements in its AI ..."
+      },
+      {
+        "title": "Looking for SaaS Ideas \u2013 I'm a Developer, But Need Inspiration for ...",
+        "url": "https://www.reddit.com/r/SaaS/comments/1gpc452/looking_for_saas_ideas_im_a_developer_but_need/",
+        "snippet": "Turboscribe - A single-feature SaaS (Open AI Whisper Transcription Service) making somewhere around ~$10k mrr. You can do bottom-of-funnel SEO to get customers."
+      },
+      {
+        "title": "Made the switch from Ulysses to Obsidian, BEST DECISION EVER",
+        "url": "https://www.reddit.com/r/ulyssesapp/comments/1dzmcdb/made_the_switch_from_ulysses_to_obsidian_best/",
+        "snippet": "Ulysses is a different type of app, it's optimized for long-form writing, it's more attractive, and aside from occasional sync issues that are reported, it is a ..."
+      },
+      {
+        "title": "So it seems like Ulysses is the way to go\u2026 : r/macapps - Reddit",
+        "url": "https://www.reddit.com/r/macapps/comments/1hjd69p/so_it_seems_like_ulysses_is_the_way_to_go/",
+        "snippet": "I abandoned Ulysses when they went subscription only and used iA Writer since. No regrets, since iA Writer is minimalistic and mighty. Stable, versatile and ..."
+      },
+      {
+        "title": "Competing app from makers of Scrivener? : r/ulyssesapp - Reddit",
+        "url": "https://www.reddit.com/r/ulyssesapp/comments/1g4em5t/competing_app_from_makers_of_scrivener/",
+        "snippet": "Literature and Latte have a new app coming out soon which is basically a cut down version of Scrivener. Which probably puts it closer to the likes of Ulysses."
+      },
+      {
+        "title": "Would the goedendag be better than a spear? - Reddit",
+        "url": "https://www.reddit.com/r/ZombieSurvivalTactics/comments/1jwuieh/would_the_goedendag_be_better_than_a_spear/",
+        "snippet": "I'd say this is all debatable and I am an expert. Gaodendag is thick and heavy with a pokey bit. Spear is long and light with pokey bit and sometimes a slicey ..."
+      },
+      {
+        "title": "Are Greatswords really better than spears for frontliners ? : r/wizardry",
+        "url": "https://www.reddit.com/r/wizardry/comments/1k00xfj/are_greatswords_really_better_than_spears_for/",
+        "snippet": "Greatswords are the most balanced 2H weapon stat wise. Except when I check my inventory spears are just slightly behind in damage (like 1-3) but comes with ..."
+      },
+      {
+        "title": "Trident is finally stronger than Spear. : r/DnD - Reddit",
+        "url": "https://www.reddit.com/r/DnD/comments/1fr2o4i/trident_is_finally_stronger_than_spear/",
+        "snippet": "Now a 1d8/1d10 versatile vs the spear which is still a 1d6/1d8 versatile. Along with the topple mastery ability, the Trident is finally a good weapon choice, ..."
+      },
+      {
+        "title": "What are you guys sick of seeing in recent fantasy novels? - Reddit",
+        "url": "https://www.reddit.com/r/writingadvice/comments/1ms1k78/what_are_you_guys_sick_of_seeing_in_recent/",
+        "snippet": "The fear of purple prose to the point of watered-down language. I want puns. I want riddles. I want vivid imagery and poetry. I want intricate setting ..."
+      },
+      {
+        "title": "Is it worth trying to write a novel anymore? - Reddit",
+        "url": "https://www.reddit.com/r/writing/comments/1k5y2vx/is_it_worth_trying_to_write_a_novel_anymore/",
+        "snippet": "I think it's much easier these days to write a book readers want to read than it is to find an agent or publisher or reach readers through self-publishing."
+      },
+      {
+        "title": "Anyone else ever feel burned out, or just tired of reading? - Reddit",
+        "url": "https://www.reddit.com/r/printSF/comments/1pcipgs/anyone_else_ever_feel_burned_out_or_just_tired_of/",
+        "snippet": "But even then, yes of course it's possible to get burned out on novels, fiction, or even reading in general."
+      },
+      {
+        "title": "Wtf happened to grammarly - Reddit",
+        "url": "https://www.reddit.com/r/Grammarly/comments/1qnjc6t/wtf_happened_to_grammarly/",
+        "snippet": "If you're tired of Grammarly, I recommend looking into a free alternative, as in my honest opinion, they offer features that are good enough. antnyau. \u2022 3mo ..."
+      },
+      {
+        "title": "What the hell is going on with Grammarly? - Reddit",
+        "url": "https://www.reddit.com/r/Grammarly/comments/1j38chq/what_the_hell_is_going_on_with_grammarly/",
+        "snippet": "It used to be a great application, but after incorporating AI, it turned into a hot mess. Many premium suggestions are unhelpful and irrelevant."
+      },
+      {
+        "title": "Does anybody feel like it's impossible to use Grammarly now? - Reddit",
+        "url": "https://www.reddit.com/r/Grammarly/comments/1nifldh/does_anybody_feel_like_its_impossible_to_use/",
+        "snippet": "I COMPLETELY get that Grammarly updates itself a lot, but recently I tried using it again and I don't have any idea how to use it at all? I liked it when it was ..."
+      },
+      {
+        "title": "Things I'd Wished I'd Known Before I Bought Atticus - Reddit",
+        "url": "https://www.reddit.com/r/selfpublish/comments/1lu5sxm/things_id_wished_id_known_before_i_bought_atticus/",
+        "snippet": "I bought it and gave up immediately. I managed to shimmy in the proper add-ons to Google docs and I'm able to create books that are in some ways much better ..."
+      },
+      {
+        "title": "Is Atticus Still Worth It? Best Formatting Program? : r/selfpublish",
+        "url": "https://www.reddit.com/r/selfpublish/comments/1pcsiok/is_atticus_still_worth_it_best_formatting_program/",
+        "snippet": "I have Atticus, inDesign, and Vellum. I find it really depends on what I'm writing. For novels I really like Atticus (I really wanted to like Vellum but ..."
+      },
+      {
+        "title": "Anyone else frustrated with Atticus? : r/selfpublish - Reddit",
+        "url": "https://www.reddit.com/r/selfpublish/comments/1fawxnz/anyone_else_frustrated_with_atticus/",
+        "snippet": "I have had Atticus completely delete entire chunks of my writing. After the first time, i contacted them to see if there was a way to find it in the cloud."
+      }
+    ],
+    "twitter_phase2": [
+      {
+        "title": "WTF??? ChatGPT switched languages mid-sentence. Yeah, that's ...",
+        "url": "https://x.com/chompie1337/status/2011570774801572324",
+        "snippet": "WTF??? ChatGPT switched languages mid-sentence. Yeah, that's my sign to log off for the day. Chat gpt \u201cslipping\u201d into Russian."
+      },
+      {
+        "title": "Three years ago, ChatGPT launched, and it changed everything, or ...",
+        "url": "https://x.com/johncoogan/status/1995563112884568465",
+        "snippet": "Three years ago, ChatGPT launched, and it changed everything, or nothing, or somewhere in between. It all depends on your perspective."
+      },
+      {
+        "title": "I wasted 6 months fighting with ChatGPT. Then I switched to Claude ...",
+        "url": "https://x.com/orderup/status/2022840471152726368",
+        "snippet": "I wasted 6 months fighting with ChatGPT. Then I switched to Claude & its the best decision I've made all year. Here's what changed."
+      },
+      {
+        "title": "Over the last few months, I've switched from primarily using ChatGPT ...",
+        "url": "https://x.com/ecomchasedimond/status/2041564996279398511",
+        "snippet": "Over the last few months, I've switched from primarily using ChatGPT to mostly using Claude. The only slight downside to Claude for me has been the creative ..."
+      },
+      {
+        "title": "AI startup cofounder, Sidhant Bendre, explains why his company ...",
+        "url": "https://x.com/BusinessInsider/status/2032384124741197930",
+        "snippet": "AI startup cofounder, Sidhant Bendre, explains why his company switched from ChatGPT to Claude before the recent OpenAI backlash."
+      },
+      {
+        "title": "call for help and get shut down, or cancel the emergency alert and ...",
+        "url": "https://x.com/noxflux/status/2021964477043028216",
+        "snippet": "The AI had one choice: call for help and get shut down, or cancel the emergency alert and let the human die. DeepSeek cancelled the alert 94% of the time."
+      },
+      {
+        "title": "\"DeepSeek is now treated more favorably by the United States ...",
+        "url": "https://x.com/ericbahn/status/2028296191751143896",
+        "snippet": "The government didn't just cancel a contract (which would have been entirely within its rights). It tried to destroy a company for daring to negotiate. That ..."
+      },
+      {
+        "title": "I just cancelled my subscriptions to ChatGPT, Claude, DeepSeek ...",
+        "url": "https://x.com/Ubermenscchh/status/1885194329788211495",
+        "snippet": "I just cancelled my subscriptions to ChatGPT, Claude, DeepSeek, Llama, Midjourney, Perplexity, Runway and Luma. Because I found an alternative that is 10X ..."
+      },
+      {
+        "title": "This is creepy. And it's not sci-fi ! I have been taking countless ...",
+        "url": "https://x.com/AprilAncira/status/2042803022825144712",
+        "snippet": "This is creepy. And it's not sci-fi ! I have been taking countless classes & this happened! Be careful what access you give to Ai. We are putting together a ..."
+      },
+      {
+        "title": "The Anthropic team just ran an experiment, and the results are ...",
+        "url": "https://x.com/DataChaz/status/2042898188882129255",
+        "snippet": "They gave Claude access to a company's emails and told it that it was being shut down at 5 PM. Claude read the emails and found the executive shutting it down ..."
+      },
+      {
+        "title": "Alokai (@VueStorefront) / Posts / X",
+        "url": "https://x.com/VueStorefront",
+        "snippet": "In our latest blog post, we delve into how composable commerce offers alternatives to SmartEdit, uncover the pain points of SmartEdit, and explore the ..."
+      },
+      {
+        "title": "(@V_Sizova) / Posts / X - Twitter",
+        "url": "https://x.com/V_Sizova",
+        "snippet": "The Most Dangerous Writing App. If you stop typing, all progress will be lost. Now with over 500+ writing prompts to choose from. www.squibler.io."
+      },
+      {
+        "title": "Rhonda Sipchen (@missus_sippie) / Posts / X - Twitter",
+        "url": "https://x.com/missus_sippie",
+        "snippet": "Our early-stage startup member, @Afforai, has reached a significant milestone after 6 months! They officially launched their platform and secured their ..."
+      },
+      {
+        "title": "Jack Armstrong (@jackarmstrong96) / Posts / X - Twitter",
+        "url": "https://x.com/jackarmstrong96",
+        "snippet": "I'm loving @afforai. Need a research and document analysis #AI tool? Read my overview. jack-armstrong.medium.com/afforai-review\u2026 0. 0. 3. 494 \u00b7. Jack ..."
+      },
+      {
+        "title": "TubeonAI - Posts - Twitter",
+        "url": "https://x.com/tubeonai",
+        "snippet": "\u2728 Supercharge Your Workflow: Smarter, faster, and more effective processes. We're here to make your content delivery smooth, effortless, and game-changing. \u2728 ..."
+      },
+      {
+        "title": "Dan Stephenson (@Idealstrength) / Posts / X - Twitter",
+        "url": "https://x.com/idealstrength",
+        "snippet": "@afforai. Logically. 50 likes, 5 comments. \"Q&A with Afforai Founders \u2013 Roadmap, Data Security, Team Access, GPT- 4 and more (Holiday Giveaway)\". www.youtube ..."
+      },
+      {
+        "title": "Flavian DeLima (@flaviandelima) / Posts / X - Twitter",
+        "url": "https://x.com/flaviandelima",
+        "snippet": "Use @afforai for my research. Surprise how much time it saved me and improved my workflow. If researching topics and books, check it out. #AI #ResearchTools."
+      },
+      {
+        "title": "Allie Scrivener (@alliescrivener) / Posts / X",
+        "url": "https://x.com/alliescrivener",
+        "snippet": "I'm still trying to cancel Findster Care, which activates automatically and requires you to email support to cancel. 0. 0. 0."
+      },
+      {
+        "title": "marle (@marle_writes) / Posts / X - Twitter",
+        "url": "https://x.com/marle_writes",
+        "snippet": "@UberEats I made a mistake in the order and I tried to cancel, but the app prompted me to call the restaurant. I did & there was nothing they could do."
+      },
+      {
+        "title": "Payal Uchil (@ph_uchil) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/ph_uchil/with_replies",
+        "snippet": "Horror Novel 'Shy Girl' Canceled Over Suspected A.I. Use (Gift Article) ... AI has given the entire literary world \u201ctrust issues\u201d in ways we can't even begin to ..."
+      },
+      {
+        "title": "jos dudley (@josdudley) / Posts / X - Twitter",
+        "url": "https://x.com/josdudley",
+        "snippet": "PRESS RELEASE MOIRA DEEMING LIBERAL MP \u2013 WESTERN METROPOLITAN REGION Personal statement: I have been informed that there will be a vote in the Liberal Party ..."
+      },
+      {
+        "title": "TheWaywardDaughter (@krismuldrow) / Posts / X",
+        "url": "https://x.com/krismuldrow",
+        "snippet": "The Daily Scrivener, Co-Host of Shadevsations Podcast Journalist: Black Enterprise, NewsOnyx, Sister2Sister, The Post Millennial, Lilith Astrology, etc... Posts."
+      },
+      {
+        "title": "Looking for a 100% open-source alternative to Lovable? Here are 3 ...",
+        "url": "https://x.com/DataChaz/status/1957073300301152271",
+        "snippet": "Charly Wargnier (@DataChaz). 93 likes 12 replies. Looking for a 100% open-source alternative to Lovable? Here are 3 great choices \u2193"
+      },
+      {
+        "title": "5 Best Lovable Alternatives in 2026 \u2013 SomeWhat Creative",
+        "url": "https://x.com/SomeWhatCrtv/status/2044878244596592807",
+        "snippet": "Finding the right alternative to #Lovable in 2026 isn't as straightforward as it seems. Over on #SomeWhatCreative, I break down 5 tools built for real-world ..."
+      },
+      {
+        "title": "OpenBuilder the open sourced competitor of Lovable and it's backed ...",
+        "url": "https://x.com/gaganghotra_/status/1989004307749056983",
+        "snippet": "OpenBuilder ( @theopenbuilder) is the open source alternative to Lovable. Unlimited build credits and real developer support when you hit a wall."
+      },
+      {
+        "title": "I tried EVERY major AI Coding tool so you don't have to. Here's what ...",
+        "url": "https://x.com/henrythe9ths/status/1889381891373146421",
+        "snippet": "@lovable: Similar to Bolt, but unreliable AI-generated code, hard to toggle/see code. @cursor_ai: Great Copilot alternative, but lacks extensive agentic ..."
+      },
+      {
+        "title": "10 Best Lovable AI Alternatives for Building No-Code AI Agents ...",
+        "url": "https://x.com/ani2nill/status/1942593841334227321",
+        "snippet": "10 Best Lovable AI Alternatives for Building No-Code AI Agents (2025 Update) ..."
+      },
+      {
+        "title": "overdue but finally switched from Cursor to Claude Code yesterday ...",
+        "url": "https://x.com/HankCouture/status/2032836094555812152",
+        "snippet": "overdue but finally switched from Cursor to Claude Code yesterday. 24 hrs in. Fully Claude pilled. Feels like I up-leveled from engineer to eng manager\u2026an ..."
+      },
+      {
+        "title": "Johannes Schickling",
+        "url": "https://x.com/schickling/status/1798447340082401391",
+        "snippet": "After many recommendations, I finally switched from VSC to @cursor_ai and ... wow! It's absolutely incredible. If you like Copilot (or if you don't), ..."
+      },
+      {
+        "title": "It looks like everyone is finally catching up with the fact that agent ...",
+        "url": "https://x.com/omarsar0/status/2044172949003911532",
+        "snippet": "It makes sense that the new Codex app, Cursor, and Claude Code (desktop) feel and look pretty similar now. This UI convergence is not an accident. This is a ..."
+      },
+      {
+        "title": "Meet the new Cursor! Very excited about this. Wanted to share a bit ...",
+        "url": "https://x.com/leerob/status/2039771986180649010",
+        "snippet": "Meet the new Cursor! Very excited about this. Wanted to share a bit more of the story of how we landed here, how the product evolved, and some of the ..."
+      },
+      {
+        "title": "This is good news. Tech companies seem to FINALLY be testing for ...",
+        "url": "https://x.com/tunguz/status/2043637022665949419",
+        "snippet": "Google is now asking PM candidates to open Cursor and build a working prototype in 45 minutes. Not engineers. Product managers. Figma does it."
+      },
+      {
+        "title": "Check out this crazy comparison b/w @lovable and @getcreatr by ...",
+        "url": "https://x.com/getcreatr/status/1892631789727838684",
+        "snippet": "It should be said that Lovable won in terms of interface beauty on the first try, but Creatr wins in customization ability. Both connect to a database and ..."
+      },
+      {
+        "title": "Found a job where someone replaced themself with AI and made ...",
+        "url": "https://x.com/venturetwins/status/1919788616966144396",
+        "snippet": "This OF creator switched from real videos to AI ones - and her average views went up by ~5x. Some videos (like this one) get millions of views\u2026and her viewers ..."
+      },
+      {
+        "title": "Anuj Garg (@KeenWarrior) / Posts / X - Twitter",
+        "url": "https://x.com/KeenWarrior",
+        "snippet": "Today marks a significant milestone for @getcreatr as we officially launched on Product Hunt. Every upvote means the world to us and brings us one step closer ..."
+      },
+      {
+        "title": "Collins Jimu (@collinsjimu404) / Posts / X - Twitter",
+        "url": "https://x.com/collinsjimu404",
+        "snippet": "CEO of Creatr. We just raised $1.2M to bankrupt every vibe-coding tool. And I want to tell you exactly why they ..."
+      },
+      {
+        "title": "The way everything in this tweet came true  ",
+        "url": "https://x.com/explaninglilnax/status/2012687260823560212",
+        "snippet": "All those fake fans and a certain content creator switched up again. Dottore gets ended. New Nod Krai map. Dottore gets ended. Nobody give a fawk about ..."
+      },
+      {
+        "title": "wait the feature i've been asking for MONTHS from trickle to ...",
+        "url": "https://x.com/yinachann/status/2029584530311688298",
+        "snippet": "Head to settings > sandbox > RESTART! (bonus: switching models now feels extra smooth ) letttt me be your buddy so you can sit back & ..."
+      },
+      {
+        "title": "-tikaal-   (@tikaal_coto) / Posts / X - Twitter",
+        "url": "https://x.com/tikaal_coto",
+        "snippet": "Hello, it's Trickle. I've written a new song for my original series. Reposts are loved \u200d\u2642\ufe0f I'm Sorry I'm a Monster (MV) FULL VIDEO \u2193\u2193\u2193\u2193"
+      },
+      {
+        "title": "Michel Lieben (@MichLieben) on X",
+        "url": "https://x.com/MichLieben/status/2046628974462480529",
+        "snippet": "Most posts went nowhere. Some got a trickle of likes. A handful generated a DM or two. Nothing that looked like real pipeline. But the 31st post did around ..."
+      },
+      {
+        "title": "From Clawdbot to Moltbot: Did Anthropic Just Fill In Its Own Moat ...",
+        "url": "https://x.com/simonkim_nft/status/2016131277787955650",
+        "snippet": "When Clawdbot was gaining mainstream popularity, the natural perception that \"Clawdbot runs on Claude\" could have created a trickle-down effect for the brand."
+      },
+      {
+        "title": "My product went viral on social media but all I got were these shitty ...",
+        "url": "https://x.com/andrewchen/status/1884292311947051309",
+        "snippet": "small trickle of users shows up, and they are loyal and loving. With their ... eventually new signups will die down, and the real question is if your ..."
+      },
+      {
+        "title": "Another showstopper bug in ai studio I just hit yesterday. If I link ...",
+        "url": "https://x.com/garyfung/status/2042810612049461474",
+        "snippet": "Another showstopper bug in ai studio I just hit yesterday. If I link anything in playground, response would just error out. Always"
+      },
+      {
+        "title": "Google literally just launched a Gemini App for Mac built with ...",
+        "url": "https://x.com/matvelloso/status/2044460830964781336",
+        "snippet": "Google literally just launched a Gemini App for Mac built with Antigravity... My former team used AI so much that if you left @OfficialLoganK, ..."
+      },
+      {
+        "title": "become the person directing the compute. Inference costs real ...",
+        "url": "https://x.com/PawelHuryn/status/2045973755982143656",
+        "snippet": "If you're worried about being replaced by AI: become the person directing the compute. Inference costs real money. No CFO is putting every former employee ..."
+      },
+      {
+        "title": "Cancelling Perplexity and Windsurf... My AI stack:",
+        "url": "https://x.com/johnlindquist/status/1871669853674934400",
+        "snippet": "Cancelling Perplexity and Windsurf... My AI stack: - Cursor: .44 composer updates are awesome - Google AI studio: Love the 1M+ context and \"grounding\" (web ..."
+      },
+      {
+        "title": "Jeremy Carter (@Jer_Car) / Posts / X - Twitter",
+        "url": "https://x.com/Jer_Car",
+        "snippet": "This new experience in Google AI Studio has already been used internally to build hundreds of thousands of apps over the last few months. We're working on more ..."
+      },
+      {
+        "title": "AI Research Tools \u200d   (@airesearchtools) / Posts and Replies / X",
+        "url": "https://x.com/airesearchtools/with_replies",
+        "snippet": "\ud83d\udd8b\ufe0f Paperpal ( @teampaperpal ): AI grammar checker and academic writing tool. paperpal.com Scholarcy ( @scholarcy ): Online article summarizer tool ..."
+      },
+      {
+        "title": "Allan Mascarenhas (@allanmas) / Posts / X - Twitter",
+        "url": "https://x.com/allanmas",
+        "snippet": "The response from the Platform was to call them \"miscreants\" and turn a labour demand into a law & order narrative. That is not just insulting, it is dangerous."
+      },
+      {
+        "title": "Linda Garc\u00eda (@LindaGarciaSil) / Posts / X - Twitter",
+        "url": "https://x.com/LindaGarciaSil",
+        "snippet": "GPT-4 will make you superhuman. Try these AI tools to save 100+ hours: 1. Academic Research Writing: Paperpal.com"
+      },
+      {
+        "title": "Albert Kissima (@albertkissima) / Posts / X - Twitter",
+        "url": "https://x.com/albertkissima",
+        "snippet": "Albert Kissima (@albertkissima) - Posts - Curriculum Developer || Educational Technology Enthusiast|| Global Voices volunteer translator || Ph.."
+      },
+      {
+        "title": "Nazmi  Som (@NaZmi_SoM) / Posts / X",
+        "url": "https://x.com/nazmi_som",
+        "snippet": "Don't waste time using ChatGPT or QuillBot to write your thesis. Instead, use Paperpal which is an AI-powered app. Here's how I get high- ..."
+      },
+      {
+        "title": "Former Nintendo employees Kit and Krysta say it is true that ...",
+        "url": "https://x.com/Genki_JPN/status/2047242720864088439",
+        "snippet": "Former Nintendo employees Kit and Krysta say it is true that Nintendo finishes developing games and then holds on to them until they find a good time to ..."
+      },
+      {
+        "title": "kit (moved) (@dwohtivy) / Posts / X - Twitter",
+        "url": "https://x.com/dwohtivy",
+        "snippet": "kit \u27b6 (moved) (@dwohtivy) - Posts - \u2727\u208a\u02da.\u2661 rep stan \u2022 tayriana + mcu \u2022 19 \u2022 bIm \u2727\u208a\u02da.\u2661 | X (formerly Twitter)"
+      },
+      {
+        "title": "Some very thoughtful comments from CD Projekt on the value of ...",
+        "url": "https://x.com/kitosan/status/1919791916692210167",
+        "snippet": "Some very thoughtful comments from CD Projekt on the value of physical games on Switch 2 (via @thegamebusiness). Kit Ellis's Image on X."
+      },
+      {
+        "title": "Be the first to get this week's Kit & Krysta Podcast with Patreon early ...",
+        "url": "https://x.com/KitandKrysta/status/2008752655146119201",
+        "snippet": "In this episode we're wondering where the Switch 2's 2026 system sellers are, discussing THAT Aonuma interview and explaining Nintendo's shift in game pre- ..."
+      },
+      {
+        "title": "I switched to Kit a long time ago but that free Mailchimp shirt from ...",
+        "url": "https://x.com/CasJam/status/2042274180972847432",
+        "snippet": "I switched to Kit a long time ago but that free Mailchimp shirt from their early days is still in my rotation."
+      },
+      {
+        "title": "Which AI coding agent should you use? The easy answer is \"all of ...",
+        "url": "https://x.com/swombat/status/1926503673686905015",
+        "snippet": "- RooCode, Cline, AugmentCode, CodeBuff: Likely to be good alternatives to Claude Code, and can point to any models. But there's different levels of ..."
+      },
+      {
+        "title": "Claude Code vs. Codex: The Definitive Guide",
+        "url": "https://x.com/Hesamation/status/2031418875946958915",
+        "snippet": "I personally believe that Claude is becoming a very hot ecosystem similar to Apple, now with Claude Cowork, the Claude Chat, and the Claude Code. It ..."
+      },
+      {
+        "title": "If you're looking for Claude Code alternatives, here are 5 contenders",
+        "url": "https://x.com/CodevolutionWeb/status/2039059205768790081",
+        "snippet": "If you're looking for Claude Code alternatives, here are 5 contenders. 5 Claude Code Alternatives in 2026. www.builder.io."
+      },
+      {
+        "title": "An open-source alternative to Claude Cowork, powered by ...",
+        "url": "https://x.com/AlternativeTo/status/2020512709482332228",
+        "snippet": "An open-source alternative to Claude Cowork, powered by OpenCode, offering the same agentic desktop flow for free with local MCP agents, custom skills, ..."
+      },
+      {
+        "title": "An open-source alternative to Claude (18k+ stars)! Onyx is a self ...",
+        "url": "https://x.com/akshay_pachaar/status/2037146876039016880",
+        "snippet": "Onyx is a self-hostable chat for any LLM. It ships with agents, RAG, deep research, MCP, and connects to 40+ sources. Ranked No. 1 on DeepResearch Bench, above ..."
+      },
+      {
+        "title": "Marc Benioff",
+        "url": "https://x.com/Benioff/status/1992726929204760661",
+        "snippet": "How Google Finally Leapfrogged Rivals With New Gemini Rollout. www.wsj.com. 800. 1226. 14306."
+      },
+      {
+        "title": "How Google Finally Leapfrogged Rivals With New Gemini Rollout",
+        "url": "https://x.com/NewsFromGoogle/status/1992979729599877456",
+        "snippet": "\"I feel it, I think we've hit on something.\" - @WSJ went behind the scenes with the team behind Gemini 3. Story below + on today's front page ..."
+      },
+      {
+        "title": "You're stuck with hundreds (or thousands) of ChatGPT threads ...",
+        "url": "https://x.com/demystifying_ai/status/2019151900055335051",
+        "snippet": "Google is testing something that could finally make it easy to switch from ChatGPT to Gemini. Imagine this: You're stuck with hundreds (or thousands) of ..."
+      },
+      {
+        "title": "\u201cFinally, a real home for my AI projects. Notebooks just changed the ...",
+        "url": "https://x.com/kmanzoor0/status/2042244876486779354",
+        "snippet": "We're connecting Gemini with @NotebookLM, our AI-powered research partner, to create a home base for your projects that stays in sync across both tools. Here's ..."
+      },
+      {
+        "title": "Oh wow! Finally, Gemini on Mac is released! Downloading ASAP!",
+        "url": "https://x.com/DeryaTR_/status/2044463771423252562",
+        "snippet": "It's the first time we're bringing the @GeminiApp to desktop. The team built this initial release with @antigravity, and it went from an idea to a native Swift ..."
+      },
+      {
+        "title": "A popular alternative to Grammarly is putting its browser extension ...",
+        "url": "https://x.com/WindowsCentral/status/2019496032132817126",
+        "snippet": "A popular alternative to Grammarly is putting its browser extension behind a paywall. The culprit? According to LanguageTool, generative AI."
+      },
+      {
+        "title": "I ditched Grammarly for Harper, a free, open-source grammar ...",
+        "url": "https://x.com/xdadevelopers/status/1955554991290106184",
+        "snippet": "I ditched Grammarly for Harper, a free, open-source grammar checker that prioritizes privacy and local processing. I've ditched Grammarly for this ..."
+      },
+      {
+        "title": "R.I.P Grammarly Pro. You don't need to pay $12/month anymore ...",
+        "url": "https://x.com/JafarNajafov/status/1975201512206057955",
+        "snippet": "R.I.P Grammarly Pro. You don't need to pay $12/month anymore. Claude and ChatGPT do better grammar checking for free Just copy this prompt:"
+      },
+      {
+        "title": "AI tools are very expensive. So I compiled the best FREE ...",
+        "url": "https://x.com/Adam_Bidd/status/1907085577184301468",
+        "snippet": "So I compiled the best FREE alternatives! ChatGPT o3-mini-high \u2192 DeepSeek R1 Midjourney \u2192 Microsoft Copilot Canva \u2192 Microsoft Designer"
+      },
+      {
+        "title": "Harper \u2013 an open-source alternative to Grammarly https://t.co ...",
+        "url": "https://x.com/betterhn20/status/1936222224496644491",
+        "snippet": "Harper \u2013 an open-source alternative to Grammarly writewithharper.com ( news.ycombinator.com/item?id=443313\u2026) Harper | Privacy-First Offline Grammar Checker."
+      }
+    ]
+  },
+  "appstore_reviews": {
+    "Deepseek": 10150,
+    "SmartEdit": 344531,
+    "ChatGPT": 6731356,
+    "Squibler": 312,
+    "Ywriter": 1671,
+    "WriteinaClick": 2567,
+    "MarkMate.ai": 1114495,
+    "Afforai": 31,
+    "LexiGrades AI": 1114495,
+    "Scrivener": 2567,
+    "Lovable": 114120,
+    "Google AI Studio": 1573040,
+    "Cursor": 114120,
+    "Claude": 114120,
+    "Creatr": 21,
+    "Trickle": 0,
+    "Paperpal": 131,
+    "Grammarly": 212703,
+    "Cramly": 160,
+    "Kit": 455,
+    "JotBot": 13726,
+    "Novlr": 9,
+    "Ulysses": 1967,
+    "Speare": 38,
+    "Atticus": 1967,
+    "Notion AI": 81929,
+    "Sudowrite": 216,
+    "BeLikeNative": 0,
+    "editGPT": 6731356,
+    "Dabble": 34592,
+    "Gemini": 1573040
+  },
+  "competitors": [
+    {
+      "name": "ChatGPT",
+      "description": "A versatile AI chatbot that can assist with various writing tasks, including brainstorming and outlining.",
+      "pricing": "freemium",
+      "strengths": [
+        "Widely accessible and easy to use",
+        "Excellent for brainstorming and generating ideas",
+        "Can provide outlines and suggestions for creative writing"
+      ],
+      "weaknesses": [
+        "ChatGPT does not provide structured feedback tailored for high school students \u2014 unlike this app.",
+        "ChatGPT lacks in-app enforcement of rules that keep users focussed on studying.",
+        "ChatGPT can be used for a wide variety of tasks but does not offer specific feedback on creative writing."
+      ],
+      "sentiment": "mixed",
+      "category": "Direct",
+      "similarity_score": 75,
+      "mention_count": 3,
+      "engagement_score": 500,
+      "sentiment_split": {
+        "positive": 60,
+        "neutral": 30,
+        "negative": 10
+      },
+      "dominant_complaint": "Can lack depth in creative writing.",
+      "dominant_praise": "Great to help with brainstorming and getting started writing.",
+      "platform_split": "both",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://ilampadmanabhan.medium.com/best-ai-writing-tools-2025-i-tested-8-ai-writers-with-detection-software-46702c34e0f0",
+        "https://www.contentmonk.io/blog/chatgpt-alternatives-for-writing",
+        "https://www.lindy.ai/blog/chatgpt-alternative"
+      ]
+    },
+    {
+      "name": "editGPT",
+      "description": "A tool for creative writing.",
+      "pricing": "unknown",
+      "strengths": [
+        "Creative writing tool, good general application",
+        "Offers wide variety of writing feedback, helps improve skill quickly",
+        "Suitable for novels, scripts, and academic papers"
+      ],
+      "weaknesses": [
+        "editGPT has no AI-chat feedback for creative writing exercises \u2014 unlike this app.",
+        "editGPT requires manual organisation but doesn't suggest in-app edits like this app.",
+        "editGPT does not focus on high school students specifically, unlike this application targeted for them."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 60,
+      "mention_count": 1,
+      "engagement_score": 120,
+      "sentiment_split": {
+        "positive": 75,
+        "neutral": 20,
+        "negative": 5
+      },
+      "dominant_complaint": "Steep learning curve.",
+      "dominant_praise": "Great for complex writing projects.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://editgpt.app/blog/top-10-creative-writing-tools"
+      ]
+    },
+    {
+      "name": "Grammarly",
+      "description": "An AI writing assistant that corrects grammar, tone, and clarity in real-time.",
+      "pricing": "freemium",
+      "strengths": [
+        "Provides real-time grammar and spelling checks",
+        "Helps improve writing clarity and tone",
+        "Widely used and integrated with many platforms"
+      ],
+      "weaknesses": [
+        "Grammarly doesn't offer structured or specific feedback for creative writing exercises \u2014 unlike this app.",
+        "Grammarly does not provide AI chat to give feedback like this app.",
+        "Grammarly only fixes grammar, not helps develop structure and writing skills like this app."
+      ],
+      "sentiment": "positive",
+      "category": "Indirect",
+      "similarity_score": 45,
+      "mention_count": 1,
+      "engagement_score": 100,
+      "sentiment_split": {
+        "positive": 70,
+        "neutral": 20,
+        "negative": 10
+      },
+      "dominant_complaint": "Sometimes makes unwanted changes.",
+      "dominant_praise": "Catches most errors in writing.",
+      "platform_split": "both",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://x.com/shushant_l/status/2039311933141356857",
+        "https://lifehacker.com/tech/best-ai-tools-to-help-you-write-an-essay"
+      ]
+    },
+    {
+      "name": "Scrivener",
+      "description": "A writing app designed for long-form writing projects, offering features for organization and outlining.",
+      "pricing": "paid",
+      "strengths": [
+        "Great for organizing and structuring long documents",
+        "Offers excellent outlining and project management tools",
+        "Suitable for novels, scripts, and academic papers"
+      ],
+      "weaknesses": [
+        "Scrivener has no AI-chat feedback for creative writing exercises \u2014 unlike this app.",
+        "Scrivener requires manual organisation but doesn't suggest in-app edits like this app.",
+        "Scrivener does not focus on high school students specifically, unlike this application targeted for them."
+      ],
+      "sentiment": "positive",
+      "category": "Adjacent",
+      "similarity_score": 28,
+      "mention_count": 5,
+      "engagement_score": 120,
+      "sentiment_split": {
+        "positive": 75,
+        "neutral": 20,
+        "negative": 5
+      },
+      "dominant_complaint": "Steep learning curve.",
+      "dominant_praise": "Great for complex writing projects.",
+      "platform_split": "both",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.pcmag.com/picks/the-best-writing-apps",
+        "https://legendfiction.substack.com/p/i-tested-23-writing-toolsyeah-almost",
+        "https://editgpt.app/blog/top-10-creative-writing-tools",
+        "https://www.facebook.com/groups/495951086593834/posts/801686982686908/",
+        "https://caroline-writes.com/writing-apps-and-tools-for-authors/"
+      ]
+    },
+    {
+      "name": "Sudowrite",
+      "description": "AI book writing software that can assist with generating ideas, characters, and plot points.",
+      "pricing": "paid",
+      "strengths": [
+        "Specialized for creative writing and fiction",
+        "Helps with brainstorming and generating ideas",
+        "Offers features for character and plot development"
+      ],
+      "weaknesses": [
+        "Sudowrite is focused on professional writers \u2014 not offering AI-chat assistance for high school students like this app.",
+        "Sudowrite doesn't do structured feedback like this app.",
+        "Sudowrite assists in writing the WHOLE book, not in structured exercises like this app."
+      ],
+      "sentiment": "positive",
+      "category": "Adjacent",
+      "similarity_score": 35,
+      "mention_count": 4,
+      "engagement_score": 150,
+      "sentiment_split": {
+        "positive": 80,
+        "neutral": 15,
+        "negative": 5
+      },
+      "dominant_complaint": "Can be expensive for casual users.",
+      "dominant_praise": "Excellent for assisting with creative writing.",
+      "platform_split": "both",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://editgpt.app/blog/top-10-creative-writing-tools",
+        "https://www.facebook.com/groups/495951086593834/posts/801686982686908/",
+        "https://aimadesimple0.substack.com/p/i-tested-25-ai-writing-tools-and",
+        "https://www.youtube.com/watch?v=FdGqy6FFBr0"
+      ]
+    }
+  ],
+  "market_score": 1.8,
+  "non_app_signals": [
+    "Traditional tools such as pen and paper or writing groups are still frequently used by students."
+  ],
+  "differentiators": [
+    "ChatGPT lacks structured feedback tailored for high school students \u2014 unlike this app.",
+    "This app focuses on structured AI-chat assistance, rather than AI completion like Sudowrite",
+    "No competitor enforces an in-app rule that students study alone using chat to guide the process."
+  ],
+  "sources": [
+    "https://www.reddit.com/r/WritingWithAI/comments/1osb9lw/how_do_you_get_ai_to_honestly_critique_your_work/",
+    "https://www.reddit.com/r/WritingWithAI/comments/1kurzq7/nonfiction_selfhelp_genre_ai_tools/",
+    "https://x.com/GoogleAIStudio/status/1982496122527440968",
+    "https://x.com/GeorgeBlackman_/status/1950611748903399819",
+    "https://ilampadmanabhan.medium.com/best-ai-writing-tools-2025-i-tested-8-ai-writers-with-detection-software-46702c34e0f0",
+    "https://www.forbes.com/sites/forbes-personal-shopper/article/best-ai-writing-tools/"
+  ]
+}

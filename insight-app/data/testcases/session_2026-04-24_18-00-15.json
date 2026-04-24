@@ -1,0 +1,1496 @@
+{
+  "timestamp": "2026-04-24_18-00-15",
+  "idea": "A co-pilot during moments of chaos allowing me to breathe better",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "A co-pilot during moments of chaos allowing me to breathe better"
+    },
+    {
+      "role": "assistant",
+      "content": "What makes it different from everything else out there?"
+    },
+    {
+      "role": "user",
+      "content": "A guided voice co-pilot grounded in evidence-based techniques that return you to a steady state in 300 seconds, including cognitive behavioural therapy, somatic grounding, and breath regulation."
+    },
+    {
+      "role": "assistant",
+      "content": "Who is it specifically for?"
+    },
+    {
+      "role": "user",
+      "content": "people who experience anxiety"
+    }
+  ],
+  "core_features": [
+    "guided voice co-pilot",
+    "evidence-based techniques (CBT, somatic grounding, breath regulation)",
+    "300-second steady-state return"
+  ],
+  "app_candidates_phase1": [
+    "Insight Timer",
+    "How We Feel",
+    "Box Breathing",
+    "Healthy Minds",
+    "Flourish",
+    "Oak",
+    "Alera",
+    "littlebreak",
+    "Simple Habit",
+    "Leaply",
+    "FocusPlus",
+    "Awakened App",
+    "Inner",
+    "Ninja Focus",
+    "Combined Minds",
+    "Cove",
+    "5 Minutes for Me",
+    "Unlonely App",
+    "CBT-i Coach",
+    "BetterMe",
+    "Neurture",
+    "relif",
+    "MindDoc",
+    "Moveworks",
+    "ChatGPT Enterprise",
+    "Gemini",
+    "Claude"
+  ],
+  "queries": {
+    "reddit_phase1": [
+      "best guided meditation app for anxiety site:reddit.com",
+      "app to calm down in 5 minutes anxiety site:reddit.com",
+      "app like Headspace for anxiety but shorter site:reddit.com",
+      "best app to achieve steady state quickly when having anxiety site:reddit.com",
+      "looking for voice-guided anxiety relief site:reddit.com",
+      "intitle:(\"tried every\" OR \"my ranking\") quick anxiety relief app site:reddit.com",
+      "app with somatic grounding exercises site:reddit.com"
+    ],
+    "twitter_phase1": [
+      "I hate anxiety apps that take too long",
+      "someone should build an app to quickly calm anxiety",
+      "I would pay for an app that uses CBT for anxiety",
+      "recommendations for short guided anxiety relief app",
+      "anxiety app that actually works in 5 minutes",
+      "every meditation app is too long",
+      "what app do you use for somatic grounding anxiety"
+    ],
+    "reddit_phase2": [
+      "alternative to Insight Timer",
+      "I switched from How We Feel",
+      "better than Box Breathing",
+      "alternative to Healthy Minds",
+      "I switched from Flourish",
+      "better than Oak",
+      "alternative to Alera",
+      "I switched from littlebreak",
+      "better than Simple Habit",
+      "alternative to Leaply",
+      "I switched from FocusPlus",
+      "better than Awakened App",
+      "alternative to Inner",
+      "I switched from Ninja Focus",
+      "better than Combined Minds",
+      "alternative to Cove",
+      "I switched from 5 Minutes for Me",
+      "better than Unlonely App",
+      "alternative to CBT-i Coach",
+      "I switched from BetterMe",
+      "better than Neurture",
+      "alternative to relif",
+      "I switched from MindDoc",
+      "better than Moveworks",
+      "alternative to ChatGPT Enterprise"
+    ],
+    "twitter_phase2": [
+      "Insight Timer switched to",
+      "alternative to How We Feel",
+      "finally switched from Box Breathing",
+      "Healthy Minds switched to",
+      "alternative to Flourish",
+      "finally switched from Oak",
+      "Alera switched to",
+      "alternative to littlebreak",
+      "finally switched from Simple Habit",
+      "Leaply switched to",
+      "alternative to FocusPlus",
+      "finally switched from Awakened App",
+      "Inner switched to",
+      "alternative to Ninja Focus",
+      "finally switched from Combined Minds",
+      "Cove switched to",
+      "alternative to 5 Minutes for Me",
+      "finally switched from Unlonely App",
+      "CBT-i Coach switched to",
+      "alternative to BetterMe"
+    ]
+  },
+  "search_results": {
+    "reddit_phase1": [
+      {
+        "title": "What's a good meditation app (besides Headspace) that isn't woo ...",
+        "url": "https://www.reddit.com/r/Meditation/comments/1kz7t14/whats_a_good_meditation_app_besides_headspace/",
+        "snippet": "Insight Timer definitely. Plenty of free high quality meditations. Affordable courses. Customization of the timer with different sounds and background sounds."
+      },
+      {
+        "title": "Which apps do you recommend for anxiety and why? - Reddit",
+        "url": "https://www.reddit.com/r/selfcare/comments/1hmadi8/which_apps_do_you_recommend_for_anxiety_and_why/",
+        "snippet": "There is a free app called \u201cHow We Feel,\u201d that utilizes an approach to understanding and taking a deep dive into the emotions you have, whatever they may be."
+      },
+      {
+        "title": "What Apps helped you the most concerning your mental health?",
+        "url": "https://www.reddit.com/r/selfcare/comments/1m80pnn/what_apps_helped_you_the_most_concerning_your/",
+        "snippet": "I've seen great results with an app called Box Breathing - Calm in 1 Min. It guides users through short breathing exercises that reduce anxiety and help with ..."
+      },
+      {
+        "title": "Best meditation app for anxiety? - Reddit",
+        "url": "https://www.reddit.com/r/Meditation/comments/1icc79g/best_meditation_app_for_anxiety/",
+        "snippet": "The Healthy Minds app is a good place to start! It teaches you how to do sitting and active (washing dishes, showering, walking, etc.) mindfulness meditation."
+      },
+      {
+        "title": "Best apps that you use for meditation? - Reddit",
+        "url": "https://www.reddit.com/r/Meditation/comments/1ek5h7j/best_apps_that_you_use_for_meditation/",
+        "snippet": "Another vote for Insight Timer! There is a free version, and it has plenty of meditations to choose from :) Guided and unguided."
+      },
+      {
+        "title": "Looking for mental health tracking app recommendations - Reddit",
+        "url": "https://www.reddit.com/r/getdisciplined/comments/1du8vtn/looking_for_mental_health_tracking_app/",
+        "snippet": "i've tried a bunch of apps, but Flourish has been a game changer for me. it lets me track my moods and set small goals, and their design is super calming, which ..."
+      },
+      {
+        "title": "Can anyone reccomend a guided meditation that dorsnt use ... - Reddit",
+        "url": "https://www.reddit.com/r/Meditation/comments/1dylp0v/can_anyone_reccomend_a_guided_meditation_that/",
+        "snippet": "I love the Oak app. She has a nice voice but they also give the a guided option. You can pick the background noise/song too."
+      },
+      {
+        "title": "[$99.99 \u2192 Lifetime FREE] Alera Mental Health: NEW Voice Mode + ...",
+        "url": "https://www.reddit.com/r/ADHD_Programmers/comments/1qarf9e/9999_lifetime_free_alera_mental_health_new_voice/",
+        "snippet": "Alera is an AI-powered mental-health app built with clinicians that creates personalized weekly therapy plans \u2192 Get Lifetime FREE in the next 24 hours ..."
+      },
+      {
+        "title": "Mindfulness & Music: I started a free resource to help musicians deal ...",
+        "url": "https://www.reddit.com/r/singing/comments/1jy4pt2/mindfulness_music_i_started_a_free_resource_to/",
+        "snippet": "Mindful practice strategies. Guided meditations designed for performers. Breathing techniques for before auditions. Emotional reconnection with your playing."
+      },
+      {
+        "title": "Just launched a free app with 3-min resets for stress & anxiety. No ...",
+        "url": "https://www.reddit.com/r/SideProject/comments/1nwu1li/just_launched_a_free_app_with_3min_resets_for/",
+        "snippet": "I made littlebreak: 3 minute stress relief as a free app ... Each session uses science-backed techniques like breathing, visualization, and affirmations to help ..."
+      },
+      {
+        "title": "Calm and Headspace Don't Quite Work for Me\u2014What Apps Do You ...",
+        "url": "https://www.reddit.com/r/Meditation/comments/1ha1keu/calm_and_headspace_dont_quite_work_for_mewhat/",
+        "snippet": "I like Insight Timer and Simple Habit . Insight Timer has lots and lots of guided meditations, a timer, and lots of good ways to watch your practice. Simple ..."
+      },
+      {
+        "title": "Somatic tracking app : r/SomaticExperiencing - Reddit",
+        "url": "https://www.reddit.com/r/SomaticExperiencing/comments/1mjusjq/somatic_tracking_app/",
+        "snippet": "Hi all, I've found there's no dedicated app for somatic tracking, there's a few app out there with some guides but feel like there could be more."
+      },
+      {
+        "title": "Leaply vagus nerve reset review \u2013 my experience with the app and if ...",
+        "url": "https://www.reddit.com/r/VagusNerve/comments/1nb078w/leaply_vagus_nerve_reset_review_my_experience/",
+        "snippet": "The somatic exercises, coherent breathing, and grounding felt beginner friendly, and over time I noticed better nervous system regulation. Cancelation was ..."
+      },
+      {
+        "title": "What worked better in real life for mental health and ADHD - Reddit",
+        "url": "https://www.reddit.com/r/adhdwomen/comments/1r6df2f/what_worked_better_in_real_life_for_mental_health/",
+        "snippet": "I tried pretty much everything. Medication was the missing piece for me. But otherwise here's my ranking: meds (has to be with a good dr.. I had ..."
+      },
+      {
+        "title": "What's the Best Google Local Rank Tracker? : r/BusinessDevelopment",
+        "url": "https://www.reddit.com/r/BusinessDevelopment/comments/1p5gs8h/whats_the_best_google_local_rank_tracker/",
+        "snippet": "I tried rank tracking local searches for my shop and I noticed Google changes a lot based on tiny movements. Even going two blocks away changed my ranking."
+      },
+      {
+        "title": "What are the best online therapy services in Singapore (affordable + ...",
+        "url": "https://www.reddit.com/r/SGWellnessHub/comments/1ng0rf4/what_are_the_best_online_therapy_services_in/",
+        "snippet": "... my ranking would be: TherapistSG \u2013 best balance of cost, cultural fit, and therapist quality. Polyclinic/IMH \u2013 only if you're okay with long wait times. Other ..."
+      }
+    ],
+    "twitter_phase1": [
+      {
+        "title": "We blame social media for the anxiety as if an app invented the rot ...",
+        "url": "https://x.com/Sydusm/status/2026658400952807555",
+        "snippet": "We blame social media for the anxiety as if an app invented the rot. As if the screen created the hatred. It didn't. It only amplified what was already ..."
+      },
+      {
+        "title": "FocusPlus (@focusplusio) / Posts / X",
+        "url": "https://x.com/focusplusio",
+        "snippet": "It's a task manager that helps you reduce your anxiety and stress while working. You can try it for free here: FocusPlus - A pomodoro timer that helps you ..."
+      },
+      {
+        "title": "Simone Canc (@simonecanciello) on X",
+        "url": "https://x.com/simonecanciello/status/2013646964500451758",
+        "snippet": "everyone on X is writing articles or building a mobile app right now. but you're struggling and overthinking because you don't know what to do."
+      },
+      {
+        "title": "Download the Awakened App: a simple, no-fuss wellness app for ...",
+        "url": "https://x.com/DrAnandVyas/status/2040824347976176052",
+        "snippet": "Download the Awakened App: a simple, no-fuss wellness app for people who hate wellness apps. Start free, no card needed! app.awakenedbeats.com/GetAwakened"
+      },
+      {
+        "title": "Dan Koe's 107 Million-View X Article Earns $4,495 Payout",
+        "url": "https://x.com/i/trending/2012735575954977240",
+        "snippet": "So whether you want to start the business, transform your body, or take the risk toward a more meaningful life without quitting after 2 weeks, I want to share 7 ..."
+      },
+      {
+        "title": "Inner - An Interactive Meditation Quest VR App (@inner_vr) / Posts / X",
+        "url": "https://x.com/inner_vr",
+        "snippet": "... short list of meditation and mindful tips ... Our new \"Anxiety Reduction\" series features interactive VR tea ceremony meditations perfect for finding calm."
+      },
+      {
+        "title": "Ninja Focus - Mindfulness for Gen Z (@ninjafocus_) / Posts / X - Twitter",
+        "url": "https://x.com/ninjafocus_?lang=ar",
+        "snippet": "Elevate your self-care routine with our ultimate meditation app! With guides & audio-courses to keep your child's brain engaged, healthy, & anxiety-free. linktr ..."
+      },
+      {
+        "title": "Combined Minds (@combmindsapp) / Posts / X - Twitter",
+        "url": "https://x.com/combmindsapp",
+        "snippet": "Combined Minds is an app to help families and friends support a young person's mental health. Available on Google Play & App Store. Developed by @stem4org."
+      },
+      {
+        "title": "MindfulNEWS (@mindfulnews_uk) / Posts / X - Twitter",
+        "url": "https://x.com/mindfulnews_uk",
+        "snippet": "On a device or on the web, viewers can watch and discover millions of personalized short videos. Download the app to get started. ... anxiety and really boost ..."
+      },
+      {
+        "title": "Shaun Keating (@shaunkeating) / Posts / X - Twitter",
+        "url": "https://x.com/shaunkeating",
+        "snippet": "I literally started by asking @grok how to get started: which framework to use, apps and tools I would need, roadmap, timelines, launch plans, etc. Grok was my ..."
+      },
+      {
+        "title": "A new smartphone app developed at Belmont's McLean Hospital ...",
+        "url": "https://x.com/BostonGlobe/status/2039755947778695369",
+        "snippet": "A new smartphone app developed at Belmont's McLean Hospital improved users' mental habits over four weeks, according to the results of a clinical trial."
+      },
+      {
+        "title": "The 5-Minute 'Brain Reset' That Neuroscientists Use to End Anxiety ...",
+        "url": "https://x.com/Entry_Blogs/status/2047415563597828464",
+        "snippet": "The 5-Minute 'Brain Reset' That Neuroscientists Use to End Anxiety Instantly. \u26a1\ufe0f entry-azure.vercel.app/blog/5-minute-\u2026 Bookmark this for the next time you ..."
+      },
+      {
+        "title": "this thing is super cool",
+        "url": "https://x.com/danshipper/status/2019138675763028004",
+        "snippet": "Drop it into ChatGPT, Claude, or any AI assistant \u2014 and you have a therapist who already knows your attachment style, anxiety patterns, values, trauma history, ..."
+      },
+      {
+        "title": "Cove (@cove_app) / Posts / X - Twitter",
+        "url": "https://x.com/cove_app",
+        "snippet": "Cove is the easiest way to express yourself: a music maker for your mental health. Trusted by doctors and therapists, and available on the NHS app library."
+      },
+      {
+        "title": "5 Minutes for Me (@5_minutesforme) / Posts / X - Twitter",
+        "url": "https://x.com/5_minutesforme",
+        "snippet": "Now live on the 5 Minutes for Me App! ... Nicky Taylor provides three effective NLP techniques to help listeners manage and overcome anxiety using NLP techniques."
+      },
+      {
+        "title": "This is why we build an ecosystem and releasing an app soon via ...",
+        "url": "https://x.com/gammalab_tweets/status/2045868792224399585",
+        "snippet": "The mental health finding follows from the attention finding but also has its own dynamics. Mobile internet is an anxiety delivery system in the literal sense."
+      },
+      {
+        "title": "Stress, burnout, and anxiety aren't fixed with reminders to breathe.",
+        "url": "https://x.com/elearnindustry/status/2039749871142416616",
+        "snippet": "Stress, burnout, and anxiety aren't fixed with reminders to breathe. - Listen to your teams - Give real access to support - Build a healthy culture"
+      },
+      {
+        "title": "Unlonely App (@UnlonelyApp) / Posts / X",
+        "url": "https://x.com/unlonelyapp?lang=hu",
+        "snippet": "The mobile app that provides unlimited texting with a registered therapist at a fraction of the price of other therapy apps. Try Unlonely today :) Posts."
+      },
+      {
+        "title": "The CBT-i Coach app can help you get #bettersleep with guided ...",
+        "url": "https://x.com/DeptVetAffairs/status/2045261179262550180",
+        "snippet": "The CBT-i Coach app can help you get #bettersleep with guided sleep techniques, a sleep diary, relaxation exercises, and strategies for reducing nighttime ..."
+      },
+      {
+        "title": "Just cleared by the FDA: #CBT app (DaylightRx) for generalized ...",
+        "url": "https://x.com/chrisaikenmd/status/1832782461127790943",
+        "snippet": "Just cleared by the FDA: #CBT app (DaylightRx) for generalized anxiety disorder. Large effect size (1.08) in trial of 256: pubmed.ncbi.nlm.nih.gov/32725848"
+      },
+      {
+        "title": "Researchers at @WeillCornell and @nyphospital found that \u201cMaya ...",
+        "url": "https://x.com/CornellNews/status/1826265604380327954",
+        "snippet": "Researchers at @WeillCornell and @nyphospital found that \u201cMaya,\u201d a self-guided cognitive behavioral therapy (CBT) app, significantly reduced anxiety in ..."
+      },
+      {
+        "title": "0\u20e31\u20e3   Reduce anxiety through an easy, guided journaling practice ...",
+        "url": "https://x.com/indieappsanta/status/1874493286078898363",
+        "snippet": "0\u20e31\u20e3 Reduce anxiety through an easy, guided journaling practice with Reset: CBT Self Therapy Journal! \u2728 Join the thousands of people using AI guided ..."
+      },
+      {
+        "title": "Struggling with sleep? SnoozeSync is a CBT-I app designed to fix ...",
+        "url": "https://x.com/SnoozeSync/status/2045307550552166816",
+        "snippet": "CBT-I is the gold-standard, science-backed treatment for chronic sleep issues. Visit SnoozeSync.com to learn more and download SnoozeSync now on the Play Store."
+      },
+      {
+        "title": "Dr Tracy (@DrTracyKing) / Posts / X - Twitter",
+        "url": "https://x.com/DrTracyKing",
+        "snippet": "In Somatic Therapies, such as Peter Levine's Somatic Experiencing we focus on how the body holds experiences and responses. The nervous system is shaped by ..."
+      },
+      {
+        "title": "Jonny Miller (@jonnym1ller) / Highlights / X - Twitter",
+        "url": "https://x.com/jonnym1ller/highlights",
+        "snippet": "If every time that you notice anxiety or irritability, you just self-regulate it away without feeling it, you are adding to the backlog. The skill of self ..."
+      },
+      {
+        "title": "Darshak Rana \u26a1\ufe0f",
+        "url": "https://x.com/thedarshakrana/status/2037944288471044202",
+        "snippet": "You can look for better ways to address the same need \u2014 if the habit provides escape from anxiety, what are healthier methods of nervous system regulation? Or ..."
+      },
+      {
+        "title": "CollegeBoundMama (@Looking4College) / Posts / X - Twitter",
+        "url": "https://x.com/looking4college",
+        "snippet": "The autonomic function tests were not designed to assess patients with common autonomic disorders so yes, they will look amazing on the autonomic function tests ..."
+      },
+      {
+        "title": "Jean Manz, LMFT Coaching and Counseling - Twitter",
+        "url": "https://x.com/JeanManzLMFT",
+        "snippet": "One of the most difficult things these days is dealing with anxiety. The video describes a technique that has been taught to many with success."
+      },
+      {
+        "title": "Tim Ferriss",
+        "url": "https://x.com/tferriss/status/1879185090967716061",
+        "snippet": "Unlike other meditation apps, where you're overwhelmed with a thousand choices, The Way is a clear step-by-step training program guided entirely by Henry."
+      },
+      {
+        "title": "I've been frankly obsessed with the AI & I podcast... so it was an ...",
+        "url": "https://x.com/jonnym1ller/status/1904932191668494699",
+        "snippet": "Jonny Miller (@jonnym1ller) uploaded his entire life to ChatGPT to use it as the ultimate AI coach. He created what he calls a Codex Vitae."
+      },
+      {
+        "title": "this is all you need to wake up your most creative state in 7 days ...",
+        "url": "https://x.com/Hesamation/status/2036873061497000229",
+        "snippet": "Sit with nothing for 10 minutes. You can call it meditation, sure, but I don't want you to use a meditation app or any guided breathing technique. Just sit ..."
+      },
+      {
+        "title": "Andy Puddicombe (@andypuddicombe) / Posts and Replies / X",
+        "url": "https://x.com/andypuddicombe/with_replies",
+        "snippet": "Andy, I am still with headspace as you still had meditations recorded which I note over the last few days have discontinued? Is there another platform/app that ..."
+      },
+      {
+        "title": "There's a long, probing meditation from @billwasik on how AI might ...",
+        "url": "https://x.com/stevenbjohnson/status/1934726232291094835",
+        "snippet": "You'll often hear people say that the big risk for scholarship in these tools is that they eliminate the kind of serendipitous discovery that you can only get ..."
+      }
+    ],
+    "reddit_phase2": [
+      {
+        "title": "havent seen anyone mention this yet, mythic weapon flourish keybind?",
+        "url": "https://www.reddit.com/r/Overwatch/comments/1e0jmpx/havent_seen_anyone_mention_this_yet_mythic_weapon/",
+        "snippet": "I suspect they made the tech for first person emotes and just figured they'd add some of these to mythic weapons."
+      },
+      {
+        "title": "Can anyone explain what this means? : r/Warframe - Reddit",
+        "url": "https://www.reddit.com/r/Warframe/comments/1mgl4q5/can_anyone_explain_what_this_means/",
+        "snippet": "While holding the key you use to switch between primary and secondary weapon you do a manual equip to your melee."
+      },
+      {
+        "title": "Weapon Flourish : r/CrimsonDesert - Reddit",
+        "url": "https://www.reddit.com/r/CrimsonDesert/comments/1s6kis0/weapon_flourish/",
+        "snippet": "No vid sorry. I just discovered that if you double tap the sheathe button (left on d-pad) you flourish the weapon before putting it away."
+      },
+      {
+        "title": "What's a good meditation app (besides Headspace) that isn't woo ...",
+        "url": "https://www.reddit.com/r/Meditation/comments/1kz7t14/whats_a_good_meditation_app_besides_headspace/",
+        "snippet": "Insight Timer definitely. Plenty of free high quality meditations. Affordable courses. Customization of the timer with different sounds and background sounds."
+      },
+      {
+        "title": "Calm and Headspace Don't Quite Work for Me\u2014What Apps Do You ...",
+        "url": "https://www.reddit.com/r/Meditation/comments/1ha1keu/calm_and_headspace_dont_quite_work_for_mewhat/",
+        "snippet": "I like Insight Timer and Simple Habit . Insight Timer has lots and lots of guided meditations, a timer, and lots of good ways to watch your practice. Simple ..."
+      },
+      {
+        "title": "Does anyone have recommendations on free meditation apps?",
+        "url": "https://www.reddit.com/r/Meditation/comments/1gleilr/does_anyone_have_recommendations_on_free/",
+        "snippet": "There are a lot of free meditation apps. Medito, atom, healthy minds, and Tergar has a free meditation app as well. I kind of prefer Tergar compared to the rest ..."
+      },
+      {
+        "title": "So many clicks\u2026looking for alternative : r/InsightTimer - Reddit",
+        "url": "https://www.reddit.com/r/InsightTimer/comments/1l9do0l/so_many_clickslooking_for_alternative/",
+        "snippet": "I would try Calm and sample all the teachers to see if you like them. Healthy Minds also has an app, and it's free, and they have some good content\u2014but again, ..."
+      },
+      {
+        "title": "Any app reccomendations similar to Insight Timer? : r/Meditation",
+        "url": "https://www.reddit.com/r/Meditation/comments/1endo2v/any_app_reccomendations_similar_to_insight_timer/",
+        "snippet": "Enso: Meditation Timer & Bell. Basic version is free to download and upgrades are available. It's available from Apple but I'm unsure if there's an Android ..."
+      },
+      {
+        "title": "Meditation apps are overwhelming me - looking for something truly ...",
+        "url": "https://www.reddit.com/r/Meditation/comments/1ngjqay/meditation_apps_are_overwhelming_me_looking_for/",
+        "snippet": "I've tried Headspace, Calm, Insight Timer, Ten Percent Happier... they all have the same problem for me. Too many features, too many choices, ..."
+      },
+      {
+        "title": "What does switching feel like for you? : r/DID - Reddit",
+        "url": "https://www.reddit.com/r/DID/comments/1cxvyz5/what_does_switching_feel_like_for_you/",
+        "snippet": "Switching to me feels like my mind is shifting gears. Sometimes, it's a gradual reset, but in other times, it can be a sudden click."
+      },
+      {
+        "title": "What does switching feel like for you guys? : r/DID - Reddit",
+        "url": "https://www.reddit.com/r/DID/comments/1hvufm5/what_does_switching_feel_like_for_you_guys/",
+        "snippet": "It really depends on the trigger/severity mostly. Headaches, some light sensitivity, some of the feeling of like not being fully in my body, the works."
+      },
+      {
+        "title": "Does anyone else feel like they're switching between versions of ...",
+        "url": "https://www.reddit.com/r/mentalhealth/comments/1nb7n5t/does_anyone_else_feel_like_theyre_switching/",
+        "snippet": "Lately, I've been noticing something I've done for years \u2014 I shift between completely different versions of myself. These versions don't just feel\u2026"
+      },
+      {
+        "title": "Best substitute for oak? : r/diynz - Reddit",
+        "url": "https://www.reddit.com/r/diynz/comments/1jdvzel/best_substitute_for_oak/",
+        "snippet": "White ash. Hardwood, looks good oiled and can be stained. Similar grain but lighter. Still not cheap but cheaper than oak."
+      },
+      {
+        "title": "Pros and cons of red oak vs white oak? : r/HardWoodFloors - Reddit",
+        "url": "https://www.reddit.com/r/HardWoodFloors/comments/1eahhaz/pros_and_cons_of_red_oak_vs_white_oak/",
+        "snippet": "I prefer white oak over red. Hickory should be considered. But I prefer something grown in South America. Goncalo alves is my favorite, followed by Cumaru. They ..."
+      },
+      {
+        "title": "Oak wins as an overrated common wood. What wood is *somewhat ...",
+        "url": "https://www.reddit.com/r/wood/comments/1pao77q/oak_wins_as_an_overrated_common_wood_what_wood_is/",
+        "snippet": "Central KY the answer after oak is maple, black walnut, cedar, cherry or popular. Poplar is the one that I would use for something to paint. Black locust is ..."
+      },
+      {
+        "title": "If Codex Alera is \"Wheel of Time lite\", what are some other ... - Reddit",
+        "url": "https://www.reddit.com/r/Fantasy/comments/1cmt85f/if_codex_alera_is_wheel_of_time_lite_what_are/",
+        "snippet": "It's famously Pokemon + the Lost Roman Legion. It started as a bet on a writing forum. I don't see much in common with Wheel of Time from a plot or structural ..."
+      },
+      {
+        "title": "Looking for something like a soldiers life or portal to nova roma : r/litrpg",
+        "url": "https://www.reddit.com/r/litrpg/comments/1nw0xwy/looking_for_something_like_a_soldiers_life_or/",
+        "snippet": "I would recommend Stiger's Tigers and Codex Alera, although neither are exactly progression fantasy. There is some measure of growth though and they are both ..."
+      },
+      {
+        "title": "[None] What have y'all read after Cradle that's lived up to the series?",
+        "url": "https://www.reddit.com/r/Iteration110Cradle/comments/1fk0drw/none_what_have_yall_read_after_cradle_thats_lived/",
+        "snippet": "Normally I'd recommend Sanderson, stormlight is much much slower but technically very much a progression fantasy system. Mistborn is a lot faster but not really ..."
+      },
+      {
+        "title": "Which breathwork works for you if you want to instantly calm down ...",
+        "url": "https://www.reddit.com/r/Meditation/comments/1khs9rf/which_breathwork_works_for_you_if_you_want_to/",
+        "snippet": "4-7-8 breathing or box breathing ... Lengthening the outbreath is shown to be better than box breathing and mindfulness for stress reduction and mood elevation."
+      },
+      {
+        "title": "Compared 6 breathing techniques for acute stress - Reddit",
+        "url": "https://www.reddit.com/r/breathwork/comments/1rphmhq/compared_6_breathing_techniques_for_acute_stress/",
+        "snippet": "My takeaway: Physiological sigh for acute moments (30 sec), box breathing for anticipatory stress (2-3 min), diaphragmatic breathing for daily practice (10 min) ..."
+      },
+      {
+        "title": "The \"Box Breathing\" or \"4-4-4-4 Breathing\" technique to fall asleep ...",
+        "url": "https://www.reddit.com/r/productivity/comments/1hrwpxa/the_box_breathing_or_4444_breathing_technique_to/",
+        "snippet": "How it works: Inhale for 4 seconds, hold your breath for 4 seconds, exhale for 4 seconds, hold your breath again for 4 seconds, repeat this cycle 4 times."
+      },
+      {
+        "title": "My little break was a little disappointing. : r/Mommit - Reddit",
+        "url": "https://www.reddit.com/r/Mommit/comments/1ruz3lf/my_little_break_was_a_little_disappointing/",
+        "snippet": "So, basically I am staying home full time with 3 little ones. It's rough. My husband is helpful when home, but in a sort of \"only when he's up for it\" sort ..."
+      },
+      {
+        "title": "A little break : r/XTEINK - Reddit",
+        "url": "https://www.reddit.com/r/XTEINK/comments/1sp6o06/a_little_break/",
+        "snippet": "A little break with cake, coffee, and a piece of action\u2014aliens, undead, lots of bullets, and an unstoppable hero in a futuristic APC."
+      },
+      {
+        "title": "I thought I wanted to be a parent, but I hate it. And so does ... - Reddit",
+        "url": "https://www.reddit.com/r/oneanddone/comments/1k40076/i_thought_i_wanted_to_be_a_parent_but_i_hate_it/",
+        "snippet": "My daughter is 4. It just feels like we have to try so hard to be happy. I just am wondering when it got better for any of you who don't like parenting."
+      },
+      {
+        "title": "What FREE habit tracking app do you use? No ... - Reddit",
+        "url": "https://www.reddit.com/r/productivity/comments/1j1x4ol/what_free_habit_tracking_app_do_you_use_no/",
+        "snippet": "I've been using Habby- Habits and Goal Tracker to track habits. The interface is clean and easy to use, I like how we can set up our own rules for habits."
+      },
+      {
+        "title": "Free habit tracker that worked for you? : r/selfimprovement - Reddit",
+        "url": "https://www.reddit.com/r/selfimprovement/comments/1qei1la/free_habit_tracker_that_worked_for_you/",
+        "snippet": "A plain paper habit tracker works stupidly well too. Just draw a grid for the month and put an X when you do the habit. Seeing the Xs pile up is more motivating ..."
+      },
+      {
+        "title": "What are some (or any) fully functional habit tracker app that is free ...",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1hotm97/what_are_some_or_any_fully_functional_habit/",
+        "snippet": "In the IOS app realm, for example, I use an app called Simple-Scale, that just log weight. It is very basic, absolutely free, and just take the weight and log ..."
+      },
+      {
+        "title": "Sooo\u2026 what app are we switching to when Forest Plus drops?",
+        "url": "https://www.reddit.com/r/forestapp/comments/1hxh1dw/sooo_what_app_are_we_switching_to_when_forest/",
+        "snippet": "So there is another app called Flora. It was created by some of the same people who helped created forest but broke off because of differences in how they ..."
+      },
+      {
+        "title": "Is there a way to use the Vive Focus Plus on PC without ... - Reddit",
+        "url": "https://www.reddit.com/r/virtualreality/comments/1ijwojk/is_there_a_way_to_use_the_vive_focus_plus_on_pc/",
+        "snippet": "If you really, REALLY want to use it, iVRy is going to have an update at some point that will let it connect a Focus Plus to a PC."
+      },
+      {
+        "title": "Will you be purchasing the Forest Plus subscription when it ... - Reddit",
+        "url": "https://www.reddit.com/r/forestapp/comments/1hwj3yp/will_you_be_purchasing_the_forest_plus/",
+        "snippet": "It sounds like you might still be able to own the app; you just won't get access to all of the features."
+      },
+      {
+        "title": "Meditation Resource aside from Waking up app? - Reddit",
+        "url": "https://www.reddit.com/r/Wakingupapp/comments/1inpgzr/meditation_resource_aside_from_waking_up_app/",
+        "snippet": "In my experience in terms of meditation apps, Waking Up is the one that goes the deepest. all other apps that i've tried are stuck at the focus on your breath."
+      },
+      {
+        "title": "Meditation apps similar to Waking Up. : r/samharris - Reddit",
+        "url": "https://www.reddit.com/r/samharris/comments/1kxdh45/meditation_apps_similar_to_waking_up/",
+        "snippet": "Medito (foundation) is a free app. It holds great value imo, they do rely on donations though. I think it's the most suitable to what you described in the post."
+      },
+      {
+        "title": "Waking Up App vs One Giant Mind App? Which one was better for ...",
+        "url": "https://www.reddit.com/r/Wakingupapp/comments/1nic1ah/waking_up_app_vs_one_giant_mind_app_which_one_was/",
+        "snippet": "Waking Up is the best app I've found. I used to recommend Headspace when Andy & Rich still had it, but it's changed to the more superficial mindfulness/feel ..."
+      },
+      {
+        "title": "Do apps like leaply really help you regulate your nervous system?",
+        "url": "https://www.reddit.com/r/selfimprovement/comments/1rnb6bq/do_apps_like_leaply_really_help_you_regulate_your/",
+        "snippet": "Wondering if apps like leaply that promote physiology help at all. Not looking for hacks or quick fixes, more interested in whether something like leaply helps ..."
+      },
+      {
+        "title": "Best vagus nerve stimulation devices (electromagnetic, TENs ...",
+        "url": "https://www.reddit.com/r/VagusNerve/comments/1dfrydr/best_vagus_nerve_stimulation_devices/",
+        "snippet": "I'm wondering what people found more beneficial or easier to use for vagus nerve stimulation: TENs with ear clip taVNS (like nurosym, pulsetto, ..."
+      },
+      {
+        "title": "Looking for real leaply reviews, especially from folks doing somatic ...",
+        "url": "https://www.reddit.com/r/SomaticExperiencing/comments/1pqueiz/looking_for_real_leaply_reviews_especially_from/",
+        "snippet": "I'm into somatic work too and Leaply felt different from mindfulness apps . It's less about \u201crelaxing\u201d and more about small vagus nerve practices that actually ..."
+      },
+      {
+        "title": "Passed FAR but not happy with the score. Should I switch from Ninja ...",
+        "url": "https://www.reddit.com/r/CPA/comments/1otlizj/passed_far_but_not_happy_with_the_score_should_i/",
+        "snippet": "My recon score was at 87%, and my trending score was at 88%. My actual exam score ended up being 78%. I also felt that Ninja isn't the best at simulations."
+      },
+      {
+        "title": "Is GMAT Ninja + Official Guide enough for 650+ on GMAT ... - Reddit",
+        "url": "https://www.reddit.com/r/GMAT/comments/1p0y7nv/is_gmat_ninja_official_guide_enough_for_650_on/",
+        "snippet": "My goal is to score 650+ on the GMAT Focus Edition. Right now, I'm preparing without any tutor or coaching. I mainly plan to use: GMAT Ninja YouTube videos."
+      },
+      {
+        "title": "My Opinion of the Focus Ninja for the Original Series : r/Ninjago",
+        "url": "https://www.reddit.com/r/Ninjago/comments/1no557e/my_opinion_of_the_focus_ninja_for_the_original/",
+        "snippet": "This is my opinion of who I think the focus ninja are for the original Ninjago show. Some I know are easy (like seasons 6, 8, and 13), while others are more ..."
+      },
+      {
+        "title": "I'm looking to replace Cove as my MS 365 backup solution. I ... - Reddit",
+        "url": "https://www.reddit.com/r/msp/comments/1glrufp/im_looking_to_replace_cove_as_my_ms_365_backup/",
+        "snippet": "If you're considering alternatives to Cove for your Microsoft 365 backup, check out Nakivo Backup & Replication. It backs up Exchange Online, SharePoint Online, ..."
+      },
+      {
+        "title": "Acronis backup vs. N-able Cove backup : r/msp - Reddit",
+        "url": "https://www.reddit.com/r/msp/comments/1isw4vc/acronis_backup_vs_nable_cove_backup/",
+        "snippet": "I've used Acronis, Veeam, datto, and many other now-dead backup solutions. Cove was the best, most reliable and straight forward service. Missing some features ..."
+      },
+      {
+        "title": "Kaseya Endpoint Backup vs Cove (N-Able) : r/msp - Reddit",
+        "url": "https://www.reddit.com/r/msp/comments/1cr8x4p/kaseya_endpoint_backup_vs_cove_nable/",
+        "snippet": "Cove is based on an old school file and folder VSS (snapshot) technology; Kaseya (Datto) is based on a more modern CBT (change block tracking) technology. CBT ..."
+      },
+      {
+        "title": "The \"five minute rule\" finally clicked for me after I stopped using it ...",
+        "url": "https://www.reddit.com/r/getdisciplined/comments/1ripftu/the_five_minute_rule_finally_clicked_for_me_after/",
+        "snippet": "I've heard the five minute rule probably a hundred times. Tell yourself you'll only do something for five minutes, then stop if you want."
+      },
+      {
+        "title": "The \"Just 5 Minutes\" rule transformed my productivity : r/getdisciplined",
+        "url": "https://www.reddit.com/r/getdisciplined/comments/1iuepjj/the_just_5_minutes_rule_transformed_my/",
+        "snippet": "The 5 minutes turned into 90 minutes of focused work. I finished the entire assignment in one sitting after procrastinating for days."
+      },
+      {
+        "title": "FIVE-Minute Rule That Changed My Life : r/selfimprovement - Reddit",
+        "url": "https://www.reddit.com/r/selfimprovement/comments/1iczxwd/fiveminute_rule_that_changed_my_life/",
+        "snippet": "The idea? If a task feels overwhelming, commit to doing it for just 5 minutes. After that, you can quit if you want."
+      },
+      {
+        "title": "Seeking an AI chatbot that I can create my companion from scratch?",
+        "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1ompyn3/seeking_an_ai_chatbot_that_i_can_create_my/",
+        "snippet": "You could try Nastia it lets you create a personalized AI companion with real emotional depth. I found it great at staying in character and making conversations ..."
+      },
+      {
+        "title": "My Honest Journey Through 10 AI Chatbots Months of Trying. - Reddit",
+        "url": "https://www.reddit.com/r/ChatbotRefugees/comments/1p5fpgb/my_honest_journey_through_10_ai_chatbots_months/",
+        "snippet": "This whole journey felt like wandering through different worlds, meeting characters who were sometimes brilliant, sometimes confusing, but always interesting."
+      },
+      {
+        "title": "Has Anyone Used AI Companions to Feel Less Alone? - Reddit",
+        "url": "https://www.reddit.com/r/loneliness/comments/1p4p1oc/has_anyone_used_ai_companions_to_feel_less_alone/",
+        "snippet": "Lately I've been feeling pretty alone and started using an AI companion chatbot just to have someone to talk to. Surprisingly, it actually helps calm\u2026"
+      },
+      {
+        "title": "ChatGPT might be better than any of my therapists (ever) combined\u2026",
+        "url": "https://www.reddit.com/r/therapyGPT/comments/1pk558o/chatgpt_might_be_better_than_any_of_my_therapists/",
+        "snippet": "I've been in therapy on and off since I was a teenager (I'll be 34 in March), and I haven't felt as supported by any of them as I do by ChatGPT."
+      },
+      {
+        "title": "Combined ADHD is constantly misunderstood and it's exhausting!",
+        "url": "https://www.reddit.com/r/ADHD/comments/1l9lpbx/combined_adhd_is_constantly_misunderstood_and_its/",
+        "snippet": "Living with combined ADHD isn't just about being distracted or fidgety. It's a constant and often invisible struggle that affects how I function daily."
+      },
+      {
+        "title": "What's your headcanon for how the mind of a combiner works - Reddit",
+        "url": "https://www.reddit.com/r/transformers/comments/1ghj8eo/whats_your_headcanon_for_how_the_mind_of_a/",
+        "snippet": "I imagine that a combiner's mind is unique to the combined mode, not a fusion of the minds of all of the components."
+      },
+      {
+        "title": "Alternatives to InnerTune : r/fossdroid - Reddit",
+        "url": "https://www.reddit.com/r/fossdroid/comments/1hiqbgm/alternatives_to_innertune/",
+        "snippet": "OuterTune It's another form of the InnerTune with all its features and works exactly the same also tweak the settings before using the app for better experience ..."
+      },
+      {
+        "title": "Different types of internal monologues : r/Aphantasia - Reddit",
+        "url": "https://www.reddit.com/r/Aphantasia/comments/1drb99v/different_types_of_internal_monologues/",
+        "snippet": "Another type is the evaluative inner monologue, which involves self-assessment and judgment. This inner voice reflects on our actions, thoughts, or feelings."
+      },
+      {
+        "title": "People without an inner-monologue, what's that like? : r/GenX - Reddit",
+        "url": "https://www.reddit.com/r/GenX/comments/1dj5wpy/people_without_an_innermonologue_whats_that_like/",
+        "snippet": "It's not talking to yourself or answering yourself; it's a running thought-conversation held between yourself and well...yourself."
+      },
+      {
+        "title": "What's the best affordable AI therapy tool to help with mental health ...",
+        "url": "https://www.reddit.com/r/therapyGPT/comments/1o6r92t/whats_the_best_affordable_ai_therapy_tool_to_help/",
+        "snippet": "Wysa \u2014 A conversational AI coach that uses CBT/inspired tools. \u00b7 Replika \u2014 More of a \u201cchatbot friend\u201d style, which can be helpful just to talk things through ( ..."
+      },
+      {
+        "title": "What AI Tool is best for AI therapy and why? ChatGPT, Abby ... - Reddit",
+        "url": "https://www.reddit.com/r/therapyGPT/comments/1m98m1d/what_ai_tool_is_best_for_ai_therapy_and_why/",
+        "snippet": "I tried LLMs, including ChatGPT, Copilot, Gemini & Grok, and specific AI Therapy platforms, such as Abby.gg, Lotustherapist, Serena and Therapy-Chats.com, for ..."
+      },
+      {
+        "title": "What Apps helped you the most concerning your mental health?",
+        "url": "https://www.reddit.com/r/selfcare/comments/1m80pnn/what_apps_helped_you_the_most_concerning_your/",
+        "snippet": "For mental health support, Soluna offers chat coaching and journaling, Mindshift uses CBT for anxiety, and Sanvello combines mood tracking with a peer community ..."
+      },
+      {
+        "title": "Are debt relief programs worth it and or legit? : r/CRedit - Reddit",
+        "url": "https://www.reddit.com/r/CRedit/comments/1fuy4hp/are_debt_relief_programs_worth_it_and_or_legit/",
+        "snippet": "Wondering if debt relief is worth it in the long run as I have nearly $30k worth of debt at this point, between 2020 to now."
+      },
+      {
+        "title": "Has anyone tried the relief bands? Or a similar product. - Reddit",
+        "url": "https://www.reddit.com/r/POTS/comments/1hv2kas/has_anyone_tried_the_relief_bands_or_a_similar/",
+        "snippet": "I have used the seasickness patches and they are helpful for me. They typically last 2-3 days. The brand that has worked best for me is MQ."
+      },
+      {
+        "title": "Is Debt Relief worth it? - Reddit",
+        "url": "https://www.reddit.com/r/Debt/comments/1fk98u2/is_debt_relief_worth_it/",
+        "snippet": "However if you prefer to get out of debt the right way you can look at non profit debt management programs or consumer credit counseling . Your payments will be ..."
+      },
+      {
+        "title": "Genuinely curious- How do we feel about the Better Me app? : r/pilates",
+        "url": "https://www.reddit.com/r/pilates/comments/1qdh4rx/genuinely_curious_how_do_we_feel_about_the_better/",
+        "snippet": "In January 2026, I started a BetterMe subscription but later decided to cancel it, as I no longer wished to continue. I followed the cancellation instructions ..."
+      },
+      {
+        "title": "apps for exercising (BetterMe) - Reddit",
+        "url": "https://www.reddit.com/r/Exercise/comments/1g9xear/apps_for_exercising_betterme/",
+        "snippet": "BetterMe is fantastic for busy people! I do the workouts in my hotel room every morning before meetings. Really keeps me in shape!"
+      },
+      {
+        "title": "Any valuable takeaway from BetterMe? : r/bettermeofficial - Reddit",
+        "url": "https://www.reddit.com/r/bettermeofficial/comments/1n2d33y/any_valuable_takeaway_from_betterme/",
+        "snippet": "I like how it varies from workout to workout. Yes they are \u201cbasic\u201d or \u201crudimentary\u201d but they're good to help keep your body active and changed things up daily."
+      },
+      {
+        "title": "CMV: In nurture vs nature, nature does nothing - Reddit",
+        "url": "https://www.reddit.com/r/changemyview/comments/1rp4no5/cmv_in_nurture_vs_nature_nature_does_nothing/",
+        "snippet": "Nurture vs nature is a debate over how much of your self is built by your genetics, vs how much is built by your environment. I believe the debate\u2026"
+      },
+      {
+        "title": "How much of your child's personality do you feel was nature vs ...",
+        "url": "https://www.reddit.com/r/Mommit/comments/1iosszu/how_much_of_your_childs_personality_do_you_feel/",
+        "snippet": "So personality? 100% nature. Behavior--what they do, say, and how they show up with that personality? That's where nurture comes in."
+      },
+      {
+        "title": "What do you believe is the most significant factor that shapes a ...",
+        "url": "https://www.reddit.com/r/AskReddit/comments/1h0jrch/what_do_you_believe_is_the_most_significant/",
+        "snippet": "After taking Psychology and Sociology in university, the most significant factor is nurture. Many people can be born with genetic dispositions for many ..."
+      },
+      {
+        "title": "Has anyone tried the Liven app for habit-building or mental wellness ...",
+        "url": "https://www.reddit.com/r/VHA_Human_Resources/comments/1l6zvtc/has_anyone_tried_the_liven_app_for_habitbuilding/",
+        "snippet": "... MindDoc or Moodnotes both of which I've tried. MindDoc has good reflection questions and daily check-ins, but it got repetitive. Liven app reviews suggest ..."
+      },
+      {
+        "title": "I feel my medication kick in, but still wander aimlessly on YouTube or ...",
+        "url": "https://www.reddit.com/r/ADHD/comments/1fntlx2/i_feel_my_medication_kick_in_but_still_wander/",
+        "snippet": "I'm 24, I went on adderall at 16, and I have struggled with this issue and still do now. When things get more stressful, I might turn to gaming or youtube ..."
+      },
+      {
+        "title": "How did you find a therapist in a language other than German ...",
+        "url": "https://www.reddit.com/r/germany/comments/1sc4ghn/how_did_you_find_a_therapist_in_a_language_other/",
+        "snippet": "Minddoc also claims that some of their therapists provide therapy in English, too. But realistically, most therapists practicing in Germany will be German ..."
+      },
+      {
+        "title": "Moveworks vs VA vs Other Toold? : r/servicenow - Reddit",
+        "url": "https://www.reddit.com/r/servicenow/comments/1incrm0/moveworks_vs_va_vs_other_toold/",
+        "snippet": "The benefit to Moveworks is they build out what you need for you. The downside is only they can build it out for you. So if they tell you it can't be done. You ..."
+      },
+      {
+        "title": "Best AI Employees For Business Workflow Automation - Reddit",
+        "url": "https://www.reddit.com/r/AI_Agents/comments/1nw3eat/best_ai_employees_for_business_workflow_automation/",
+        "snippet": "Marblism \u2013 AI workers that handle your email, social media, and sales 24/7 ; Moveworks Creator Studio \u2013 Build custom agents for IT, HR, finance tasks ; Sierra AI ..."
+      },
+      {
+        "title": "GenAI heavy ITSM tools : r/ITManagers - Reddit",
+        "url": "https://www.reddit.com/r/ITManagers/comments/1fl08bo/genai_heavy_itsm_tools/",
+        "snippet": "Need suggestion on ITSM tools (specially GenAI ones). Few to name: Moveworks, Servicenow, Freshservice and HaloITSM. Have you tried the AI features in these?"
+      },
+      {
+        "title": "Looking for Enterprise-Level AI Chatbot Solution Similar to ChatGPT ...",
+        "url": "https://www.reddit.com/r/AZURE/comments/1ke2moj/looking_for_enterpriselevel_ai_chatbot_solution/",
+        "snippet": "Azure OpenAI plus Cognitive Search checks the boxes, but it's heavy to maintain. Sintra ai got us 80 percent there fast, memory, internal data, conversational ..."
+      },
+      {
+        "title": "Looking for Enterprise-Level AI Chatbot Solution Similar to ChatGPT ...",
+        "url": "https://www.reddit.com/r/LocalLLM/comments/1ke2lj8/looking_for_enterpriselevel_ai_chatbot_solution/",
+        "snippet": "My company is looking to deploy an AI-powered chatbot internally, something similar in capability and feel to ChatGPT Pro, but integrated tightly within our ..."
+      },
+      {
+        "title": "Copilot VS ChatGPT Enterprise : r/ChatGPTPro - Reddit",
+        "url": "https://www.reddit.com/r/ChatGPTPro/comments/1lpol3b/copilot_vs_chatgpt_enterprise/",
+        "snippet": "Comparison of Copilot and ChatGPT Enterprise. Differences between Copilot basic and premium. Alternatives to Microsoft Copilot. Data protection features of ..."
+      }
+    ],
+    "twitter_phase2": [
+      {
+        "title": "It is underrated how research environments matter. You can be in ...",
+        "url": "https://x.com/_arohan_/status/2042275473770836334",
+        "snippet": "You can be in lab and be antagonized for having alternative ideas and never have ideas flourish or be in lab that is the best research environment and have your ..."
+      },
+      {
+        "title": "A neo-Nazi is trying to fill the void left by the failures of the two major ...",
+        "url": "https://x.com/curaffairs/status/1976048680466595918",
+        "snippet": "Unless Americans are offered a visionary alternative, Fuentes' toxic ideology may flourish. The Rise of Nick Fuentes Should Horrify Us ..."
+      },
+      {
+        "title": "If Takaichi Sanae wastes her mandate on symbolism and populism ...",
+        "url": "https://x.com/TheEconomist/status/2023251003345096882",
+        "snippet": "If Takaichi Sanae wastes her mandate on symbolism and populism, more corrosive alternatives will flourish. And Japan will not soon give another leader such ..."
+      },
+      {
+        "title": "Time to Move On!** I've said it before: MAPIE has received way too ...",
+        "url": "https://x.com/predict_addict/status/1884571425568129304",
+        "snippet": "Let the ecosystem flourish. If you're looking for cutting-edge alternatives, check out **Crepes** and **TorchCP**\u2014the real game changers in ..."
+      },
+      {
+        "title": "a Unionist majority that will set out to destroy many of the things we ...",
+        "url": "https://x.com/Dr_W_E_Bulmer/status/2046522312950677869",
+        "snippet": "I know a lot of people are annoyed, bored, frustrated, and under-enthused by the SNP. But the alternative could be even worse: a Unionist majority that will ..."
+      },
+      {
+        "title": "\"emotional theory in ai research\" I collected takes from @ilyasut ...",
+        "url": "https://x.com/chrisbarber/status/1994457769991442526",
+        "snippet": "Other emotions such as fear or elation may be the result of anticipation of outcome by brain structures whose function is similar to the Trainable Critic. The ..."
+      },
+      {
+        "title": "be kind you don't know",
+        "url": "https://x.com/gladysLtyler/status/1986799908792455405",
+        "snippet": "Everyone's mental health is worth focusing on, but too many of us Men are too scared to broadcast how we feel. Talking about your feelings, getting help, it's ..."
+      },
+      {
+        "title": "Blake Anderson - X",
+        "url": "https://x.com/blakeandersonw/status/1839284110876917785",
+        "snippet": "Curious to hear alternative perspectives here. My feeling is that there exists so much information, content, etc that we must be ruthless with that which we ..."
+      },
+      {
+        "title": "Maybe I'm exaggerating. But these are apocalyptic times. As the ...",
+        "url": "https://x.com/danny__kruger/status/1936142390194053507",
+        "snippet": "What's the alternative story we're going to tell ourselves, in place of the one about us being individually, uniquely valuable but also chronically prone to ..."
+      },
+      {
+        "title": "but that isn't really what doctors do. optimizing performance feels like ...",
+        "url": "https://x.com/eryney_ok/status/1981082693732385075",
+        "snippet": "... instead is placed on optimizing how we feel for as long as possible. as such people go to the doctor and expect them to make them feel perfect \u2014 tuned up ..."
+      },
+      {
+        "title": "To access flow more, fill the gaps in your day (waiting in line ...",
+        "url": "https://x.com/RianSweetDoris/status/2044545770917974059",
+        "snippet": "Instead of scrolling social, read your Kindle. Do box breathing instead of reading the news, meditate rather than flipping through texts."
+      },
+      {
+        "title": "Omar L. Hamada, MD, MBA (@OmarHamada) / Highlights / X - Twitter",
+        "url": "https://x.com/OmarHamada/highlights",
+        "snippet": "The antibody barely moved. And their mood actually got worse. Marathon runners show the exact opposite. A study of 98 competitive runners found this same ..."
+      },
+      {
+        "title": "This is a great article. - Twitter",
+        "url": "https://x.com/TundeTASH/status/2006407250420682992",
+        "snippet": "Proper breathing might be one of them. It changed our lives. It might change yours. Maybe it is power naps? Some swear by going to a sauna or taking a ..."
+      },
+      {
+        "title": "Philip Whalen, MS (@philipwhalen_) / Posts / X",
+        "url": "https://x.com/philipwhalen_",
+        "snippet": "I've been thinking about this for years. This isn't clickbait: I quit medicine. My name is Zach, and I was a resident physician in Internal Medicine in ..."
+      },
+      {
+        "title": "Nancy Dye (@NancyDyeMindset) / Posts / X - Twitter",
+        "url": "https://x.com/NancyDyeMindset",
+        "snippet": "Navy SEALS use box breathing to stay calm & intensely focused during stressful situations. 3 times per day for Five minutes each will exponentially reduce ..."
+      },
+      {
+        "title": "Spotlight Six (@spotlightsix) / Posts / X - Twitter",
+        "url": "https://x.com/spotlightsix",
+        "snippet": "This page has moved to Insight Timer. Please come join us over there! 0 ... Zen Timer is now Insight Timer - yes unfortunately the name had to be changed for ..."
+      },
+      {
+        "title": "Did you change the in-app font style recently @InsightTimer? It's ...",
+        "url": "https://x.com/dharm1t/status/1872459543349023190",
+        "snippet": "Dharmit Shah (@dharm1t). 46 views. Did you change the in-app font style recently @InsightTimer? It's wonderful!"
+      },
+      {
+        "title": "\"@insighttimer\" - Results on X | Live Posts & Updates - Twitter",
+        "url": "https://x.com/search?src=typd&q=%40insighttimer",
+        "snippet": "I am genuinely curious though: Don't you want full time meditation teachers to publish content on Insight Timer? Or are you focused on hobby teachers?"
+      },
+      {
+        "title": "Simple Being Meditation (@simplebeingmed) / Posts / X - Twitter",
+        "url": "https://x.com/simplebeingmed",
+        "snippet": "We're here to tell you Meg is now a teacher on Insight Timer, and has several meditations up now, with more to come. Insight Timer: insighttimer.com/megroekle"
+      },
+      {
+        "title": "Ed Andrew (@edaandrew) / Posts / X - Twitter",
+        "url": "https://x.com/edaandrew",
+        "snippet": "We've never advertised before, but I mean how could we resist? Plus it felt like the perfect way to announce our new website! Insight Timer's Image on X."
+      },
+      {
+        "title": "Change starts the moment you decide to look inward. Success is ...",
+        "url": "https://x.com/THealthyminds/status/2047060499909718336",
+        "snippet": "Get the clarity you need to turn your daily efforts into actual results. Call us: 203 270-5575. Website: thehealthyminds.com \u00b7 #MentalClarity #TherapyJourney."
+      },
+      {
+        "title": "There's so much more to #exercise and training than just changing ...",
+        "url": "https://x.com/LeeDonaldElite/status/2032417138556756437",
+        "snippet": "#Fitness has a quiet way of positively impacting every aspect of your life. #Healthy body = healthy mind. If you've not done any exercise today - here's ..."
+      },
+      {
+        "title": "\"A healthy mind resides in a healthy body.\" On this ...",
+        "url": "https://x.com/TruKKerTech/status/1977600186156286426",
+        "snippet": "At TruKKer, we're building a culture where wellness isn't an add-on. It's embedded. Healthy minds. Stronger teams. Smarter outcomes. TruKKer \u062a\u0631\u0643\u0631's Image on X."
+      },
+      {
+        "title": "Noah Levine",
+        "url": "https://x.com/nlevine19/status/1802339857941012897",
+        "snippet": "1. A healthy mind starts with a healthy body. I lost 100 lbs my freshman year. \u00b7 2. Choose mentors who align with your values, not just their material success \u00b7 3 ..."
+      },
+      {
+        "title": "One Mind",
+        "url": "https://x.com/OneMindOrg/status/2036893531948626028",
+        "snippet": "Together, we will continue to create meaningful change, making strides towards the world we envision: healthy minds for all. \u27a1\ufe0f Read more about the event: ..."
+      },
+      {
+        "title": "Will certain entities finally give up their self-serving control and open ...",
+        "url": "https://x.com/RepoleStable/status/2047425536897716692",
+        "snippet": "Repole Stable (@RepoleStable). 86 likes 10 replies. Thank you @theTDN Writers' Room for the open and honest discussion about the state of our industry."
+      },
+      {
+        "title": "We went to check on the oak I helped plant last month for Arbor Day ...",
+        "url": "https://x.com/saunieindiego/status/2046809849938465276/photo/1",
+        "snippet": "... finally hook up irrigation & the tree looks in good health. There's even some new growth. #TreesMatter."
+      },
+      {
+        "title": "Oak | #LibraMod (@libra_mod) / Posts / X",
+        "url": "https://x.com/libra_mod",
+        "snippet": "One of the challenges that will come to Libra Mod (New Game or NG+) is **Monster Permadeath**. It was finally finished today. Libra checks for any destroyed ..."
+      },
+      {
+        "title": "I'm disappointed Miguel connected himself to Frank Ocean via a one ...",
+        "url": "https://x.com/archangelsounds/status/2010176743697723446",
+        "snippet": "ARCHANGEL (@archangelsounds). 4 likes 698 views. I'm disappointed Miguel connected himself to Frank Ocean via a one-sided feud, finally released an album in ..."
+      },
+      {
+        "title": "Buffalo Trace has finally added its Single Oak into the permanent ...",
+        "url": "https://x.com/TastingTable/status/2044875556831764668",
+        "snippet": "In 2011 barrel 80 was chosen as the top expression and we got to review it. Buffalo Trace's Single ..."
+      },
+      {
+        "title": "NEEBCo (@NEEBCo) / Posts / X - Twitter",
+        "url": "https://x.com/NEEBCo",
+        "snippet": "It turned to Alera Group. Flying Fish Launches Employee Benefits Package. Flying Fish invests in Employees with Comprehensive Insurance Package While some ..."
+      },
+      {
+        "title": "Minhoca loka (@minhocaloka_) / Posts / X - Twitter",
+        "url": "https://x.com/minhocaloka_",
+        "snippet": "Minhoca loka (@minhocaloka_) - Posts - osu! top whatever and #1 Brazil 20 y/o twitch banner and overlay by: @LighisOsu | X (formerly Twitter)"
+      },
+      {
+        "title": "\u9ad8\u6a4b\u79c0\u4e94 (@15takahashi) / Posts / X",
+        "url": "https://x.com/15takahashi",
+        "snippet": "\u672c\u65e5\u767a\u58f2\u306eNintendo Switch\u30bd\u30d5\u30c8\u300e\u30de\u30ea\u30aa\u30b4\u30eb\u30d5 \u30b9\u30fc\u30d1\u30fc\u30e9\u30c3\u30b7\u30e5\u300f\u306e\u66f4\u65b0\u30c7\u30fc\u30bfVer.1.1.0\u3092\u914d\u4fe1\u3057\u3066\u3044\u307e\u3059\u3002\u66f4\u65b0\u5185\u5bb9\u306b\u3064\u3044\u3066\u306f\u3053\u3061\u3089\u306e\u30da\u30fc\u30b8\u3092\u3054\u89a7\u304f\u3060\u3055\u3044\u3002 nintendo ..."
+      },
+      {
+        "title": "XBad (@OstrichWow) / Posts / X",
+        "url": "https://x.com/ostrichwow",
+        "snippet": "\u5931\u604b\u6016\u3044\u306e\u306b\u604b\u3057\u305f\u3044 \u8db3\u75db\u3044\u306e\u306b\u30d2\u30fc\u30eb\u5c65\u304d\u305f\u3044 \u75e9\u305b\u305f\u3044\u306e\u306b\u98df\u3079\u305f\u3044 \u8caf\u91d1\u3057\u305f\u3044\u306e\u306b\u8cb7\u3044\u7269\u3057\u305f\u3044 \u4f11\u307f\u305f\u3044\u306e\u306b\u904a\u3073\u305f\u3044 \u805e\u304d\u305f\u304f\u306a\u3044\u306e\u306b\u77e5\u308a\u305f\u3044"
+      },
+      {
+        "title": "\u30de\u30ea\u30aa\u30c6\u30cb\u30b9\u653e\u9001\u5c40 (@mariotenisu) / Posts / X",
+        "url": "https://x.com/mariotenisu",
+        "snippet": "\u52dd\u5229\u3078\u306e\u300c\u304b\u3051\u3072\u304d\u300d\u304c\u6c7a\u3081\u624b\u306e\u672c\u683c\u30c6\u30cb\u30b9\u30d0\u30c8\u30eb\uff01Nintendo Switch\u300e\u30de\u30ea\u30aa\u30c6\u30cb\u30b9 \u30a8\u30fc\u30b9\u300f\u306f\u672c\u65e5\u767a\u58f2\u3067\u3059\u3002 nintendo.co.jp/switch/alera/i\u2026"
+      },
+      {
+        "title": "They say it takes 10 years to master academic writing. But using this ...",
+        "url": "https://x.com/acagamic/status/2037408782733771254",
+        "snippet": "They say it takes 10 years to master academic writing. But using this framework, I built a consistent writing habit in 1/10th the time."
+      },
+      {
+        "title": "I didn't have an answer to that for a long time. Everything felt like ...",
+        "url": "https://x.com/AlphaFayy/status/2043058894608699886",
+        "snippet": "Everything felt like pressure. Like I was always trying to catch up to something I couldn't even define. Until one small habit changed things."
+      },
+      {
+        "title": "DAN KOE (@thedankoe) on X",
+        "url": "https://x.com/thedankoe/status/2012956603297964167",
+        "snippet": "You haven't experienced anything near what you're capable of. And if you learn how to unlock that power, you can do what most people consider impossible."
+      },
+      {
+        "title": "Finally a popular article, that is not overrated self-help bullshit It has ...",
+        "url": "https://x.com/harsh_notariya/status/2021880296359280976",
+        "snippet": "Then, on February 5th, two major AI labs released new models on the same day: GPT-5.3 Codex from OpenAI, and Opus 4.6 from Anthropic (the makers of Claude, one ..."
+      },
+      {
+        "title": "Joseph Choi (@JosephKChoi) on X",
+        "url": "https://x.com/JosephKChoi/status/2024201897322709065",
+        "snippet": "The daily habit quickly became a shared activity, and day\u201130 retention jumped from 4.2 % to 30 %, eventually reaching 50 %. \u201cThe carrot wasn't just a badge. It ..."
+      },
+      {
+        "title": "As Maija says here, very common for \"anti-jhana parts\" to arise when ...",
+        "url": "https://x.com/jhanatech/status/1904259947191570478",
+        "snippet": "They are most in need of reassurance: \"Allowing myself to feel pleasure doesn't invalidate what I went through previously. This is just another way to glimpse ..."
+      },
+      {
+        "title": "I also just finished posting my last proper piece made with Sora2",
+        "url": "https://x.com/Barometz3891/status/2047275918474031339",
+        "snippet": "... little break, but yes, I'd like to create the things I want to express again someday, perhaps with Seedance or something similar."
+      },
+      {
+        "title": "@Aggies_centel @TexAgs So you dream up a threat out of thin air ...",
+        "url": "https://x.com/billyliucci/status/2045335244140650883",
+        "snippet": "So you dream up a threat out of thin air one reply after making wild accusations about one's character? I think you probably need to take a little break ..."
+      },
+      {
+        "title": "Scarfy (@Scarfy666) / Posts / X - Twitter",
+        "url": "https://x.com/Scarfy666",
+        "snippet": "Scarfy (@Scarfy666) - Posts - Furry/Brony from Poland, Wroc\u0142aw , car nerd, and a really dumb Doberman. Gf\u2764\ufe0f: @Ametff3 | X (formerly Twitter)"
+      },
+      {
+        "title": "Biolumantis (@biolumantis) / Posts / X - Twitter",
+        "url": "https://x.com/biolumantis",
+        "snippet": "As nostalgic as old furry was I think the fandom is way more diverse (not just racially, in general) than it used to be."
+      },
+      {
+        "title": "Nicole Leapley (@NLforNH) / Posts / X - Twitter",
+        "url": "https://x.com/nlfornh",
+        "snippet": "Nicole Leapley (@NLforNH) - Posts - State House--Ward 11. Nebraska born, public-school educated mom of 2 public-school kids. Penn PhD. 2."
+      },
+      {
+        "title": "Tony Leapley (@Leapley_Project) / Posts / X - Twitter",
+        "url": "https://x.com/leapley_project",
+        "snippet": "Tony Leapley (@Leapley_Project) - Posts - NWMSU ALUM | Assistant Supervisor WetChemistry Lab | Hobby Horse Veterinary Specialist | X (formerly Twitter)"
+      },
+      {
+        "title": "Natalia Rodriguez (@nrodriguez4672) / Posts and Replies / X - Twitter",
+        "url": "https://twitter.com/nrodriguez4672/with_replies",
+        "snippet": "Leapley for stepping in while I was fulfilling my civic duty Pam was a Reader today & I a Shepard \u2b50\u2728 #TigerTeamwork \u00b7 Mrs.Du 's Image 1 on X \u00b7 Mrs.Du 's ..."
+      },
+      {
+        "title": "J. Chinemerem Onyeka (@Joromi007) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/Joromi007/with_replies",
+        "snippet": "Graduate school is where you take risks, grow through challenges, and start shaping the future of computing. At Purdue Computer Science, you'll work with world- ..."
+      },
+      {
+        "title": "Andover Central Softball (@ACJaguarSB) / Posts / X - Twitter",
+        "url": "https://x.com/ACJaguarSB",
+        "snippet": "I am so proud to announce that I will be continuing my academic and softball future at Briar Cliff University!! I want to thank Coach TJ, Coach Leapley, ..."
+      },
+      {
+        "title": "the light shining on the cult symbol so that it's the main focus+ ... - X",
+        "url": "https://x.com/BCKLITLENSFLARE/status/2019363531066572845",
+        "snippet": "the light shining on the cult symbol so that it's the main focus+ amane is looking directly at us (similar to muu) instead of up like the other t2 forgiven ..."
+      },
+      {
+        "title": "ED SEYKOTA 10 TRADING LESSONS FROM A MARKET WIZARD ...",
+        "url": "https://x.com/zakayonoel37/status/1801930228387729824",
+        "snippet": "10.\"Betting more boldly produces more volatility. Good traders are familiar with both and keep their trading well within their tolerances.\" You only need Focus+ ..."
+      },
+      {
+        "title": "Tarun Kumar Sukhu (@TarunKumarSukhu) / Posts / X - Twitter",
+        "url": "https://x.com/TarunKumarSukhu",
+        "snippet": "\u200d AI Agents find me candidates! Agents using RLHF find candidates, score and put together templates I can use! Showcasing the new crewai train feature"
+      },
+      {
+        "title": "Screen Takes (@Screen_Takes) / Posts and Replies / X",
+        "url": "https://x.com/Screen_Takes/with_replies",
+        "snippet": "Screen Takes (@Screen_Takes) - Posts and Replies - Making videos about art I find interesting. | X (formerly Twitter)"
+      },
+      {
+        "title": "Uro\u0161 Golob (@na1pir) / Posts / X",
+        "url": "http://x.com/na1pir",
+        "snippet": "The @seasonicpsu Focus+ Gold line-up offers the best value for power supplies right now. Seasonic FOCUS+ Gold 850W Overview - The Best Power Supply of 2017! |.."
+      },
+      {
+        "title": "Li Zeyang (@hohohmm) / Posts / X - Twitter",
+        "url": "https://x.com/hohohmm",
+        "snippet": "#SoulKnightPrequel's new season, SS5: Awakening, launches on November 27, together with our 2nd anniversary celebration! 0."
+      },
+      {
+        "title": "Jamie (@jamierowan_) / Posts / X - Twitter",
+        "url": "https://x.com/jamierowan_",
+        "snippet": "I'm so excited to finally share the demo with you all. I've been working on this project for almost 2 years now, so it feels great to be able to put it out in ..."
+      },
+      {
+        "title": "M\u00e5rten Jonsson - JMJ Interactive (@JMartenJ) / Posts / X - Twitter",
+        "url": "https://x.com/JMartenJ",
+        "snippet": "I found a bunch of Steam & Switch codes for Alwa's Awakening and Alwa's Legacy and I decided to give them all away. Either drop me a DM here on this ..."
+      },
+      {
+        "title": "Mattias Andersen (@bazizten) / Posts / X",
+        "url": "https://x.com/bazizten",
+        "snippet": "The demo for A Void Hope is LIVE for you to experience! Atmospheric puzzle platformer Catch a glimpse of the ambiguous story"
+      },
+      {
+        "title": "zang \u6c5f (giang) (@zangimmortal) / Posts / X - Twitter",
+        "url": "https://x.com/zangimmortal",
+        "snippet": "today i finally changed my pfp into real me after 3 years of hanging onto the same face that became my web3 identity, grateful for the ones and community ..."
+      },
+      {
+        "title": "Ninja Focus - Mindfulness for Gen Z (@ninjafocus_) / Posts / X - Twitter",
+        "url": "https://x.com/ninjafocus_?lang=ar",
+        "snippet": "Guided meditations, sleep stories, calming soundscapes to help kids fall asleep faster, regulate their emotions & learn to focus."
+      },
+      {
+        "title": "COTI Foundation (@COTInetwork) on X - Twitter",
+        "url": "https://x.com/COTInetwork/status/2007401082658468050",
+        "snippet": "Imagine a fully on-chain poker game where you can't see your opponents' cards, or a strategy game with truly concealed player states."
+      },
+      {
+        "title": "Your most comprehensive list of Internet Capital Markets (ICM) coins ...",
+        "url": "https://x.com/arndxt_xo/status/1922597687813361923",
+        "snippet": "Your most comprehensive list of Internet Capital Markets (ICM) coins Ranked by market cap. 1. $LAUNCHCOIN - @launchcoin | @believeapp $170M MC"
+      },
+      {
+        "title": "Steve       (@xyster) / Posts / X - Twitter",
+        "url": "https://x.com/xyster",
+        "snippet": "Steve (@xyster) - Posts - I'm known mostly for vdo.ninja & socialstream.ninja . My day job is in innovation. I like tech, g... | X (formerly Twitter)"
+      },
+      {
+        "title": "No\u028ch (@noah249) / Posts / X - Twitter",
+        "url": "https://x.com/noah249",
+        "snippet": "The alternative, and the harder more durable play, is distribution through people. Creators who build audiences on your platform and bring those audiences ..."
+      },
+      {
+        "title": "There are two ideas floating around. Both are awesome technically ...",
+        "url": "https://x.com/JoelKatz/status/1990854788935004471",
+        "snippet": "One is to switch to a two-layer consensus model with the inner layer being incentivized. The inner layer would have 16 inner validators chosen by the ..."
+      },
+      {
+        "title": "Shannon Jean (@ShannonJean) on X",
+        "url": "https://x.com/ShannonJean/status/2041958427937898738",
+        "snippet": "You can activate this switch inside your head by taking small actions. I'll explain how this works, share some examples from my life, and then give you some ..."
+      },
+      {
+        "title": "You cannot make people behave different suddenly before outsiders ...",
+        "url": "https://x.com/RajivMessage/status/1804518355216318466",
+        "snippet": "You cannot make people behave different suddenly before outsiders, if their inner self remains unchanged. The majority of Indians behave this way in India ..."
+      },
+      {
+        "title": "Pretty sure Cursor's new Composer-1 is a fine-tuned Chinese model ...",
+        "url": "https://x.com/auchenberg/status/1983901551048470974",
+        "snippet": "As I was building, it switched its inner monologue to Chinese, and I can't get it back to english. @simonw \u00b7 Kenneth Auchenberg 's Image on X \u00b7 235."
+      },
+      {
+        "title": "it's very treatable when we spot it early. Dose tweaks, med switches ...",
+        "url": "https://x.com/ompsychiatrist/status/2046667450734063795",
+        "snippet": "Yes, it's brutal that deep inner restlessness can feel like torture. Here's the hopeful public health truth: it's very treatable when we spot it early. Dose ..."
+      },
+      {
+        "title": "I didn't realize how much trading friction was slowing me down until I ...",
+        "url": "https://x.com/lucky66630/status/2041757950646067645",
+        "snippet": "I started using @covetrade and it just made things easier. One USDC balance, no extra steps, no overthinking. You can move across chains and focus on actually ..."
+      },
+      {
+        "title": "I didn't realize how much on-chain trading was slowing me down ...",
+        "url": "https://x.com/Demilade696/status/2042003361927508197",
+        "snippet": "That's why I'm switching to Cove. Not because other tools are bad\u2014 but because this just removes the nonsense. You hold one USDC ..."
+      },
+      {
+        "title": "cove (@covetrade) / Posts / X - Twitter",
+        "url": "https://x.com/covetrade",
+        "snippet": "We learned to \"just deal with it\", we are not even trying to change the existing state of the status quo between the trader and the tool/execution layers."
+      },
+      {
+        "title": "Jumping chains, keeping gas topped up everywhere, and watching ...",
+        "url": "https://x.com/timmieclassic/status/2041559871468794301",
+        "snippet": "I'm switching my main flow to @covetrade and its straight execution from now on. I would easily jump into plays on Solana, Base, BNB, ETH, MegaETH, and ..."
+      },
+      {
+        "title": "One Piece - Having a pet dinosaur Collector's Cove is the right ...",
+        "url": "https://x.com/VoodooDuckGames/status/2041840072685752766",
+        "snippet": "... dinosaur Collector's Cove is the right game for you Available on Steam, EGS, PS5 and Switch!"
+      },
+      {
+        "title": "It's rare that an argument is so strong that'll immediately pierce ...",
+        "url": "https://x.com/dhh/status/1921073904153469231",
+        "snippet": "\"Right now, right here\" is a bad time frame to measure the success of your arguments on. There's a long tail of conversion."
+      },
+      {
+        "title": "Want to also add general stuff I've seen about Flagg and the Mavs",
+        "url": "https://x.com/GrantAfseth/status/2041622915356225602",
+        "snippet": "The Mavericks having so much cap spending tied up in star players who combined for 20 games played before Davis was traded ultimately in a salary dump is just ..."
+      },
+      {
+        "title": "I've never shared this before. A day or two after October 7th, early in ...",
+        "url": "https://x.com/naftalibennett/status/1977052770751398070",
+        "snippet": "A day or two after October 7th, early in the morning, the country was in shock. Even before the funeral of Mapal Adam z\u201dl, who was murdered at the Nova festival ..."
+      },
+      {
+        "title": "The reason this feels so good is because your brain was taxing you ...",
+        "url": "https://x.com/aakashgupta/status/2021831876932227239",
+        "snippet": "Neuroscientists call this the Zeigarnik Effect. Incomplete tasks occupy more mental RAM than completed ones. Your brain literally cannot let go of open loops."
+      },
+      {
+        "title": "25 hours into the game. Still, my overall impressions of the story ...",
+        "url": "https://x.com/Okami13_/status/1902049478787658176",
+        "snippet": "Every reviewer I spoke to said they immediately switched to the Japanese voiceover. This is just one example of things improving after Act 1. Technically the ..."
+      },
+      {
+        "title": "Sure, here's the short list of educational software that I feel ...",
+        "url": "https://x.com/NielsHoven/status/1903614549259121069",
+        "snippet": "Of course @MentavaInc is the best-in-class option here, but Reading dot com is a cheaper alternative. The main difference is that Mentava's software is designed ..."
+      },
+      {
+        "title": "I've often been building single-use apps with Claude Artifacts when I ...",
+        "url": "https://x.com/random_walker/status/1848388462782673340",
+        "snippet": "I've often been building single-use apps with Claude Artifacts when I'm helping my children learn. For example here's one on visualizing fractions claude.site/ ..."
+      },
+      {
+        "title": "Arman Hezarkhani (@ArmanHezarkhani) on X",
+        "url": "https://x.com/ArmanHezarkhani/status/2025217572203859998",
+        "snippet": "Every prompt is copy-paste ready. You can start this weekend. Try It Right Now (5 Minutes). Before you read anything else, open Claude or ChatGPT and paste this ..."
+      },
+      {
+        "title": "Claude in Excel is the latest rage! So I stress tested it",
+        "url": "https://x.com/myuan95/status/2016122243516919844",
+        "snippet": "Claude in Excel is the latest rage! So I stress tested it: Tldr I don't think it's ready for prime time yet (for serious finance use cases)."
+      },
+      {
+        "title": "It's a joke, but anti modern medicine people really be like this though ...",
+        "url": "https://x.com/harriszainul/status/2045537861676724589",
+        "snippet": "Patient: No. After we finish, I just stand up and shake my body very hard for 5 minutes. Then I drink salt water. The pregnancy cannot stay."
+      },
+      {
+        "title": "Hey @betterme your AI voice commands SUUUUCK. Why not pay a ...",
+        "url": "https://x.com/DavidMatranga1/status/2046642745809223885",
+        "snippet": "Hey @betterme your AI voice commands SUUUUCK. Why not pay a voice actor who can, 1-pronounce things correct, like the friggin difference between \u201calternate\u201d ..."
+      },
+      {
+        "title": "Julianne McCollum (@JulianneMcC) / Posts / X - Twitter",
+        "url": "https://x.com/juliannemcc",
+        "snippet": "Shout out to @betterme workout app (mainly known for wall Pilates) who not only has body positive workouts but wheelchair fitness. Way to embrace ..."
+      },
+      {
+        "title": "OMSKids (@OMSkids) / Posts / X - Twitter",
+        "url": "https://x.com/OMSkids",
+        "snippet": "Box Tops offers bonus Box Tops through their app! All you need to do is download the app from your app store and scan receipts. Support OMS!"
+      },
+      {
+        "title": "Abbi (@abbiDogan) / Posts / X",
+        "url": "https://x.com/abbiDogan",
+        "snippet": "I didn't even realize there was an alternative. The non-scrollers. But there's another group on that train. A minority. Maybe 10-20% on a good day. You have to ..."
+      },
+      {
+        "title": "Elephant (@weareelephantb) / Posts / X - Twitter",
+        "url": "https://x.com/weareelephantb",
+        "snippet": "Ok, we have some news. Tomorrow we will -finally- be able to share some of the work we've been making all this time. And we can't wait."
+      },
+      {
+        "title": "Aliyah Weinstein (@YourTurnAliyah) / Posts / X - Twitter",
+        "url": "https://x.com/YourTurnAliyah",
+        "snippet": "I'm used to a low barrier to entry - online booking - for most beauty services (nails, massage, blowout). Been putting off a haircut for a month because of the ..."
+      },
+      {
+        "title": "The CBT-i Coach app can help you get #bettersleep with guided ...",
+        "url": "https://x.com/DeptVetAffairs/status/2045261179262550180",
+        "snippet": "The CBT-i Coach app can help you get #bettersleep with guided sleep techniques, a sleep diary, relaxation exercises, and strategies for reducing nighttime ..."
+      },
+      {
+        "title": "Trying to achieve better sleep? The CBT-i Coach app helps you ...",
+        "url": "https://x.com/DeptVetAffairs/status/2023532935110971708",
+        "snippet": "The CBT-i Coach app helps you track sleep patterns with a nightly sleep diary and incorporate relaxation tools, such as guided imagery and muscle relaxation ..."
+      },
+      {
+        "title": "Improve your sleep habits with the CBT-i Coach app. Use a sleep ...",
+        "url": "https://x.com/DeptVetAffairs/status/1973206281285521904",
+        "snippet": "Improve your sleep habits with the CBT-i Coach app. Use a sleep diary to track your routines, follow strategies to adjust your sleep schedule, and try ..."
+      },
+      {
+        "title": "Seeking sleep support? The CBT-i Coach app uses evidence-based ...",
+        "url": "https://x.com/DeptVetAffairs/status/1932588654330789993",
+        "snippet": "The CBT-i Coach app uses evidence-based tools to help you build healthier sleep habits and feel more rested. Wind down your evenings with guided techniques ..."
+      },
+      {
+        "title": "Wind down for the night with help from the CBT-i Coach app. Use ...",
+        "url": "https://x.com/DeptVetAffairs/status/1998195947835203819",
+        "snippet": "Wind down for the night with help from the CBT-i Coach app. Use the sleep diary to track habits, follow guided relaxation or breathing exercises, and build ..."
+      }
+    ]
+  },
+  "appstore_reviews": {
+    "Insight Timer": 438265,
+    "Flourish": 659,
+    "Healthy Minds": 8379,
+    "How We Feel": 27705,
+    "Box Breathing": 410,
+    "littlebreak": 57,
+    "Alera": 67,
+    "Leaply": 1714,
+    "Simple Habit": 77991,
+    "Oak": 31574,
+    "FocusPlus": 0,
+    "Inner": 9868,
+    "Awakened App": 2,
+    "Cove": 1111,
+    "Ninja Focus": 60,
+    "Combined Minds": 26,
+    "5 Minutes for Me": 0,
+    "Unlonely App": 0,
+    "Neurture": 18,
+    "CBT-i Coach": 10163,
+    "BetterMe": 704049,
+    "relif": 735,
+    "Gemini": 1573040,
+    "MindDoc": 29494,
+    "Claude": 114120,
+    "Moveworks": 43029,
+    "ChatGPT Enterprise": 6748889
+  },
+  "competitors": [
+    {
+      "name": "BetterMe",
+      "description": "A personalized wellness app promoting habit formation through coaching and tailored plans.",
+      "pricing": "paid",
+      "strengths": [
+        "Provides somatic and habit-based approaches to overall well-being.",
+        "Offers personalized wellness plans addressing various needs."
+      ],
+      "weaknesses": [
+        "BetterMe focuses on overall well-being, not specifically for acute anxiety or guided CBT techniques in the moment.",
+        "Does not guarantee a steady state in 300 seconds or less"
+      ],
+      "sentiment": "mixed",
+      "category": "Indirect",
+      "similarity_score": 55,
+      "mention_count": 1,
+      "engagement_score": 600,
+      "sentiment_split": {
+        "positive": 60,
+        "neutral": 25,
+        "negative": 15
+      },
+      "dominant_complaint": "Some plans are ineffective and expensive.",
+      "dominant_praise": "Offers various supports for bettering yourself.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://elfinahealth.com/blog/best-mental-health-apps-2025"
+      ]
+    },
+    {
+      "name": "Insight Timer",
+      "description": "A meditation app providing guided and unguided meditations.",
+      "pricing": "freemium",
+      "strengths": [
+        "Offers many free high-quality meditations.",
+        "Allows customization of timer settings."
+      ],
+      "weaknesses": [
+        "Insight Timer does not offer the guided voice co-pilot focusing on evidence-based CBT, somatic grounding and breath regulation.",
+        "Does not return the user to a steady state in 300 seconds"
+      ],
+      "sentiment": "positive",
+      "category": "Indirect",
+      "similarity_score": 45,
+      "mention_count": 5,
+      "engagement_score": 550,
+      "sentiment_split": {
+        "positive": 75,
+        "neutral": 20,
+        "negative": 5
+      },
+      "dominant_complaint": "Too many options can be overwhelming.",
+      "dominant_praise": "Lots of great free meditations.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/Meditation/comments/1kz7t14/whats_a_good_meditation_app_besides_headspace/"
+      ]
+    },
+    {
+      "name": "How We Feel",
+      "description": "An app that helps you understand and explore your feelings.",
+      "pricing": "free",
+      "strengths": [
+        "Utilizes an approach to deeply understand emotions.",
+        "Offers tools to help in exploring feelings."
+      ],
+      "weaknesses": [
+        "How We Feel does not offer the anxiety-curbing techniques for people.",
+        "Does not bring someone to a steady state in 300 seconds like user's product"
+      ],
+      "sentiment": "positive",
+      "category": "Adjacent",
+      "similarity_score": 30,
+      "mention_count": 1,
+      "engagement_score": 100,
+      "sentiment_split": {
+        "positive": 80,
+        "neutral": 15,
+        "negative": 5
+      },
+      "dominant_complaint": "Interface lacks features.",
+      "dominant_praise": "Helps understand feelings.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/selfcare/comments/1hmadi8/which_apps_do_you_recommend_for_anxiety_and_why/"
+      ]
+    },
+    {
+      "name": "Cove",
+      "description": "A music maker app that uses music to improve mental health.",
+      "pricing": "unknown",
+      "strengths": [
+        "Uses music for mental health improvement.",
+        "Trusted by doctors and therapists."
+      ],
+      "weaknesses": [
+        "Cove does not use evidence-based techniques like CBT or somatic grounding.",
+        "Not designed to act as a copilot in moments of anxiety."
+      ],
+      "sentiment": "positive",
+      "category": "Substitute",
+      "similarity_score": 45,
+      "mention_count": 1,
+      "engagement_score": 150,
+      "sentiment_split": {
+        "positive": 85,
+        "neutral": 10,
+        "negative": 5
+      },
+      "dominant_complaint": "Lack of customization.",
+      "dominant_praise": "Creative tool for mental health.",
+      "platform_split": "twitter",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://x.com/cove_app"
+      ]
+    },
+    {
+      "name": "relif",
+      "description": "An app designed to ease anxiety and stress through evidence-based techniques.",
+      "pricing": "unknown",
+      "strengths": [
+        "Uses EMDR-inspired exercises and somatic regulation.",
+        "Provides grounding exercises and guided visualisations."
+      ],
+      "weaknesses": [
+        "Relif, while offering evidence-based techniques, isn't tailored to provide a guided experience like a co-pilot during high-anxiety moments.",
+        "Its effectiveness in bringing someone to a steady state in 300 seconds is unknown."
+      ],
+      "sentiment": "positive",
+      "category": "Direct",
+      "similarity_score": 65,
+      "mention_count": 1,
+      "engagement_score": 100,
+      "sentiment_split": {
+        "positive": 90,
+        "neutral": 5,
+        "negative": 5
+      },
+      "dominant_complaint": "Requires in-app purchases.",
+      "dominant_praise": "Provides many helpful techniques.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://apps.apple.com/sa/app/relif-ease-anxiety-stress/id6741208765"
+      ]
+    },
+    {
+      "name": "Headspace",
+      "description": "A meditation and mindfulness app focusing on reducing stress and enhancing focus.",
+      "pricing": "paid",
+      "strengths": [
+        "Extensive library of guided meditations.",
+        "Addresses both stress reduction and focus enhancement."
+      ],
+      "weaknesses": [
+        "Headspace is a meditation app, but not a co-pilot when in moments of chaos.",
+        "Does not use CBT, somatic grounding or personalized breath regulation."
+      ],
+      "sentiment": "mixed",
+      "category": "Adjacent",
+      "similarity_score": 35,
+      "mention_count": 1,
+      "engagement_score": 400,
+      "sentiment_split": {
+        "positive": 65,
+        "neutral": 20,
+        "negative": 15
+      },
+      "dominant_complaint": "Subscription is expensive for limited content.",
+      "dominant_praise": "User-friendly interface and effective.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/Meditation/comments/1ha1keu/calm_and_headspace_dont_quite_work_for_mewhat/"
+      ]
+    },
+    {
+      "name": "Calm",
+      "description": "A meditation and relaxation app featuring guided meditations and sleep stories.",
+      "pricing": "paid",
+      "strengths": [
+        "Offers a broad range of guided meditations.",
+        "Provides effective relaxation techniques and sleep stories."
+      ],
+      "weaknesses": [
+        "Calm focuses on general relaxation, but isn\u2019t for moments of chaos when you need a quick solution.",
+        "Does not return user to steady state within 300 seconds."
+      ],
+      "sentiment": "mixed",
+      "category": "Adjacent",
+      "similarity_score": 35,
+      "mention_count": 1,
+      "engagement_score": 400,
+      "sentiment_split": {
+        "positive": 65,
+        "neutral": 20,
+        "negative": 15
+      },
+      "dominant_complaint": "Subscription is expensive for limited content.",
+      "dominant_praise": "User-friendly interface and effective meditations.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/Meditation/comments/1ha1keu/calm_and_headspace_dont_quite_work_for_mewhat/"
+      ]
+    }
+  ],
+  "market_score": 1.8,
+  "non_app_signals": [
+    "Manual deep breathing techniques are a non-digital workaround popular with some users, but they desire a guided and app-based solution for convenience and consistency."
+  ],
+  "differentiators": [
+    "Unlike BetterMe, this app targets acute anxiety moments with an immediate guided experience.",
+    "Compared to Insight Timer, this app offers a structured co-pilot utilizing CBT, somatic grounding, and breath regulation techniques.",
+    "Where existing solutions may require a longer duration, this app brings the user to a steady state in 300 seconds."
+  ],
+  "sources": [
+    "https://www.reddit.com/r/Meditation/comments/1kz7t14/whats_a_good_meditation_app_besides_headspace/",
+    "https://www.reddit.com/r/selfcare/comments/1hmadi8/which_apps_do_you_recommend_for_anxiety_and_why/",
+    "https://elfinahealth.com/blog/best-mental-health-apps-2025",
+    "https://x.com/cove_app",
+    "https://apps.apple.com/sa/app/relif-ease-anxiety-stress/id6741208765"
+  ]
+}

@@ -1,0 +1,1368 @@
+{
+  "timestamp": "2026-04-23_17-36-13",
+  "idea": "I want to create an inventory management app where I can take a photo and it can recognise the item.",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "I want to create an inventory management app where I can take a photo and it can recognise the item."
+    },
+    {
+      "role": "assistant",
+      "content": "What makes it different from everything else out there?"
+    },
+    {
+      "role": "user",
+      "content": "My app I can actually take a photo with it and it will give me the most detailed inventory breakdown. this feature!"
+    },
+    {
+      "role": "assistant",
+      "content": "Who is it specifically for?"
+    },
+    {
+      "role": "user",
+      "content": "Inventory management companies, any heavy stock companies"
+    }
+  ],
+  "core_features": [
+    "photo-based item recognition",
+    "detailed inventory breakdown from image analysis"
+  ],
+  "app_candidates_phase1": [
+    "BinaryEye",
+    "Fullpack",
+    "Sortly",
+    "Grocy",
+    "Vixc",
+    "SKU IQ",
+    "itemit",
+    "Stockful",
+    "PhotoTag",
+    "SearchPie",
+    "Inventory Planner",
+    "Stock Perfect",
+    "HomeZada",
+    "Sklad",
+    "Odoo",
+    "CamFind",
+    "Google Lens",
+    "Microsoft Copilot",
+    "InFlow",
+    "QuickBooks",
+    "Zoho",
+    "Finale Inventory",
+    "Shopify",
+    "Square",
+    "Lightspeed",
+    "Snowball Analytics",
+    "KNIME",
+    "RapidMiner",
+    "Power BI",
+    "Looker Studio",
+    "Photomyne"
+  ],
+  "queries": {
+    "reddit_phase1": [
+      "what app do you use to scan inventory with a photo?",
+      "best app for inventory management using image recognition?",
+      "is there an app that can automatically categorize items from a photo for inventory?",
+      "wish there was an app that could create an inventory list just by taking a photo",
+      "looking for an app to manage stock by scanning items with my phone camera",
+      "intitle:(\"tried every\" OR \"my ranking\") inventory photo app",
+      "why isn't there an app that uses image recognition for detailed stock taking?"
+    ],
+    "twitter_phase1": [
+      "I hate how manual inventory tracking is",
+      "every inventory app is missing image recognition features",
+      "someone should build an app that can scan inventory items with a photo and automatically log them",
+      "I would pay for an app that creates a detailed inventory from a photo",
+      "best app for photo inventory",
+      "recommendations for inventory apps that use camera recognition",
+      "what app do you use for stocktaking with photos?"
+    ],
+    "reddit_phase2": [
+      "alternative to BinaryEye",
+      "I switched from Fullpack",
+      "better than Sortly",
+      "alternative to Grocy",
+      "I switched from Vixc",
+      "better than SKU IQ",
+      "alternative to itemit",
+      "I switched from Stockful",
+      "better than PhotoTag",
+      "alternative to SearchPie",
+      "I switched from Inventory Planner",
+      "better than Stock Perfect",
+      "alternative to HomeZada",
+      "I switched from Sklad",
+      "better than Odoo",
+      "alternative to CamFind",
+      "I switched from Google Lens",
+      "better than Microsoft Copilot",
+      "alternative to InFlow",
+      "I switched from QuickBooks",
+      "better than Zoho",
+      "alternative to Finale Inventory",
+      "I switched from Shopify",
+      "better than Square",
+      "alternative to Lightspeed"
+    ],
+    "twitter_phase2": [
+      "BinaryEye switched to",
+      "Fullpack switched to",
+      "Sortly switched to",
+      "Grocy switched to",
+      "Vixc switched to",
+      "SKU IQ switched to",
+      "itemit switched to",
+      "Stockful switched to",
+      "PhotoTag switched to",
+      "SearchPie switched to",
+      "Inventory Planner switched to",
+      "Stock Perfect switched to",
+      "HomeZada switched to",
+      "Sklad switched to",
+      "Odoo switched to",
+      "CamFind switched to",
+      "Google Lens switched to",
+      "Microsoft Copilot switched to",
+      "InFlow switched to",
+      "QuickBooks switched to"
+    ]
+  },
+  "search_results": {
+    "reddit_phase1": [
+      {
+        "title": "How are you handling inventory scanning without buying $500+ ...",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1rtkpck/how_are_you_handling_inventory_scanning_without/",
+        "snippet": "Most modern smartphones have excellent cameras, and there are plenty of inexpensive apps that turn the camera into a barcode or QR scanner. For a small business ..."
+      },
+      {
+        "title": "Barcode scanner or app you like for inventory? : r/sysadmin - Reddit",
+        "url": "https://www.reddit.com/r/sysadmin/comments/1g3f846/barcode_scanner_or_app_you_like_for_inventory/",
+        "snippet": "On the Android side, BinaryEye is an excellent barcode scanner and generator, and can export scan results in many formats."
+      },
+      {
+        "title": "What features do you look for in a simple inventory management app?",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1qmie9a/what_features_do_you_look_for_in_a_simple/",
+        "snippet": "\u2013 inventory valuation, stock movement, and usage trends. Mobile access \u2013 scan barcodes and adjust stock from a phone or tablet. Multi-location support ..."
+      },
+      {
+        "title": "I built an app that turns your photos into smart packing lists - Reddit",
+        "url": "https://www.reddit.com/r/LocalLLaMA/comments/1l4q7xf/i_built_an_app_that_turns_your_photos_into_smart/",
+        "snippet": "Fullpack uses Apple's VisionKit to identify items directly from your photos and helps you organize them into packing lists for any occasion."
+      },
+      {
+        "title": "App to scan pictures of bookshelves and create spreadsheet - Reddit",
+        "url": "https://www.reddit.com/r/Libraries/comments/1k6e260/app_to_scan_pictures_of_bookshelves_and_create/",
+        "snippet": "Take a picture with an iPhone and use the Live text option. I'd do 10-20 books at a time. Copy the text into a Google Sheet."
+      },
+      {
+        "title": "AI generated listing pictures : r/poshmark - Reddit",
+        "url": "https://www.reddit.com/r/poshmark/comments/1ky15re/ai_generated_listing_pictures/",
+        "snippet": "Saw someone using AI pics for the first time today. What are your thoughts? Obviously the pics can't be exact replicas of the clothing."
+      },
+      {
+        "title": "Looking for a free / cheap tool to keep track of my inventory ... - Reddit",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1i0fn1m/looking_for_a_free_cheap_tool_to_keep_track_of_my/",
+        "snippet": "You should take a look at Sortly app. It's perfect for home use and scans barcodes, add expiry date etc. and it's a free app."
+      },
+      {
+        "title": "Roast My Idea: A computer vision (no bar code) based inventory ...",
+        "url": "https://www.reddit.com/r/Startup_Ideas/comments/1ir0goz/roast_my_idea_a_computer_vision_no_bar_code_based/",
+        "snippet": "What I want to do is create an inventory system designed for the home that lets users keep track of the objects in their drawers, cabinets and so on on an app."
+      },
+      {
+        "title": "Looking for the ultimate self-hosted inventory system with barcode ...",
+        "url": "https://www.reddit.com/r/selfhosted/comments/1m9o8kj/looking_for_the_ultimate_selfhosted_inventory/",
+        "snippet": "For your requirement , \"Grocy\" seems to be the best self-hosted inventory systems to start with. It supports barcode scanning (including EAN, UPC, ISBN), has a ..."
+      },
+      {
+        "title": "Need an AI tool to sort thousands of photos \u2013 help me declutter!",
+        "url": "https://www.reddit.com/r/DataHoarder/comments/1i2u9cg/need_an_ai_tool_to_sort_thousands_of_photos_help/",
+        "snippet": "Try Vixc(VIXC.com), an AI-powered photo search and categorization platform that lets you search using keywords or natural language. Upon uploading photos, the ..."
+      },
+      {
+        "title": "Chat GPT is actually great for just taking a photo of your pantry and ...",
+        "url": "https://www.reddit.com/r/foodhacks/comments/1ch7jmx/chat_gpt_is_actually_great_for_just_taking_a/",
+        "snippet": "Chat GPT is actually great for just taking a photo of your pantry and asking it what you can make. Or having it suggest grocery items for easy recipes."
+      },
+      {
+        "title": "Is \"search products by image\" actually useful in real inventory work?",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1p20ble/is_search_products_by_image_actually_useful_in/",
+        "snippet": "The idea is simple: take a photo of an item and get a short list of likely matches from the catalog. We did a technical deep dive and a reliable implementation ..."
+      },
+      {
+        "title": "I spent months building a \"smarter\" scanner. It now supports batch ...",
+        "url": "https://www.reddit.com/r/AppBusiness/comments/1sqkvt1/i_spent_months_building_a_smarter_scanner_it_now/",
+        "snippet": "I spent months building a \"smarter\" scanner. It now supports batch inventory scanning, scan from gallery, customize QR codes and more."
+      },
+      {
+        "title": "I tried every net worth tracking app so you don't have to ... - Reddit",
+        "url": "https://www.reddit.com/r/Fire/comments/1i0lfbr/i_tried_every_net_worth_tracking_app_so_you_dont/",
+        "snippet": "Spent the last 2 months testing every tracking app I could find. For context, I needed something that could handle: Multiple brokerages. Crypto wallets."
+      },
+      {
+        "title": "I wanted to make a tier list of items so just keep in mind, I'm ... - Reddit",
+        "url": "https://www.reddit.com/r/PeakGame/comments/1mni9uw/i_wanted_to_make_a_tier_list_of_items_so_just/",
+        "snippet": "My ranking of how often I take which items \u00b7 r/PeakGame. \u2022 8mo ago. My ranking of how often I take which items \u00b7 r/PeakGame - My ranking of how often I take ..."
+      },
+      {
+        "title": "Is there a way to use cross-inventory without the cross progression",
+        "url": "https://www.reddit.com/r/Brawlhalla/comments/1jor5em/is_there_a_way_to_use_crossinventory_without_the/",
+        "snippet": "Hello, I just want to shift my skins and legends from pc (steam) to mobile to play ranked on mobile without affecting my ranking on pc."
+      },
+      {
+        "title": "Any good AI enabled tools for portfolio and stock analysis for free?",
+        "url": "https://www.reddit.com/r/investing/comments/1maszho/any_good_ai_enabled_tools_for_portfolio_and_stock/",
+        "snippet": "Yo I've been using a browser app called brokerbotics which basically does what ur asking for it has brokerage connections like I connected my fidelity and I ..."
+      },
+      {
+        "title": "Anyone here actually using AI / LLMs to help with stock picking?",
+        "url": "https://www.reddit.com/r/stocks/comments/1qzexor/anyone_here_actually_using_ai_llms_to_help_with/",
+        "snippet": "But yes, I have been using an LLM. They're powerful tools for identifying a stock that fits a narrative criteria that you can articulate. I don't trust it to do ..."
+      }
+    ],
+    "twitter_phase1": [
+      {
+        "title": "We have a existential manufacturing problem in America. Why aren't ...",
+        "url": "https://x.com/andrewmccalip/status/1861019810920063145",
+        "snippet": "Most shops lag far behind in software, relying on clunky, manual systems that can't scale. Amazon's expertise in inventory, tracking, and order management is a ..."
+      },
+      {
+        "title": "Zvi Mowshowitz (@TheZvi) on X",
+        "url": "https://x.com/TheZvi/status/1994783726874538069",
+        "snippet": "It seems Victoria largely used AI to generate her articles, then it took Nicolas doing a lot of old-fashioned tracking down of sources to know for sure. ... I do ..."
+      },
+      {
+        "title": "Nic Wilson (@Ratitup) / Posts / X - Twitter",
+        "url": "https://x.com/Ratitup",
+        "snippet": "99% of manual traders lose money. The successful funds are all algorithmic. A bot has no amygdala. It doesn't panic, doesn't revenge trade, doesn't stare ..."
+      },
+      {
+        "title": "Andy Piper (@andyp1per) / Posts / X - Twitter",
+        "url": "https://x.com/andyp1per",
+        "snippet": "Coding workflow. Given the latest lift in LLM coding capability, like many others I rapidly went from about 80% manual+autocomplete coding and 20% agents in ..."
+      },
+      {
+        "title": "No\u028ch (@noah249) / Posts / X - Twitter",
+        "url": "https://x.com/noah249",
+        "snippet": "The job has never been just \"get my client more views.\" It's always been about building the creator into a durable business - one with an audience relationship, ..."
+      },
+      {
+        "title": "Ryan Shrout (@ryanshrout) on X",
+        "url": "https://x.com/ryanshrout/status/1797244400235671829",
+        "snippet": "... image upscaling, Nvidia is showing a new demo of Project G-Assist, a multi-modal AI system that combines speech recognition ... inventory or abilities system ..."
+      },
+      {
+        "title": "Steal my Claude Sonnet 4 prompt to generate full n8n workflows ...",
+        "url": "https://x.com/rryssf_/status/1949506927207088279",
+        "snippet": "What we're analyzing: I'll perform a detailed visual scan of your workflow screenshot to identify all nodes, connections, and visible configurations. Please ..."
+      },
+      {
+        "title": "Andy Vandervell (@andyvan) / Posts / X - Twitter",
+        "url": "https://x.com/andyvan",
+        "snippet": "You've no doubt been a victim of generic product emails without meaningful segmentation (\u201dwhy did I receive this?\u201d) or a disruptive in-app experience full of ..."
+      },
+      {
+        "title": "Blaize D'souza \u2764\ufe0f (@blaizedsouza) / Posts / X - Twitter",
+        "url": "https://x.com/blaizedsouza",
+        "snippet": "Works with Claude Code, Cursor, OpenClaw, or any agent that reads markdown. If you want to understand what you are installing and why each piece exists, keep ..."
+      },
+      {
+        "title": "Smart Crypto (@0xSmartCrypto) / Posts / X - Twitter",
+        "url": "https://x.com/0xSmartCrypto",
+        "snippet": "I Built Claude AI That Stops Me From Revenge Trading (Full Demo). I kept breaking my own trading rules. Revenge trading after losses."
+      },
+      {
+        "title": "Looking for the best inventory management app for your store? SKU ...",
+        "url": "https://x.com/sku_iq/status/1815796770175131863/photo/1",
+        "snippet": "Looking for the best inventory management app for your store? SKU IQ is rated at the best value and easiest to use for retail! Connect point-of-sales and ..."
+      },
+      {
+        "title": "itemit (@itemit) / Posts / X - Twitter",
+        "url": "https://x.com/itemit",
+        "snippet": "The powerful app to manage and track your business assets. Asset management, asset life-cycle, team-wide collaboration and QR & RFID asset tracking."
+      },
+      {
+        "title": "Kalen Jordan (@kalenjordan) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/kalenjordan/with_replies",
+        "snippet": "Stockful: Inventory Management - Track inventory history per location with forecasts and alerts |... Track inventory changes at every location over time."
+      },
+      {
+        "title": "SDG Systems (@sdgsys) / Posts / X - Twitter",
+        "url": "https://x.com/sdgsys",
+        "snippet": "Instead of emailing your photos or creating a bunch of albums, use the PhotoTag app to capture, organize, and find photos across your organization. PhotoTag ..."
+      },
+      {
+        "title": "1 Shopify SEO App (@SearchPie) / Posts / X - Twitter",
+        "url": "https://x.com/SearchPie",
+        "snippet": "SearchPie | #1 Shopify SEO App (@SearchPie) - Posts - SearchPie is an all-in-one Shopify SEO app offering image compression, on-page optimization, keyword."
+      },
+      {
+        "title": "Inventory Planner",
+        "url": "https://x.com/inventory_plan/status/1968603151814070430/photo/1",
+        "snippet": "Whether you're running Shopify, BigCommerce or a custom ERP setup, Patchworks makes it easy to sync data from your core systems into Inventory Planner."
+      },
+      {
+        "title": "W6 member crushing it",
+        "url": "https://x.com/SamMendelsohn4/status/1889750342323089549",
+        "snippet": "I started with by creating Stock Perfect, an AI-based Inventory Reordering tool. This replaced the $200+ I was spending monthly on Inventory Planner (and it ..."
+      },
+      {
+        "title": "HomeZada creates a template home inventory for you right at sign ...",
+        "url": "https://x.com/HomeZada/status/1810463909729513504",
+        "snippet": "HomeZada creates a template home inventory for you right at sign-up. Simply the best inventory software app for your home! Get organized today!"
+      },
+      {
+        "title": "Sklad - Inventory Tracker App (@skladapp) / Posts / X - Twitter",
+        "url": "https://x.com/skladapp",
+        "snippet": "Since 2022, we've been building the most complete and reliable #inventory tool for small businesses. Today, that journey continues - Sklad 3.4.0 is here! \u26a1\ufe0f ..."
+      },
+      {
+        "title": "Odoo",
+        "url": "http://x.com/Odoo/status/1841427188412772646",
+        "snippet": "With #OdooBarcode you can bring your inventory to a whole new level! RFID makes it possible to fast track your inventory and scan products effortlessly."
+      },
+      {
+        "title": "You can just Claude Code an internal tool whenever you need to. I ...",
+        "url": "https://x.com/sourfraser/status/2044060735374827667",
+        "snippet": "You can just Claude Code an internal tool whenever you need to. I've created multiple tools that all fit my agency perfectly\u2026 and only took less than a day ..."
+      },
+      {
+        "title": "Put together a list of all the use cases I could find, feel free to add ...",
+        "url": "https://x.com/grahamkmann/status/2022399019386105978",
+        "snippet": "I went through 148 replies to Lenny's tweet, the Clawverse gallery, and Brandon Wang's writeup. Here's every use case I found. Some of these are practical."
+      },
+      {
+        "title": "No Code MBA (@nocodemba) / Posts / X - Twitter",
+        "url": "https://x.com/nocodemba",
+        "snippet": "I built a full-stack app from a single prompt and had it live with a real database, user login, and file storage in under 10 minutes. There's also a built ..."
+      },
+      {
+        "title": "1. copy a successful app 2. run tiktok ads 3. make $ in your sleep full ...",
+        "url": "https://x.com/athcanft/status/2040979715557900523",
+        "snippet": "This guide is for people who want to spin up an app, find a winning ad, scale the hell out of it, and go back to bed. You'll have seen tonnes of advice on X ..."
+      },
+      {
+        "title": "John Schoenith (@eleven21) / Posts / X - Twitter",
+        "url": "https://x.com/eleven21",
+        "snippet": "I have Codex app server running on an M4 Max Mac Studio. Keeps my laptop running cool and fast. Download the beta and the Codex App Server below. John ..."
+      },
+      {
+        "title": "Seedtrakr (@seedtrakr) / Posts / X - Twitter",
+        "url": "https://x.com/seedtrakr",
+        "snippet": "The question is whether your systems are ready. Seedtrakr helps seed operations stay organized by giving teams: \u2022 Real-time inventory visibility \u2022 Clear lot ..."
+      },
+      {
+        "title": "We're thrilled to announce that Fishbowl was named a \u201c2026 ...",
+        "url": "https://x.com/Fishbowl/status/2034661611462414704/photo/1",
+        "snippet": "We're thrilled to announce that Fishbowl was named a \u201c2026 Software Advice FrontRunner for Inventory Management Software\u201d\u2014a recognition based entirely on ..."
+      },
+      {
+        "title": "Inspecti | iListingAI (@iListingAI) / Posts / X - Twitter",
+        "url": "https://x.com/iListingAI",
+        "snippet": "We know savvy property clerks use ChatGPT, but no more limits and complex prompts! With Inspecti, easily generate bulk images and create inventory reports with ..."
+      },
+      {
+        "title": "Where LLMs could improve Heavy Industry in 2026 There are lots of ...",
+        "url": "https://x.com/Object_Zero_/status/2005003821332763024",
+        "snippet": "There are lots of examples across many industries where tonnes of value could be unlocked by embedding a strong LLM with the system of record. This isn't MS ..."
+      },
+      {
+        "title": "I appreciate the recognition, but this *really* goes to @GustoHQ's ...",
+        "url": "https://x.com/tomerlondon/status/1909666594047115619",
+        "snippet": "I appreciate the recognition, but this *really* goes to @GustoHQ's talented product and design teams \u2764\ufe0f They are OBSESSED with solving the hardest problems ..."
+      },
+      {
+        "title": "the easy-to-use inventory app for everyone! All-in-one, highly ...",
+        "url": "https://x.com/indieappsanta/status/1855913369112592407",
+        "snippet": "1\ufe0f\u20e31\ufe0f\u20e3 Track your home or small business inventory with Inventory Tracker Pro: the easy-to-use inventory app for everyone!"
+      },
+      {
+        "title": "Costco in Stock Alerts Visualping: How to Get Notified When ...",
+        "url": "https://x.com/visualping/status/1938278982996119942",
+        "snippet": "Visualping sends instant restock notifications, so you're not left guessing if something's available. You can set how often it checks, which is key for high- ..."
+      },
+      {
+        "title": "visualping - How to Get Walmart In Stock Alerts",
+        "url": "https://x.com/visualping/status/1940116130661859416",
+        "snippet": "Visualping helps users track product availability by watching specific web pages for changes. It uses a combination of automatic screenshots and change ..."
+      },
+      {
+        "title": "Inventory Bot (@BotInventory) / Posts / X - Twitter",
+        "url": "https://x.com/BotInventory",
+        "snippet": "Inventory Bot (@BotInventory) - Posts - Notifications and AutoBuy. Find us on the app stores. From the mundane to the \"always out of stock\",."
+      }
+    ],
+    "reddit_phase2": [
+      {
+        "title": "do i have to take a full birth control pack before having a period? or ...",
+        "url": "https://www.reddit.com/r/birthcontrol/comments/1lzrtk8/do_i_have_to_take_a_full_birth_control_pack/",
+        "snippet": "If you go on to the next packet of pills - you can take them until you wish to bleed. If you take another full pack - you might spot bleed and you might not."
+      },
+      {
+        "title": "Using TWW. Do you use the whole pack? Or do you have any other ...",
+        "url": "https://www.reddit.com/r/pourover/comments/1mlea5v/using_tww_do_you_use_the_whole_pack_or_do_you/",
+        "snippet": "I went down the well deep on water for a while and then quit it all together. My experience is the packets are junk and can cause their own issues. My ..."
+      },
+      {
+        "title": "If I would buy the \"Full Clip Pack\" nowadays, are 1,500 V-Bucks the ...",
+        "url": "https://www.reddit.com/r/FortniteSavetheWorld/comments/1pfbuz5/if_i_would_buy_the_full_clip_pack_nowadays_are/",
+        "snippet": "Once you earn that 1,500 V-Bucks, that's it. You'll then only earn X-Ray Tickets that you can use to buy llamas in Save the World. Daily quests become available ..."
+      },
+      {
+        "title": "Barcode scanner or app you like for inventory? : r/sysadmin - Reddit",
+        "url": "https://www.reddit.com/r/sysadmin/comments/1g3f846/barcode_scanner_or_app_you_like_for_inventory/",
+        "snippet": "We use a $30 Eyoyo from Amazon. It does 1D and 2D barcodes on 2.4GHz or Bluetooth and shows up as a generic keyboard, so it works in almost any app. Not sure I ..."
+      },
+      {
+        "title": "What is the best app to scan QR? : r/androidapps - Reddit",
+        "url": "https://www.reddit.com/r/androidapps/comments/1mre7vp/what_is_the_best_app_to_scan_qr/",
+        "snippet": "I like \"Scandit\", it can read many 1d and 2d format, including QR code. It will show you the contents, allow you to copy it, and if it is a link, let you clic ..."
+      },
+      {
+        "title": "Barcode scanner? : r/sysadmin - Reddit",
+        "url": "https://www.reddit.com/r/sysadmin/comments/1mbfv88/barcode_scanner/",
+        "snippet": "Any scanner can read a barcode. You can get them for under $20 on Amazon. If you want wireless, under $30. They just recognize as a HID."
+      },
+      {
+        "title": "Grocy, Mealie, other? What do you use to organise your food? - Reddit",
+        "url": "https://www.reddit.com/r/homeassistant/comments/1n0igw9/grocy_mealie_other_what_do_you_use_to_organise/",
+        "snippet": "Mealie is incredible and on of my favorite home lab things. OurGroceries is less perfect but does what I need it to do."
+      },
+      {
+        "title": "Open-source tools for cooking, what are your favorites? : r/selfhosted",
+        "url": "https://www.reddit.com/r/selfhosted/comments/1jhvrjv/opensource_tools_for_cooking_what_are_your/",
+        "snippet": "Mealie is great for curating recipes, and its scraper can parse many website recipe cards like hellofresh, bbc good food etc."
+      },
+      {
+        "title": "Looking for a self-hosted Any.do alternative (Tasks + Grocery List ...",
+        "url": "https://www.reddit.com/r/selfhosted/comments/1l5i6tt/looking_for_a_selfhosted_anydo_alternative_tasks/",
+        "snippet": "That would be a great deal, I have been looking for the same for months. Tried Appflowy, Wekan, Obsidian, Memos, etc, but still none would do the deal for me."
+      },
+      {
+        "title": "Smart Order vs. SKU IQ for Clover integration : r/Wordpress - Reddit",
+        "url": "https://www.reddit.com/r/Wordpress/comments/1hv58i6/smart_order_vs_sku_iq_for_clover_integration/",
+        "snippet": "I'm creating a website for a brick-and-mortar shop that also sells online. The shop currently uses Clover for payment and inventory."
+      },
+      {
+        "title": "Recommendations for E-Commerce Platform That Can Integrate ...",
+        "url": "https://www.reddit.com/r/webdev/comments/1k4tbj9/recommendations_for_ecommerce_platform_that_can/",
+        "snippet": "Tools like SKU IQ or Kosmos eSync handle that mapping already, near-real-time updates between Clover and Shopify without dev work. If they ever ditch Clover ..."
+      },
+      {
+        "title": "How Do You Manage Inventory Replenishment & Forecasting?",
+        "url": "https://www.reddit.com/r/ecommerce/comments/1mbcc7x/how_do_you_manage_inventory_replenishment/",
+        "snippet": "If you're doing most of your ops in-house (no 3PL, simple SKU structure), then honestly something like Finaloop's Inventory IQ might be worth looking into."
+      },
+      {
+        "title": "Inventory App Alternative to Sortly : r/smallbusiness - Reddit",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1kfg6sn/inventory_app_alternative_to_sortly/",
+        "snippet": "If you're mainly using Sortly for organization, photos, and tracking ins/outs, inFlow is probably the closest \u201cfeels similar but more affordable\u201d option without ..."
+      },
+      {
+        "title": "Best software for me? : r/InventoryManagement - Reddit",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1oocl70/best_software_for_me/",
+        "snippet": "Sortly \u2013 great for visual inventory, barcode labels, and multi-site tracking. inFlow Cloud \u2013 strong reporting (incoming/outgoing), auto-SKUs, and warehouse- ..."
+      },
+      {
+        "title": "Inventory App : r/smallbusiness - Reddit",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1idwtbk/inventory_app/",
+        "snippet": "I created AlpacaTrack.com when I myself found Sortly to be too expensive. It does not have as many features as Sortly but I do plan on making updates as time ..."
+      },
+      {
+        "title": "The price of drumsticks has gone mad, any \u201cbudget\u201d brands out ...",
+        "url": "https://www.reddit.com/r/drums/comments/1jar8jt/the_price_of_drumsticks_has_gone_mad_any_budget/",
+        "snippet": "Switched from Vic to Vater about 2 years ago and have saved so much $ just on the fact they last like 10x longer. Highly recommend\u2026.ask your Sweetwater dude ..."
+      },
+      {
+        "title": "I finally got some promark sticks. What are you guy's experiences ...",
+        "url": "https://www.reddit.com/r/drums/comments/1eu2sba/i_finally_got_some_promark_sticks_what_are_you/",
+        "snippet": "... I switched off Vic I didn't go back to Promark. Tama it is for me. Honestly surprised at how good and durable sticks you can still get for a little more ..."
+      },
+      {
+        "title": "What drumstick brands do you guys reccomend? : r/drums - Reddit",
+        "url": "https://www.reddit.com/r/drums/comments/1lngs9t/what_drumstick_brands_do_you_guys_reccomend/",
+        "snippet": "Switched to Vic Firth and I gotta say they're pretty good. Pretty durable and they wear well. JMHO. DangerousMeeting9758. \u2022 10mo ago. I love the sound Vic ..."
+      },
+      {
+        "title": "Best AI keywording tool : r/stockphotography - Reddit",
+        "url": "https://www.reddit.com/r/stockphotography/comments/1g2w9je/best_ai_keywording_tool/",
+        "snippet": "Would love to hear what you think of www.descripshot.com ? It's free to try - we think it generates noticeably better metadata than phototag, but it's your ..."
+      },
+      {
+        "title": "Which tracker tag is best for my situation? : r/GoogleFMD - Reddit",
+        "url": "https://www.reddit.com/r/GoogleFMD/comments/1n2uo1f/which_tracker_tag_is_best_for_my_situation/",
+        "snippet": "Just curious why is Mototag more expensive then Airtag? Mototag offers something Airtag doesn't?"
+      },
+      {
+        "title": "Could anyone help me recommend the best possible tracking tag ...",
+        "url": "https://www.reddit.com/r/GooglePixel/comments/1p8q2tx/could_anyone_help_me_recommend_the_best_possible/",
+        "snippet": "I am unsure if the new range of tile is much better or if I should explore other trackers like Chipolo, ugreen or mototags. I know it's an explored ..."
+      },
+      {
+        "title": "Stocky replacement that isn't a $250/mo ERP? : r/ecommerce - Reddit",
+        "url": "https://www.reddit.com/r/ecommerce/comments/1sqn5sj/stocky_replacement_that_isnt_a_250mo_erp/",
+        "snippet": "Stocky always felt a bit manual there, and I'm tired of running out of stock because I forgot a supplier has a 3-week turnaround."
+      },
+      {
+        "title": "Looking for pen and flashlight recommendations. : r/EDC - Reddit",
+        "url": "https://www.reddit.com/r/EDC/comments/1qupfy0/looking_for_pen_and_flashlight_recommendations/",
+        "snippet": "You can get a stockful of 430s with just a few bucks, they are reliable, thick to hold, quite short, and you can give them freely to your peers who haven't ..."
+      },
+      {
+        "title": "Thoughts on Custom Faction? : r/AOW4 - Reddit",
+        "url": "https://www.reddit.com/r/AOW4/comments/1o2n1d3/thoughts_on_custom_faction/",
+        "snippet": "... I went to war with him first and wiped him out before hunting down Nimue and ... Why is every single game related subreddit stockfull of people who are too ..."
+      },
+      {
+        "title": "What's the next step after Assistant Inventory Planning Manager?",
+        "url": "https://www.reddit.com/r/careerguidance/comments/1lag2nv/whats_the_next_step_after_assistant_inventory/",
+        "snippet": "I'm looking for some career guidance on how to level up from where I am now. I'm a 30-year-old male, recently promoted to Assistant Inventory Planning Manager."
+      },
+      {
+        "title": "Inventory planning feels like guesswork \u2014 what actually works?",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1qlz2md/inventory_planning_feels_like_guesswork_what/",
+        "snippet": "What changed for me was getting a clearer view of true sell through, lead times, and what inventory was actually available across channels in one place. I ..."
+      },
+      {
+        "title": "Advice on pivoting to a role in inventory/merchandise planning?",
+        "url": "https://www.reddit.com/r/careerguidance/comments/1k4r0zl/advice_on_pivoting_to_a_role_in/",
+        "snippet": "I'm looking for advice on how to pivot my career in a different direction. I want to work in inventory planning or as an analyst but am really struggling on how ..."
+      },
+      {
+        "title": "The perennial question... which wardrobe app in 2025? - Reddit",
+        "url": "https://www.reddit.com/r/femalefashionadvice/comments/1jjtgyt/the_perennial_question_which_wardrobe_app_in_2025/",
+        "snippet": "Acloset and Alta Daily are AI closet apps that can help you decide what to wear based on the weather. Sometimes the outfits are\u2026 interesting and it's stuck on ..."
+      },
+      {
+        "title": "Is there a website that exists to automatically notify you when a ...",
+        "url": "https://www.reddit.com/r/AussieFrugal/comments/1ojrb40/is_there_a_website_that_exists_to_automatically/",
+        "snippet": "I've been using Distil for a couple of months. Its works well. I get an email if a price changes (set the price area on the product webpage). I run it ..."
+      },
+      {
+        "title": "Lacking Proper Asset Inventory : r/ITManagers - Reddit",
+        "url": "https://www.reddit.com/r/ITManagers/comments/1qwe5bl/lacking_proper_asset_inventory/",
+        "snippet": "GLPI and SnipeIT are both open source. GLPI will do a hell of a lot including help desk and asset management while SnipeIT will just do asset management."
+      },
+      {
+        "title": "Which SEO apps are you using for Shopify? - Reddit",
+        "url": "https://www.reddit.com/r/ShopifySEO/comments/1pdhyl4/which_seo_apps_are_you_using_for_shopify/",
+        "snippet": "TinyIMG \u2013 very useful for both compressing images and generating clean alt text. SearchPie \u2013 good mix of automation plus reporting; beginners will especially ..."
+      },
+      {
+        "title": "Uninstalled SearchPie the SEO App = Google search indexing and ...",
+        "url": "https://www.reddit.com/r/shopify/comments/1f0if33/uninstalled_searchpie_the_seo_app_google_search/",
+        "snippet": "Noticed in the Google Search Console records, two days after uninstalling 'SearchPie SEO & Speed' app, our indexing and impressions tanked...flatlined to 0."
+      },
+      {
+        "title": "What addons for Shopify will make things much easier for newbies?",
+        "url": "https://www.reddit.com/r/ShopifyeCommerce/comments/1it561s/what_addons_for_shopify_will_make_things_much/",
+        "snippet": "Yoast SEO / SearchPie \u2013 Helps optimize meta tags, alt text, and structured data. Klaviyo \u2013 Best email/SMS marketing tool for abandoned carts & customer ..."
+      },
+      {
+        "title": "Are there people that actually constantly 'beat the market' by picking ...",
+        "url": "https://www.reddit.com/r/investing/comments/1m6k2vi/are_there_people_that_actually_constantly_beat/",
+        "snippet": "I've been beating it by more than that over the past 5 years. The best strategy i've honed in on is finding small cap stocks that i think have a bright future."
+      },
+      {
+        "title": "If AI is a bubble that pops, what's the best asset to be in? : r/investing",
+        "url": "https://www.reddit.com/r/investing/comments/1o4obpx/if_ai_is_a_bubble_that_pops_whats_the_best_asset/",
+        "snippet": "I think a better approach is to invest in foreign bonds. You get the currency protection (or risk), with some return, and you have a lot more options."
+      },
+      {
+        "title": "If stock prices have patterns, why can't we automate perfect buy/sell ...",
+        "url": "https://www.reddit.com/r/trading212/comments/1ovahju/if_stock_prices_have_patterns_why_cant_we/",
+        "snippet": "Yet, everyone says it's impossible to \"time the market.\" I'd love to understand why, in more technical or mathematical terms, this approach fails."
+      },
+      {
+        "title": "Favorite Apps for homeowners? - Reddit",
+        "url": "https://www.reddit.com/r/homeowners/comments/1jnb2ro/favorite_apps_for_homeowners/",
+        "snippet": "Itemtopia- tracks all your stuff for insurance/warranties. Also, links to correct replacement parts/owners manuals."
+      },
+      {
+        "title": "Essential apps for homeowners? : r/selfhosted - Reddit",
+        "url": "https://www.reddit.com/r/selfhosted/comments/1lwgiir/essential_apps_for_homeowners/",
+        "snippet": "Vikunja has recurring reminders, I actually use it for the same thing! You might also be interested in HomeBox and Grocy for inventory management for house and ..."
+      },
+      {
+        "title": "Home Inventory Applications : r/Home - Reddit",
+        "url": "https://www.reddit.com/r/Home/comments/1njohhk/home_inventory_applications/",
+        "snippet": "Wondering what other applications others are using to manage their home inventory for insurance/disaster purposes that they would recommend."
+      },
+      {
+        "title": "Need a good Odoo alternative possibly? : r/CRM - Reddit",
+        "url": "https://www.reddit.com/r/CRM/comments/1n2eek3/need_a_good_odoo_alternative_possibly/",
+        "snippet": "From what you need, I'd look at Zoho One. It has inventory, accounting, CRM, and even marketplace integrations, but is much easier to get running than Odoo."
+      },
+      {
+        "title": "Alternative to Odoo : r/CRM - Reddit",
+        "url": "https://www.reddit.com/r/CRM/comments/1o3co1d/alternative_to_odoo/",
+        "snippet": "Go for something simple and reliable like Pipedrive or HubSpot. If you want to be adventurous and try out new platforms, try Attio or Folk. Pipedrive's HQ is in ..."
+      },
+      {
+        "title": "ERPNext vs Odoo Community: Why's ERPNext Better? Curious!",
+        "url": "https://www.reddit.com/r/Odoo/comments/1lavilq/erpnext_vs_odoo_community_whys_erpnext_better/",
+        "snippet": "Yes, I am comparing both community versions. From point of open source, ERPNext wins in terms of offerings and customizability. Odoo is stable than ERPNEXT but ..."
+      },
+      {
+        "title": "whats your go-to inexpensive beef cut? : r/grilling - Reddit",
+        "url": "https://www.reddit.com/r/grilling/comments/1csogd9/whats_your_goto_inexpensive_beef_cut/",
+        "snippet": "With skirt steaks fetching $20 a pound(!), I've been switching to arrachera (aka flap meat, flap steak, sirloin flap, and bavette)."
+      },
+      {
+        "title": "I could be wrong but I thought there was a name for positioning ...",
+        "url": "https://www.reddit.com/r/neurodiversity/comments/1or093s/i_could_be_wrong_but_i_thought_there_was_a_name/",
+        "snippet": "I know there's something called a flatlay. But I thought there was another thing maybe modular or something similar. I looked up the definitions of the ..."
+      },
+      {
+        "title": "Are they any character ai alternatives non ai where I can role play ...",
+        "url": "https://www.reddit.com/r/antiai/comments/1oggrb0/are_they_any_character_ai_alternatives_non_ai/",
+        "snippet": "i got a few :D. create your own story! instead of using ai you can think of and write scenarios on your own. read fanfics, there are so so so many to choose ..."
+      },
+      {
+        "title": "Will ChatGPT Always Be Better Than CoPilot? : r/microsoft - Reddit",
+        "url": "https://www.reddit.com/r/microsoft/comments/1mm3ac8/will_chatgpt_always_be_better_than_copilot/",
+        "snippet": "Copilot uses ChatGPT. Excluding tighter integration with MS Office365 Apps and the Edge Browser, ChatGPT has always been superior in the features than ..."
+      },
+      {
+        "title": "Microsoft Copilot, the new Clippy 2.0 - MS Copilot vs ChatGPT - Reddit",
+        "url": "https://www.reddit.com/r/microsoft_365_copilot/comments/1efqh4v/microsoft_copilot_the_new_clippy_20_ms_copilot_vs/",
+        "snippet": "The interface of ChatGPT is much easier to use, it's faster, more accurate, and can handle a wider range of prompts and questions compared to Copilot."
+      },
+      {
+        "title": "ChatGPT vs Copilot Microsoft : r/CopilotMicrosoft - Reddit",
+        "url": "https://www.reddit.com/r/CopilotMicrosoft/comments/1oq017w/chatgpt_vs_copilot_microsoft/",
+        "snippet": "ChatGPT is far superior in my opinion, even though copilot is theoretically integrated. It misses a lot of obvious things, and it can't even seem to do the ..."
+      },
+      {
+        "title": "What are your initial thoughts on SKALD: Against the Black Priory?",
+        "url": "https://www.reddit.com/r/CRPG/comments/1d4ya4k/what_are_your_initial_thoughts_on_skald_against/",
+        "snippet": "Almost 24 hours have passed since its release, and it has 110 reviews, of which only 4 are negative. What are your initial thoughts about the game and its ..."
+      },
+      {
+        "title": "The End : r/SkaldRPG - Reddit",
+        "url": "https://www.reddit.com/r/SkaldRPG/comments/1da2g8m/the_end/",
+        "snippet": "I was kinda able to dissociate the difficulty of the game from the story though and still enjoyed it. I think for me the biggest thing that is unclear is what ..."
+      },
+      {
+        "title": "Character creation guides or guidance : r/SkaldRPG - Reddit",
+        "url": "https://www.reddit.com/r/SkaldRPG/comments/1d5lbho/character_creation_guides_or_guidance/",
+        "snippet": "Does anyone know if there is a character creation guide or can provide any guidance themselves. I am starting the game and i am leaning thief as that\u2026"
+      },
+      {
+        "title": "What are some of your experiences with switching from Desktop to ...",
+        "url": "https://www.reddit.com/r/QuickBooks/comments/1qsgb59/what_are_some_of_your_experiences_with_switching/",
+        "snippet": "For you particularly online is better. I switched to online at my tax guy's constant nudging, but I'm now thinking that was mostly to make his life easier. QBO ..."
+      },
+      {
+        "title": "With quickbooks being phased out, what are people switching to?",
+        "url": "https://www.reddit.com/r/taxpros/comments/1ij47ja/with_quickbooks_being_phased_out_what_are_people/",
+        "snippet": "No new subscriptions for quickbooks desktop, quickbooks desktop support likely going away in 3-5 years. only desktop version remaining is enterprise."
+      },
+      {
+        "title": "For those who've migrated off QuickBooks \u2014 what did you switch to ...",
+        "url": "https://www.reddit.com/r/Accounting/comments/1k63zyl/for_those_whove_migrated_off_quickbooks_what_did/",
+        "snippet": "We moved off QuickBooks and switched to Digit Software once inventory visibility and reporting started breaking down. The tipping point was spending too much ..."
+      },
+      {
+        "title": "Inventory control software : r/Entrepreneur - Reddit",
+        "url": "https://www.reddit.com/r/Entrepreneur/comments/1pdfnez/inventory_control_software/",
+        "snippet": "1. inFlow Inventory / Manufacturing \u00b7 2. Stocky (if you're on Shopify POS Pro) \u00b7 3. Katana (light manufacturing focus) \u00b7 4. Zoho Inventory"
+      },
+      {
+        "title": "I'm looking for a inventory management software or app and ... - Reddit",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1q5smuu/im_looking_for_a_inventory_management_software_or/",
+        "snippet": "If you want something simple, you can try Homebox. Another option is ERPNext which may have a lot more than you need."
+      },
+      {
+        "title": "Best inventory management software for a small medtech company ...",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1plxduz/best_inventory_management_software_for_a_small/",
+        "snippet": "MRPeasy: probably the best mainstream all-rounder; handles BOMs and lots reasonably well, UI can be cluttered. inFlow: clean and simple, but traceability and ..."
+      },
+      {
+        "title": "zoho alternatives? : r/CRM - Reddit",
+        "url": "https://www.reddit.com/r/CRM/comments/1mxm716/zoho_alternatives/",
+        "snippet": "There are some CRM software that you can use as Zoho alternatives, you use tools like Drip, Hubspot (you can use the small business plan), Keap, Pipedrive, ..."
+      },
+      {
+        "title": "best zoho crm alternative for crm with automation features? - Reddit",
+        "url": "https://www.reddit.com/r/CRM/comments/1qixdcr/best_zoho_crm_alternative_for_crm_with_automation/",
+        "snippet": "If Zoho feels heavy, look at HubSpot (clean + easy automations), Pipedrive (best for simple sales pipelines), or Freshsales (good balance of automation and ..."
+      },
+      {
+        "title": "ZohoOne alternatives? : r/Zoho - Reddit",
+        "url": "https://www.reddit.com/r/Zoho/comments/1jfob61/zohoone_alternatives/",
+        "snippet": "I looked at a half dozen or so accounting apps, and Zoho was by far the best choice for us. 10x the features and power of QB Online, Freshbooks, or Xero."
+      },
+      {
+        "title": "Lens is back on, How do I switch it back to image search in 2026?",
+        "url": "https://www.reddit.com/r/chrome/comments/1rc4n6y/lens_is_back_on_how_do_i_switch_it_back_to_image/",
+        "snippet": "Go to the Chrome flags, search for \"Lens\" and set all of them to \"Disabled\". I also searched for \"unexpire\" and Disabled them as well, now the old google image ..."
+      },
+      {
+        "title": "They just destroyed Google Lens. - Reddit",
+        "url": "https://www.reddit.com/r/google/comments/1qt2hxj/they_just_destroyed_google_lens/",
+        "snippet": "After Lens opens, scroll down past the visual matches and tap the section that says \u201cSearch results\u201d or \u201cSee results about this image.\u201d This switches Lens into ..."
+      },
+      {
+        "title": "Was removing the Google Lens sidebar an intentional change? Any ...",
+        "url": "https://www.reddit.com/r/chrome/comments/1itm866/was_removing_the_google_lens_sidebar_an/",
+        "snippet": "Now after Chrome updated, searching with Google Lens opens up a brand new tab rather than a side bar that persists between windows. This. F***ing. Sucks. It's ..."
+      },
+      {
+        "title": "Lightspeed alternatives : r/smallbusiness - Reddit",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1ctso21/lightspeed_alternatives/",
+        "snippet": "TL;DR: Square: Go-to for simple businesses, easy and fast to start. POSApt: Best for complex inventory/retail (grocery, liquor, etc.) and if you need your POS ..."
+      },
+      {
+        "title": "Alternatives to Lightspeed - Suggestions for my specific situation?",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1dai1nq/alternatives_to_lightspeed_suggestions_for_my/",
+        "snippet": "RetailEdge will do it. It's not the most tech-forward but it'll do what you need and it's reliable. I've been running their POS since 2006."
+      },
+      {
+        "title": "Restaurant Owners: What's the Best POS System You Use and Why?",
+        "url": "https://www.reddit.com/r/Restaurant_Managers/comments/1hfcsgk/restaurant_owners_whats_the_best_pos_system_you/",
+        "snippet": "Toast/Square/LightSpeed/Snappy all good choices. Really depends on your needs. Do you need integrations? How much you willing to spend per month? Are you ..."
+      },
+      {
+        "title": "Anyone here migrated off Shopify? What were the biggest surprises?",
+        "url": "https://www.reddit.com/r/ecommerce/comments/1pi0yne/anyone_here_migrated_off_shopify_what_were_the/",
+        "snippet": "When I've seen stores migrate off Shopify, usually to WooCommerce, the biggest surprises were how much work it took to rebuild apps/automation and keep SEO + ..."
+      },
+      {
+        "title": "Need advice if I should migrate off Shopify or not - Reddit",
+        "url": "https://www.reddit.com/r/shopify/comments/1o1j9a6/need_advice_if_i_should_migrate_off_shopify_or_not/",
+        "snippet": "Definitely don't leave Shopify. For way less than you pay to migrate, pay an agency or freelancer to audit your site/apps to see what features can be added to ..."
+      },
+      {
+        "title": "I switched my site over to shopify, now I'm not seeing any sales.",
+        "url": "https://www.reddit.com/r/shopify/comments/1co27c9/i_switched_my_site_over_to_shopify_now_im_not/",
+        "snippet": "It has been five days since we switched to shopify and we have seen 0 sales in that time. Our traffic has dropped as well. We are using the same domain and set ..."
+      },
+      {
+        "title": "Looking for new Inventory Management software - Reddit",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1hspi7p/looking_for_new_inventory_management_software/",
+        "snippet": "Hey there! Lightspeed could be exactly what you're looking for. It's super straightforward to use and lets you track inventory in real-time\u2014no more notepads or ..."
+      },
+      {
+        "title": "Suggestions on Inventory Management Software : r/smallbusiness",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1gxalbo/suggestions_on_inventory_management_software/",
+        "snippet": "You can consider Stock-It (or StockIt) Inventory Management app, which comes with an optional web app. Features are free up to a point and then you may require ..."
+      },
+      {
+        "title": "Looking for internal inventory management software for ... - Reddit",
+        "url": "https://www.reddit.com/r/InventoryManagement/comments/1poqnm5/looking_for_internal_inventory_management/",
+        "snippet": "Tools like Digit software, Finale, or Fishbowl are often a better fit than sales-focused systems because they handle internal transfers, barcode-based movements ..."
+      },
+      {
+        "title": "Square alternatives?! : r/smallbusiness - Reddit",
+        "url": "https://www.reddit.com/r/smallbusiness/comments/1jw9zoa/square_alternatives/",
+        "snippet": "Korona POS. Best I've used. They are processor agnostic as well so you can choose whoever you want for CC processing. I use them with www.synapsepayments.com."
+      },
+      {
+        "title": "Canadian Alternate for Square Payment System? : r/BuyCanadian",
+        "url": "https://www.reddit.com/r/BuyCanadian/comments/1j6h37j/canadian_alternate_for_square_payment_system/",
+        "snippet": "I thought I would check if there is a Canadian alternative? (Google is not giving me much answers) Also, is there a Canadian alternate to Etsy / Shopify?"
+      },
+      {
+        "title": "Why Choose Toast vs. Square/Clover/Other POS?? - Reddit",
+        "url": "https://www.reddit.com/r/ToastPOS/comments/1ijio2a/why_choose_toast_vs_squarecloverother_pos/",
+        "snippet": "Toast is by far the most user friendly for the server and the back end as well. Lightspeed is equally as good front and back end. Clover is horrible."
+      }
+    ],
+    "twitter_phase2": [
+      {
+        "title": "Adobe Photoshop - Tips & Tricks (@TipsAdobe6390) / Posts / X",
+        "url": "https://x.com/TipsAdobe6390",
+        "snippet": "Quick Photoshop Hack! Want a clean background in seconds? 1\ufe0f\u20e3 Open image 2\ufe0f\u20e3 Select Object Selection Tool 3\ufe0f\u20e3 Click the subject \u2192 Select Subject"
+      },
+      {
+        "title": "We built 12 Claude Skill files that run our entire GTM operation ...",
+        "url": "https://x.com/itsalexvacca/status/2032102154685874178",
+        "snippet": "We built 12 Claude Skill files that run our entire GTM operation inside Clay (and I'm giving it all away) Prompts give you generic output."
+      },
+      {
+        "title": "vnity (@vnityyyy) / Posts / X - Twitter",
+        "url": "https://x.com/vnityyyy",
+        "snippet": "I made my own Wallpaper Pack - Stay Focused The full pack includes: \u2022 20 \u201cStay Focused\u201d wallpapers \u2022 8K resolution \u2022 Two styles: gradient + two-tone ..."
+      },
+      {
+        "title": "Nathan (@NathanOrDie) / Posts / X - Twitter",
+        "url": "https://x.com/NathanOrDie",
+        "snippet": "However in this case the responsibility has simply switched from Meld Studio to Twitch for determining how many video encoders your system can safely ..."
+      },
+      {
+        "title": "ottozs (@ottozs1) / Posts / X - Twitter",
+        "url": "https://x.com/ottozs1",
+        "snippet": "ottozs (@ottozs1) - Posts - /20+/ repost with credits ok /! multishipper!!! switch!! | X (formerly Twitter)"
+      },
+      {
+        "title": "Akhmedov Odil (@ahmedov_odil) / Posts / X - Twitter",
+        "url": "https://x.com/ahmedov_odil",
+        "snippet": "\u2764\ufe0fLet's collect 1000 retweets and I'll post more sexy pics of this extra exclusive set! You'll get full pack here patreon.com/kalinkafox \u00b7 Kalinka Fox 's ..."
+      },
+      {
+        "title": "AI-powered search is changing asset audits and reporting, cutting ...",
+        "url": "https://x.com/itemit/status/2036729865181778005",
+        "snippet": "One customer tracked 5,000+ assets with itemit, reducing losses by 36% and speeding check-ins by 40%. Ready for smarter audits? Start your free trial today."
+      },
+      {
+        "title": "itemit (@itemit) / Posts / X - Twitter",
+        "url": "https://x.com/itemit",
+        "snippet": "The powerful app to manage and track your business assets. Asset management, asset life-cycle, team-wide collaboration and QR & RFID asset tracking."
+      },
+      {
+        "title": "Unlimited user access changes team collaboration by making asset ...",
+        "url": "https://x.com/itemit/status/2037137554978247150",
+        "snippet": "Unlimited user access changes team collaboration by making asset visibility and accountability universal. When everyone can see, book, and track equipment ..."
+      },
+      {
+        "title": "AI-powered search is changing asset audits and reporting, making it ...",
+        "url": "https://x.com/itemit/status/2037839656876671136",
+        "snippet": "AI-powered search is changing asset audits and reporting, making it faster to find missing items and generate accurate reports instantly."
+      },
+      {
+        "title": "Sandy Hogan (@sandyhogan) on X",
+        "url": "https://x.com/sandyhogan/status/2042073528628080969",
+        "snippet": "The subscription model changed what customers needed: ongoing value realization, cross-functional adoption, and expansion over years. Yet instead of redesigning ..."
+      },
+      {
+        "title": "Sku IQ (@sku_iq) / Posts / X - Twitter",
+        "url": "https://x.com/sku_iq",
+        "snippet": "What does it mean to automate inventory with SKU IQ? Connect your point-of-sales and eCommerce systems to enable real-time data syncing for inventory ..."
+      },
+      {
+        "title": "I agree with maybe 60% of this, but one bit that is particularly ...",
+        "url": "https://x.com/VitalikButerin/status/2009919975058735479",
+        "snippet": "I just wish they could take the brave step of ending their monopolistic practices and switch to an open source first strategy. It may damage their market cap, ..."
+      },
+      {
+        "title": "The 3 metrics you need to nail to have a 10/10 Quality score",
+        "url": "https://x.com/PerformanceMax/status/1980035606592782538",
+        "snippet": "... SKU keywords like \"shoes\" since it isn't as specific as something like ... IQ, you can just use the first option. Your Keyword needs to be specific ..."
+      },
+      {
+        "title": "Conversion tracking for websites - X Business - Twitter",
+        "url": "https://business.x.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites",
+        "snippet": "Conversion tracking enables you to measure your return on ad spend by tracking the actions people take after viewing or engaging with your ads on X."
+      },
+      {
+        "title": "Engaged Pricing (@EngagedPricing) / Posts / X - Twitter",
+        "url": "https://mobile.x.com/engagedpricing",
+        "snippet": "Sku IQ profile. Sku IQ. sku_iq. Jun 12. Great job to all our fellow #nyftlab companies! @ClothApp @SwitchEmbassy @SundarInc @42technologies @DropelFabrics ..."
+      },
+      {
+        "title": "Fresh Express (@FreshUpdates) / Posts / X - Twitter",
+        "url": "https://x.com/FreshUpdates",
+        "snippet": "#SwitchUpTheFlavor ends today. Post your Fresh Express\u00ae salad photo, tag us and you could win a Fresh Express Flavor Box (2 Chopped Kits + $50 gift ..."
+      },
+      {
+        "title": "Nisarg (@TechyNisarg) / Posts / X",
+        "url": "https://x.com/TechyNisarg",
+        "snippet": "This is the PhotoTag. You can attach it to your valuables and track them using ... switched back to Button Navigation after ages. feels so weird lol ..."
+      },
+      {
+        "title": "Indra Renewable Technologies (@Indra_rt) / Posts / X - Twitter",
+        "url": "https://x.com/Indra_rt",
+        "snippet": "Calling EV installers: fitted a Smart LUX? Post a photo, tag @Indra_rt and each qualifying post gets 1 entry into our prize draw for a \u00a3100 Amazon voucher."
+      },
+      {
+        "title": "Alyssa Reed (@alyssa_reeed) / Posts / X - Twitter",
+        "url": "https://x.com/alyssa_reeed",
+        "snippet": "Featured on Cheetos & didn't even know it.. haha peep that photo tag. Joe 's Image on X. 0."
+      },
+      {
+        "title": "BookLender (@BookLenderCom) / Posts / X - Twitter",
+        "url": "https://x.com/BookLenderCom",
+        "snippet": "Welcome to BookLender \u2013 now you can rent unlimited paperback books or audiobooks without any due date hassles and get them delivered to your doorstep. Posts."
+      },
+      {
+        "title": "I was aware how fast AI was moving, but I didn't know it was ... - Twitter",
+        "url": "https://twitter.com/freshlimesofa/status/2040319331314339895",
+        "snippet": "I was aware how fast AI was moving, but I didn't know it was this fast. I was at my local stationary shop, the shopkeeper switched the tabs on his system."
+      },
+      {
+        "title": "We were drowning in inventory data but still running out of stock on ...",
+        "url": "https://x.com/akramjabdallah/status/1968049753897218147",
+        "snippet": "Our Inventory Planner was spitting out reports with hundreds of SKUs, but we couldn't tell which numbers actually mattered. We'd have months of slow-moving ..."
+      },
+      {
+        "title": "Blue collar builders are the future of vertical software. Today I had 2 ...",
+        "url": "https://x.com/toddsaunders/status/2038764225460400605",
+        "snippet": "Blue collar builders are the future of vertical software. Today I had 2 conversations that changed how I see software. 1/ A pool service operator built a ..."
+      },
+      {
+        "title": "For many product businesses, 2025 exposed hidden chaos ...",
+        "url": "https://x.com/Cin7online/status/2037576134292902349",
+        "snippet": "For many product businesses, 2025 exposed hidden chaos. Inventory became a frontline strategy overnight. Spreadsheets and \u201cjust-in-time\u201d thinking couldn't ..."
+      },
+      {
+        "title": "I just ordered something from Lowe's. Meant to arrive on the 26th. I ...",
+        "url": "https://x.com/Birdyword/status/1991712444734120269",
+        "snippet": "Lowe's is currently modernizing its inventory replenishment and demand planning systems to be AI-driven, moving from a reactive to a proactive approach where ..."
+      },
+      {
+        "title": "Kalen Jordan (@kalenjordan) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/kalenjordan/with_replies",
+        "snippet": "Stockful: Inventory Management - Track inventory history per location with forecasts and alerts |... Track inventory changes at every location over time."
+      },
+      {
+        "title": "\"free inventory management software\" - Results on X - Twitter",
+        "url": "https://x.com/search?q=free%20inventory%20management%20software",
+        "snippet": "The moat for indie AI products right now isn't code \u2014 it's knowing which florist needs inventory software. Claude Managed Agents and Cursor 3 made ..."
+      },
+      {
+        "title": "VALORANT EAST: UNITED (@Valorant_PLE) / Posts / X",
+        "url": "https://x.com/Valorant_PLE",
+        "snippet": "In 2025 however, we will switch to a points based system to decide which teams will compete in Ascension, with teams gaining points based on their performance ..."
+      },
+      {
+        "title": "Bogdan B. (@Bogdan_S_B) / Posts / X - Twitter",
+        "url": "https://x.com/Bogdan_S_B",
+        "snippet": "Today we're sharing several changes coming in an early January update, based on your feedback. Let's kick things off with Game Designer Rory, who will walk ..."
+      },
+      {
+        "title": "natalcia (@nnnnatalcia) / Posts / X - Twitter",
+        "url": "https://x.com/nnnnatalcia",
+        "snippet": "The game is still lagging like crazy for few days now and its interesting how there's no fix or any updates about the issue"
+      },
+      {
+        "title": "Rokos Frangos (@acquiescent) / Posts / X",
+        "url": "https://x.com/acquiescent",
+        "snippet": "Hey @O2, just switched to you and so far everything has been quite incredibly bad. When will I be able to top up or change tariff online and on the app ..."
+      },
+      {
+        "title": "Le Meow'ata (@jffkey) / Posts / X - Twitter",
+        "url": "https://x.com/jffkey",
+        "snippet": "Here is the full 40 minutes of my crew and I exposing California fraud, Minnesota was big but California is even bigger... We uncovered over $170,000,000 in ..."
+      },
+      {
+        "title": "AI and Realtors (@AIandRealtors) / Posts / X - Twitter",
+        "url": "https://x.com/AIandRealtors",
+        "snippet": "The AI tools directory for real estate agents. 50+ tools to help you close more deals, save time, and work smarter. New tools added weekly. Posts."
+      },
+      {
+        "title": "Legal Network (@LNILegalJobs) / Posts / X - Twitter",
+        "url": "https://x.com/LNILegalJobs",
+        "snippet": "We specialize in Legal Recruiting in Orange County, Los Angeles and Long Beach. Follows, rts, likes don't necessarily = endorsement. Posts."
+      },
+      {
+        "title": "1 Shopify SEO App (@SearchPie) / Posts / X - Twitter",
+        "url": "https://x.com/SearchPie",
+        "snippet": "SearchPie is an all-in-one Shopify SEO app offering image compression, on-page optimization, keyword tools, and more for fast speed and boosted rankings. Posts."
+      },
+      {
+        "title": "Brian Gormanly (@gormanly) / Posts / X - Twitter",
+        "url": "https://x.com/gormanly",
+        "snippet": "This game is full of #FakePie ! Throwing pies is a proven way to increase happiness! Find the App in the Apple App Store (search \"Pie Therapy\") for iPhone an.."
+      },
+      {
+        "title": "Melissa Harden (@melliharden) / Posts / X - Twitter",
+        "url": "https://x.com/melliharden",
+        "snippet": "@drewharden and I break down the true state of search right now and a look towards 2026. The Takeaway: The search pie isn't shrinking; it's getting bigger. AI ..."
+      },
+      {
+        "title": "Tyler Pharris (Always Learning, Always Growing) (@pharris_tyler ...",
+        "url": "https://x.com/pharris_tyler",
+        "snippet": "Hey everyone! I have a new post covering my thoughts on: $AMZN, $GOOGL, $META, AI Capex, Big Tech outperformance, uncertainty vs. risk, small cap returns, and ..."
+      },
+      {
+        "title": "Over the years, my trading has shifted a lot. I used to obsess over ...",
+        "url": "https://x.com/PrimeTrading_/status/2043782500078563546",
+        "snippet": "Over the years, my trading has shifted a lot. I used to obsess over perfect entries; if it wasn't the best, it felt like a bad trade."
+      },
+      {
+        "title": "Years ago, I was that guy in the library with earphones in, a book on ...",
+        "url": "https://x.com/MashraniVivek/status/1923354380105109764",
+        "snippet": "Back then, I was obsessed with finding the \u201cperfect\u201d stock. I'd spend hours analyzing candlestick patterns, then switch to poring over balance sheets, only to ..."
+      },
+      {
+        "title": "*sigh* Been over this 100x by now, but here we go: clean_jobs=true ...",
+        "url": "https://x.com/wk057/status/1796333928749387931",
+        "snippet": "... switch jobs on the spot. This is still true of many miners today, especially many stock antminers. It's reserved only for times when a solution found for ..."
+      },
+      {
+        "title": "03 Nov 2025: Oct Trading Recap - October turned out to be one of ...",
+        "url": "https://x.com/Clement_Ang17/status/1985240302249288067",
+        "snippet": "03 Nov 2025: Oct Trading Recap - October turned out to be one of the tougher months for me this year, it was massively frustrating because looking back, ..."
+      },
+      {
+        "title": "Mark Ritchie II",
+        "url": "https://x.com/MarkRitchie_II/status/1953460581559591286",
+        "snippet": "Other option is to switch over to the intraday and see if I can get some kind of intraday setup to lean on but that is a rarity, at least for me and my style ..."
+      },
+      {
+        "title": "@Odoo This is the kind of simplicity business owners are looking for ...",
+        "url": "https://x.com/TonyDUrso/status/2037199225667412397",
+        "snippet": "This is the kind of simplicity business owners are looking for. One system\u2026 full visibility\u2026 less chaos. We know too well, too many tools slow down more ..."
+      },
+      {
+        "title": "Understand your Odoo data visually. See how records are ...",
+        "url": "https://x.com/SitaramSolution/status/2040273409599226244",
+        "snippet": "Understand your Odoo data visually. See how records are connected in one interactive map and make faster decisions without switching screens. Explore:"
+      },
+      {
+        "title": "Arbisoft",
+        "url": "https://x.com/arbisoft/status/1982746633914970275",
+        "snippet": "Still stuck with a legacy ERP that slows you down? 60,000+ U.S. businesses aren't; they've switched to Odoo. Odoo grows as fast as you do."
+      },
+      {
+        "title": "Still switching between your phone and your CRM to follow up with ...",
+        "url": "https://x.com/supplyexperts/status/2042241130318700560",
+        "snippet": "Still switching between your phone and your CRM to follow up with customers? Odoo 19 VoIP fixes that. Call, record, and log interactions \u2014 all from one ..."
+      },
+      {
+        "title": "Stop managing manually. Switch to smart ERP with automation, real ...",
+        "url": "https://x.com/BroadsyTech/status/2046891701940166919/photo/1",
+        "snippet": "Stop managing manually. Switch to smart ERP with automation, real-time insights, and scalable tools to streamline operations and grow faster."
+      },
+      {
+        "title": "CamFind (@CamFind) / Posts / X - Twitter",
+        "url": "https://x.com/CamFind",
+        "snippet": "CamFind (@CamFind) - Posts - Take a picture of any object and learn more about it | iTunes: bit.ly/1dDtxXJ | Google Play: bit.... | X (formerly Twitter)"
+      },
+      {
+        "title": "Laurel Rogers (@LaurelPRogers) / Posts / X - Twitter",
+        "url": "https://x.com/LaurelPRogers",
+        "snippet": "SEEKING PARTICIPANTS! Do you consider yourself a fan? Do you currently participate online in one or more fandoms? Have you ever? Are you 18 or older?"
+      },
+      {
+        "title": "Nestdrop (@Nestdrop) / Posts / X - Twitter",
+        "url": "https://x.com/Nestdrop",
+        "snippet": "Nestdrop (@Nestdrop) - Posts - The Medica Marijuana Delivery App For Android and iOS. Nestdrop: Delivering Smiles | X (formerly Twitter)"
+      },
+      {
+        "title": "Tracee Tomkins (@raspberrycatt) / Posts / X - Twitter",
+        "url": "https://x.com/raspberrycatt",
+        "snippet": "I took the leap. I started an Etsy shop. You cam find me at: traceecreations.etsy.com. Come support Mt efforts. Love you all."
+      },
+      {
+        "title": "Seal Hunt (@SealHunt) / Posts / X - Twitter",
+        "url": "https://x.com/sealhunt",
+        "snippet": "Promoting the sustainable, regulated & humane use of our natural, renewable & abundant sea resources all while combating misconceptions & misinformation. Posts."
+      },
+      {
+        "title": "Microsoft just turned the Microsoft 365 Copilot app for mobile into a ...",
+        "url": "https://x.com/WindowsLatest/status/2024230372817739875",
+        "snippet": "This means that if you open any local file on Android and Microsoft 365 Copilot is set as the default app, it will first send your file to OneDrive. Then, ..."
+      },
+      {
+        "title": "Microsoft has dropped its old plans to put Copilot everywhere in ...",
+        "url": "https://x.com/Pirat_Nation/status/2033317065352978732",
+        "snippet": "Microsoft has dropped its old plans to put Copilot everywhere in Windows 11, like inside notifications and the Settings app."
+      },
+      {
+        "title": "Copilot's agentic capabilities in Word, Excel, and PowerPoint are ...",
+        "url": "https://x.com/satyanadella/status/2047105085172511013",
+        "snippet": "We're making a big change to the Copilot experience. Agent Mode is generally available and now the default across Copilot in Word, Excel, and PowerPoint."
+      },
+      {
+        "title": "The new Copilot app for Windows 11 is really just Microsoft Edge ...",
+        "url": "https://x.com/TheBobPony/status/2041112541909205001",
+        "snippet": "The new Copilot app for Windows 11 is really just Microsoft Edge. Renaming \"mscopilot.exe\" to \"msedge.exe\" and its folder from \"Copilot\" to \"Edge\" will ..."
+      },
+      {
+        "title": "surely, it was some kind of bet that a Microsoft engineer couldn't get ...",
+        "url": "https://x.com/tomarbuthnot/status/1854182074929885383",
+        "snippet": "Microsoft is moving Copilot plugins to the right pane of Copilot. They will now be found under \u201cAgents\u201d. This change applies to Desktop and Web across the ..."
+      },
+      {
+        "title": "Google Switch for Google Lens When searching for a location by ...",
+        "url": "https://x.com/cyb_detective/status/1866937536997646444",
+        "snippet": "Google Switch for Google Lens When searching for a location by photo: 1. First identify the country using AI (Geospy, Picarta etc) 2. Search for a picture ..."
+      },
+      {
+        "title": "I used to switch to Google.",
+        "url": "https://x.com/rauchg/status/1906405193392205874",
+        "snippet": "Whenever I'd have a question sparked by a post on @x, I used to switch to Google. I now ask Grok which is effortless and contextual. One tap away."
+      },
+      {
+        "title": "Google's AI Search Live is out, for US, English and looks incredible ...",
+        "url": "https://x.com/rohanpaul_ai/status/1970969070196441330",
+        "snippet": "For activation just tap the new Live icon under the search bar in the Google app or switch to Live from Google Lens to start a back-and-forth session with ..."
+      },
+      {
+        "title": "Everyone heading into @Google Cloud Next this week is bracing for ...",
+        "url": "https://x.com/furrier/status/2046428520847749464",
+        "snippet": "Everyone heading into @Google Cloud Next this week is bracing for another wave of AI announcements. More Gemini. More agents. More benchmarks."
+      },
+      {
+        "title": "finding local businesses, navigational search, Google Images/Lens ...",
+        "url": "https://x.com/lilyraynyc/status/1850967583123554793",
+        "snippet": "I can definitely say that (some of) my personal search behavior has shifted away from Google and toward ChatGPT pretty consistently in the past few months."
+      },
+      {
+        "title": "A weight is off my shoulders. I just canceled QuickBooks. Switched ...",
+        "url": "https://x.com/ColinGardiner/status/2041924585931620403",
+        "snippet": "I just canceled QuickBooks. Switched to Kick and it was so easy. Stripe, Mercury, and Chase integrations were nearly perfect."
+      },
+      {
+        "title": "Here's a pro tip from Founder & CEO, Pablo Martell. If you're still on ...",
+        "url": "https://x.com/AlpineMarHQ/status/2000959704239923446",
+        "snippet": "If you're still on desktop accounting software, it might be time to switch to QuickBooks Online. We recently helped a major client make the move, and the ..."
+      },
+      {
+        "title": "Is There Life After QuickBooks Desktop? It's Time to Consider Your ...",
+        "url": "https://x.com/WesternComputer/status/1799845164925485468",
+        "snippet": "Is There Life After QuickBooks Desktop? It's Time to Consider Your Alternatives. Find out how making the switch to Dynamics 365 Business Central can set ..."
+      },
+      {
+        "title": "Tired of QuickBooks and manual data entry? It's time to make the ...",
+        "url": "https://x.com/Aptean/status/1981753637165494663",
+        "snippet": "Aptean (@Aptean). 33 views. Tired of QuickBooks and manual data entry? It's time to make the switch to an ERP tailored for apparel."
+      },
+      {
+        "title": "Drew Cohen (@DrewCohenMoney) on X",
+        "url": "https://x.com/DrewCohenMoney/status/2032459225004224704",
+        "snippet": "They have a leg-up in winning those customers too as migrating from QuickBooks Online to Intuit Enterprise Switch is seamless as all of your data and audit ..."
+      },
+      {
+        "title": "siamkidd (@SiamKidd) on X",
+        "url": "https://x.com/SiamKidd/status/2028820929325810090",
+        "snippet": "The new introduction of net TAO inflow changes things slightly, and maybe a new update will change the landscape again, but either way, as an investor you ..."
+      },
+      {
+        "title": "Inflow (@Inflowpay) / Posts / X - Twitter",
+        "url": "https://x.com/Inflowpay",
+        "snippet": "Inflowpay has been selected to join the @Visa Accelerator Program, a global initiative supporting fintechs building the next generation of payment ..."
+      },
+      {
+        "title": "Sei (@SeiNetwork) / Posts and Replies / X - Twitter",
+        "url": "https://x.com/SeiNetwork/with_replies",
+        "snippet": "Welcome back to the @SeiNetwork Overview. In this edition, we explore Sei's latest mainnet upgrade, how the network is opting to improve AI micropayments, ..."
+      },
+      {
+        "title": "Micha\u00ebl van de Poppe (@CryptoMichNL) on X",
+        "url": "https://x.com/CryptoMichNL/status/1802748129411735709",
+        "snippet": "If we add up the current sentiment in the markets, then it might be switched. ... inflow as money is going from Bitcoin towards the remainder of the crypto ..."
+      },
+      {
+        "title": "Kevin Mehrabi (kevin.tez) (@KMehrabi) on X",
+        "url": "https://x.com/KMehrabi/status/1932132202252550396",
+        "snippet": "We must not design just for inflow. We must design for circulation. We must design for virtuous economic cycles and flywheel effects. We must design for ..."
+      }
+    ]
+  },
+  "appstore_reviews": {
+    "BinaryEye": 40476,
+    "Grocy": 29,
+    "Fullpack": 5,
+    "Sortly": 9253,
+    "Vixc": 0,
+    "itemit": 4,
+    "SearchPie": 449737,
+    "PhotoTag": 13,
+    "SKU IQ": 150,
+    "Stockful": 14355,
+    "Inventory Planner": 14184,
+    "Sklad": 1,
+    "HomeZada": 42,
+    "Stock Perfect": 40913,
+    "Odoo": 142,
+    "Google Lens": 4486573,
+    "CamFind": 519,
+    "QuickBooks": 229232,
+    "InFlow": 5541,
+    "Microsoft Copilot": 382300,
+    "Lightspeed": 63,
+    "Finale Inventory": 641,
+    "Zoho": 7924,
+    "Shopify": 34664,
+    "Square": 595762,
+    "KNIME": 14,
+    "Snowball Analytics": 2013,
+    "Power BI": 91955,
+    "RapidMiner": 118002,
+    "Looker Studio": 9,
+    "Photomyne": 89707
+  },
+  "competitors": [
+    {
+      "name": "Google Lens",
+      "description": "An image recognition app that identifies objects, translates text, and searches for similar images using a smartphone camera.",
+      "pricing": "free",
+      "strengths": [
+        "Excellent image recognition capabilities",
+        "Seamless integration with Google's ecosystem",
+        "Fast and accurate results"
+      ],
+      "weaknesses": [
+        "Google Lens is a general purpose tool, not designed for detailed inventory breakdown \u2014 unlike this app which provides in-depth item analysis.",
+        "Google Lens doesn't offer inventory management features \u2014 this app focuses on stock tracking and organisation",
+        "Google Lens results prioritize web searches rather than specific product identification which this app will do"
+      ],
+      "sentiment": "positive",
+      "category": "Adjacent",
+      "similarity_score": 45,
+      "mention_count": 7,
+      "engagement_score": 1500,
+      "sentiment_split": {
+        "positive": 85,
+        "neutral": 10,
+        "negative": 5
+      },
+      "dominant_complaint": "Not designed for inventory management",
+      "dominant_praise": "Accurate and fast",
+      "platform_split": "both",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.chance.vision/post/beyond-the-lens-11-image-recognition-apps-actually-worth-your-camera-roll-in-2026",
+        "https://nifty.ai/post/take-picture-how-much-something-worth",
+        "https://play.google.com/store/apps/details?id=com.google.ar.lens&hl=en_US",
+        "https://startup-house.com/blog/top-image-recognition-apps"
+      ]
+    },
+    {
+      "name": "Sortly",
+      "description": "An inventory management app with barcode scanning and stock tracking features designed for home and small business use.",
+      "pricing": "freemium",
+      "strengths": [
+        "Barcode scanning functionality",
+        "Stock tracking and management",
+        "User-friendly interface"
+      ],
+      "weaknesses": [
+        "Sortly relies on barcode scanning, not photo recognition \u2014 unlike this app, that directly uses imagery for inventory.",
+        "Sortly's reporting capabilities are limited compared to the detailed breakdown this app will provide"
+      ],
+      "sentiment": "positive",
+      "category": "Indirect",
+      "similarity_score": 50,
+      "mention_count": 2,
+      "engagement_score": 100,
+      "sentiment_split": {
+        "positive": 75,
+        "neutral": 15,
+        "negative": 10
+      },
+      "dominant_complaint": "Reporting can be limited",
+      "dominant_praise": "Easy to use with barcode scanning",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/InventoryManagement/comments/1i0fn1m/looking_for_a_free_cheap_tool_to_keep_track_of_my/",
+        "https://safetyculture.com/apps/inventory-management"
+      ]
+    },
+    {
+      "name": "InFlow",
+      "description": "An inventory management system designed for small to medium-sized businesses with features including order management and manufacturing.",
+      "pricing": "paid",
+      "strengths": [
+        "Order management",
+        "Manufacturing features",
+        "Scalable for growing businesses"
+      ],
+      "weaknesses": [
+        "InFlow doesn't support image-based recognition, relying on manual input \u2014 unlike this app which uses photos.",
+        "InFlow is complex and requires training compared to this app."
+      ],
+      "sentiment": "positive",
+      "category": "Indirect",
+      "similarity_score": 48,
+      "mention_count": 2,
+      "engagement_score": 90,
+      "sentiment_split": {
+        "positive": 80,
+        "neutral": 10,
+        "negative": 10
+      },
+      "dominant_complaint": "Can be complex to set up",
+      "dominant_praise": "Good for growing businesses",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://safetyculture.com/apps/inventory-management",
+        "https://www.forbes.com/advisor/business/software/best-inventory-management-software/"
+      ]
+    },
+    {
+      "name": "CamFind",
+      "description": "An app that allows users to search the physical world by taking a photo, returning shopping links and related items.",
+      "pricing": "unknown",
+      "strengths": [
+        "Ability to identify objects in real-world scenarios",
+        "Provides shopping links and local stores",
+        "User-friendly interface"
+      ],
+      "weaknesses": [
+        "CamFind provides general search results, not a detailed item breakdown \u2014 which this user will do.",
+        "CamFind does not manage inventory, this app focuses on that explicitly.",
+        "CamFind's accuracy can be inconsistent \u2014 unlike this app, which ensures detailed stock level tracking."
+      ],
+      "sentiment": "mixed",
+      "category": "Adjacent",
+      "similarity_score": 40,
+      "mention_count": 1,
+      "engagement_score": 50,
+      "sentiment_split": {
+        "positive": 60,
+        "neutral": 20,
+        "negative": 20
+      },
+      "dominant_complaint": "Accuracy can be inconsistent",
+      "dominant_praise": "Useful for identifying objects",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.chance.vision/post/beyond-the-lens-11-image-recognition-apps-actually-worth-your-camera-roll-in-2026"
+      ]
+    },
+    {
+      "name": "SKU IQ",
+      "description": "Inventory management app that integrates with point-of-sale systems, rated for ease of use.",
+      "pricing": "unknown",
+      "strengths": [
+        "Integration with point-of-sale systems",
+        "Ease of use"
+      ],
+      "weaknesses": [
+        "SKU IQ doesn't have image recognition, relying on manual input \u2014 unlike this app, which leverages photo-based identification.",
+        "SKU IQ may not provide detailed item breakdown compared to what this app will offer"
+      ],
+      "sentiment": "positive",
+      "category": "Indirect",
+      "similarity_score": 42,
+      "mention_count": 1,
+      "engagement_score": 30,
+      "sentiment_split": {
+        "positive": 85,
+        "neutral": 10,
+        "negative": 5
+      },
+      "dominant_complaint": "Lack of image recognition",
+      "dominant_praise": "Easy to use with point-of-sale integration",
+      "platform_split": "twitter",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://x.com/sku_iq/status/1815796770175131863/photo/1"
+      ]
+    }
+  ],
+  "market_score": 1.6,
+  "non_app_signals": [
+    "Spreadsheet system is a common workaround cited in many comments and articles."
+  ],
+  "differentiators": [
+    "Existing inventory apps rely largely on manual input or barcode based tracking, unlike this app, which utilizes AI-powered image recognition for streamlined item identification",
+    "Current options do not offer detailed inventory breakdowns based on image analysis \u2014 this app makes detailed object analysis a central focus.",
+    "Competing apps, such as Google Lens, are not built for inventory management; this app focuses specifically on stock tracking and organisation"
+  ],
+  "sources": [
+    "https://www.reddit.com/r/smallbusiness/comments/1rtkpck/how_are_you_handling_inventory_scanning_without/",
+    "https://www.reddit.com/r/sysadmin/comments/1g3f846/barcode_scanner_or_app_you_like_for_inventory/",
+    "https://www.reddit.com/r/InventoryManagement/comments/1qmie9a/what_features_do_you_look_for_in_a_simple/",
+    "https://www.reddit.com/r/LocalLLaMA/comments/1l4q7xf/i_built_an_app_that_turns_your_photos_into_smart/",
+    "https://www.reddit.com/r/Libraries/comments/1k6e260/app_to_scan_pictures_of_bookshelves_and_create/",
+    "https://www.reddit.com/r/InventoryManagement/comments/1i0fn1m/looking_for_a_free_cheap_tool_to_keep_track_of_my/",
+    "https://www.chance.vision/post/beyond-the-lens-11-image-recognition-apps-actually-worth-your-camera-roll-in-2026",
+    "https://nifty.ai/post/take-picture-how-much-something-worth",
+    "https://play.google.com/store/apps/details?id=com.google.ar.lens&hl=en_US",
+    "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/do-more-with-ai/general-ai/search-by-image-with-ai",
+    "https://startup-house.com/blog/top-image-recognition-apps",
+    "https://safetyculture.com/apps/inventory-management",
+    "https://www.netguru.com/blog/image-recognition-apps",
+    "https://x.com/sku_iq/status/1815796770175131863/photo/1"
+  ]
+}

@@ -1,0 +1,575 @@
+{
+  "timestamp": "2026-04-24_17-38-36",
+  "idea": "It aggregates news from multiple sources, clusters overlapping stories, and generates a single, continuously updated summary per topic.",
+  "conversation": [
+    {
+      "role": "user",
+      "content": "It aggregates news from multiple sources, clusters overlapping stories, and generates a single, continuously updated summary per topic."
+    },
+    {
+      "role": "assistant",
+      "content": "What makes it different from everything else out there?"
+    },
+    {
+      "role": "user",
+      "content": "Eliminates duplicate news by merging sources into one evolving, bias-balanced narrative."
+    },
+    {
+      "role": "assistant",
+      "content": "Who is it specifically for?"
+    },
+    {
+      "role": "user",
+      "content": "Busy professionals who want to stay informed without information overload."
+    }
+  ],
+  "core_features": [
+    "AI-powered news aggregation from diverse sources",
+    "Automatic clustering of overlapping news stories",
+    "Continuous, bias-balanced summary generation per topic"
+  ],
+  "app_candidates_phase1": [],
+  "queries": {
+    "reddit_phase1": [
+      "reddit: what aggregator eliminates duplicate news?",
+      "reddit: best app for summarizing news from multiple sources?",
+      "reddit: is there an app that automatically clusters news stories?",
+      "reddit: wish there was an app to merge news sources",
+      "reddit: looking for an app for bias-balanced news summaries",
+      "reddit: intitle:(\"tried every\" OR \"my ranking\") news aggregator app",
+      "reddit: why isn't there an app for continuously updated news summaries?"
+    ],
+    "twitter_phase1": [
+      "I hate news aggregator apps that show duplicate stories",
+      "every news app I use is biased",
+      "someone should build an app that summarizes overlapping news",
+      "I would pay for an app that merges multiple perspectives on one news topic",
+      "best news summarizer app for busy professionals?",
+      "recommendations for news apps that avoid information overload",
+      "what app do you use to get a balanced view of the news?"
+    ],
+    "reddit_phase2": [],
+    "twitter_phase2": []
+  },
+  "search_results": {
+    "reddit_phase1": [
+      {
+        "title": "Monarch need a way to easily switch between acount aggregators!",
+        "url": "https://www.reddit.com/r/MonarchMoney/comments/1oef70w/monarch_need_a_way_to_easily_switch_between/",
+        "snippet": "Monarch need a way to easily switch between acount aggregators! You shouldn't have to backup you data and then make a new connection."
+      },
+      {
+        "title": "Looking for best streaming service aggregator, what device or app ...",
+        "url": "https://www.reddit.com/r/cordcutters/comments/1rjt24q/looking_for_best_streaming_service_aggregator/",
+        "snippet": "For pure aggregation on a phone JustWatch is still the best option. Search once, see which of your services has it. Way faster than jumping between apps."
+      },
+      {
+        "title": "Vaisti - AI-powered news aggregator I built for Balkan region - Reddit",
+        "url": "https://www.reddit.com/r/iosapps/comments/1mzqx3g/vaisti_aipowered_news_aggregator_i_built_for/",
+        "snippet": "Removes clickbait, sensationalism, and duplicate stories automatically. Translates between 6 Balkan languages + English in real-time. Creates clean, neutral ..."
+      },
+      {
+        "title": "Looking for an Unbiased News App Alternative for iPhone - Reddit",
+        "url": "https://www.reddit.com/r/iphone/comments/1j5bny4/looking_for_an_unbiased_news_app_alternative_for/",
+        "snippet": "A news aggregator, something that pulls in stories from multiple sources and presents them in a straightforward, unbiased way, ready for me to read."
+      },
+      {
+        "title": "What apps are best for getting news? : r/degoogle - Reddit",
+        "url": "https://www.reddit.com/r/degoogle/comments/1q7ti9d/what_apps_are_best_for_getting_news/",
+        "snippet": "I want to stay up to date with current events without any political bias or slop. Can anyone recommend some apps or some websites, even youtube channels or ..."
+      },
+      {
+        "title": "17m how to start reading news so was looking for an app which one ...",
+        "url": "https://www.reddit.com/r/howto/comments/1ryb3i0/17m_how_to_start_reading_news_so_was_looking_for/",
+        "snippet": "Ground news helps to show how biased a headline/article can be by comparing news coverage on the same source info."
+      },
+      {
+        "title": "Built a news app that shows multiple sources covering each story",
+        "url": "https://www.reddit.com/r/SideProject/comments/1opt26u/built_a_news_app_that_shows_multiple_sources/",
+        "snippet": "Ever notice how you have to check multiple news apps to get the full picture of a breaking story? That's why we built Relative News. What it does:."
+      },
+      {
+        "title": "Frontpage is a minimalist news aggregator that clusters and ... - Reddit",
+        "url": "https://www.reddit.com/r/rss/comments/1rr6ddd/frontpage_is_a_minimalist_news_aggregator_that/",
+        "snippet": "Frontpage is a minimalist news aggregator that clusters and summarizes major stories into a single RSS feed. \u00b7 It analyzes sources every hour and groups articles ..."
+      },
+      {
+        "title": "Made an iOS news app that shows all sources covering each story ...",
+        "url": "https://www.reddit.com/r/iosapps/comments/1or92sd/made_an_ios_news_app_that_shows_all_sources/",
+        "snippet": "We're iOS engineers who got tired of jumping between different apps to see how various outlets cover the same story, so we built Relative News."
+      },
+      {
+        "title": "What's your 'I wish there was an app for that' moment? I'll build the ...",
+        "url": "https://www.reddit.com/r/SideProject/comments/1ilyycg/whats_your_i_wish_there_was_an_app_for_that/",
+        "snippet": "I'm a developer looking to build something genuinely useful. Instead of guessing what people need, I thought I'd ask directly: what's that recurring problem or ..."
+      },
+      {
+        "title": "Name a simple app that you guys would like to see developed. I am ...",
+        "url": "https://www.reddit.com/r/androidapps/comments/1heur6p/name_a_simple_app_that_you_guys_would_like_to_see/",
+        "snippet": "For videos Grayjay app is being developed). Combining multiple social networking sites info single feed would save a lot of time and phone's storage. Dividing ..."
+      },
+      {
+        "title": "My iOS app is getting downloads worldwide! : r/iosapps - Reddit",
+        "url": "https://www.reddit.com/r/iosapps/comments/1ryxwh2/my_ios_app_is_getting_downloads_worldwide/",
+        "snippet": "Ive been pouring all my free time after 9-5 into building an iOS app, i launched last week and idk whats going on, but ive had people from 15+ countries ..."
+      },
+      {
+        "title": "Looking for a good news summarizing app : r/ProductivityApps",
+        "url": "https://www.reddit.com/r/ProductivityApps/comments/1kak3to/looking_for_a_good_news_summarizing_app/",
+        "snippet": "I recommend trying the SmartNews app. It curates news from various sources into concise summaries, allowing you to stay informed without feeling overwhelmed."
+      },
+      {
+        "title": "Review of best AI summarizers : r/NoteTaking - Reddit",
+        "url": "https://www.reddit.com/r/NoteTaking/comments/1d2sutz/review_of_best_ai_summarizers/",
+        "snippet": "If you want a quick and free way to summarize articles, try 2ThePoint. \u2713 Extracts key points instantly \u2713 Works with just a link \u2013 no copy-pasting \u2713 100% free \u2713 ..."
+      },
+      {
+        "title": "Best app for news from lots of sources? : r/androidapps - Reddit",
+        "url": "https://www.reddit.com/r/androidapps/comments/1r25h05/best_app_for_news_from_lots_of_sources/",
+        "snippet": "Ground News and any RSS reader of your choice. I prefer Capy Reader personally. I've tried all the RSS readers and have had some issue with them."
+      },
+      {
+        "title": "What's your favorite Network Wiggles segment? My favorite is the ...",
+        "url": "https://www.reddit.com/r/wiggles/comments/1rrtf3p/whats_your_favorite_network_wiggles_segment_my/",
+        "snippet": "... Reddit insists on occasionally putting this subreddit in the feed and I just love ... My ranking of the Wiggles. 6. 20. Did the older wiggles just decide to sit ..."
+      },
+      {
+        "title": "Is this true? : r/GeminiAI - Reddit",
+        "url": "https://www.reddit.com/r/GeminiAI/comments/1sswfye/is_this_true/",
+        "snippet": "My ranking order. Claude then Gemini then Grok then OpenAi."
+      },
+      {
+        "title": "We tried every chore app, chart, and allowance system\u2026 so I built ...",
+        "url": "https://www.reddit.com/r/ParentingTech/comments/1oiefns/we_tried_every_chore_app_chart_and_allowance/",
+        "snippet": "It's a free, lightly gamified chore tracker designed to motivate kids without overcomplicating family life. It was also built with ADHD kids in mind\u2014those who ..."
+      },
+      {
+        "title": "Reddit App News Stories in Search section missing? : r/reddithelp",
+        "url": "https://www.reddit.com/r/reddithelp/comments/1pc00e0/reddit_app_news_stories_in_search_section_missing/",
+        "snippet": "When searching from the main page in the Reddit app, you used to get a list of trending topics/news stories but now theyre gone and I can only see\u2026"
+      },
+      {
+        "title": "What's going on with r/all? It seems to be gone. : r/OutOfTheLoop",
+        "url": "https://www.reddit.com/r/OutOfTheLoop/comments/1scr9j5/whats_going_on_with_rall_it_seems_to_be_gone/",
+        "snippet": "Answer: The r/all feature of reddit is currently being removed as part of reddit's feature to \"simplify and improve Home feed personalisation\", so all links to ..."
+      },
+      {
+        "title": "Best news app : r/androidapps - Reddit",
+        "url": "https://www.reddit.com/r/androidapps/comments/1ph43vk/best_news_app/",
+        "snippet": "Try SmartReadgo, Its an Audio first app for People who are on the move. Dedicated Drive Mode for Continuous Play of News - Listen to Smart Summaries and Full ..."
+      }
+    ],
+    "twitter_phase1": [
+      {
+        "title": "It's not just Apple News suppressing information, it's all of the Big ...",
+        "url": "https://x.com/theMRC/status/2046338392061776112",
+        "snippet": "It's not just Apple News suppressing information, it's all of the Big Four news apps. @nypost highlights MRC's reports on news apps pushing biased information ..."
+      },
+      {
+        "title": "this is clearly based on raw data. But then \"Try these AI-Powered ...",
+        "url": "https://x.com/pbeisel/status/1956483171450806417",
+        "snippet": "Consider the irony. Practically every news site embeds X links since news breaks on X first, but somehow X is not an essential News App. Make it make sense!"
+      },
+      {
+        "title": "Free Speech America",
+        "url": "https://x.com/FreeSpeechAmer/status/2047306441971655014",
+        "snippet": "Apple News was, once again, the most biased of the Big Four News Apps this morning, scoring only 2.5 on a 10-point scale. Apple News also blanked every ..."
+      },
+      {
+        "title": "The news reading experience is terrible and needs reinventing ...",
+        "url": "https://x.com/kayvz/status/1800562587220029861",
+        "snippet": "The news reading experience is terrible and needs reinventing. People deserve a better reading experience, and the ecosystem deserves a better fundamental ..."
+      },
+      {
+        "title": "Why did journalism become sentimental and biased. On this ... - Twitter",
+        "url": "https://x.com/Dojran2021/status/2042356016289914900",
+        "snippet": "Why did journalism become sentimental and biased. On this App journalists will take sides on every conversation and even get offended to point of insulting ..."
+      },
+      {
+        "title": "this is our new reality and there is a new thing about a specific topic ...",
+        "url": "https://x.com/paraxenod/status/2046888701943316513",
+        "snippet": "Our follower count does nothing for our reach anymore. 2. The algorithm decides how many people see our posts based on a PREDICTION, before anyone has seen it."
+      },
+      {
+        "title": "Ray Dalio (@RayDalio) on X",
+        "url": "https://x.com/RayDalio/status/1980328808193401079",
+        "snippet": "With well-built AI clones, rather than just listening to influencers and podcast interviews, you will be able to have conversations without limitations directly ..."
+      },
+      {
+        "title": "Put together a list of all the use cases I could find, feel free to add ...",
+        "url": "https://x.com/grahamkmann/status/2022399019386105978",
+        "snippet": "I went through 148 replies to Lenny's tweet, the Clawverse gallery, and Brandon Wang's writeup. Here's every use case I found. Some of these are practical."
+      },
+      {
+        "title": "David Steppenbeck (@dsteppenbeck) / Posts / X - Twitter",
+        "url": "https://x.com/dsteppenbeck",
+        "snippet": "I'd happily pay for my apps to get more in-depth reviews where Apple will request proof for bold claims in screenshots, deny dark-pattern paywalls etc. We need ..."
+      },
+      {
+        "title": "Casey Traina (@caseytraina) / Posts / X",
+        "url": "https://x.com/caseytraina",
+        "snippet": "For context, my show (Prof G Markets) reaches roughly a quarter of a million people per episode. So why on earth would OpenAI pay $200 million? One word: clips."
+      },
+      {
+        "title": "Rohit (@ai_rohitt) on X",
+        "url": "https://x.com/ai_rohitt/status/2047371657279672523",
+        "snippet": "Something broke in how I used AI this year. I stopped writing prompts and started building workspaces. Memory that survived sessions."
+      },
+      {
+        "title": "Ruben Hassid (@rubenhassid) on X",
+        "url": "https://x.com/rubenhassid/status/2046846514291786080",
+        "snippet": "So I wrote this guide with 3 goals: (1) the simplest steps to try, (2) the exact prompts that will make you say \u201cwait, I can really design this?\u201d, (3) an ..."
+      },
+      {
+        "title": "if you're interested in how Clawdbot works, this is a great read. this ...",
+        "url": "https://x.com/neilparikh/status/2017926424267485431",
+        "snippet": "what makes Clawdbot unique over say Poke is that people believe it can actually do novel things, install its own tools, talk to other Clawds, all through ..."
+      },
+      {
+        "title": "As a non-practising lawyer that just used Claude Code to build a ...",
+        "url": "https://x.com/garthwatson/status/2027530413455835487",
+        "snippet": "As a non-practising lawyer that just used Claude Code to build a mobile app, and having founded and scaled a legal tech company, and been heavily involved ..."
+      },
+      {
+        "title": "TheGhostRobot (@TheGhostRobot) / Posts / X - Twitter",
+        "url": "https://x.com/theghostrobot",
+        "snippet": "... Bulletin is a new AI-powered news reader that tackles clickbait and summarizes stories | TechCrunch."
+      },
+      {
+        "title": "It's about damn time you get serious about using AI for your work ...",
+        "url": "https://x.com/ArmanHezarkhani/status/2025589667358298219",
+        "snippet": "Writing and analysis: Claude (best for long-form, nuance, and reports) and ChatGPT (best for quick tasks, deep research, broad knowledge). Workflow automation: ..."
+      },
+      {
+        "title": "How to set up Claude Cowork the right way article summary in 4k ...",
+        "url": "https://x.com/MindBranches/status/2029303728579191223",
+        "snippet": "Claude Cowork is different. It lives on your desktop. It reads and writes to folders on your actual computer. It creates Word documents. It builds spreadsheets ..."
+      },
+      {
+        "title": "Best I've read today. I have it running and been tinkering ... - Twitter",
+        "url": "https://x.com/Evautoalex/status/2015550565779137004",
+        "snippet": "Clawdbot is everywhere on X right now. Mac Mini photos. Vague \"I automated everything\" claims. People calling it \"the future\" without explaining why."
+      },
+      {
+        "title": "Best breakdown of CoWork i've seen so far. Well done! I can't help to ...",
+        "url": "https://x.com/JJEnglert/status/2011845230409163247",
+        "snippet": "Anthropic built the entire thing in about ten days. Using Claude Code. Claude Max subscribers ($100 or $200/month) can use it now in the macOS Desktop app."
+      },
+      {
+        "title": "Hisham (@hishamabboud) / Posts / X - Twitter",
+        "url": "https://x.com/hishamabboud",
+        "snippet": "Hisham (@hishamabboud) - Posts - Founder/CEO of @cedruscorp . Former geek, now enjoying UI & industrial design, photography, work, a."
+      },
+      {
+        "title": "alkine (@alkineee) / Posts / X",
+        "url": "https://x.com/alkineee",
+        "snippet": "In market conditions like the past couple of days, there is a lot of swapping activity for LSTs on chain. Much of this swapping activity gets routed through INF ..."
+      },
+      {
+        "title": "LI.FI (@lifiprotocol) / Posts / X - Twitter",
+        "url": "https://x.com/lifiprotocol",
+        "snippet": "Every company with a digital asset strategy is exploring onchain yield. Introducing LI.\u200bFI Earn \u2013 the fastest way to launch and monetise an Earn feature."
+      },
+      {
+        "title": "Menachem Chayempour (@Menachem0) / Posts / X - Twitter",
+        "url": "https://x.com/Menachem0",
+        "snippet": "Menachem Chayempour (@Menachem0) - Posts - 3PL matchmaking for e-commerce and retail brands - Global network, vetted operators only | Founder ."
+      },
+      {
+        "title": "Jon Ma (@jonbma) / Highlights / X - Twitter",
+        "url": "https://x.com/jonbma/highlights",
+        "snippet": "On the traditional side, Alloy, Sardine, Persona and others provide identity verification, transaction monitoring, and fraud detection. These companies sit ..."
+      },
+      {
+        "title": "Nav Toor (@heynavtoor) on X",
+        "url": "https://x.com/heynavtoor/status/2045908636141252789",
+        "snippet": "AI was marketed as the solution to information overload. It would filter your emails. Summarize your documents. Automate your workflows. Handle the noise so ..."
+      },
+      {
+        "title": "PoIiMath (@politicalmath) on X",
+        "url": "https://x.com/politicalmath/status/2027022284611805619",
+        "snippet": "Information Overload on a Trust Deficit. The problems of ClawdBot / OpenClaw ... At the end of the day, the AI news cycle is just like most recent news cycles."
+      },
+      {
+        "title": "Zvi Mowshowitz (@TheZvi) on X - Twitter",
+        "url": "https://x.com/TheZvi/status/2021980108416844177",
+        "snippet": "There were broadly two categories, frontier models (Gemini, OpenAI and Anthropic), and productivity apps. The productivity app commercials were wild, lying ..."
+      },
+      {
+        "title": "Zvi Mowshowitz (@TheZvi) on X",
+        "url": "https://x.com/TheZvi/status/1867233627181818130",
+        "snippet": "The Sora delay does not matter on its own, and might partly be strategic in order to impact AI regulation down the line. They're overloaded anyway and video ..."
+      },
+      {
+        "title": "BOOX (@OnyxBoox) on X",
+        "url": "https://x.com/OnyxBoox/status/1901249827209453647",
+        "snippet": "ePaper, or electronic paper, is emerging as a viable solution to combatting digital overload, particularly for tech-savvy generations like Gen Z. Here are some ..."
+      },
+      {
+        "title": "X is the best app for fair and balanced news",
+        "url": "https://x.com/ElonMuskAOC/status/1872680339719827784",
+        "snippet": "X is the best app for fair and balanced news. Not Elon Musk's Image on X. 40. 15. 119. 14380 \u00b7 \u00b7 Explore Trending StoriesGo to HomeSearch XNews."
+      },
+      {
+        "title": "News360 (@news360) / Posts / X - Twitter",
+        "url": "https://x.com/news360",
+        "snippet": "Like custom news delivered to your phone, computer or tablet? The News360 app has your reading list covered."
+      },
+      {
+        "title": "Stay informed, not overwhelmed. @DispaReal brings you top stories ...",
+        "url": "https://x.com/YOUFM898/status/1948065575256633690",
+        "snippet": "... NewsHour ... your Wednesday news rundown with just the right balance of facts and perspective. \ud83c\udf99\ufe0f Tune in using the #YouConnect app or DSTV channel 842."
+      },
+      {
+        "title": "X Trends FAQ \u2013 trending hashtags and topics - X Help Center",
+        "url": "https://help.x.com/en/using-x/x-trending-faqs",
+        "snippet": "Trends are available on the X for iOS app, the X for Android app, and x.com. On X's mobile apps, you can find Trends listed under the Trends section of the ..."
+      },
+      {
+        "title": "Topics on X - X Help Center",
+        "url": "https://help.x.com/en/using-x/follow-and-unfollow-topics",
+        "snippet": "We want Topics on X to reflect the broader, lasting conversations people have about the events, people, and things they discuss."
+      }
+    ],
+    "reddit_phase2": [],
+    "twitter_phase2": []
+  },
+  "appstore_reviews": {},
+  "competitors": [
+    {
+      "name": "NewsBlur",
+      "description": "A news reader that combines RSS feeds, website subscriptions, and social stories into a single interface, with story clustering to avoid duplicates.",
+      "pricing": "Freemium",
+      "strengths": [
+        "Combines multiple sources into a single feed.",
+        "Offers story clustering to avoid seeing the same news multiple times.",
+        "Available on web and mobile devices."
+      ],
+      "weaknesses": [
+        "NewsBlur's story clustering focuses on aggregation rather than generating a bias-balanced narrative \u2014 unlike this app's unique selling point.",
+        "Manual setup of feeds required \u2014 no automatic AI-driven story selection.",
+        "Story clustering is based on simple matching, does not perform continuous, bias-balanced summary generation per topic."
+      ],
+      "sentiment": "Positive",
+      "category": "Direct",
+      "similarity_score": 75,
+      "mention_count": 3,
+      "engagement_score": 60,
+      "sentiment_split": {
+        "positive": 60,
+        "neutral": 30,
+        "negative": 10
+      },
+      "dominant_complaint": "Needs a better mobile interface.",
+      "dominant_praise": "Great for managing many sources in one place.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.newsblur.com/features/story-clustering"
+      ]
+    },
+    {
+      "name": "Ground News",
+      "description": "A news aggregator that shows multiple sources covering each story, highlighting potential bias by comparing coverage.",
+      "pricing": "Freemium",
+      "strengths": [
+        "Displays multiple sources for each story.",
+        "Highlights potential bias in news coverage.",
+        "Offers a community-driven bias rating system."
+      ],
+      "weaknesses": [
+        "Ground News shows multiple sources, but it doesn't merge them into a single, evolving narrative \u2014 whereas the proposed app does.",
+        "Limited focus on continuous, bias-balanced summary generation per topic.",
+        "Relies on user input for bias assessment, lacking automated bias-balancing AI."
+      ],
+      "sentiment": "Mixed",
+      "category": "Direct",
+      "similarity_score": 70,
+      "mention_count": 4,
+      "engagement_score": 80,
+      "sentiment_split": {
+        "positive": 50,
+        "neutral": 30,
+        "negative": 20
+      },
+      "dominant_complaint": "Bias ratings can be subjective.",
+      "dominant_praise": "Helps to understand different perspectives on a story.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/howto/comments/1ryb3i0/17m_how_to_start_reading_news_so_was_looking_for/",
+        "https://www.reddit.com/r/androidapps/comments/1r25h05/best_app_for_news_from_lots_of_sources/"
+      ]
+    },
+    {
+      "name": "SmartNews",
+      "description": "An app that curates news from various sources into concise summaries.",
+      "pricing": "Free",
+      "strengths": [
+        "Curates news from various sources.",
+        "Provides concise summaries of news stories.",
+        "Offers a clean and user-friendly interface."
+      ],
+      "weaknesses": [
+        "SmartNews creates concise summaries \u2014 but doesn't automatically balance bias or merge into a single evolving narrative, unlike this idea.",
+        "Limited AI-driven clustering of overlapping stories.",
+        "Lacks granular control over sources and bias assessment."
+      ],
+      "sentiment": "Positive",
+      "category": "Direct",
+      "similarity_score": 65,
+      "mention_count": 2,
+      "engagement_score": 40,
+      "sentiment_split": {
+        "positive": 70,
+        "neutral": 20,
+        "negative": 10
+      },
+      "dominant_complaint": "Summaries can be too brief.",
+      "dominant_praise": "Easy to stay informed quickly.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/ProductivityApps/comments/1kak3to/looking_for_a_good_news_summarizing_app/",
+        "https://www.reddit.com/r/androidapps/comments/1ph43vk/best_news_app/"
+      ]
+    },
+    {
+      "name": "Vaisti",
+      "description": "An AI-powered news aggregator for the Balkan region that removes clickbait, sensationalism, and duplicate stories and translates languages in real-time.",
+      "pricing": "Unknown",
+      "strengths": [
+        "Removes clickbait and sensationalism.",
+        "Translates between multiple languages.",
+        "AI-powered duplicate story removal."
+      ],
+      "weaknesses": [
+        "Vaisti focuses on regional news \u2013 it is not a global aggregator creating bias-balanced narratives, as the proposed app will be.",
+        "Language translation features are limited to Balkan languages + English.",
+        "AI is used for duplicate removal, but not continuous, bias-balanced summary generation per topic."
+      ],
+      "sentiment": "Positive",
+      "category": "Direct",
+      "similarity_score": 60,
+      "mention_count": 1,
+      "engagement_score": 20,
+      "sentiment_split": {
+        "positive": 80,
+        "neutral": 20,
+        "negative": 0
+      },
+      "dominant_complaint": "N/A",
+      "dominant_praise": "Clean and neutral news presentation.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://www.reddit.com/r/iosapps/comments/1mzqx3g/vaisti_aipowered_news_aggregator_i_built_for/"
+      ]
+    },
+    {
+      "name": "Rize",
+      "description": "A news app that uses AI to summarize stories.",
+      "pricing": "Unknown",
+      "strengths": [
+        "AI-summarized stories.",
+        "Focuses on concise news updates.",
+        "Available on iOS and macOS."
+      ],
+      "weaknesses": [
+        "Rize summarizes stories using AI, but it does not cluster them into a single, evolving narrative with balanced bias \u2013 this idea will.",
+        "Limited to the Apple ecosystem.",
+        "AI capabilities are limited to generating summaries, not advanced bias detection or narrative merging."
+      ],
+      "sentiment": "Positive",
+      "category": "Indirect",
+      "similarity_score": 55,
+      "mention_count": 1,
+      "engagement_score": 15,
+      "sentiment_split": {
+        "positive": 75,
+        "neutral": 25,
+        "negative": 0
+      },
+      "dominant_complaint": "N/A",
+      "dominant_praise": "Good for getting quick news summaries.",
+      "platform_split": "reddit",
+      "status_signal": "active",
+      "competitor_sources": [
+        "https://zapier.com/blog/best-news-apps/"
+      ]
+    }
+  ],
+  "market_score": 2.0,
+  "non_app_signals": [
+    "Manual RSS feed management is a common workaround, often cited by tech-savvy users."
+  ],
+  "differentiators": [
+    "NewsBlur's story clustering focuses on aggregation rather than generating a bias-balanced narrative \u2014 unlike this app's unique selling point.",
+    "Ground News shows multiple sources, but it doesn't merge them into a single, evolving narrative \u2014 whereas the proposed app does.",
+    "SmartNews creates concise summaries \u2014 but doesn't automatically balance bias or merge into a single evolving narrative, unlike this idea."
+  ],
+  "sources": [
+    "https://www.reddit.com/r/MonarchMoney/comments/1oef70w/monarch_need_a_way_to_easily_switch_between/",
+    "https://www.reddit.com/r/cordcutters/comments/1rjt24q/looking_for_best_streaming_service_aggregator/",
+    "https://www.reddit.com/r/iosapps/comments/1mzqx3g/vaisti_aipowered_news_aggregator_i_built_for/",
+    "https://www.reddit.com/r/iphone/comments/1j5bny4/looking_for_an_unbiased_news_app_alternative_for/",
+    "https://www.reddit.com/r/degoogle/comments/1q7ti9d/what_apps_are_best_for_getting_news/",
+    "https://www.reddit.com/r/howto/comments/1ryb3i0/17m_how_to_start_reading_news_so_was_looking_for/",
+    "https://www.reddit.com/r/SideProject/comments/1opt26u/built_a_news_app_that_shows_multiple_sources/",
+    "https://www.reddit.com/r/rss/comments/1rr6ddd/frontpage_is_a_minimalist_news_aggregator_that/",
+    "https://www.reddit.com/r/iosapps/comments/1or92sd/made_an_ios_news_app_that_shows_all_sources/",
+    "https://www.reddit.com/r/SideProject/comments/1ilyycg/whats_your_i_wish_there_was_an_app_for_that/",
+    "https://www.reddit.com/r/androidapps/comments/1heur6p/name_a_simple_app_that_you_guys_would_like_to_see/",
+    "https://www.reddit.com/r/iosapps/comments/1ryxwh2/my_ios_app_is_getting_downloads_worldwide/",
+    "https://www.reddit.com/r/ProductivityApps/comments/1kak3to/looking_for_a_good_news_summarizing_app/",
+    "https://www.reddit.com/r/NoteTaking/comments/1d2sutz/review_of_best_ai_summarizers/",
+    "https://www.reddit.com/r/androidapps/comments/1r25h05/best_app_for_news_from_lots_of_sources/",
+    "https://www.reddit.com/r/wiggles/comments/1rrtf3p/whats_your_favorite_network_wiggles_segment_my/",
+    "https://www.reddit.com/r/GeminiAI/comments/1sswfye/is_this_true/",
+    "https://www.reddit.com/r/ParentingTech/comments/1oiefns/we_tried_every_chore_app_chart_and_allowance/",
+    "https://www.reddit.com/r/reddithelp/comments/1pc00e0/reddit_app_news_stories_in_search_section_missing/",
+    "https://www.reddit.com/r/OutOfTheLoop/comments/1scr9j5/whats_going_on_with_rall_it_seems_to_be_gone/",
+    "https://www.reddit.com/r/androidapps/comments/1ph43vk/best_news_app/",
+    "https://x.com/theMRC/status/2046338392061776112",
+    "https://x.com/pbeisel/status/1956483171450806417",
+    "https://x.com/FreeSpeechAmer/status/2047306441971655014",
+    "https://x.com/kayvz/status/1800562587220029861",
+    "https://x.com/Dojran2021/status/2042356016289914900",
+    "https://x.com/paraxenod/status/2046888701943316513",
+    "https://x.com/RayDalio/status/1980328808193401079",
+    "https://x.com/grahamkmann/status/2022399019386105978",
+    "https://x.com/dsteppenbeck",
+    "https://x.com/caseytraina",
+    "https://x.com/ai_rohitt/status/2047371657279672523",
+    "https://x.com/rubenhassid/status/2046846514291786080",
+    "https://x.com/neilparikh/status/2017926424267485431",
+    "https://x.com/garthwatson/status/2027530413455835487",
+    "https://x.com/TheGhostRobot",
+    "https://x.com/ArmanHezarkhani/status/2025589667358298219",
+    "https://x.com/MindBranches/status/2029303728579191223",
+    "https://x.com/Evautoalex/status/2015550565779137004",
+    "https://x.com/JJEnglert/status/2011845230409163247",
+    "https://x.com/hishamabboud",
+    "https://x.com/alkineee",
+    "https://x.com/lifiprotocol",
+    "https://x.com/Menachem0",
+    "https://x.com/jonbma/highlights",
+    "https://x.com/heynavtoor/status/2045908636141252789",
+    "https://x.com/politicalmath/status/2027022284611805619",
+    "https://www.keywordinsights.ai/blog/keyword-clustering-tools/",
+    "https://prlab.co/blog/the-best-media-monitoring-tools-for-news-and-social-media/",
+    "https://www.newsblur.com/features/story-clustering",
+    "https://finance.yahoo.com/sectors/technology/articles/keyword-cupid-upgrades-semantic-keyword-173200745.html",
+    "https://www.groundcover.com/blog/observability-tools",
+    "https://www.displayr.com/discover-the-5-best-ai-tools-for-qualitative-data-analysis/",
+    "https://www.jotform.com/ai/best-ai-summarizer/",
+    "https://natesnewsletter.substack.com/p/the-ai-productivity-stack-27-tools",
+    "https://paperguide.ai/blog/ai-research-paper-summarizers/",
+    "https://standard-insights.com/blog/ai-market-research-tools/",
+    "https://aws.amazon.com/blogs/industries/near-real-time-news-clustering-and-summarization-for-fsi/",
+    "https://www.link-assistant.com/rankdots/blog/keyword-clustering-tools.html",
+    "https://zapier.com/blog/best-news-apps/",
+    "https://newztiq.ai/blogs/blog?slug=best-news-aggregator-apps-2025",
+    "https://www.figma.com/solutions/ai-news-aggregator/"
+  ]
+}
