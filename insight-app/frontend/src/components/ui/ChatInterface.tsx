@@ -8,6 +8,7 @@ import { type ChatMessage } from '../../services/api';
 
 interface Props {
   onSubmit: (idea: string, conversation: ChatMessage[]) => void;
+  onTest?: () => void;
 }
 
 const QUESTIONS = [
@@ -31,7 +32,7 @@ const QUESTIONS = [
   },
 ];
 
-export default function ChatInterface({ onSubmit }: Props) {
+export default function ChatInterface({ onSubmit, onTest }: Props) {
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState(['', '', '']);
   const [input, setInput] = useState('');
@@ -210,6 +211,15 @@ export default function ChatInterface({ onSubmit }: Props) {
           Tell us about your idea
         </h1>
         <p className="text-zinc-400 text-sm font-light leading-[28px]">3 questions. That's it.</p>
+
+        {onTest && (
+          <button
+            onClick={onTest}
+            className="mt-4 text-[11px] text-stone-400 border border-stone-200 px-3 py-1 rounded-lg hover:bg-stone-100 transition-colors"
+          >
+            Test UI
+          </button>
+        )}
       </div>
 
       {/* ── Question tiles ──────────────────────────────────────── */}

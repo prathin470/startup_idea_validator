@@ -165,6 +165,11 @@ const mockPersonaData: PersonaData = {
 };
 
 
+/* ── Saved session result — anxiety co-pilot run 2026-04-24 ─────────────
+   Used by the Test button to skip the API and jump straight to the
+   competitor screen for UI screenshots. Remove when no longer needed. */
+const testSessionData: AnalyseResult = {"competitors":[{"name":"BetterMe","description":"A personalized wellness app promoting habit formation through coaching and tailored plans.","pricing":"paid","strengths":["Provides somatic and habit-based approaches to overall well-being.","Offers personalized wellness plans addressing various needs."],"weaknesses":["BetterMe focuses on overall well-being, not specifically for acute anxiety or guided CBT techniques in the moment.","Does not guarantee a steady state in 300 seconds or less"],"sentiment":"mixed","category":"Indirect","similarity_score":55,"mention_count":1,"engagement_score":600,"sentiment_split":{"positive":60,"neutral":25,"negative":15},"dominant_complaint":"Some plans are ineffective and expensive.","dominant_praise":"Offers various supports for bettering yourself.","platform_split":"reddit","status_signal":"active","competitor_sources":["https://elfinahealth.com/blog/best-mental-health-apps-2025"]},{"name":"Insight Timer","description":"A meditation app providing guided and unguided meditations.","pricing":"freemium","strengths":["Offers many free high-quality meditations.","Allows customization of timer settings."],"weaknesses":["Insight Timer does not offer the guided voice co-pilot focusing on evidence-based CBT, somatic grounding and breath regulation.","Does not return the user to a steady state in 300 seconds"],"sentiment":"positive","category":"Indirect","similarity_score":45,"mention_count":5,"engagement_score":550,"sentiment_split":{"positive":75,"neutral":20,"negative":5},"dominant_complaint":"Too many options can be overwhelming.","dominant_praise":"Lots of great free meditations.","platform_split":"reddit","status_signal":"active","competitor_sources":["https://www.reddit.com/r/Meditation/comments/1kz7t14/"]},{"name":"How We Feel","description":"An app that helps you understand and explore your feelings.","pricing":"free","strengths":["Utilizes an approach to deeply understand emotions.","Offers tools to help in exploring feelings."],"weaknesses":["How We Feel does not offer the anxiety-curbing techniques for people.","Does not bring someone to a steady state in 300 seconds like user's product"],"sentiment":"positive","category":"Adjacent","similarity_score":30,"mention_count":1,"engagement_score":100,"sentiment_split":{"positive":80,"neutral":15,"negative":5},"dominant_complaint":"Interface lacks features.","dominant_praise":"Helps understand feelings.","platform_split":"reddit","status_signal":"active","competitor_sources":["https://www.reddit.com/r/selfcare/comments/1hmadi8/"]},{"name":"relif","description":"An app designed to ease anxiety and stress through evidence-based techniques.","pricing":"unknown","strengths":["Uses EMDR-inspired exercises and somatic regulation.","Provides grounding exercises and guided visualisations."],"weaknesses":["Relif isn't tailored to provide a guided experience like a co-pilot during high-anxiety moments.","Its effectiveness in bringing someone to a steady state in 300 seconds is unknown."],"sentiment":"positive","category":"Direct","similarity_score":65,"mention_count":1,"engagement_score":100,"sentiment_split":{"positive":90,"neutral":5,"negative":5},"dominant_complaint":"Requires in-app purchases.","dominant_praise":"Provides many helpful techniques.","platform_split":"reddit","status_signal":"active","competitor_sources":["https://apps.apple.com/sa/app/relif-ease-anxiety-stress/id6741208765"]},{"name":"Headspace","description":"A meditation and mindfulness app focusing on reducing stress and enhancing focus.","pricing":"paid","strengths":["Extensive library of guided meditations.","Addresses both stress reduction and focus enhancement."],"weaknesses":["Headspace is a meditation app, but not a co-pilot when in moments of chaos.","Does not use CBT, somatic grounding or personalized breath regulation."],"sentiment":"mixed","category":"Adjacent","similarity_score":35,"mention_count":1,"engagement_score":400,"sentiment_split":{"positive":65,"neutral":20,"negative":15},"dominant_complaint":"Subscription is expensive for limited content.","dominant_praise":"User-friendly interface and effective.","platform_split":"reddit","status_signal":"active","competitor_sources":["https://www.reddit.com/r/Meditation/comments/1ha1keu/"]},{"name":"Calm","description":"A meditation and relaxation app featuring guided meditations and sleep stories.","pricing":"paid","strengths":["Offers a broad range of guided meditations.","Provides effective relaxation techniques and sleep stories."],"weaknesses":["Calm focuses on general relaxation, but isn't for moments of chaos when you need a quick solution.","Does not return user to steady state within 300 seconds."],"sentiment":"mixed","category":"Adjacent","similarity_score":35,"mention_count":1,"engagement_score":400,"sentiment_split":{"positive":65,"neutral":20,"negative":15},"dominant_complaint":"Subscription is expensive for limited content.","dominant_praise":"User-friendly interface and effective meditations.","platform_split":"reddit","status_signal":"active","competitor_sources":["https://www.reddit.com/r/Meditation/comments/1ha1keu/"]}],"differentiators":["Unlike BetterMe, this app targets acute anxiety moments with an immediate guided experience.","Compared to Insight Timer, this app offers a structured co-pilot utilising CBT, somatic grounding, and breath regulation techniques.","Where existing solutions may require a longer duration, this app brings the user to a steady state in 300 seconds."],"sources":["https://www.reddit.com/r/Meditation/comments/1kz7t14/","https://www.reddit.com/r/selfcare/comments/1hmadi8/","https://elfinahealth.com/blog/best-mental-health-apps-2025","https://apps.apple.com/sa/app/relif-ease-anxiety-stress/id6741208765"],"market_score":1.8,"niche_evaluation":undefined,"personas":[]};
+
 export default function App() {
   const [phase, setPhase] = useState<Phase>('chat');
   const [competitorData, setCompetitorData] = useState<AnalyseResult | null>(null);
@@ -184,6 +189,11 @@ export default function App() {
       <p className="text-zinc-400 text-sm">Something went wrong. Please refresh the page.</p>
     </div>
   );
+
+  function handleTest() {
+    setCompetitorData(testSessionData);
+    setPhase('competitors');
+  }
 
   function handleChatSubmit(idea: string, conversation: ChatMessage[]) {
     ideaRef.current = idea;
@@ -208,10 +218,21 @@ export default function App() {
   }
 
   return withBoundary(
-    <div className="min-h-screen bg-gradient-to-br from-amber-50/60 via-stone-50 to-white">
+    <div
+      className="min-h-screen"
+      style={{
+        backgroundColor: '#fdf8f2',
+        backgroundImage: [
+          /* Horizontal ruled lines — 28px spacing, 1px rule, same warm tone as the page */
+          'repeating-linear-gradient(transparent, transparent 27px, rgba(190,165,130,0.22) 27px, rgba(190,165,130,0.22) 28px)',
+          /* Left margin line — classic notebook red, very faint */
+          'linear-gradient(to right, transparent 72px, rgba(220,130,110,0.18) 72px, rgba(220,130,110,0.18) 73px, transparent 73px)',
+        ].join(', '),
+      }}
+    >
       {phase === 'chat' && (
         <>
-          <ChatInterface onSubmit={handleChatSubmit} />
+          <ChatInterface onSubmit={handleChatSubmit} onTest={handleTest} />
           {analyseError && (
             <div className="fixed bottom-6 left-1/2 -translate-x-1/2 bg-red-50 border border-red-200 text-red-600 text-sm px-5 py-3 rounded-xl shadow-sm max-w-lg text-center">
               Analysis failed: {analyseError}. Check the backend is running and try again.
