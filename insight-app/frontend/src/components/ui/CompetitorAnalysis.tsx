@@ -38,7 +38,7 @@ const STATUS_CONFIG: Record<string, { label: string; dot: string; text: string }
 const PRICING_CONFIG: Record<string, { label: string; bg: string; text: string; border: string }> = {
   free:     { label: 'Free',     bg: 'bg-emerald-50', text: 'text-emerald-600', border: 'border-emerald-200' },
   paid:     { label: 'Paid',     bg: 'bg-zinc-100',   text: 'text-zinc-500',   border: 'border-zinc-200'   },
-  freemium: { label: 'Freemium', bg: 'bg-violet-50',  text: 'text-violet-600', border: 'border-violet-200' },
+  freemium: { label: 'Freemium', bg: 'bg-amber-50',  text: 'text-amber-600', border: 'border-amber-200' },
   unknown:  { label: '?',        bg: 'bg-zinc-50',    text: 'text-zinc-400',   border: 'border-zinc-100'   },
 };
 
@@ -90,7 +90,7 @@ function NicheEvaluationBox({ evaluation }: { evaluation: NicheEvaluation }) {
           <div className="flex flex-col gap-3">
             {evaluation.suggestions.map((s, i) => (
               <div key={i} className="flex items-start gap-2.5">
-                <span className="w-5 h-5 rounded-full bg-violet-50 border border-violet-100 flex items-center justify-center text-[10px] font-bold text-violet-500 shrink-0 mt-0.5">
+                <span className="w-5 h-5 rounded-full bg-amber-50 border border-amber-100 flex items-center justify-center text-[10px] font-bold text-amber-500 shrink-0 mt-0.5">
                   {i + 1}
                 </span>
                 <p className="text-sm text-zinc-700 leading-snug">{s}</p>
@@ -288,7 +288,7 @@ function EvaluationStatement({ competitors, differentiators }: { competitors: Co
           <div className="flex flex-col gap-3">
             {differentiators.map((d, i) => (
               <div key={i} className="flex items-start gap-2.5">
-                <span className="w-5 h-5 rounded-full bg-violet-50 border border-violet-100 flex items-center justify-center text-[10px] font-bold text-violet-500 shrink-0 mt-0.5">
+                <span className="w-5 h-5 rounded-full bg-amber-50 border border-amber-100 flex items-center justify-center text-[10px] font-bold text-amber-500 shrink-0 mt-0.5">
                   {i + 1}
                 </span>
                 <p className="text-sm text-zinc-700 leading-snug">{d}</p>
@@ -333,7 +333,7 @@ function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: nu
       <div className="grid h-full [transform-style:preserve-3d] transition-[transform] duration-700 ease-in-out group-hover:[transform:rotateY(180deg)]">
 
         {/* ── FRONT — name and comparison score only ── */}
-        <div className="[grid-area:1/1] h-full [backface-visibility:hidden] bg-white rounded-xl shadow-sm border border-zinc-100 group-hover:border-violet-200 flex flex-col items-center justify-center px-6 py-8 text-center gap-3">
+        <div className="[grid-area:1/1] h-full [backface-visibility:hidden] bg-white rounded-xl shadow-sm border border-zinc-100 group-hover:border-amber-200 flex flex-col items-center justify-center px-6 py-8 text-center gap-3">
 
           {/* Rank avatar — colour-coded by similarity score */}
           <div className={`w-16 h-16 rounded-2xl flex items-center justify-center text-2xl font-bold ${avatarColor}`}>
@@ -511,7 +511,7 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
 
         {/* Page header */}
         <div className="mb-8">
-          <p className="text-xs font-bold tracking-[0.25em] text-violet-500 uppercase mb-4">◆ Insight</p>
+          <p className="text-xs font-bold tracking-[0.25em] text-amber-500 uppercase mb-4">◆ Insight</p>
           <h1 className="text-[2.6rem] font-extrabold text-zinc-900 leading-tight tracking-tight">
             Competitor Landscape
           </h1>
@@ -555,7 +555,7 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[11px] text-violet-500 hover:text-violet-700 hover:underline truncate block"
+                    className="text-[11px] text-amber-500 hover:text-amber-700 hover:underline truncate block"
                   >
                     {url}
                   </a>

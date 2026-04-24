@@ -42,7 +42,7 @@ interface Props {
 /* ── Helpers ─────────────────────────────────────────────────────────── */
 
 const AVATAR_COLORS = [
-  'bg-violet-100 text-violet-700',
+  'bg-amber-100 text-amber-700',
   'bg-amber-100 text-amber-700',
   'bg-emerald-100 text-emerald-700',
   'bg-sky-100 text-sky-700',
@@ -84,7 +84,7 @@ function PersonaCard({
       <div className="grid h-full [transform-style:preserve-3d] transition-[transform] duration-700 ease-in-out group-hover:[transform:rotateY(180deg)]">
 
         {/* ── FRONT — name, age, role only ── */}
-        <div className="[grid-area:1/1] h-full [backface-visibility:hidden] bg-white rounded-xl shadow-sm border border-zinc-100 group-hover:border-violet-200 flex flex-col items-center justify-center px-6 py-8 text-center gap-3">
+        <div className="[grid-area:1/1] h-full [backface-visibility:hidden] bg-white rounded-xl shadow-sm border border-zinc-100 group-hover:border-amber-200 flex flex-col items-center justify-center px-6 py-8 text-center gap-3">
           <div className={`w-16 h-16 rounded-2xl flex items-center justify-center text-2xl font-bold ${colorClass}`}>
             {initials}
           </div>
@@ -101,7 +101,7 @@ function PersonaCard({
         </div>
 
         {/* ── BACK — full detail card, rotated 180° to start hidden ── */}
-        <div className="[grid-area:1/1] h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-white rounded-xl shadow-md border border-violet-200 flex flex-col overflow-hidden">
+        <div className="[grid-area:1/1] h-full [backface-visibility:hidden] [transform:rotateY(180deg)] bg-white rounded-xl shadow-md border border-amber-200 flex flex-col overflow-hidden">
 
           <div className="px-4 pt-4 pb-3">
             <div className="flex items-center gap-2.5 mb-3">
@@ -139,14 +139,14 @@ function PersonaCard({
               </p>
             </div>
             <div className="w-full h-1 bg-zinc-100 rounded-full overflow-hidden">
-              <div className="h-full rounded-full bg-violet-500" style={{ width: `${persona.ideaScore * 10}%` }} />
+              <div className="h-full rounded-full bg-amber-500" style={{ width: `${persona.ideaScore * 10}%` }} />
             </div>
           </div>
 
           <div className="px-4 pb-4 flex gap-2 mt-auto">
             <button
               onClick={e => { e.stopPropagation(); onViewJourney(); }}
-              className="flex-1 text-[11px] font-semibold text-violet-600 bg-violet-50 border border-violet-100 px-3 py-1.5 rounded-lg hover:bg-violet-100 transition-colors"
+              className="flex-1 text-[11px] font-semibold text-amber-600 bg-amber-50 border border-amber-100 px-3 py-1.5 rounded-lg hover:bg-amber-100 transition-colors"
             >
               View Journey
             </button>
@@ -191,12 +191,12 @@ function SourceProgressTracker() {
 
                 {/* Milestone dot */}
                 <div className={`w-[18px] h-[18px] rounded-full border-2 flex items-center justify-center shrink-0 z-10 bg-white ${
-                  s === 'done'   ? 'border-violet-500 bg-violet-500' :
-                  s === 'active' ? 'border-violet-400'               :
+                  s === 'done'   ? 'border-amber-500 bg-amber-500' :
+                  s === 'active' ? 'border-amber-400'               :
                                    'border-zinc-300'
                 }`}>
                   {s === 'done'   && <span className="text-white text-[9px] font-bold leading-none">✓</span>}
-                  {s === 'active' && <span className="w-2 h-2 rounded-full bg-violet-400 animate-pulse" />}
+                  {s === 'active' && <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />}
                 </div>
 
                 {/* Label */}
@@ -208,7 +208,7 @@ function SourceProgressTracker() {
                   </p>
                   <p className={`text-[10px] font-light mt-0.5 ${
                     s === 'done'    ? 'text-emerald-500' :
-                    s === 'active'  ? 'text-violet-400'  :
+                    s === 'active'  ? 'text-amber-400'  :
                                      'text-zinc-300'
                   }`}>
                     {s === 'done' ? 'Complete' : s === 'active' ? 'Scraping...' : 'Queued'}
@@ -325,7 +325,7 @@ function JourneyModal({ persona, colorClass, onClose }: { persona: Persona; colo
                 <div className="w-48 flex flex-col rounded-xl border border-zinc-100 overflow-hidden">
                   <div className="px-4 pt-4 pb-3">
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="w-5 h-5 rounded-full bg-violet-100 text-violet-600 text-[10px] font-bold flex items-center justify-center shrink-0">
+                      <span className="w-5 h-5 rounded-full bg-amber-100 text-amber-600 text-[10px] font-bold flex items-center justify-center shrink-0">
                         {i + 1}
                       </span>
                       <p className="text-xs font-bold text-zinc-800 leading-tight">{step.title}</p>
@@ -426,7 +426,7 @@ function ChatPopup({ persona, colorClass, onClose }: { persona: Persona; colorCl
           <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
             <div className={`max-w-[85%] text-[11px] leading-relaxed whitespace-pre-wrap px-3 py-2 rounded-xl
               ${msg.role === 'user'
-                ? 'bg-violet-600 text-white rounded-br-sm'
+                ? 'bg-amber-600 text-white rounded-br-sm'
                 : 'bg-zinc-50 text-zinc-700 border border-zinc-100 rounded-bl-sm'
               }`}
             >
@@ -439,9 +439,9 @@ function ChatPopup({ persona, colorClass, onClose }: { persona: Persona; colorCl
           <div className="flex justify-start">
             <div className="bg-zinc-50 border border-zinc-100 px-3 py-2 rounded-xl rounded-bl-sm">
               <div className="flex gap-1 items-center">
-                <span className="w-1.5 h-1.5 bg-violet-400 rounded-full animate-bounce [animation-delay:0ms]" />
-                <span className="w-1.5 h-1.5 bg-violet-400 rounded-full animate-bounce [animation-delay:150ms]" />
-                <span className="w-1.5 h-1.5 bg-violet-400 rounded-full animate-bounce [animation-delay:300ms]" />
+                <span className="w-1.5 h-1.5 bg-amber-400 rounded-full animate-bounce [animation-delay:0ms]" />
+                <span className="w-1.5 h-1.5 bg-amber-400 rounded-full animate-bounce [animation-delay:150ms]" />
+                <span className="w-1.5 h-1.5 bg-amber-400 rounded-full animate-bounce [animation-delay:300ms]" />
               </div>
             </div>
           </div>
@@ -469,7 +469,7 @@ function ChatPopup({ persona, colorClass, onClose }: { persona: Persona; colorCl
         <button
           onClick={sendMessage}
           disabled={!input.trim() || isLoading}
-          className="bg-violet-600 hover:bg-violet-500 disabled:bg-zinc-100 disabled:text-zinc-300 text-white text-[11px] font-semibold px-3 py-2 rounded-lg shrink-0 transition-colors"
+          className="bg-amber-600 hover:bg-amber-500 disabled:bg-zinc-100 disabled:text-zinc-300 text-white text-[11px] font-semibold px-3 py-2 rounded-lg shrink-0 transition-colors"
         >
           Send
         </button>
@@ -503,7 +503,7 @@ export default function PersonaAnalysis({ data, onBack }: Props) {
               ← Back to Competitor Landscape
             </button>
           )}
-          <p className="text-xs font-bold tracking-[0.25em] text-violet-500 uppercase mb-4">◆ Insight</p>
+          <p className="text-xs font-bold tracking-[0.25em] text-amber-500 uppercase mb-4">◆ Insight</p>
           <h1 className="text-[2.6rem] font-extrabold text-zinc-900 leading-tight tracking-tight">User Personas</h1>
           <p className="text-zinc-400 mt-2 text-sm font-light">
             {data.personas.length} distinct personas identified from Reddit research. Click any card to explore.
