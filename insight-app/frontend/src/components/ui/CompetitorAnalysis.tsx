@@ -496,11 +496,11 @@ export default function CompetitorAnalysis({ data, onNext, onBack }: Props) {
           </p>
         </div>
 
-        {/* Competitor tiles — shown first so the user sees the landscape immediately */}
-        <CompetitorsRow competitors={data.competitors} />
-
         {/* Niche fit — audience-specific gap */}
         {data.niche_evaluation && <NicheEvaluationBox evaluation={data.niche_evaluation} />}
+
+        {/* Competitor tiles — below niche fit, above market assessment */}
+        <CompetitorsRow competitors={data.competitors} />
 
         {/* Evaluation statement — verdict + score + edge */}
         <EvaluationStatement competitors={data.competitors} differentiators={data.differentiators} />
