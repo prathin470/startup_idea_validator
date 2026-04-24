@@ -168,7 +168,6 @@ function PersonaCard({
 type SourceStatus = 'done' | 'active' | 'pending';
 
 const SOURCES: { name: string; status: SourceStatus }[] = [
-  { name: 'Twitter',  status: 'done'   },
   { name: 'LinkedIn', status: 'done'   },
   { name: 'Reddit',   status: 'done'   },
   { name: 'Forums',   status: 'active' },

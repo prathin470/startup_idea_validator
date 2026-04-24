@@ -27,13 +27,13 @@ export interface Competitor {
   similarity_score?: number;
   /* Direct / Adjacent / Substitute / Graveyard / Mechanism analog */
   category?: string;
-  /* Evidence capture — derived from Reddit + Twitter mention analysis */
+  /* Evidence capture — derived from Reddit mention analysis */
   mention_count?: number;
   engagement_score?: number;
   sentiment_split?: { positive: number; neutral: number; negative: number };
   dominant_complaint?: string;
   dominant_praise?: string;
-  /* "reddit" | "twitter" | "both" */
+  /* "reddit" | "both" */
   platform_split?: string;
   /* "active" | "declining" | "dead" */
   status_signal?: string;
@@ -46,12 +46,23 @@ export interface Persona {
   desires: string[];
 }
 
+/* Audience-specific niche fit evaluation returned by /analyse.
+   Separate from market_score — answers "do existing tools actually serve
+   the specific audience this idea targets, or are they all generic?" */
+export interface NicheEvaluation {
+  audience: string;       // precise target audience extracted from the conversation
+  niche_score: number;    // 0–10 — how underserved this audience is by existing tools
+  gap_summary: string;    // why competitors structurally miss this audience, by name
+  suggestions: string[];  // actionable ways to deepen niche fit, audience-specific
+}
+
 export interface AnalyseResult {
   competitors: Competitor[];
   personas: Persona[];
   differentiators: string[];
   sources: string[];
   market_score: number;
+  niche_evaluation?: NicheEvaluation;
 }
 
 /* Sends the original idea + full conversation to /analyse.
