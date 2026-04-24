@@ -4,7 +4,7 @@
    pricing, status_signal, mention_count) are now surfaced in the UI.
    platform_split field is retained in the type but not used for display. */
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { type Competitor, type AnalyseResult, type NicheEvaluation } from '../../services/api';
 
 interface Props {
@@ -310,7 +310,11 @@ function EvaluationStatement({ competitors, differentiators }: { competitors: Co
    exceeds the fixed height is clamped (line-clamp) rather than stretching the card.
    The flip mechanism mirrors PersonaCard: perspective → grid-stacked faces →
    rotateY(180deg) on group-hover. */
-function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: number }) {
+function CompetitorCard({ competitor, rank, onOpenModal }: {
+  competitor: Competitor;
+  rank: number;
+  onOpenModal: (view: 'strengths' | 'weaknesses') => void;
+}) {
   const score      = competitor.similarity_score ?? 0;
   const style      = similarityStyle(score);
   const statusCfg  = competitor.status_signal ? (STATUS_CONFIG[competitor.status_signal] ?? STATUS_CONFIG.active) : null;
@@ -398,41 +402,108 @@ function CompetitorCard({ competitor, rank }: { competitor: Competitor; rank: nu
             </div>
           </div>
 
-          {/* Strengths + weaknesses — overflow-hidden prevents content from
-              escaping the fixed card height; line-clamp keeps items compact */}
-          <div className="border-t border-zinc-100 px-4 py-3 flex-1 overflow-hidden space-y-2.5">
-            <div>
-              <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-1">Strengths</p>
-              <ul className="space-y-0.5">
-                {competitor.strengths.slice(0, 2).map((s, i) => (
-                  <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
-                    <span className="text-emerald-500 font-bold shrink-0">✓</span>
-                    <span className="line-clamp-1">{s}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-1">Weaknesses</p>
-              <ul className="space-y-0.5">
-                {competitor.weaknesses.slice(0, 2).map((w, i) => (
-                  <li key={i} className="flex items-start gap-1.5 text-xs text-zinc-600 leading-snug">
-                    <span className="text-red-400 font-bold shrink-0">✕</span>
-                    <span className="line-clamp-1">{w}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {competitor.dominant_complaint && (
-              <div className="border-t border-zinc-100 pt-2">
-                <p className="text-[9px] font-bold tracking-widest text-zinc-400 uppercase mb-0.5">Top Complaint</p>
-                <p className="text-xs text-zinc-500 italic leading-snug line-clamp-2">"{competitor.dominant_complaint}"</p>
-              </div>
-            )}
+          {/* Strengths / Weaknesses — buttons open the detail popup */}
+          <div className="border-t border-zinc-100 px-4 py-4 flex-1 flex flex-col justify-center gap-3">
+            <button
+              onClick={e => { e.stopPropagation(); onOpenModal('strengths'); }}
+              className="w-full flex items-center justify-between px-3 py-2.5 rounded-lg border border-emerald-200 bg-emerald-50 hover:bg-emerald-100 transition-colors"
+            >
+              <span className="text-xs font-semibold text-emerald-700">Strengths</span>
+              <span className="text-xs text-emerald-500 font-bold">
+                {competitor.strengths.length} points →
+              </span>
+            </button>
+            <button
+              onClick={e => { e.stopPropagation(); onOpenModal('weaknesses'); }}
+              className="w-full flex items-center justify-between px-3 py-2.5 rounded-lg border border-red-200 bg-red-50 hover:bg-red-100 transition-colors"
+            >
+              <span className="text-xs font-semibold text-red-700">Weaknesses</span>
+              <span className="text-xs text-red-400 font-bold">
+                {competitor.weaknesses.length} points →
+              </span>
+            </button>
           </div>
         </div>
 
+      </div>
+    </div>
+  );
+}
+
+
+/* ── Competitor detail modal ─────────────────────────────────────────── */
+
+/* Opens when the user clicks "Strengths" or "Weaknesses" on a flipped card.
+   Shows all points for that view plus dominant_complaint in the weaknesses tab.
+   Closes on backdrop click or Escape key. */
+function CompetitorDetailModal({
+  competitor,
+  view,
+  onClose,
+}: {
+  competitor: Competitor;
+  view: 'strengths' | 'weaknesses';
+  onClose: () => void;
+}) {
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) { if (e.key === 'Escape') onClose(); }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
+
+  const isStrengths = view === 'strengths';
+  const items = isStrengths ? competitor.strengths : competitor.weaknesses;
+
+  return (
+    <div
+      className="fixed inset-0 bg-black/30 backdrop-blur-sm z-50 flex items-center justify-center p-8"
+      onClick={onClose}
+    >
+      <div
+        className="bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden"
+        onClick={e => e.stopPropagation()}
+      >
+        {/* Header — app name + view title */}
+        <div className="flex items-center justify-between px-6 py-5 border-b border-zinc-100">
+          <div>
+            <p className="text-[10px] font-bold tracking-widest text-zinc-400 uppercase mb-0.5">
+              {competitor.name}
+            </p>
+            <p className={`text-lg font-extrabold ${isStrengths ? 'text-emerald-600' : 'text-red-500'}`}>
+              {isStrengths ? 'Strengths' : 'Weaknesses'}
+            </p>
+          </div>
+          <button
+            onClick={onClose}
+            className="w-8 h-8 rounded-full bg-zinc-100 hover:bg-zinc-200 flex items-center justify-center text-zinc-500 text-sm transition-colors"
+          >
+            ✕
+          </button>
+        </div>
+
+        {/* Item list */}
+        <div className="px-6 py-5 space-y-3 max-h-96 overflow-y-auto">
+          {items.map((item, i) => (
+            <div key={i} className="flex items-start gap-3">
+              <span className={`mt-0.5 text-sm font-bold shrink-0 ${isStrengths ? 'text-emerald-500' : 'text-red-400'}`}>
+                {isStrengths ? '✓' : '✕'}
+              </span>
+              <p className="text-sm text-zinc-700 leading-snug">{item}</p>
+            </div>
+          ))}
+
+          {/* Dominant complaint shown at the bottom of the weaknesses view */}
+          {!isStrengths && competitor.dominant_complaint && (
+            <div className="border-t border-zinc-100 pt-3 mt-1">
+              <p className="text-[10px] font-bold tracking-widest text-zinc-400 uppercase mb-1.5">
+                Top User Complaint
+              </p>
+              <p className="text-sm text-zinc-500 italic leading-snug">
+                "{competitor.dominant_complaint}"
+              </p>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
@@ -447,6 +518,8 @@ const CARDS_PER_PAGE = 4;
 
 function CompetitorsRow({ competitors }: { competitors: Competitor[] }) {
   const [index, setIndex] = useState(0);
+  const [modal, setModal] = useState<{ competitor: Competitor; view: 'strengths' | 'weaknesses' } | null>(null);
+
   if (competitors.length === 0) return null;
 
   const canPrev = index > 0;
@@ -483,9 +556,23 @@ function CompetitorsRow({ competitors }: { competitors: Competitor[] }) {
       {/* Tile row — fixed slots, no overflow scroll */}
       <div className="flex gap-4">
         {visible.map((competitor, i) => (
-          <CompetitorCard key={competitor.name} competitor={competitor} rank={index + i + 1} />
+          <CompetitorCard
+            key={competitor.name}
+            competitor={competitor}
+            rank={index + i + 1}
+            onOpenModal={(view) => setModal({ competitor, view })}
+          />
         ))}
       </div>
+
+      {/* Detail popup — renders outside the card so it isn't clipped */}
+      {modal && (
+        <CompetitorDetailModal
+          competitor={modal.competitor}
+          view={modal.view}
+          onClose={() => setModal(null)}
+        />
+      )}
 
     </div>
   );
